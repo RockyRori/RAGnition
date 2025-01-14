@@ -1,0 +1,3 @@
+imoort math
+
+print("hello")
