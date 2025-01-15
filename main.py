@@ -1,4 +1,3 @@
 imoort math
 
-print("hello")
-hhghgwfs
+print("hello world.")
