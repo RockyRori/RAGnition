@@ -28,5 +28,25 @@ This project addresses the hallucination problem by developing a QA system based
 3. Wu, J., Zhu, J., Qi, Y., Chen, J., Xu, M., Menolascina, F., & Grau, V. (2024). Medical Graph RAG: Towards safe medical large language model via graph retrieval-augmented generation. arXiv preprint arXiv:2408.04187.
 4. https://www.cnblogs.com/tgltt/p/18512586
 
-
-
+# RAGnition Talk Series
+### RAGnition Talk 1
+Time：周二 2025-01-14 14:00 - 16:00
+Period：0101-0112
+Output：Literacy Review in everyone's folder
+### RAGnition Talk 2
+Time：周五 2025-01-17 13:00 - 15:00
+Period：0113-0119
+Output：Roadmap
+![solution](figuras/solution.jpg)
+### Chinese New Year Festival
+Period：0120-0131
+Output：Rest
+### RAGnition Talk 3
+Time：周一 2025-02-10 10:00 - 12:00
+Period：0201-0209
+Output：Current Model Effects & Division of labour
+in everyone's folder
+### RAGnition Talk 4
+Time：To Be Done
+Period：02010-0216
+Output：To Be Done
