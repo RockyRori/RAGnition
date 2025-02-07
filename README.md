@@ -8,14 +8,14 @@ Director:			  Prof. Nan LI Nancy
 
 Project:        Developing a Policy QA System Using Retrieval-Augmented Generation (RAG) Framework
 
-| Student No. | English Name | Email Address (Lingnan Email)     |
-|-------------|--------------|-----------------------------------|
-| 3160708     | LUO Suhai    | suhailuo@ln.hk                  |
-| 3160291     | WEI Fansen   | fansenwei@ln.hk                 |
-| 3160320     | LI Junrong   | junrongli@ln.hk                 |
-| 3160734     | WANG Jiawei  | jiaweiwang2@ln.hk               |
-| 3160722     | Wang Zihao   | zihaowang3@ln.hk                |
-| 3160069     | GUAN Yuqi    | yuqiguan@ln.hk                  |
+| Student No. | English Name | Email Address (Lingnan Email) |
+| ----------- | ------------ | ----------------------------- |
+| 3160708     | LUO Suhai    | suhailuo@ln.hk                |
+| 3160291     | WEI Fansen   | fansenwei@ln.hk               |
+| 3160320     | LI Junrong   | junrongli@ln.hk               |
+| 3160734     | WANG Jiawei  | jiaweiwang2@ln.hk             |
+| 3160722     | Wang Zihao   | zihaowang3@ln.hk              |
+| 3160069     | GUAN Yuqi    | yuqiguan@ln.hk                |
 
 # RAGnition
 Policies are often complex, lengthy, and filled with technical language, making it challenging for individuals to extract the specific information they need efficiently. A policy QA System aims to bridge this gap by providing concise, accurate, and user-friendly answers to policy-related queries. Traditional QA systems typically have pre-defined QA pairs and then use information retrieval techniques to find QA pairs related to users’ questions. As LLM becomes popular, a machine can generate answers without retrieving information. However, generation-based systems often face a significant challenge –hallucinations, where the system generates incorrect or fabricated information that lacks grounding in factual data, which is a critical problem for a policy QA system.
@@ -30,23 +30,33 @@ This project addresses the hallucination problem by developing a QA system based
 
 # RAGnition Talk Series
 ### RAGnition Talk 1
-Time：周二 2025-01-14 14:00 - 16:00
-Period：0101-0112
-Output：Literacy Review in everyone's folder
+| Time   | 周二 2025-01-14 14:00 - 16:00        |
+| ------ | ------------------------------------ |
+| Period | 0101-0112                            |
+| Output | Literacy Review in everyone's folder |
+
 ### RAGnition Talk 2
-Time：周五 2025-01-17 13:00 - 15:00
-Period：0113-0119
-Output：Roadmap
+| Time   | 周五 2025-01-17 13:00 - 15:00 |
+| ------ | ----------------------------- |
+| Period | 0113-0119                     |
+| Output | Roadmap                       |
+
 ![solution](figuras/solution.jpg)
 ### Chinese New Year Festival
-Period：0120-0131
-Output：Rest
+| Time   | -         |
+| ------ | --------- |
+| Period | 0120-0131 |
+| Output | Rest      |
+
+
 ### RAGnition Talk 3
-Time：周一 2025-02-10 10:00 - 12:00
-Period：0201-0209
-Output：Current Model Effects & Division of labour
-in everyone's folder
+| Time   | 周一 2025-02-10 10:00 - 12:00                                   |
+| ------ | --------------------------------------------------------------- |
+| Period | 0201-0209                                                       |
+| Output | Current Model Effects & Division of labour in everyone's folder |
+
 ### RAGnition Talk 4
-Time：To Be Done
-Period：02010-0216
-Output：To Be Done
+| Time   | To Be Done |
+| ------ | ---------- |
+| Period | 02010-0216 |
+| Output | To Be Done |
