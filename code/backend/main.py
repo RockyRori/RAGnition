@@ -8,6 +8,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
 
+from backend.model.rag import ask, answer
+
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
 engine = create_engine(DATABASE_URL)
@@ -108,15 +110,17 @@ async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
         db.add(db_session)
         db.commit()
 
+    answer_text, reference, reference_links = answer(request.current_question, request.previous_questions)
+
     # 保存问题到数据库
     db_question = DBQuestion(
         session_id=request.session_id,
         question_id=request.question_id,
         previous_questions=request.previous_questions,
         current_question=request.current_question,
-        answer="",  # 这里需要替换为实际的回答生成逻辑
-        reference=[],
-        reference_links=[],
+        answer=answer_text,
+        reference=reference,
+        reference_links=reference_links,
         rating=None
     )
     db.add(db_question)
@@ -126,16 +130,9 @@ async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
     return {
         "session_id": request.session_id,
         "question_id": request.question_id,
-        "answer": f"这是『1』对‘{request.current_question}’的示例『2』回答",
-        "references": [
-            "参考片段1：根据XX规定...",
-            "参考片段2：根据YY政策...",
-            "参考片段3：https://example.com"
-        ],
-        "reference_links": [
-            "http://example.com/doc1",
-            "http://example.com/doc2"
-        ]
+        "answer": answer_text,
+        "references": reference,
+        "reference_links": reference_links
     }
 
 
