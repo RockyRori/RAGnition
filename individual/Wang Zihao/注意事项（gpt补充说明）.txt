@@ -1,0 +1,50 @@
+一、基础准备
+事项	说明	检查项/示例
+1. 获取API密钥	必须从阿里云控制台申请	登录阿里云账号 → 创建API密钥
+2. 网络环境	确保能访问千问API域名（可能需要代理）	测试 ping dashscope.aliyuncs.com
+3. Python环境	需Python 3.6+	python --version 确认版本
+4. 依赖库安装	安装必要库	pip install requests
+二、代码调整要点
+代码位置	必改内容	示例/说明
+QwenClient初始化	替换api_key为你的实际密钥	QwenClient("sk-72d3f9b5...")
+API地址	确认官方文档中最新API URL（防止旧地址失效）	当前示例URL为阿里云官方地址
+模型版本	根据需求选择模型（如qwen-plus或qwen-turbo）	修改data["model"]字段
+超时时间	根据网络延迟调整timeout值（单位：秒）	跨境访问建议设为15
+三、安全注意事项
+风险点	防护措施	推荐做法
+API密钥泄露	禁止硬编码在代码中	使用环境变量或密钥管理服务
+请求频率限制	遵守千问API的QPS限制	添加速率限制逻辑（如ratelimit库）
+敏感日志输出	避免在日志中打印完整API响应	过滤敏感字段后再记录日志
+四、测试验证步骤
+基础连通性测试
+
+python
+复制
+# 测试代码
+client = QwenClient(os.getenv("QWEN_API_KEY"))
+print(client.generate("你好"))  # 应返回非空回答
+异常场景测试
+
+断开网络 → 应触发重试并最终返回空字符串
+
+传入错误API密钥 → 应捕获401 Unauthorized错误
+
+响应结构验证
+打印完整响应，确认字段路径是否与代码解析一致：
+
+python
+复制
+print(resp.json())  # 观察"output.choices[0].message.content"是否存在
+五、扩展性准备
+事项	说明
+环境变量管理	推荐使用.env文件+python-dotenv库（避免密钥泄露）
+日志记录	替换print为正式日志模块（如logging）
+配置中心集成	未来可将API密钥和URL移至配置文件（如config.yaml）
+多模型支持	预留工厂类接口（如LLMFactory），方便后续添加GPT等模型
+六、常见问题排查表
+现象	可能原因	解决方法
+返回空字符串	API密钥错误	检查环境变量是否生效
+响应解析失败	API返回结构变化	打印resp.json()并调整解析路径
+长时间无响应	网络阻断/超时设置过短	检查防火墙设置，增大timeout值
+返回结果质量差	模型版本选择不当	更换为qwen-plus等高性能模型
+完成以上准备后，你的代码即可安全接入千问API。建议先运行测试代码验证基础功能，再逐步集成到项目主逻辑中。
