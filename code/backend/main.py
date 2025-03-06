@@ -10,7 +10,7 @@ from sqlalchemy.dialects.mysql import JSON
 
 from backend.model.rag import answer
 
-# 数据库配置
+# 数据库配置123
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
