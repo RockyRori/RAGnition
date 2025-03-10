@@ -363,8 +363,8 @@
                 session_id: chat.id.toString(),
                 question_id: Date.now().toString(),
                 previous_questions: chat.messages
-                    .filter(msg => msg.type === 'user')
-                    .map(msg => msg.content),
+                   .filter(msg => msg.type === 'user')
+                   .map(msg => msg.content),
                 current_question: content
             };
 
@@ -376,13 +376,13 @@
                 },
                 body: JSON.stringify(requestData)
             })
-            .then(response => {
+           .then(response => {
                 if (!response.ok) {
-                    throw new Error('请求失败');
+                    throw new Error(`请求失败: ${response.status} ${response.statusText}`);
                 }
                 return response.json();
             })
-            .then(data => {
+           .then(data => {
                 // 添加AI回复
                 chat.messages.push({
                     type: 'bot',
@@ -392,7 +392,7 @@
                 });
                 renderMessages();
             })
-            .catch(error => {
+           .catch(error => {
                 console.error('发送消息失败:', error);
                 // 添加错误提示消息
                 chat.messages.push({
