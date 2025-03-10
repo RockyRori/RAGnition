@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>文件管理</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --hover-color: #1d4ed8;
+            --border-radius: 12px;
+            --button-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: #f8fafc;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 0.5rem 1rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .nav-link {
+            color: #4b5563;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .nav-link:hover {
+            background: #f0f6ff;
+            color: var(--primary-color);
+        }
+
+        .nav-link.active {
+            background: #f0f6ff;
+            color: var(--primary-color);
+        }
+
+        .content-wrapper {
+            margin-top: 56px;
+            padding: 2rem;
+            flex: 1;
+        }
+
+        .table {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+
+        .table thead th {
+            background: #f8fafc;
+            border-bottom: 2px solid #e9ecef;
+            color: #4b5563;
+            font-weight: 600;
+            padding: 16px;
+            text-align: left;
+        }
+
+        .table tbody td {
+            padding: 16px;
+            border-bottom: 1px solid #e9ecef;
+            color: #4b5563;
+        }
+
+        .table tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        .table .badge {
+            padding: 6px 12px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .table .badge:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .upload-btn {
+            background: var(--button-gradient);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .upload-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .modal-content {
+            position: relative;
+            background: white;
+            width: 500px;
+            max-width: 90%;
+            margin: 100px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+        }
+
+        .drop-zone {
+            border: 2px dashed #e9ecef;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+        }
+
+        .drop-zone.dragover {
+            border-color: #2563eb;
+            background: #f0f6ff;
+        }
+
+        .drop-zone i {
+            font-size: 48px;
+            color: #2563eb;
+            margin-bottom: 16px;
+        }
+
+        .file-list {
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .file-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .file-icon {
+            color: #2563eb;
+            font-size: 20px;
+        }
+
+        .file-name {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .file-size {
+            font-size: 12px;
+            color: #666;
+            white-space: nowrap;
+        }
+
+        .remove-file {
+            color: #dc3545;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .remove-file:hover {
+            background: #ffebee;
+        }
+
+        .submit-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">RAGnition</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html">聊天</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="file.html">文件</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>名称</th>
+                    <th>上传日期</th>
+                    <th>大小</th>
+                    <th>知识库</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
+                    <td>10/02/2025</td>
+                    <td>1,623.60 KB</td>
+                    <td>知识库1</td>
+                    <td><span class="badge bg-secondary">download</span></td>
+                </tr>
+                <tr>
+                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
+                    <td>10/02/2025</td>
+                    <td>1,623.60 KB</td>
+                    <td>知识库1</td>
+                    <td><span class="badge bg-secondary">download</span></td>
+                </tr>
+                <tr>
+                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
+                    <td>10/02/2025</td>
+                    <td>1,623.60 KB</td>
+                    <td>知识库1</td>
+                    <td><span class="badge bg-secondary">download</span></td>
+                </tr>
+                </tbody>
+            </table>
+
+            <button class="upload-btn" onclick="showUploadModal()">
+                <i class="fas fa-upload"></i>
+                上传文件
+            </button>
+
+            <div id="uploadModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="hideUploadModal()">&times;</span>
+                    <h3>上传文件</h3>
+                    <div class="drop-zone" id="dropZone">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>将文件拖放到此处，或点击选择文件</p>
+                        <input type="file" id="fileInput" style="display: none" multiple>
+                    </div>
+                    <div class="file-list" id="fileList"></div>
+                    <button class="submit-btn" onclick="handleSubmit()">提交</button>
+                </div>
+            </div>
+
+            <script>
+                let selectedFiles = [];
+
+                function showUploadModal() {
+                    document.getElementById('uploadModal').style.display = 'block';
+                    selectedFiles = [];
+                    updateFileList();
+                }
+
+                function hideUploadModal() {
+                    document.getElementById('uploadModal').style.display = 'none';
+                    selectedFiles = [];
+                    updateFileList();
+                }
+
+                const dropZone = document.getElementById('dropZone');
+                const fileInput = document.getElementById('fileInput');
+                const fileList = document.getElementById('fileList');
+
+                // 点击区域选择文件
+                dropZone.addEventListener('click', () => fileInput.click());
+
+                // 处理文件选择
+                fileInput.addEventListener('change', handleFiles);
+
+                // 拖放处理
+                dropZone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    dropZone.classList.add('dragover');
+                });
+
+                dropZone.addEventListener('dragleave', () => {
+                    dropZone.classList.remove('dragover');
+                });
+
+                dropZone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    dropZone.classList.remove('dragover');
+                    const files = e.dataTransfer.files;
+                    handleFiles({ target: { files: files } });
+                });
+
+                function handleFiles(e) {
+                    const files = e.target.files;
+                    if (files.length > 0) {
+                        Array.from(files).forEach(file => {
+                            selectedFiles.push({
+                                file: file,
+                                id: Date.now() + Math.random()
+                            });
+                        });
+                        updateFileList();
+                    }
+                }
+
+                function removeFile(id) {
+                    selectedFiles = selectedFiles.filter(item => item.id !== id);
+                    updateFileList();
+                }
+
+                function formatFileSize(bytes) {
+                    if (bytes === 0) return '0 Bytes';
+                    const k = 1024;
+                    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+                    const i = Math.floor(Math.log(bytes) / Math.log(k));
+                    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+                }
+
+                function updateFileList() {
+                    fileList.innerHTML = selectedFiles.map(item => `
+                        <div class="file-item">
+                            <div class="file-info">
+                                <i class="fas fa-file file-icon"></i>
+                                <div>
+                                    <div class="file-name">${item.file.name}</div>
+                                    <div class="file-size">${formatFileSize(item.file.size)}</div>
+                                </div>
+                            </div>
+                            <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
+                        </div>
+                    `).join('');
+                }
+
+                function handleSubmit() {
+                    if (selectedFiles.length === 0) {
+                        alert('请选择要上传的文件');
+                        return;
+                    }
+                    // 文件上传逻辑
+                    console.log('Files to upload:', selectedFiles);
+                    hideUploadModal();
+                }
+
+                // 点击模态框外部关闭
+                window.onclick = function(event) {
+                    const modal = document.getElementById('uploadModal');
+                    if (event.target == modal) {
+                        hideUploadModal();
+                    }
+                }
+            </script>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
