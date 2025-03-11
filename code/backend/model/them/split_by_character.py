@@ -1,12 +1,25 @@
 import re
+import PyPDF2
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-# 文件路径
-file_path = "D:/TPg_Student_Handbook_2024-25.txt"  
-with open(file_path, "r", encoding="utf-8") as file:
-    text = file.read()
+# 定义文件路径
+pdf_path = "D:/TPg_Student_Handbook_2024-25.pdf"  
+output_txt_path = "D:/txt_chunks/output_chunks.txt"  
 
-# 按小节分割文本如 5.1, 5.2
+# 从 PDF 文件读取文本
+def extract_text_from_pdf(pdf_path):
+    text = ""
+    with open(pdf_path, "rb") as file:
+        reader = PyPDF2.PdfReader(file)
+        for page in reader.pages:
+            text += page.extract_text()
+    return text
+
+# 提取 PDF 文本
+text = extract_text_from_pdf(pdf_path)
+
+# 使用正则表达式按小节分割文本
+# 匹配模式：数字+点+数字（如 5.1, 5.2）
 section_pattern = re.compile(r"(\d+\.\d+ .+)")
 sections = section_pattern.split(text)
 
@@ -27,7 +40,7 @@ for chunk in section_chunks:
     content = chunk["content"]
     
     # 如果当前块的内容较短，则合并
-    if len(current_chunk) < 200:  # 合并阈值
+    if len(current_chunk) < 300:  
         if current_chunk:
             current_chunk += "\n\n" + title + "\n" + content
         else:
@@ -41,7 +54,7 @@ for chunk in section_chunks:
 if current_chunk:
     merged_chunks.append(current_chunk)
 
-# 用于分割大块
+# 创建 RecursiveCharacterTextSplitter 实例，用于分割大块
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=800,  # 每个文本块的最大长度
     chunk_overlap=100,  # 文本块之间的重叠长度
@@ -51,12 +64,15 @@ splitter = RecursiveCharacterTextSplitter(
 # 对合并后的块进一步分割
 final_chunks = []
 for chunk in merged_chunks:
-    if len(chunk) > 800:  # 如果块太大，则进一步分割
+    if len(chunk) > 1000:  # 如果块太大，则进一步分割
         sub_chunks = splitter.split_text(chunk)
         final_chunks.extend(sub_chunks)
     else:
         final_chunks.append(chunk)
 
-# 输出分割后的文本块
-for i, chunk in enumerate(final_chunks):
-    print(f"Chunk {i + 1}:\n{chunk}\n{'-' * 40}")
+# 将分割后的块写入 TXT 文件
+with open(output_txt_path, "w", encoding="utf-8") as output_file:
+    for i, chunk in enumerate(final_chunks):
+        output_file.write(f"Chunk {i + 1}:\n{chunk}\n{'-' * 40}\n\n")
+
+print(f"分割完成，结果已保存到 {output_txt_path}")
