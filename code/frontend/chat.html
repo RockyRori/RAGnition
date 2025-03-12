@@ -165,6 +165,55 @@
             line-height: 1.6;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             word-break: break-word;
+            margin-bottom: 8px;
+        }
+
+        .reference-container {
+            width: 75%;
+            margin-left: 0;
+            padding-left: 68px;
+            margin-top: -16px;
+            margin-bottom: 24px;
+            box-sizing: border-box;
+        }
+
+        .reference-content {
+            width: 100%;
+            margin-left: 0;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 0.9em;
+        }
+
+        .reference-item {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+            margin: 6px 0;
+        }
+
+        .ref-number {
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .ref-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-left: 8px;
+            font-size: 0.75em;
+            vertical-align: middle;
+        }
+
+        .ref-link i {
+            transition: color 0.2s ease-in-out;
+        }
+
+        .ref-link:hover i {
+            color: var(--hover-color);
         }
 
         .user-message .message-content {
@@ -327,22 +376,24 @@
                     <img src="static/${msg.type === 'user' ? 'users.png' : 'bot.png'}" class="avatar">
                     <div class="message-content">
                         ${msg.content}
-                        ${msg.references ? `
-                            <div class="references">
-                                <h4>参考资料：</h4>
-                                ${msg.references.map((ref, index) => `
-                                    <div class="reference-item">
-                                        <span class="ref-number">[${index + 1}]</span>
-                                        <span class="ref-content">${ref}</span>
-                                        ${msg.reference_links && msg.reference_links[index] ? 
-                                            `<a href="${msg.reference_links[index]}" target="_blank" class="ref-link">查看原文</a>` : 
-                                            ''}
-                                    </div>
-                                `).join('')}
-                            </div>
-                        ` : ''}
                     </div>
                 </div>
+                ${msg.references ? `
+                    <div class="reference-container">
+                        <div class="reference-content">
+                            <h6>参考资料：</h6>
+                            ${msg.references.map((ref, index) => `
+                                <div class="reference-item">
+                                    <span class="ref-number">[${index + 1}]</span>
+                                    <span class="ref-content">${ref}</span>
+                                    ${msg.reference_links && msg.reference_links[index] ? 
+                                        `<a href="${msg.reference_links[index]}" target="_blank" class="ref-link"><i class="fas fa-link fa-xs"></i></a>` : 
+                                        ''}
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                ` : ''}
             `).join('');
             container.scrollTop = container.scrollHeight;
         }
@@ -355,20 +406,17 @@
             const chat = chats.find(c => c.id === currentChatId);
             if (!chat) return;
 
-            // 添加用户消息
             chat.messages.push({
                 type: 'user',
                 content: content
             });
 
-            // 第一条消息，更新标题
             if (chat.isFirstMessage) {
                 chat.title = content.length > 10 ? content.substring(0, 10) + '...' : content;
                 chat.isFirstMessage = false;
                 updateChatList();
             }
 
-            // 准备发送到后端的数据
             const requestData = {
                 session_id: chat.id.toString(),
                 question_id: Date.now().toString(),
@@ -393,7 +441,6 @@
                 return response.json();
             })
            .then(data => {
-                // 添加AI回复
                 chat.messages.push({
                     type: 'bot',
                     content: data.answer,
@@ -404,7 +451,6 @@
             })
            .catch(error => {
                 console.error('发送消息失败:', error);
-                // 添加错误提示消息
                 chat.messages.push({
                     type: 'bot',
                     content: '抱歉，我现在无法回答您的问题，请稍后再试。'
@@ -416,10 +462,8 @@
             renderMessages();
         }
 
-        // 初始化创建第一个对话
         createNewChat();
 
-        // 添加回车发送功能
         document.getElementById('user-input').addEventListener('keypress', e => {
             if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault();
