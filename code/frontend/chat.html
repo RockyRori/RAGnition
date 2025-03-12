@@ -188,6 +188,34 @@
             font-size: 0.9em;
         }
 
+        .rating-container {
+            width: 75%;
+            margin-left: 68px;
+            margin-top: 12px;
+            padding: 8px 0;
+        }
+
+        .star-rating {
+            display: flex;
+            gap: 6px;
+            cursor: pointer;
+        }
+
+        .star-rating i {
+            font-size: 1.2em;
+            color: #e4e5e9;
+            transition: all 0.2s ease;
+        }
+
+        .star-rating i:hover,
+        .star-rating i.active {
+            color: #ffd700;
+            transform: scale(1.1);
+        }
+
+        .star-rating[data-rated] i {
+            pointer-events: none;
+        }
         .reference-item {
             display: flex;
             align-items: baseline;
@@ -279,6 +307,18 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
+        
+        .rating-container {
+            margin-top: 10px;
+        }
+
+        .reference-container {
+            margin-bottom: -10px;
+        }
+
+        .reference-item {
+            margin: 4px 0;
+        }   
     </style>
 </head>
 <body>
@@ -366,6 +406,20 @@
             renderMessages();
         }
 
+        function handleStarClick(event) {
+            const star = event.target;
+            if (!star.classList.contains('fa-star')) return;
+            
+            const rating = parseInt(star.dataset.rating);
+            const container = star.parentElement;
+            
+            container.querySelectorAll('i').forEach((s, index) => {
+                s.classList.toggle('active', index < rating);
+            });
+            
+            container.dataset.rated = rating;
+        }
+
         function renderMessages() {
             const chat = chats.find(c => c.id === currentChatId);
             if (!chat) return;
@@ -393,6 +447,13 @@
                             `).join('')}
                         </div>
                     </div>
+                    ${msg.type === 'bot' ? `
+                    <div class="rating-container">
+                        <div class="star-rating">
+                            ${[1,2,3,4,5].map(i => `<i class="fas fa-star" data-rating="${i}"></i>`).join('')}
+                        </div>
+                    </div>
+                    ` : ''}
                 ` : ''}
             `).join('');
             container.scrollTop = container.scrollHeight;
@@ -473,3 +534,4 @@
     </script>
 </body>
 </html>
+
