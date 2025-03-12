@@ -4,6 +4,7 @@ USE ragnition;
 
 
 -- 删除表（注意外键依赖顺序）
+DROP TABLE IF EXISTS files;
 DROP TABLE IF EXISTS questions;
 DROP TABLE IF EXISTS sessions;
 
@@ -34,6 +35,18 @@ CREATE TABLE questions
 );
 
 
+-- 创建文件表
+CREATE TABLE files
+(
+    file_id          VARCHAR(255) PRIMARY KEY,
+    file_name        VARCHAR(255) NOT NULL,
+    file_description TEXT,
+    file_content     LONGBLOB NOT NULL,
+    uploaded_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+-- 插入初始数据
 INSERT INTO sessions (session_id)
 VALUES ('abcd123456'),
        ('efgh789012');
@@ -86,3 +99,8 @@ VALUES
    "http://example.com/campus#library"
  ]',
  3);
+
+INSERT INTO files (file_id, file_name, file_description, file_content)
+VALUES ('file-20231025001', 'document.pdf', 'Thesis submission guidelines', 0x255044462d312e340a25c7ec8fa2),
+       ('file-20231025002', 'image.png', 'Campus Map', 0x89504e470d0a1a0a0000000d49484452);
+

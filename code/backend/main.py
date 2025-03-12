@@ -1,13 +1,14 @@
-from fastapi import FastAPI, HTTPException, status, Depends
+from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File
+from flask import Response
 from pydantic import BaseModel, Field
 from typing import List
 from datetime import datetime
 import uvicorn
-from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func
+from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
-
+from fastapi import UploadFile, File, Form
 from backend.model.rag import answer
 
 # 数据库配置123
@@ -37,6 +38,15 @@ class DBQuestion(Base):
     reference_links = Column(JSON)
     rating = Column(Integer)
     created_at = Column(TIMESTAMP, server_default=func.now())
+
+
+class DBFile(Base):
+    __tablename__ = "files"
+    file_id = Column(String(255), primary_key=True)
+    file_name = Column(String(255), nullable=False)
+    file_description = Column(Text)
+    file_content = Column(LargeBinary, nullable=False)
+    uploaded_at = Column(TIMESTAMP, server_default=func.now())
 
 
 Base.metadata.create_all(bind=engine)
@@ -171,6 +181,44 @@ async def list_sessions(db: Session = Depends(get_db)):
             ).count()
         } for session in sessions]
     }
+
+
+@app.post("/api/v1/files/upload")
+async def upload_file(
+        file_name: str = Form(...),  # 明确声明来自表单
+        file: UploadFile = File(...),  # 明确声明为文件上传
+        db: Session = Depends(get_db)
+):
+    file_content = await file.read()
+    file_record = DBFile(
+        file_id=f"file-{int(datetime.now().timestamp())}",
+        file_name=file_name,
+        file_content=file_content,
+        file_description=""
+    )
+    db.add(file_record)
+    db.commit()
+
+    return {"file_id": file_record.file_id}
+
+
+@app.get("/api/v1/files/list")
+async def list_files(db: Session = Depends(get_db)):
+    files = db.query(DBFile).all()
+    return {
+        "files": [{"file_id": file.file_id, "file_name": file.file_name, "file_description": file.file_description} for
+                  file in files]}
+
+
+@app.get("/api/v1/files/download/{file_id}")
+async def download_file(file_id: str, db: Session = Depends(get_db)):
+    file_record = db.query(DBFile).filter(DBFile.file_id == file_id).first()
+    if not file_record:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    return Response(content=file_record.file_content,
+                    media_type="application/octet-stream",
+                    headers={"Content-Disposition": f"attachment; filename={file_record.file_name}"})
 
 
 if __name__ == "__main__":
