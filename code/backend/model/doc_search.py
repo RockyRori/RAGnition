@@ -72,14 +72,14 @@ def search_documents(search_query, document_segments, top_k=5):
         results.append({
             'content': document_segments[idx]['content'],
             'source': document_segments[idx]['source'],
-            'similarity': similarities[idx]
+            'similarity': str(int(similarities[idx] * 100)) + '%'
         })
     return results
 
 
 def searching():
     # 配置参数
-    input_folder = "pieces"  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
+    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
     search_query = "gpa pass graduate"  # 用户的查询问题
     top_k = 3  # 返回相似度最高的前 5 个片段
 
@@ -94,11 +94,7 @@ def searching():
 
     # 输出结果
     print("与查询问题相关的文档片段：")
-    for res in results:
-        print("来源:", res['source'])
-        print("相似度:", res['similarity'])
-        print("内容:", res['content'])
-        print("----------------------")
+    print(results)
 
 
 if __name__ == "__main__":

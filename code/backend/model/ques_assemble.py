@@ -13,7 +13,8 @@ def generate_search_query(user_question, history_questions):
     from sklearn.feature_extraction.text import TfidfVectorizer
 
     # 构造语料库，将历史问题和当前问题合并
-    corpus = history_questions + [user_question]
+    # 加入预置词汇防止空值报错。
+    corpus = ["ok,thankyou."] + history_questions + [user_question]
 
     # 使用英文停用词，可以根据需要调整或替换为中文停用词列表
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -32,9 +33,9 @@ def generate_search_query(user_question, history_questions):
     search_query = " ".join(top_terms)
 
     # 组装完整用户问题（简单将历史问题和当前问题拼接在一起）
-    assembled_question = ("Based on your previous inquiries: " +
+    assembled_question = ("History Questions: " +
                           "; ".join(history_questions) +
-                          ". And your current question: " +
+                          ";Current Questions: " +
                           user_question)
 
     return search_query, assembled_question
@@ -45,7 +46,8 @@ if __name__ == "__main__":
     user_question = "Which brand is tasty?"
     history_questions = [
         "What are the famous potato chip brands?",
-        "I want you to recommend some delicious snack."
+        "I want you to recommend some delicious snack.",
+        "I want to eat good"
     ]
 
     search_query, assembled_question = generate_search_query(user_question, history_questions)

@@ -23,16 +23,17 @@ def get_llm_answer(question, references):
     prompt = f"""You are a helpful assistant.
 Answer the following question based on the provided references.
 In your answer, please include citation numbers in square brackets corresponding to the references.
-Question: {question}
+Example Answer Format: Students are responsible for notifying 『1』 the University of any changes to their personal details after registration. For changes like name, HKID Card 『2』 or Passport information, legal documentary evidence is required 『3』.
+{question}
 References:
 {ref_text}
-Answer:"""
+"""
 
     # 使用 Hugging Face 的 text2text-generation pipeline 接入 FLAN-T5 模型
     # generator = pipeline("text2text-generation", model="google/flan-t5-base", max_length=512)
     # result = generator(prompt, max_length=512)
     # answer = result[0]['generated_text']
-    return prompt+"『1』"
+    return "Example Answer Format: Students are responsible for notifying 『1』 the University of any changes to their personal details after registration."
 
 
 if __name__ == "__main__":
