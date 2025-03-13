@@ -190,7 +190,7 @@
 
         .rating-container {
             width: 75%;
-            margin-left: 68px;
+            margin-left: 80px; 
             margin-top: 12px;
             padding: 8px 0;
         }
@@ -202,9 +202,7 @@
         }
 
         .star-rating i {
-            font-size: 1.2em;
             color: #e4e5e9;
-            transition: all 0.2s ease;
         }
 
         .star-rating i:hover,
@@ -216,24 +214,46 @@
         .star-rating[data-rated] i {
             pointer-events: none;
         }
+        
         .reference-item {
             display: flex;
-            align-items: baseline;
-            gap: 8px;
-            margin: 6px 0;
+            flex-direction: column;
+            gap: 4px;
+            margin: 8px 0;
         }
 
+        .ref-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: -2px;
+        }
+
+        .ref-similarity {
+            color: #64748b;
+            font-size: 0.85em;
+        }
         .ref-number {
             color: var(--primary-color);
             font-weight: 500;
         }
 
         .ref-link {
-            color: var(--primary-color);
+            color: #64748b;
             text-decoration: none;
             margin-left: 8px;
             font-size: 0.75em;
-            vertical-align: middle;
+            cursor: pointer;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .ref-link:hover {
+            color: var(--primary-color);
+        }
+
+        .reference-content {
+            margin-top: 12px;
+            margin-bottom: 16px;
         }
 
         .ref-link i {
@@ -406,18 +426,55 @@
             renderMessages();
         }
 
+        document.addEventListener('click', function(event) {
+            if (event.target.classList.contains('fa-star')) {
+                handleStarClick(event);
+            }
+        });
+
         function handleStarClick(event) {
             const star = event.target;
             if (!star.classList.contains('fa-star')) return;
-            
+
             const rating = parseInt(star.dataset.rating);
             const container = star.parentElement;
-            
+
             container.querySelectorAll('i').forEach((s, index) => {
                 s.classList.toggle('active', index < rating);
             });
-            
+
             container.dataset.rated = rating;
+
+            const chat = chats.find(c => c.id === currentChatId);
+            if (!chat) return;
+
+            const lastBotMessage = chat.messages.findLast(msg => msg.type === 'bot');
+            if (!lastBotMessage) return;
+
+            lastBotMessage.rating = rating;
+
+            const sessionId = lastBotMessage.sessionId;
+            const questionId = lastBotMessage.questionId; 
+
+            const feedbackData = {
+                session_id: sessionId,
+                question_id: questionId,
+                rating: rating * 2 
+            };
+
+            fetch('http://localhost:8000/api/v1/feedback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(feedbackData)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`反馈提交失败: ${response.status} ${response.statusText}`);
+                }
+                return response.json();
+            });
         }
 
         function renderMessages() {
@@ -435,22 +492,27 @@
                 ${msg.references ? `
                     <div class="reference-container">
                         <div class="reference-content">
-                            <h6>参考资料：</h6>
+                            <h6>References：</h6>
                             ${msg.references.map((ref, index) => `
                                 <div class="reference-item">
-                                    <span class="ref-number">[${index + 1}]</span>
-                                    <span class="ref-content">${ref}</span>
-                                    ${msg.reference_links && msg.reference_links[index] ? 
-                                        `<a href="${msg.reference_links[index]}" target="_blank" class="ref-link"><i class="fas fa-link fa-xs"></i></a>` : 
-                                        ''}
+                                    <div class="ref-header">
+                                        <span class="ref-number">[${index + 1}]</span>
+                                        <span class="ref-content">${ref}</span>
+                                    </div>
+                                    <div class="ref-meta">
+                                        <span class="ref-similarity">Similarity：${msg.reference_simliarity[index]}</span>
+                                        ${msg.reference_links && msg.reference_links[index] ? 
+                                            `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> Reference Link</a>` : 
+                                            ''}
+                                    </div>
                                 </div>
                             `).join('')}
                         </div>
                     </div>
                     ${msg.type === 'bot' ? `
                     <div class="rating-container">
-                        <div class="star-rating">
-                            ${[1,2,3,4,5].map(i => `<i class="fas fa-star" data-rating="${i}"></i>`).join('')}
+                        <div class="star-rating" ${msg.rating ? `data-rated="${msg.rating}"` : ''}>
+                            ${[1,2,3,4,5].map(i => `<i class="fas fa-star ${msg.rating && i <= msg.rating ? 'active' : ''}" data-rating="${i}"></i>`).join('')}
                         </div>
                     </div>
                     ` : ''}
@@ -505,8 +567,11 @@
                 chat.messages.push({
                     type: 'bot',
                     content: data.answer,
-                    references: data.references,
-                    reference_links: data.reference_links
+                    references: data.references.map(ref => ref.content),
+                    reference_links: data.references.map(ref => ref.source),
+                    reference_simliarity: data.references.map(ref => ref.similarity),
+                    questionId: data.question_id,
+                    sessionId: data.session_id
                 });
                 renderMessages();
             })
