@@ -5,19 +5,40 @@ from backend.model.doc_analysis import splitting
 from backend.model.doc_search import search_documents, load_segments_from_folder
 from backend.model.ques_assemble import generate_search_query
 
-
 # RAG回答用户提问
-def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
-    # 拆分文档，预先完成。
-    # splitting()
-    # 识别用户问题
-    search_query, assembled_question = generate_search_query(question, history)
-    # 从现有资料库中查找段落
-    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"
-    references = search_documents(search_query, load_segments_from_folder(input_folder=input_folder), top_k=4)
+import time
 
-    # 把用户问题和参考资料打包发给大模型拼装回答
+
+def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
+    # Measure splitting time
+    start_split = time.time()
+    # 拆分文档，预先完成
+    # splitting()
+    split_time = time.time() - start_split
+
+    # Measure query generation time
+    start_generate = time.time()
+    search_query, assembled_question = generate_search_query(question, history)
+    generate_time = time.time() - start_generate
+
+    # Measure document search time
+    start_search = time.time()
+    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"
+    references = search_documents(search_query,
+                                  load_segments_from_folder(input_folder=input_folder),
+                                  top_k=4)
+    search_time = time.time() - start_search
+
+    # Measure LLM response time
+    start_llm = time.time()
     answer_text = get_llm_answer(assembled_question, references)
+    llm_time = time.time() - start_llm
+
+    # Print timing results
+    print(f"1. Document Splitting Time: {split_time:.2f}s")
+    print(f"2. Query Generation Time: {generate_time:.2f}s")
+    print(f"3. Document Search Time: {search_time:.2f}s")
+    print(f"4. LLM Response Generation Time: {llm_time:.2f}s")
 
     return answer_text, references
 

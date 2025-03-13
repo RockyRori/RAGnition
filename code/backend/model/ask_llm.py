@@ -1,4 +1,4 @@
-from transformers import pipeline
+from backend.model.llm_tongyiqianwen import query
 
 
 def get_llm_answer(question, references):
@@ -17,7 +17,7 @@ def get_llm_answer(question, references):
     # 构造参考文献文本，每个参考文献以 [n] 开头，包含来源和内容摘要
     ref_text = ""
     for i, ref in enumerate(references, start=1):
-        ref_text += f"[{i}] Source: {ref['source']}. Content: {ref['content']} \n"
+        ref_text += f"[{i}] Source: {ref['source']} Similarity: {ref['similarity']} Content: {ref['content']} \n"
 
     # 构造给 LLM 的提示
     prompt = f"""You are a helpful assistant.
@@ -29,11 +29,7 @@ References:
 {ref_text}
 """
 
-    # 使用 Hugging Face 的 text2text-generation pipeline 接入 FLAN-T5 模型
-    # generator = pipeline("text2text-generation", model="google/flan-t5-base", max_length=512)
-    # result = generator(prompt, max_length=512)
-    # answer = result[0]['generated_text']
-    return "Example Answer Format: Students are responsible for notifying 『1』 the University of any changes to their personal details after registration."
+    return query(prompt)
 
 
 if __name__ == "__main__":
@@ -43,18 +39,19 @@ if __name__ == "__main__":
                 "Which brand is tasty?")
 
     # 示例参考文献列表
-    results = []
-    results.append({
+    references = []
+    references.append({
         'content': "Coco is the best chips with a crunchy texture and rich flavor.",
         'source': "doc1.txt",
-        'similarity': 0.92
+        'similarity': "89%"
     })
-    results.append({
+    references.append({
         'content': "Violet offers chips that are also popular and known for their quality.",
         'source': "doc2.txt",
-        'similarity': 0.88
+        'similarity': "76%"
     })
 
-    answer = get_llm_answer(question, results)
+    answer = get_llm_answer(question, references)
+
     print("LLM Answer with citations:")
     print(answer)

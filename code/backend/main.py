@@ -1,5 +1,4 @@
-from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File
-from flask import Response
+from fastapi import FastAPI, HTTPException, status, Depends
 from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime
@@ -8,7 +7,6 @@ from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
-from fastapi import UploadFile, File, Form
 from backend.model.rag import answer
 
 # 数据库配置

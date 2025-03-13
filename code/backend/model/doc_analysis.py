@@ -145,8 +145,8 @@ def get_supported_files(folder):
 
 def splitting():
     # 硬编码配置参数
-    input_folder = "documents"  # 输入文件夹路径，文件夹下所有支持格式的文件将参与处理
-    output_folder = "pieces"  # 输出文件夹路径，分割后的文件将存储于此文件夹内
+    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/documents"  # 输入文件夹路径，文件夹下所有支持格式的文件将参与处理
+    output_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"  # 输出文件夹路径，分割后的文件将存储于此文件夹内
     output_format = "txt"  # 输出格式：可选 "txt", "json", "pickle"
     similarity_threshold = 0.2  # 句子相似度阈值
 
