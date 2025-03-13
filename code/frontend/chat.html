@@ -227,6 +227,7 @@
             align-items: center;
             gap: 12px;
             margin-top: -2px;
+            padding-left: 28px;
         }
 
         .ref-similarity {
@@ -249,11 +250,6 @@
 
         .ref-link:hover {
             color: var(--primary-color);
-        }
-
-        .reference-content {
-            margin-top: 12px;
-            margin-bottom: 16px;
         }
 
         .ref-link i {
@@ -338,7 +334,51 @@
 
         .reference-item {
             margin: 4px 0;
-        }   
+        }
+
+        .ref-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            width: 100%;
+        }
+
+        .ref-content {
+            flex: 1;
+            max-height: 1.5em;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            transition: max-height 0.3s ease-in-out;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .ref-content.expanded {
+            max-height: none;
+            -webkit-line-clamp: unset;
+        }
+
+        .expand-btn {
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            cursor: pointer;
+            padding: 0;
+            flex-shrink: 0;
+            transition: transform 0.3s ease;
+            padding-top: 2px;
+        }
+
+        .expand-btn.expanded {
+            transform: rotate(180deg);
+        }
+
+        .expand-btn i {
+            font-size: 0.8em;
+        }
     </style>
 </head>
 <body>
@@ -498,6 +538,9 @@
                                     <div class="ref-header">
                                         <span class="ref-number">[${index + 1}]</span>
                                         <span class="ref-content">${ref}</span>
+                                        <button class="expand-btn" onclick="toggleExpand(this)">
+                                            <i class="fas fa-chevron-down"></i>
+                                        </button>
                                     </div>
                                     <div class="ref-meta">
                                         <span class="ref-similarity">Similarity：${msg.reference_simliarity[index]}</span>
@@ -519,6 +562,14 @@
                 ` : ''}
             `).join('');
             container.scrollTop = container.scrollHeight;
+        }
+
+        function toggleExpand(button) {
+            const content = button.previousElementSibling;
+            const isExpanded = content.classList.contains('expanded');
+            
+            content.classList.toggle('expanded');
+            button.classList.toggle('expanded');
         }
 
         function sendMessage() {
@@ -599,4 +650,3 @@
     </script>
 </body>
 </html>
-
