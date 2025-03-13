@@ -153,6 +153,34 @@ async def list_files(db: Session = Depends(get_db)):
         ]
     }
 
+@app.post("/api/v1/feedback", response_model=FeedbackResponse)
+async def submit_feedback(request: FeedbackRequest, db: Session = Depends(get_db)):
+
+    question = db.query(DBQuestion).filter(
+        DBQuestion.session_id == request.session_id,
+        DBQuestion.question_id == request.question_id
+    ).first()
+    
+    if not question:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="问题不存在"
+        )
+    
+    if question.rating is not None:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="该问题已经评分过"
+        )
+    
+    question.rating = request.rating
+    db.commit()
+    
+    return {
+        "session_id": request.session_id,
+        "question_id": request.question_id
+    }
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
