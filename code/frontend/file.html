@@ -77,13 +77,15 @@
             color: #4b5563;
             font-weight: 600;
             padding: 16px;
-            text-align: left;
+            text-align: center;
         }
 
         .table tbody td {
             padding: 16px;
             border-bottom: 1px solid #e9ecef;
             color: #4b5563;
+            text-align: center;
+            vertical-align: middle;
         }
 
         .table tbody tr:hover {
@@ -270,36 +272,14 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>名称</th>
+                    <th>文件名称</th>
+                    <th>文件描述</th>
                     <th>上传日期</th>
-                    <th>大小</th>
-                    <th>知识库</th>
+                    <th>文件大小</th>
                     <th>操作</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
-                    <td>10/02/2025</td>
-                    <td>1,623.60 KB</td>
-                    <td>知识库1</td>
-                    <td><span class="badge bg-secondary">download</span></td>
-                </tr>
-                <tr>
-                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
-                    <td>10/02/2025</td>
-                    <td>1,623.60 KB</td>
-                    <td>知识库1</td>
-                    <td><span class="badge bg-secondary">download</span></td>
-                </tr>
-                <tr>
-                    <td>Retrieval-Augmented Generation for Large Language Models A Survey.pdf</td>
-                    <td>10/02/2025</td>
-                    <td>1,623.60 KB</td>
-                    <td>知识库1</td>
-                    <td><span class="badge bg-secondary">download</span></td>
-                </tr>
-                </tbody>
+                <tbody></tbody>
             </table>
 
             <button class="upload-btn" onclick="showUploadModal()">
@@ -323,6 +303,37 @@
 
             <script>
                 let selectedFiles = [];
+
+                // 获取文件列表
+                async function fetchFileList() {
+                    try {
+                        const response = await fetch('http://localhost:8000/api/v1/files/list');
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const data = await response.json();
+                        updateFileTable(data.files);
+                    } catch (error) {
+                        console.error('获取文件列表失败:', error);
+                        alert('获取文件列表失败，请稍后重试');
+                    }
+                }
+
+                // 更新文件表格
+                function updateFileTable(files) {
+                    const tbody = document.querySelector('.table tbody');
+                    tbody.innerHTML = files.map(file => `
+                        <tr>
+                            <td>${file.file_name}</td>
+                            <td>${file.file_description || '-'}</td>
+                            <td>${file.uploaded_at}</td>
+                            <td>${file.file_size}</td>
+                            <td><span class="badge bg-secondary">预览</span></td>
+                        </tr>
+                    `).join('');
+                }
+
+                document.addEventListener('DOMContentLoaded', fetchFileList);
 
                 function showUploadModal() {
                     document.getElementById('uploadModal').style.display = 'block';
