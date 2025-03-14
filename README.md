@@ -99,7 +99,34 @@ QA system is both efficient and accurate for real-time policy inquiries.
 
 ### RAGnition Talk 6
 
+| Time   | 周五 2025-03-14 13:00 - 15:00 |
+|--------|------------|
+| Period | 0303-0316  |
+| Output | complete version one rag system |
+
+### RAGnition Talk 7
+
 | Time   | To Be Done |
 |--------|------------|
-| Period | 0217-0302  |
+| Period | 0317-0323  |
 | Output | To Be Done |
+
+# Obstacles
+
+1. 政策的实时性？
+网页上的政策是实时的。
+
+2. 文档分割算法效果和时间
+3. 向量数据库  QDRANT
+
+4. 问题意图识别和关键词提取和时间
+   建立同义词库，关键词库。
+
+5. 参考文献的相似度和时间
+6. 参考文献的相似度隐藏
+7. 参考文档的关联度的排序。
+
+8. 大模型的调用的稳定性和时间
+   修改调用的方式，流失调用。不同的模型。首个token调用就快。答案里面没有换行符。前端对于回答答案的渲染。
+   同一个问题的不同问法的回答。
+   处理问题与政策无关的时候的参考文献。

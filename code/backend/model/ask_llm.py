@@ -21,7 +21,7 @@ def get_llm_answer(question, references):
 
     # 构造给 LLM 的提示
     prompt = f"""You are a helpful assistant.
-Answer the following question based on the provided references.
+Answer the following question based on the provided references. If you think the question is not related to the references, please answer "你的问题和学校政策无关，我无法回答。".
 In your answer, please include citation numbers in square brackets corresponding to the references.
 Example Answer Format: Students are responsible for notifying 『1』 the University of any changes to their personal details after registration. For changes like name, HKID Card 『2』 or Passport information, legal documentary evidence is required 『3』.
 {question}

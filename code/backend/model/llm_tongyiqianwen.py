@@ -25,7 +25,7 @@ class QwenClient:
                         "content": prompt
                     }]}
                 },
-                timeout=10
+                timeout=100
             )
             response.raise_for_status()
 
