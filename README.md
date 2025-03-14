@@ -130,3 +130,6 @@ QA system is both efficient and accurate for real-time policy inquiries.
    修改调用的方式，流失调用。不同的模型。首个token调用就快。答案里面没有换行符。前端对于回答答案的渲染。
    同一个问题的不同问法的回答。
    处理问题与政策无关的时候的参考文献。
+
+
+部署到服务器，录视频，ppt，report，参加比赛。
