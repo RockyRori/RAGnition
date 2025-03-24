@@ -99,25 +99,32 @@ QA system is both efficient and accurate for real-time policy inquiries.
 
 ### RAGnition Talk 6
 
-| Time   | 周五 2025-03-14 13:00 - 15:00 |
-|--------|------------|
-| Period | 0303-0316  |
+| Time   | 周五 2025-03-14 13:00 - 15:00     |
+|--------|---------------------------------|
+| Period | 0303-0316                       |
 | Output | complete version one rag system |
 
 ### RAGnition Talk 7
 
+| Time   | 周二 2025-04-01 13:30 - 15:00                  |
+|--------|----------------------------------------------|
+| Period | 0317-0330                                    |
+| Output | add stream answer output,use qdrant database |
+
+### RAGnition Talk 8
+
 | Time   | To Be Done |
 |--------|------------|
-| Period | 0317-0323  |
+| Period | 0331-0406  |
 | Output | To Be Done |
 
 # Obstacles
 
 1. 政策的实时性？
-网页上的政策是实时的。
+   网页上的政策是实时的。
 
 2. 文档分割算法效果和时间
-3. 向量数据库  QDRANT
+3. 向量数据库 QDRANT
 
 4. 问题意图识别和关键词提取和时间
    建立同义词库，关键词库。
@@ -130,7 +137,6 @@ QA system is both efficient and accurate for real-time policy inquiries.
    修改调用的方式，流失调用。不同的模型。首个token调用就快。答案里面没有换行符。前端对于回答答案的渲染。
    同一个问题的不同问法的回答。
    处理问题与政策无关的时候的参考文献。
-
 
 部署到服务器，录视频，ppt，report，参加比赛。
 遇到了哪些问题和响应的解决方法
