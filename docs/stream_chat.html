@@ -421,7 +421,6 @@
             <div class="input-container">
                 <div class="input-wrapper">
                     <textarea id="user-input" placeholder="请输入您的问题（最多2000字）..."></textarea>
-<!--                    <button class="send-btn" onclick="sendMessage()">-->
                     <button class="send-btn" onclick="sendStreamMessage()">
                         <i class="fas fa-paper-plane"></i>
                         发送
@@ -576,73 +575,6 @@
             button.classList.toggle('expanded');
         }
 
-        function sendMessage() {
-            const input = document.getElementById('user-input');
-            const content = input.value.trim();
-            if (!content) return;
-
-            const chat = chats.find(c => c.id === currentChatId);
-            if (!chat) return;
-
-            chat.messages.push({
-                type: 'user',
-                content: content
-            });
-
-            if (chat.isFirstMessage) {
-                chat.title = content.length > 10 ? content.substring(0, 10) + '...' : content;
-                chat.isFirstMessage = false;
-                updateChatList();
-            }
-
-            const requestData = {
-                session_id: chat.id.toString(),
-                question_id: Date.now().toString(),
-                previous_questions: chat.messages
-                   .filter(msg => msg.type === 'user')
-                   .map(msg => msg.content),
-                current_question: content
-            };
-
-            // 发送请求到后端
-            fetch('http://localhost:8000/api/v1/questions', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(requestData)
-            })
-           .then(response => {
-                if (!response.ok) {
-                    throw new Error(`请求失败: ${response.status} ${response.statusText}`);
-                }
-                return response.json();
-            })
-           .then(data => {
-                chat.messages.push({
-                    type: 'bot',
-                    content: data.answer,
-                    references: data.references.map(ref => ref.content),
-                    reference_links: data.references.map(ref => ref.source),
-                    reference_simliarity: data.references.map(ref => ref.similarity),
-                    questionId: data.question_id,
-                    sessionId: data.session_id
-                });
-                renderMessages();
-            })
-           .catch(error => {
-                console.error('发送消息失败:', error);
-                chat.messages.push({
-                    type: 'bot',
-                    content: '抱歉，我现在无法回答您的问题，请稍后再试。'
-                });
-                renderMessages();
-            });
-
-            input.value = '';
-            renderMessages();
-        }
-
         function sendStreamMessage() {
             const input = document.getElementById('user-input');
             const content = input.value.trim();
@@ -698,7 +630,6 @@
         document.getElementById('user-input').addEventListener('keypress', e => {
             if (e.key === 'Enter' && !e.shiftKey) {
                 e.preventDefault();
-                // sendMessage();
                 sendStreamMessage()
             }
         });

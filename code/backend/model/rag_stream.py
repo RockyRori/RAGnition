@@ -54,7 +54,6 @@ References:
         new_part = token[len(previous_text):]
         previous_text = token
         yield new_part
-    yield " [END]"
 
 
 if __name__ == "__main__":
