@@ -25,7 +25,7 @@ class QwenClient:
                         "content": prompt
                     }]}
                 },
-                timeout=100
+                timeout=200  # 单位秒
             )
             response.raise_for_status()
 
@@ -49,5 +49,5 @@ def query(prompt: str) -> str:
 
 
 if __name__ == "__main__":
-    output = query("The answer to life is")
+    output = query("三国演义中的的诸葛亮、徐庶、程昱三人之间才能传导关系是什么，最终诸葛亮几倍于程昱？")
     print(output)
