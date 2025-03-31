@@ -1,7 +1,8 @@
-from backend.model.llm_tongyiqianwen import query
+from backend.model.llm_tongyiqianwen import qwen_plus_query
+from backend.model.model import LLMModel
 
 
-def get_llm_answer(question, references):
+def get_llm_answer(question, references, model_type: LLMModel):
     """
     使用免费 LLM 根据问题和参考文献生成自然语言答案，
     并在答案中加入引用数字。
@@ -28,8 +29,10 @@ Example Answer Format: Students are responsible for notifying 『1』 the Univer
 References:
 {ref_text}
 """
-
-    return query(prompt)
+    if model_type is LLMModel.QWEN_PLUS:
+        return qwen_plus_query(prompt)
+    else:
+        return "backend error, no such model"
 
 
 if __name__ == "__main__":

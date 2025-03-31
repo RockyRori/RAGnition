@@ -3,6 +3,9 @@ from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime
 import uvicorn
+from fastapi.responses import StreamingResponse
+from backend.model.rag_stream import stream_answer
+import json
 from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
@@ -137,6 +140,19 @@ async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
     }
 
 
+@app.get("/api/v1/questions/stream")
+async def stream_question(session_id: str, question_id: str, current_question: str, previous_questions: str):
+    import json
+    previous_questions_list = json.loads(previous_questions)
+
+    async def event_generator():
+        async for token in stream_answer(current_question, previous_questions_list):
+            yield f"data: {json.dumps({'token': token})}\n\n"
+        yield "data: [DONE]\n\n"
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+
 @app.get("/api/v1/files/list")
 async def list_files(db: Session = Depends(get_db)):
     files = db.query(DBFile).all()
@@ -153,29 +169,29 @@ async def list_files(db: Session = Depends(get_db)):
         ]
     }
 
+
 @app.post("/api/v1/feedback", response_model=FeedbackResponse)
 async def submit_feedback(request: FeedbackRequest, db: Session = Depends(get_db)):
-
     question = db.query(DBQuestion).filter(
         DBQuestion.session_id == request.session_id,
         DBQuestion.question_id == request.question_id
     ).first()
-    
+
     if not question:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="问题不存在"
         )
-    
+
     if question.rating is not None:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="该问题已经评分过"
         )
-    
+
     question.rating = request.rating
     db.commit()
-    
+
     return {
         "session_id": request.session_id,
         "question_id": request.question_id

@@ -5,7 +5,7 @@ import os
 load_dotenv()
 
 
-class QwenClient:
+class QwenPlusClient:
     def __init__(self):
         self.api_key = os.getenv('tongyiqianwen')
         self.url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation"
@@ -41,13 +41,13 @@ class QwenClient:
             return "请求失败，请检查API密钥和网络连接"
 
 
-client = QwenClient()
+qwen_plus_client = QwenPlusClient()
 
 
-def query(prompt: str) -> str:
-    return client.ask(prompt)
+def qwen_plus_query(prompt: str) -> str:
+    return qwen_plus_client.ask(prompt)
 
 
 if __name__ == "__main__":
-    output = query("三国演义中的的诸葛亮、徐庶、程昱三人之间才能传导关系是什么，最终诸葛亮几倍于程昱？")
+    output = qwen_plus_query("水浒传是谁写的？只回答作者名字。")
     print(output)

@@ -3,6 +3,7 @@ from typing import List, Tuple
 from backend.model.ask_llm import get_llm_answer
 from backend.model.doc_analysis import splitting
 from backend.model.doc_search import search_documents, load_segments_from_folder
+from backend.model.model import LLMModel
 from backend.model.ques_assemble import generate_search_query
 
 # RAG回答用户提问
@@ -31,7 +32,7 @@ def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
 
     # Measure LLM response time
     start_llm = time.time()
-    answer_text = get_llm_answer(assembled_question, references)
+    answer_text = get_llm_answer(assembled_question, references, LLMModel.QWEN_PLUS)
     llm_time = time.time() - start_llm
 
     # Print timing results
