@@ -11,6 +11,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
 from backend.model.rag import answer
+from backend.model.ques_assemble import generate_search_query
+from backend.model.doc_search import search_documents, load_segments_from_folder
 
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
@@ -142,12 +144,20 @@ async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
 
 @app.get("/api/v1/questions/stream")
 async def stream_question(session_id: str, question_id: str, current_question: str, previous_questions: str):
-    import json
     previous_questions_list = json.loads(previous_questions)
+
+    search_query, _ = generate_search_query(current_question, previous_questions_list)
+    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"
+    references = search_documents(search_query,
+                                  load_segments_from_folder(input_folder=input_folder),
+                                  top_k=4)
 
     async def event_generator():
         async for token in stream_answer(current_question, previous_questions_list):
             yield f"data: {json.dumps({'token': token})}\n\n"
+
+        # 发送引用文献消息，字段名为 references
+        yield f"data: {json.dumps({'references': references})}\n\n"
         yield "data: [DONE]\n\n"
 
     return StreamingResponse(event_generator(), media_type="text/event-stream")

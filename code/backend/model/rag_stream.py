@@ -39,8 +39,8 @@ async def stream_answer(question: str, history: list):
     print(f"4. LLM Response Generation Time: {llm_time:.2f}s")
 
     prompt = f"""You are a helpful assistant.
-Answer the following question based on the provided references. If you think the question is not related to the references, please answer "你的问题和学校政策无关，我无法回答。".
-In your answer, please include citation numbers in square brackets corresponding to the references.
+If you think the none of the references are related to the question, please only return this double quotation marked sentence "目前为止小助手没有查询到岭南大学有相关政策，很抱歉我不能帮你解答。" .
+Otherwise start to generate answer, in your answer, please include citation numbers in square brackets corresponding to the references.
 Example Answer Format: Students are responsible for notifying 『1』 the University of any changes to their personal details after registration. For changes like name, HKID Card 『2』 or Passport information, legal documentary evidence is required 『3』.
 {assembled_question}
 References:
