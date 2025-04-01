@@ -1,3 +1,4 @@
+import os
 from typing import List, Tuple
 
 from backend.model.ask_llm import get_llm_answer
@@ -8,6 +9,8 @@ from backend.model.ques_assemble import generate_search_query
 
 # RAG回答用户提问
 import time
+
+from backend.root_path import PROJECT_ROOT
 
 
 def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
@@ -24,7 +27,7 @@ def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
 
     # Measure document search time
     start_search = time.time()
-    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"
+    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder),
                                   top_k=4)

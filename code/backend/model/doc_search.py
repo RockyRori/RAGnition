@@ -3,6 +3,8 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from backend.root_path import PROJECT_ROOT
+
 
 def load_segments_from_file(file_path):
     """
@@ -94,7 +96,7 @@ def search_documents(search_query, document_segments, top_k=5):
 
 def searching():
     # 配置参数
-    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
+    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
     search_query = "gpa pass graduate"  # 用户的查询问题
     top_k = 3  # 返回相似度最高的前 5 个片段
 

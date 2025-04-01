@@ -1,3 +1,5 @@
+import os
+
 from backend.model.llm_stream_tongyiqianwen import stream_qwen_plus_query
 from backend.model.doc_analysis import splitting
 from backend.model.doc_search import search_documents, load_segments_from_folder
@@ -6,6 +8,8 @@ from backend.model.model import LLMModel
 import time
 import asyncio
 import json
+
+from backend.root_path import PROJECT_ROOT
 
 
 async def stream_answer(question: str, history: list):
@@ -22,7 +26,7 @@ async def stream_answer(question: str, history: list):
 
     # Measure document search time
     start_search = time.time()
-    input_folder = "C:/File/岭南大学/Project/RAGnition/code/backend/model/pieces"
+    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder),
                                   top_k=4)
