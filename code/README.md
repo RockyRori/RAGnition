@@ -129,7 +129,12 @@ sudo ufw allow 8536
 
 ## 9. 更新代码
 
-直接更新git仓库即可，服务会自动重启。
+直接更新git仓库即可，服务会自动重启。或者使用下面命令来确保服务重启：
+```bash
+sudo systemctl status ragnition.service
+sudo systemctl restart ragnition.service
+sudo systemctl status ragnition.service
+```
 
 ### HTTPS加密
 
