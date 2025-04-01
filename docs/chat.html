@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>聊天</title>
@@ -385,274 +385,274 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">RAGnition</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">首页</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="chat.html">聊天</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="file.html">文件</a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">RAGnition</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="chat.html">聊天</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file.html">文件</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <div class="content-wrapper">
-        <div class="sidebar">
-            <button class="new-chat-btn" onclick="createNewChat()">
-                <i class="fas fa-plus"></i>
-                新建对话
-            </button>
-            <div class="chat-list" id="chatList"></div>
-        </div>
+<div class="content-wrapper">
+    <div class="sidebar">
+        <button class="new-chat-btn" onclick="createNewChat()">
+            <i class="fas fa-plus"></i>
+            新建对话
+        </button>
+        <div class="chat-list" id="chatList"></div>
+    </div>
 
-        <div class="main-content">
-            <div id="chat-container"></div>
-            <div class="input-container">
-                <div class="input-wrapper">
-                    <textarea id="user-input" placeholder="请输入您的问题（最多2000字）..."></textarea>
-                    <button class="send-btn" onclick="sendMessage()">
-                        <i class="fas fa-paper-plane"></i>
-                        发送
-                    </button>
-                </div>
+    <div class="main-content">
+        <div id="chat-container"></div>
+        <div class="input-container">
+            <div class="input-wrapper">
+                <textarea id="user-input" placeholder="请输入您的问题（最多2000字）..."></textarea>
+                <button class="send-btn" onclick="sendMessage()">
+                    <i class="fas fa-paper-plane"></i>
+                    发送
+                </button>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // const API_BASE = 'http://localhost:8536/api/v1';
-        const API_BASE = 'https://ipaq-brass-patch-travis.trycloudflare.com/api/v1';
-        let chats = [];
-        let currentChatId = null;
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // const API_BASE = 'http://localhost:8536/api/v1';
+    const API_BASE = 'https://ipaq-brass-patch-travis.trycloudflare.com/api/v1';
+    let chats = [];
+    let currentChatId = null;
 
-        function createNewChat() {
-            const chatId = Date.now();
-            const chat = {
-                id: chatId,
-                title: '新建对话',
-                messages: [{
-                    type: 'bot',
-                    content: '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！'
-                }],
-                isFirstMessage: true 
-            };
-            chats.push(chat);
-            currentChatId = chatId;
-            updateChatList();
-            renderMessages();
+    function createNewChat() {
+        const chatId = Date.now();
+        const chat = {
+            id: chatId,
+            title: '新建对话',
+            messages: [{
+                type: 'bot',
+                content: '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！'
+            }],
+            isFirstMessage: true
+        };
+        chats.push(chat);
+        currentChatId = chatId;
+        updateChatList();
+        renderMessages();
+    }
+
+    function updateChatList() {
+        const chatList = document.getElementById('chatList');
+        chatList.innerHTML = chats.map(chat => `
+            <div class="chat-item ${chat.id === currentChatId ? 'active' : ''}"
+                 onclick="switchChat(${chat.id})">
+                <i class="fas fa-comment"></i>
+                ${chat.title}
+            </div>
+        `).join('');
+    }
+
+    function switchChat(chatId) {
+        currentChatId = chatId;
+        updateChatList();
+        renderMessages();
+    }
+
+    document.addEventListener('click', function(event) {
+        if (event.target.classList.contains('fa-star')) {
+            handleStarClick(event);
         }
+    });
 
-        function updateChatList() {
-            const chatList = document.getElementById('chatList');
-            chatList.innerHTML = chats.map(chat => `
-                <div class="chat-item ${chat.id === currentChatId ? 'active' : ''}" 
-                     onclick="switchChat(${chat.id})">
-                    <i class="fas fa-comment"></i>
-                    ${chat.title}
-                </div>
-            `).join('');
-        }
+    function handleStarClick(event) {
+        const star = event.target;
+        if (!star.classList.contains('fa-star')) return;
 
-        function switchChat(chatId) {
-            currentChatId = chatId;
-            updateChatList();
-            renderMessages();
-        }
+        const rating = parseInt(star.dataset.rating);
+        const container = star.parentElement;
 
-        document.addEventListener('click', function(event) {
-            if (event.target.classList.contains('fa-star')) {
-                handleStarClick(event);
-            }
+        container.querySelectorAll('i').forEach((s, index) => {
+            s.classList.toggle('active', index < rating);
         });
 
-        function handleStarClick(event) {
-            const star = event.target;
-            if (!star.classList.contains('fa-star')) return;
+        container.dataset.rated = rating;
 
-            const rating = parseInt(star.dataset.rating);
-            const container = star.parentElement;
+        const chat = chats.find(c => c.id === currentChatId);
+        if (!chat) return;
 
-            container.querySelectorAll('i').forEach((s, index) => {
-                s.classList.toggle('active', index < rating);
-            });
+        const lastBotMessage = chat.messages.findLast(msg => msg.type === 'bot');
+        if (!lastBotMessage) return;
 
-            container.dataset.rated = rating;
+        lastBotMessage.rating = rating;
 
-            const chat = chats.find(c => c.id === currentChatId);
-            if (!chat) return;
+        const sessionId = lastBotMessage.sessionId;
+        const questionId = lastBotMessage.questionId;
 
-            const lastBotMessage = chat.messages.findLast(msg => msg.type === 'bot');
-            if (!lastBotMessage) return;
+        const feedbackData = {
+            session_id: sessionId,
+            question_id: questionId,
+            rating: rating * 2
+        };
 
-            lastBotMessage.rating = rating;
+        fetch(`${API_BASE}/feedback`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(feedbackData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`反馈提交失败: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        });
+    }
 
-            const sessionId = lastBotMessage.sessionId;
-            const questionId = lastBotMessage.questionId; 
+    function renderMessages() {
+        const chat = chats.find(c => c.id === currentChatId);
+        if (!chat) return;
 
-            const feedbackData = {
-                session_id: sessionId,
-                question_id: questionId,
-                rating: rating * 2 
-            };
-
-            fetch(`${API_BASE}/feedback`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(feedbackData)
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`反馈提交失败: ${response.status} ${response.statusText}`);
-                }
-                return response.json();
-            });
-        }
-
-        function renderMessages() {
-            const chat = chats.find(c => c.id === currentChatId);
-            if (!chat) return;
-
-            const container = document.getElementById('chat-container');
-            container.innerHTML = chat.messages.map(msg => `
-                <div class="message ${msg.type === 'user' ? 'user-message' : ''}">
-                    <img src="static/${msg.type === 'user' ? 'users.png' : 'bot.png'}" class="avatar">
-                    <div class="message-content">
-                        ${msg.content}
-                    </div>
+        const container = document.getElementById('chat-container');
+        container.innerHTML = chat.messages.map(msg => `
+            <div class="message ${msg.type === 'user' ? 'user-message' : ''}">
+                <img src="static/${msg.type === 'user' ? 'users.png' : 'bot.png'}" class="avatar">
+                <div class="message-content">
+                    ${msg.content}
                 </div>
-                ${msg.references ? `
-                    <div class="reference-container">
-                        <div class="reference-content">
-                            <h6>References：</h6>
-                            ${msg.references.map((ref, index) => `
-                                <div class="reference-item">
-                                    <div class="ref-header">
-                                        <span class="ref-number">[${index + 1}]</span>
-                                        <span class="ref-content">${ref}</span>
-                                        <button class="expand-btn" onclick="toggleExpand(this)">
-                                            <i class="fas fa-chevron-down"></i>
-                                        </button>
-                                    </div>
-                                    <div class="ref-meta">
-                                        <span class="ref-similarity">Similarity：${msg.reference_simliarity[index]}</span>
-                                        ${msg.reference_links && msg.reference_links[index] ? 
-                                            `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> Reference Link</a>` : 
-                                            ''}
-                                    </div>
+            </div>
+            ${msg.references ? `
+                <div class="reference-container">
+                    <div class="reference-content">
+                        <h6>References：</h6>
+                        ${msg.references.map((ref, index) => `
+                            <div class="reference-item">
+                                <div class="ref-header">
+                                    <span class="ref-number">[${index + 1}]</span>
+                                    <span class="ref-content">${ref}</span>
+                                    <button class="expand-btn" onclick="toggleExpand(this)">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
                                 </div>
-                            `).join('')}
-                        </div>
+                                <div class="ref-meta">
+                                    <span class="ref-similarity">Similarity：${msg.reference_simliarity[index]}</span>
+                                    ${msg.reference_links && msg.reference_links[index] ?
+                                        `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> Reference Link</a>` :
+                                        ''}
+                                </div>
+                            </div>
+                        `).join('')}
                     </div>
-                    ${msg.type === 'bot' ? `
-                    <div class="rating-container">
-                        <div class="star-rating" ${msg.rating ? `data-rated="${msg.rating}"` : ''}>
-                            ${[1,2,3,4,5].map(i => `<i class="fas fa-star ${msg.rating && i <= msg.rating ? 'active' : ''}" data-rating="${i}"></i>`).join('')}
-                        </div>
+                </div>
+                ${msg.type === 'bot' ? `
+                <div class="rating-container">
+                    <div class="star-rating" ${msg.rating ? `data-rated="${msg.rating}"` : ''}>
+                        ${[1,2,3,4,5].map(i => `<i class="fas fa-star ${msg.rating && i <= msg.rating ? 'active' : ''}" data-rating="${i}"></i>`).join('')}
                     </div>
-                    ` : ''}
+                </div>
                 ` : ''}
-            `).join('');
-            container.scrollTop = container.scrollHeight;
-        }
+            ` : ''}
+        `).join('');
+        container.scrollTop = container.scrollHeight;
+    }
 
-        function toggleExpand(button) {
-            const content = button.previousElementSibling;
-            const isExpanded = content.classList.contains('expanded');
-            
-            content.classList.toggle('expanded');
-            button.classList.toggle('expanded');
-        }
+    function toggleExpand(button) {
+        const content = button.previousElementSibling;
+        const isExpanded = content.classList.contains('expanded');
 
-        function sendMessage() {
-            const input = document.getElementById('user-input');
-            const content = input.value.trim();
-            if (!content) return;
+        content.classList.toggle('expanded');
+        button.classList.toggle('expanded');
+    }
 
-            const chat = chats.find(c => c.id === currentChatId);
-            if (!chat) return;
+    function sendMessage() {
+        const input = document.getElementById('user-input');
+        const content = input.value.trim();
+        if (!content) return;
 
-            chat.messages.push({
-                type: 'user',
-                content: content
-            });
+        const chat = chats.find(c => c.id === currentChatId);
+        if (!chat) return;
 
-            if (chat.isFirstMessage) {
-                chat.title = content.length > 10 ? content.substring(0, 10) + '...' : content;
-                chat.isFirstMessage = false;
-                updateChatList();
-            }
-
-            const requestData = {
-                session_id: chat.id.toString(),
-                question_id: Date.now().toString(),
-                previous_questions: chat.messages
-                   .filter(msg => msg.type === 'user')
-                   .map(msg => msg.content),
-                current_question: content
-            };
-
-            // 发送请求到后端
-            fetch(`${API_BASE}/questions`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(requestData)
-            })
-           .then(response => {
-                if (!response.ok) {
-                    throw new Error(`请求失败: ${response.status} ${response.statusText}`);
-                }
-                return response.json();
-            })
-           .then(data => {
-                chat.messages.push({
-                    type: 'bot',
-                    content: data.answer,
-                    references: data.references.map(ref => ref.content),
-                    reference_links: data.references.map(ref => ref.source),
-                    reference_simliarity: data.references.map(ref => ref.similarity),
-                    questionId: data.question_id,
-                    sessionId: data.session_id
-                });
-                renderMessages();
-            })
-           .catch(error => {
-                console.error('发送消息失败:', error);
-                chat.messages.push({
-                    type: 'bot',
-                    content: '抱歉，我现在无法回答您的问题，请稍后再试。'
-                });
-                renderMessages();
-            });
-
-            input.value = '';
-            renderMessages();
-        }
-
-        createNewChat();
-
-        document.getElementById('user-input').addEventListener('keypress', e => {
-            if (e.key === 'Enter' && !e.shiftKey) {
-                e.preventDefault();
-                sendMessage();
-            }
+        chat.messages.push({
+            type: 'user',
+            content: content
         });
-    </script>
+
+        if (chat.isFirstMessage) {
+            chat.title = content.length > 10 ? content.substring(0, 10) + '...' : content;
+            chat.isFirstMessage = false;
+            updateChatList();
+        }
+
+        const requestData = {
+            session_id: chat.id.toString(),
+            question_id: Date.now().toString(),
+            previous_questions: chat.messages
+               .filter(msg => msg.type === 'user')
+               .map(msg => msg.content),
+            current_question: content
+        };
+
+        // 发送请求到后端
+        fetch(`${API_BASE}/questions`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(requestData)
+        })
+       .then(response => {
+            if (!response.ok) {
+                throw new Error(`请求失败: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
+       .then(data => {
+            chat.messages.push({
+                type: 'bot',
+                content: data.answer,
+                references: data.references.map(ref => ref.content),
+                reference_links: data.references.map(ref => ref.source),
+                reference_simliarity: data.references.map(ref => ref.similarity),
+                questionId: data.question_id,
+                sessionId: data.session_id
+            });
+            renderMessages();
+        })
+       .catch(error => {
+            console.error('发送消息失败:', error);
+            chat.messages.push({
+                type: 'bot',
+                content: '抱歉，我现在无法回答您的问题，请稍后再试。'
+            });
+            renderMessages();
+        });
+
+        input.value = '';
+        renderMessages();
+    }
+
+    createNewChat();
+
+    document.getElementById('user-input').addEventListener('keypress', e => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendMessage();
+        }
+    });
+</script>
 </body>
 </html>
 
