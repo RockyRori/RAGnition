@@ -505,7 +505,7 @@
             rating: rating * 2
         };
 
-        fetch('http://localhost:8000/api/v1/feedback', {
+        fetch('http://localhost:8536/api/v1/feedback', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -596,7 +596,7 @@
         chat.messages.push(botMessage);
         renderMessages();
 
-        const url = new URL('http://localhost:8000/api/v1/questions/stream');
+        const url = new URL('http://localhost:8536/api/v1/questions/stream');
         url.searchParams.append('session_id', requestData.session_id);
         url.searchParams.append('question_id', requestData.question_id);
         url.searchParams.append('current_question', requestData.current_question);
