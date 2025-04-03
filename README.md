@@ -140,3 +140,7 @@ QA system is both efficient and accurate for real-time policy inquiries.
 
 部署到服务器，录视频，ppt，report，参加比赛。
 遇到了哪些问题和响应的解决方法
+
+future direction
+网络部署的时候的流式传输
+用户输入多语言

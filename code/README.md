@@ -110,6 +110,7 @@ server {
 启用该配置并重启 Nginx：
 
 ```bash
+sudo rm /etc/nginx/sites-enabled/nginxapp
 sudo ln -s /etc/nginx/sites-available/nginxapp /etc/nginx/sites-enabled/nginxapp
 sudo nginx -t
 sudo systemctl restart nginx
