@@ -9,6 +9,7 @@ import time
 import asyncio
 import json
 
+from backend.model.translation import sync_translate, async_translate
 from backend.root_path import PROJECT_ROOT
 
 
@@ -21,6 +22,7 @@ async def stream_answer(question: str, history: list):
 
     # Measure query generation time
     start_generate = time.time()
+    question = await async_translate(question)
     search_query, assembled_question = generate_search_query(question, history)
     generate_time = time.time() - start_generate
 
