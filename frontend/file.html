@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>文件管理</title>
+    <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="css/file.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">RAGnition</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html">聊天</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="file.html">文件</a>
+                    </li>
+                </ul>
+                <div class="ms-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item"  data-lang="en">English</a></li>
+                            <li><a class="dropdown-item"  data-lang="zh-CN">简体中文</a></li>
+                            <li><a class="dropdown-item"  data-lang="zh-TW">繁體中文</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+        <div class="container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>文件名称</th>
+                    <th>文件描述</th>
+                    <th>上传日期</th>
+                    <th>文件大小</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+            <button class="upload-btn" onclick="showUploadModal()">
+                <i class="fas fa-upload"></i>
+                上传文件
+            </button>
+
+            <div id="uploadModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="hideUploadModal()">&times;</span>
+                    <h3>上传文件</h3>
+                    <div class="drop-zone" id="dropZone">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>将文件拖放到此处，或点击选择文件</p>
+                        <input type="file" id="fileInput" style="display: none" multiple>
+                    </div>
+                    <div class="file-list" id="fileList"></div>
+                    <button class="submit-btn" onclick="handleSubmit()">提交</button>
+                </div>
+            </div>
+
+            <script>
+                let selectedFiles = [];
+
+                // 获取文件列表
+                async function fetchFileList() {
+                    try {
+                        const response = await fetch('http://localhost:8536/api/v1/files/list');
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const data = await response.json();
+                        const formattedFiles = data.files.map(file => {
+                            const date = new Date(file.uploaded_at);
+                            const year = date.getFullYear();
+                            const month = String(date.getMonth() + 1).padStart(2, '0');
+                            const day = String(date.getDate()).padStart(2, '0');
+                            const hours = String(date.getHours()).padStart(2, '0');
+                            const minutes = String(date.getMinutes()).padStart(2, '0');
+                            const seconds = String(date.getSeconds()).padStart(2, '0');
+                            
+                            return {
+                                ...file,
+                                uploaded_at: `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`
+                            };
+                        });
+                        updateFileTable(formattedFiles);
+                    } catch (error) {
+                        console.error('获取文件列表失败:', error);
+                        alert('获取文件列表失败，请稍后重试');
+                    }
+                }
+
+                // 更新文件表格
+                function updateFileTable(files) {
+                    const tbody = document.querySelector('.table tbody');
+                    tbody.innerHTML = files.map(file => `
+                        <tr>
+                            <td>${file.file_name}</td>
+                            <td>${file.file_description || '-'}</td>
+                            <td>${file.uploaded_at}</td>
+                            <td>${file.file_size}</td>
+                            <td><span class="badge bg-secondary">${translations[currentLang]['preview']}</span></td>
+                        </tr>
+                    `).join('');
+                }
+
+                document.addEventListener('DOMContentLoaded', fetchFileList);
+
+                function showUploadModal() {
+                    document.getElementById('uploadModal').style.display = 'block';
+                    selectedFiles = [];
+                    updateFileList();
+                }
+
+                function hideUploadModal() {
+                    document.getElementById('uploadModal').style.display = 'none';
+                    selectedFiles = [];
+                    updateFileList();
+                }
+
+                const dropZone = document.getElementById('dropZone');
+                const fileInput = document.getElementById('fileInput');
+                const fileList = document.getElementById('fileList');
+
+                dropZone.addEventListener('click', () => fileInput.click());
+
+                fileInput.addEventListener('change', handleFiles);
+
+                dropZone.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    dropZone.classList.add('dragover');
+                });
+
+                dropZone.addEventListener('dragleave', () => {
+                    dropZone.classList.remove('dragover');
+                });
+
+                dropZone.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    dropZone.classList.remove('dragover');
+                    const files = e.dataTransfer.files;
+                    handleFiles({ target: { files: files } });
+                });
+
+                function handleFiles(e) {
+                    const files = e.target.files;
+                    if (files.length > 0) {
+                        Array.from(files).forEach(file => {
+                            selectedFiles.push({
+                                file: file,
+                                id: Date.now() + Math.random()
+                            });
+                        });
+                        updateFileList();
+                    }
+                }
+
+                function removeFile(id) {
+                    selectedFiles = selectedFiles.filter(item => item.id !== id);
+                    updateFileList();
+                }
+
+                function formatFileSize(bytes) {
+                    if (bytes === 0) return '0 Bytes';
+                    const k = 1024;
+                    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+                    const i = Math.floor(Math.log(bytes) / Math.log(k));
+                    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+                }
+
+                function updateFileList() {
+                    fileList.innerHTML = selectedFiles.map(item => `
+                        <div class="file-item">
+                            <div class="file-info">
+                                <i class="fas fa-file file-icon"></i>
+                                <div>
+                                    <div class="file-name">${item.file.name}</div>
+                                    <div class="file-size">${formatFileSize(item.file.size)}</div>
+                                </div>
+                            </div>
+                            <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
+                        </div>
+                    `).join('');
+                }
+
+                function handleSubmit() {
+                    if (selectedFiles.length === 0) {
+                        alert('请选择要上传的文件');
+                        return;
+                    }
+                    // 文件上传逻辑
+                    console.log('Files to upload:', selectedFiles);
+                    hideUploadModal();
+                }
+
+                // 点击模态框外部关闭
+                window.onclick = function(event) {
+                    const modal = document.getElementById('uploadModal');
+                    if (event.target == modal) {
+                        hideUploadModal();
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <script src="js/file.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+</html>
