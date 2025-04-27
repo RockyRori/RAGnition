@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from backend.root_path import PROJECT_ROOT
+from backend.root_path import PROJECT_ROOT, PIECES_DIR, POLICIES_DIR
 
 
 def read_txt(file_path):
@@ -34,18 +34,34 @@ def read_pdf(file_path):
 
 
 def read_docx(file_path):
-    """读取 doc/docx 文件（仅支持 docx 格式）"""
+    """读取 docx 文件（仅支持 docx 格式）"""
     doc = docx.Document(file_path)
     text = "\n".join([para.text for para in doc.paragraphs])
     return text
 
 
 def read_html(file_path):
-    """读取 html 文件，提取其中的文本"""
+    """
+    读取 html 文件，去掉脚本/导航等常见非正文标签，提取纯文本并去除多余空行
+    """
     with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-        soup = BeautifulSoup(content, 'html.parser')
-        return soup.get_text(separator="\n")
+        soup = BeautifulSoup(f, 'html.parser')
+
+    # 删除非正文标签
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer', 'aside', 'form']):
+        tag.decompose()
+
+    # 抽取文本，以换行分隔
+    raw_text = soup.get_text(separator="\n")
+
+    # 过滤掉空行和只有 1-2 个字符的行
+    lines = []
+    for line in raw_text.splitlines():
+        stripped = line.strip()
+        if len(stripped) > 2:
+            lines.append(stripped)
+
+    return "\n".join(lines)
 
 
 def read_file(file_path):
@@ -80,6 +96,8 @@ def segment_text(text, similarity_threshold=0.3):
     1. 如果当前段落的字数不足300字，则将下一段落的内容合并进来。
     2. 每个段落的开头复制上一段的最后一个完整句子作为冗余。
     """
+    # 多个空格合并成一个空格
+    text = re.sub(r'\s+', ' ', text)
     # 假定 split_sentences 是已定义的函数，用于将文本分割为句子列表
     sentences = split_sentences(text)
     if not sentences:
@@ -105,21 +123,20 @@ def segment_text(text, similarity_threshold=0.3):
     i = 0
     while i < len(segments) - 1:
         if len(segments[i]) < 300:
-            segments[i] = segments[i] + " " + segments[i+1]
-            del segments[i+1]
+            segments[i] = segments[i] + " " + segments[i + 1]
+            del segments[i + 1]
         else:
             i += 1
 
     # 后处理规则2：每个段落的开头复制上一段的最后一个完整句子作为冗余
     for i in range(1, len(segments)):
-        prev_segment = segments[i-1]
+        prev_segment = segments[i - 1]
         # 使用 split_sentences 提取上一段的句子列表
         prev_sentences = split_sentences(prev_segment)
         redundancy = prev_sentences[-1] if prev_sentences else ""
         segments[i] = redundancy + " " + segments[i]
 
     return segments
-
 
 
 def output_segments(segments, output_path, output_format="txt"):
@@ -160,8 +177,8 @@ def get_supported_files(folder):
 
 def splitting():
     # 硬编码配置参数
-    input_folder = input_folder = os.path.join(PROJECT_ROOT, "model", "documents")  # 输入文件夹路径，文件夹下所有支持格式的文件将参与处理
-    output_folder = os.path.join(PROJECT_ROOT, "model", "pieces")  # 输出文件夹路径，分割后的文件将存储于此文件夹内
+    input_folder = POLICIES_DIR  # 输入文件夹路径，文件夹下所有支持格式的文件将参与处理
+    output_folder = PIECES_DIR  # 输出文件夹路径，分割后的文件将存储于此文件夹内
     output_format = "txt"  # 输出格式：可选 "txt", "json", "pickle"
     similarity_threshold = 0.2  # 句子相似度阈值
 

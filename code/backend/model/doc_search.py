@@ -3,7 +3,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from backend.root_path import PROJECT_ROOT
+from backend.root_path import PROJECT_ROOT, PIECES_DIR
 
 
 def load_segments_from_file(file_path):
@@ -23,7 +23,7 @@ def load_segments_from_file(file_path):
     return seg_dicts
 
 
-def load_segments_from_folder(input_folder="pieces"):
+def load_segments_from_folder(input_folder):
     """
     遍历指定文件夹，读取所有文件中的文档片段。
     返回所有片段构成的列表。
@@ -96,7 +96,7 @@ def search_documents(search_query, document_segments, top_k=5):
 
 def searching():
     # 配置参数
-    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
+    input_folder = PIECES_DIR  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
     search_query = "gpa pass graduate"  # 用户的查询问题
     top_k = 3  # 返回相似度最高的前 5 个片段
 

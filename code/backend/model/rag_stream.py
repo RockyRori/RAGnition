@@ -10,7 +10,7 @@ import asyncio
 import json
 
 from backend.model.translation import sync_translate, async_translate
-from backend.root_path import PROJECT_ROOT
+from backend.root_path import PROJECT_ROOT, PIECES_DIR
 
 
 async def stream_answer(question: str, history: list):
@@ -28,7 +28,7 @@ async def stream_answer(question: str, history: list):
 
     # Measure document search time
     start_search = time.time()
-    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")
+    input_folder = PIECES_DIR
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder),
                                   top_k=4)

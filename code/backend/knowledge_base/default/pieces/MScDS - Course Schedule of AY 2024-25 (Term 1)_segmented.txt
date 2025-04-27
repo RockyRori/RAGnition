@@ -1,0 +1,630 @@
+--- Segment 1 ---
+Sunday Monday Tuesday Wednesday Thursday Friday Saturday
+01-Sep-2024 02-Sep-2024 03-Sep-2024 04-Sep-2024 05-Sep-2024 06-Sep-2024 07-Sep-2024
+9:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof.
+
+--- Segment 2 ---
+WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+(Cancelled)
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+08-Sep-2024 09-Sep-2024 10-Sep-2024 11-Sep-2024 12-Sep-2024 13-Sep-2024 14-Sep-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 3 ---
+DONG Chengzu
+LCH319CD
+08-Sep-2024 09-Sep-2024 10-Sep-2024 11-Sep-2024 12-Sep-2024 13-Sep-2024 14-Sep-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof.
+
+--- Segment 4 ---
+DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+15-Sep-2024 16-Sep-2024 17-Sep-2024 18-Sep-2024 19-Sep-2024 20-Sep-2024 21-Sep-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CDThe second day following 
+the Chinese Mid-Autumn 
+Festival9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 5 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CDThe second day following 
+the Chinese Mid-Autumn 
+Festival9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD1:00 PM - 4:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+MBG06
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof.
+
+--- Segment 6 ---
+DONG Chengzu
+MBG06
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+22-Sep-2024 23-Sep-2024 24-Sep-2024 25-Sep-2024 26-Sep-2024 27-Sep-2024 28-Sep-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 7 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CDMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+29-Sep-2024 30-Sep-2024 01-Oct-2024 02-Oct-2024 03-Oct-2024 04-Oct-2024 05-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 8 ---
+DONG Chengzu
+LCH319CDMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+29-Sep-2024 30-Sep-2024 01-Oct-2024 02-Oct-2024 03-Oct-2024 04-Oct-2024 05-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH115National Day  9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG01
+(Cancelled)9:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof.
+
+--- Segment 9 ---
+YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+06-Oct-2024 07-Oct-2024 08-Oct-2024 09-Oct-2024 10-Oct-2024 11-Oct-2024 12-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 10 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG01Chung Yeung Festival
+ 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+13-Oct-2024 14-Oct-2024 15-Oct-2024 16-Oct-2024 17-Oct-2024 18-Oct-2024 19-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 11 ---
+DONG Chengzu
+LCH319CD
+13-Oct-2024 14-Oct-2024 15-Oct-2024 16-Oct-2024 17-Oct-2024 18-Oct-2024 19-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof.
+
+--- Segment 12 ---
+DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD6:30 PM - 10:00 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+SEKG09
+20-Oct-2024 21-Oct-2024 22-Oct-2024 23-Oct-2024 24-Oct-2024 25-Oct-2024 26-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 13 ---
+WANG Meng
+SEKG09
+20-Oct-2024 21-Oct-2024 22-Oct-2024 23-Oct-2024 24-Oct-2024 25-Oct-2024 26-Oct-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof.
+
+--- Segment 14 ---
+DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+27-Oct-2024 28-Oct-2024 29-Oct-2024 30-Oct-2024 31-Oct-2024 01-Nov-2024 02-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 15 ---
+DONG Chengzu
+LCH319CD
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+27-Oct-2024 28-Oct-2024 29-Oct-2024 30-Oct-2024 31-Oct-2024 01-Nov-2024 02-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD
+(Cancelled) 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof.
+
+--- Segment 16 ---
+DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+03-Nov-2024 04-Nov-2024 05-Nov-2024 06-Nov-2024 07-Nov-2024 08-Nov-2024 09-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 17 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+(Cancelled)
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+10-Nov-2024 11-Nov-2024 12-Nov-2024 13-Nov-2024 14-Nov-2024 15-Nov-2024 16-Nov-2024
+9:00 AM - 12:30 PM
+CDS532 Programming for 
+Data Science
+Prof.
+
+--- Segment 18 ---
+DONG Chengzu
+LCH319CD
+10-Nov-2024 11-Nov-2024 12-Nov-2024 13-Nov-2024 14-Nov-2024 15-Nov-2024 16-Nov-2024
+9:00 AM - 12:30 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG01
+(Cancelled)9:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB
+(Cancelled) 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+(Cancelled)
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof.
+
+--- Segment 19 ---
+DONG Chengzu 
+LCH319CD
+(Cancelled)
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+(Cancelled)
+17-Nov-2024 18-Nov-2024 19-Nov-2024 20-Nov-2024 21-Nov-2024 22-Nov-2024 23-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 20 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CD 9:00 AM - 12:30 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+LCHLG019:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 1:30 PM – 5:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+LCH319CD
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD6:30 PM - 10:00 PM
+CDS534 Database 
+Management
+Prof.
+
+--- Segment 21 ---
+DONG Chengzu
+LCH319CD6:30 PM - 10:00 PM
+CDS534 Database 
+Management
+Prof. WANG Meng
+SEKG09
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+24-Nov-2024 25-Nov-2024 26-Nov-2024 27-Nov-2024 28-Nov-2024 29-Nov-2024 30-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof.
+
+--- Segment 22 ---
+WANG Meng
+SEKG09
+Sunday Monday Tuesday Wednesday Thursday Friday SaturdayMaster of Science in Data Science (MScDS) Programme
+Course Schedule (Term 1 of AY 2024-25)
+24-Nov-2024 25-Nov-2024 26-Nov-2024 27-Nov-2024 28-Nov-2024 29-Nov-2024 30-Nov-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD Congregation
+(Classes Suspended)9:00 AM - 12:30 PM 
+CDS535 Data Mining
+Prof. DONG Chengzu
+SEKG09
+1:30 PM - 5:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+LCH319AB 
+6:30 PM - 10:00 PM
+CDS528 Blockchain
+Prof.
+
+--- Segment 23 ---
+YU Lisha
+LCH319AB 
+6:30 PM - 10:00 PM
+CDS528 Blockchain
+Prof. DONG Chengzu 
+SEKG09 
+01-Dec-2024 02-Dec-2024 03-Dec-2024 04-Dec-2024 05-Dec-2024 06-Dec-2024 07-Dec-2024
+9:00 AM – 12:30 PM
+CDS530 Healthcare 
+Analytics
+Prof. LEE Kwan Yeung, 
+Kester
+LCH1159:30 AM - 1:00 PM
+CDS532 Programming for 
+Data Science
+Prof. LEE Kwan Yeung, 
+Kester
+LCH319CD 
+1:30 PM - 5:00 PM
+CDS535 Data Mining
+Prof.
+
+--- Segment 24 ---
+LEE Kwan Yeung, 
+Kester
+LCH319CD 
+1:30 PM - 5:00 PM
+CDS535 Data Mining
+Prof. DONG Chengzu
+LCH319AB4:30 PM - 8:00 PM
+CDS533 Statistics for Data 
+Science 
+Prof. YU Lisha
+MBG06
+6:00 PM - 9:30 PM
+CDS540 Computer Vision
+Prof. DONG Chengzu
+LCH319CD
+08-Dec-2024 09-Dec-2024 10-Dec-2024 11-Dec-2024 12-Dec-2024 13-Dec-2024 14-Dec-2024
+Term 1 Examinations
+15-Dec-2024 16-Dec-2024 17-Dec-2024 18-Dec-2024 19-Dec-2024 20-Dec-2024 21-Dec-2024
+Term 1 Examinations Term 1 Examinations Term 1 Examinations Term 1 Examinations Term 1 Examinations
+22-Dec-2024 23-Dec-2024 24-Dec-2024 25-Dec-2024 26-Dec-2024 27-Dec-2024 28-Dec-2024
+Term 1 Examinations Term 1 Examinations Christmas DayThe first weekday after 
+Christmas Day
+

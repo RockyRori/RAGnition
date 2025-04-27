@@ -11,7 +11,7 @@ from backend.model.ques_assemble import generate_search_query
 import time
 
 from backend.model.translation import sync_translate
-from backend.root_path import PROJECT_ROOT
+from backend.root_path import PROJECT_ROOT, PIECES_DIR
 
 
 def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
@@ -29,7 +29,7 @@ def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
 
     # Measure document search time
     start_search = time.time()
-    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")
+    input_folder = PIECES_DIR
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder),
                                   top_k=4)

@@ -15,7 +15,7 @@ from sqlalchemy.dialects.mysql import JSON
 from backend.model.rag import answer
 from backend.model.ques_assemble import generate_search_query
 from backend.model.doc_search import search_documents, load_segments_from_folder
-from backend.root_path import PROJECT_ROOT
+from backend.root_path import PROJECT_ROOT, PIECES_DIR
 
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
@@ -150,7 +150,7 @@ async def stream_question(session_id: str, question_id: str, current_question: s
     previous_questions_list = json.loads(previous_questions)
 
     search_query, _ = generate_search_query(current_question, previous_questions_list)
-    input_folder = os.path.join(PROJECT_ROOT, "model", "pieces")
+    input_folder = PIECES_DIR
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder),
                                   top_k=4)

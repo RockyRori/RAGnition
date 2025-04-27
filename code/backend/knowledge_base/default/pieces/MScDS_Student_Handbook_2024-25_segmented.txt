@@ -1,0 +1,523 @@
+--- Segment 1 ---
+1 
+  
+  
+ 
+ 
+ 
+Master of Science in Data Science  
+ 
+  
+PROGRAMME HANDBOOK  
+2024 -2025 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+  
+
+2 
+ Table of Contents  
+ 
+1. Programme Academic Calendar  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 2 ---
+. . . . . . . . . . . . . . . . . . . . . . 3 
+2. Programme Information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 
+2. 1. Background  . . . .
+
+--- Segment 3 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 
+2. 2. Aims and Programme Intended Learning Outcomes  . . . . . . . . . . . . . . . . . .
+
+--- Segment 4 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 
+2. 3. Mode of Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 
+2. 4. Normal and Maximum Duration of Study .
+
+--- Segment 5 ---
+Normal and Maximum Duration of Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 
+2. 5. Medium of Instruction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 6 ---
+. . . . . . . . . . . . . . . . . . . 5 
+2. 6. Contributing Departments/Units/External Partners  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 
+2. 7. Programme Structure  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 7 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 
+2. 8. Student Progression Requirements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 
+2.
+
+--- Segment 8 ---
+7 
+2. 9. Graduation Requirements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 
+2. 10. Award Classification  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 9 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 
+2. 11. Intermediate Award  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 10 ---
+. . . . . . . . . . . . . . . . . . . . . . . 9 
+2. 12. Degree Conferment Date  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 
+2. 13. Early Alert System . . . . . . . . .
+
+--- Segment 11 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 
+2. 14. Scholarships  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 12 ---
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
+2. 15. Official Communication Channel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+--- Segment 13 ---
+. 10 
+2. 16. Programme Contact Information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This Programme S tudent H andbook is subject to periodic review and changes may be made when 
+needed . Students will be informed of the changes as and when appropriate.
+
+--- Segment 14 ---
+Students will be informed of the changes as and when appropriate. (Last update: 23 August  2024) 
+  
+3 
+ 1. Programme Academic Calendar  
+ 
+ 
+
+4 
+ 2. Programme Information  
+ 
+2. 1. Background  
+In today's increasingly data -driven world, there is a growing demand for skilled professionals 
+who can effectively harness the power of data to drive informed decision- making, solve 
+complex problems, and unlock valuable insights. The Master of Science in Data Science (MScDS) is offered and managed by the Division of 
+Artificial Intelligence, School of Data Science, Lingnan University.
+
+--- Segment 15 ---
+The Master of Science in Data Science (MScDS) is offered and managed by the Division of 
+Artificial Intelligence, School of Data Science, Lingnan University. It is designed in a multidisciplinary fashion, which combines the applications of computer technology, operational research, statistical modelling with real- world problem solving. It covers the 
+frontiers of knowledge in data science, with topics in new and emerging technologies such as 
+(generative) AI and multimedia technologies (text, image, etc).
+
+--- Segment 16 ---
+It covers the 
+frontiers of knowledge in data science, with topics in new and emerging technologies such as 
+(generative) AI and multimedia technologies (text, image, etc). Information regarding this 
+full-time programme is given below. Title in English: Master of Science in Data Science  
+Title in Chinese: 數據科學理學碩士課程  
+Normal study duration: One year   
+ 
+2. 2. Aims and Programme Intended Learning Outcomes  
+ 
+2. 2. 1. Aims  
+The programme aims to:  
+• Foster students to explore and push the boundaries of data science, through 
+developing approaches, algorithms, and solutions to address emerging challenges 
+in real world.
+
+--- Segment 17 ---
+Aims  
+The programme aims to:  
+• Foster students to explore and push the boundaries of data science, through 
+developing approaches, algorithms, and solutions to address emerging challenges 
+in real world. • Encourage collaboration and integration of knowledge from various disciplines, leveraging insights from statistics, computer science, mathematics, and domain -
+specific domains (e. g. , health, business, etc). • Provide students with hands -on experience and real -world projects to develop skills 
+that are directly applicable to industry and research settings.
+
+--- Segment 18 ---
+• Provide students with hands -on experience and real -world projects to develop skills 
+that are directly applicable to industry and research settings. 2. 2. 2. Programme Intended Learning Outcomes (PILO s)  
+On completing the MScDS programme, students will be able to:  
+PILO1. Synthesize the knowledge and skills required to function effectively as 
+artificial intelligence (AI) specialists, data science professionals, and entrepreneurs in the industry.
+
+--- Segment 19 ---
+Synthesize the knowledge and skills required to function effectively as 
+artificial intelligence (AI) specialists, data science professionals, and entrepreneurs in the industry. PILO2. Plan and effectively compare contemporary AI, data analytics and other Information Technology techniques for managing, mining, analyzing and 
+visualizing data across multiple disciplines . PILO3. Design, implement, deploy, and manage the solutions for real -world problems 
+using industry- standard data science tools, programming languages, and 
+software platforms .
+
+--- Segment 20 ---
+Design, implement, deploy, and manage the solutions for real -world problems 
+using industry- standard data science tools, programming languages, and 
+software platforms . PILO4. Develop critical thinking and problem -solving skills to identify appropriate 
+5 
+ data science methods, tools, and algorithms for specific real -world problems 
+and to evaluate their performance and limitations in different scenarios. PILO5. Recognize the ethical and responsible use of data science methods and tools, 
+including security, privacy, fairness, transparency, and accountability in data 
+collection, analysis, and decision- making processes.
+
+--- Segment 21 ---
+Recognize the ethical and responsible use of data science methods and tools, 
+including security, privacy, fairness, transparency, and accountability in data 
+collection, analysis, and decision- making processes. PILO6. Deliver the findings and communicate to stakeholders of a variety of diverse backgrounds. 2. 3. Mode of Study  
+ 
+Full-time 
+ 
+ 
+2. 4. Normal and Maximum Duration of Study  
+  
+Mode of Study  Minimum Study Period Maximum Study Period  
+Full-time 1 year  3 years  
+ 
+ 
+2. 5. Medium of Instruction  
+ 
+The medium of instruction is English.
+
+--- Segment 22 ---
+Medium of Instruction  
+ 
+The medium of instruction is English. 2. 6. Contributing Departments/Units/External Partners  
+ 
+Division of Artificial Intelligence, School of Data Science  
+  
+2. 7. Programme Structure  
+ 
+2. 7. 1. Curriculum  
+Students are required to complete a total of thirty credits, consisting of six required 
+courses and four elective courses, for the award of the MSc DS degree.
+
+--- Segment 23 ---
+Curriculum  
+Students are required to complete a total of thirty credits, consisting of six required 
+courses and four elective courses, for the award of the MSc DS degree. These courses 
+can have different combinations of lectures, laboratory sessions, tutorials, and/or seminars. The normal duration for the MSc DS programme is one year of full -time study. Students may extend the study period up to a maximum duration of three years, subject to the approval of the Programme Director  and Person -in-Charge of the Division.
+
+--- Segment 24 ---
+Students may extend the study period up to a maximum duration of three years, subject to the approval of the Programme Director  and Person -in-Charge of the Division. Course Code  Course Title  Credit  
+Core Courses  
+CDS 532 Programming for Data Science  3 
+6 
+ CDS533 Statistics for Data Science  3 
+CDS534 Database Management  3 
+CDS535 Data Mining  3 
+CDS536 Data Science Project  3 
+CDS521 Foundation of Artificial intelligence  3 
+CDS524 Machine Learning for Business  3 
+Elective Courses (Choose any 3)  
+CDS537 Introduction to Cyber Security  3 
+CDS538 Cloud Computing  3 
+CDS539 Natural Language Processing  3 
+CDS540 Computer Vision  3 
+CDS541 Operations Management  3 
+CDS542 Data Visualization  3 
+CDS543 Social Computing  3 
+CDS544 Mobile Edge Computing  3 
+CDS515 Business Decision Making with Software  3 
+CDS525 Practical Application of Deep Learning  3 
+CDS527 Big Data Analytics  3 
+CDS528 Blockchain  3 
+CDS530 Healthcare Analytics  3 
+SCI501  Geospatial Intelligence for Sustainable Development  3 
+Total  30 
+ 
+ 
+2.
+
+--- Segment 25 ---
+Course Code  Course Title  Credit  
+Core Courses  
+CDS 532 Programming for Data Science  3 
+6 
+ CDS533 Statistics for Data Science  3 
+CDS534 Database Management  3 
+CDS535 Data Mining  3 
+CDS536 Data Science Project  3 
+CDS521 Foundation of Artificial intelligence  3 
+CDS524 Machine Learning for Business  3 
+Elective Courses (Choose any 3)  
+CDS537 Introduction to Cyber Security  3 
+CDS538 Cloud Computing  3 
+CDS539 Natural Language Processing  3 
+CDS540 Computer Vision  3 
+CDS541 Operations Management  3 
+CDS542 Data Visualization  3 
+CDS543 Social Computing  3 
+CDS544 Mobile Edge Computing  3 
+CDS515 Business Decision Making with Software  3 
+CDS525 Practical Application of Deep Learning  3 
+CDS527 Big Data Analytics  3 
+CDS528 Blockchain  3 
+CDS530 Healthcare Analytics  3 
+SCI501  Geospatial Intelligence for Sustainable Development  3 
+Total  30 
+ 
+ 
+2. 7. 2. List of Courses for 2024- 25  
+Required Courses:  
+• CDS532 Programming for Data Science  
+• CDS533 Statistics for Data Science 
+• CDS534 Database Management  
+• CDS535 Data Mining  
+• CDS536 Data Science Project  
+• CDS5 21 Foundation of Artificial Intelligence  
+• CDS524 Machine Learning for Business  
+ 
+Elective Courses*:  
+• CDS 525 Practical Application of Deep Learning  
+• CDS527  Big Data Analytics  
+• CDS528  Blockchain  
+• CDS530  Healthcare Analytics  
+• CDS5 40 Computer Vision  
+* Offering of the elective courses is subject to sufficient demand and faculty availability.
+
+--- Segment 26 ---
+List of Courses for 2024- 25  
+Required Courses:  
+• CDS532 Programming for Data Science  
+• CDS533 Statistics for Data Science 
+• CDS534 Database Management  
+• CDS535 Data Mining  
+• CDS536 Data Science Project  
+• CDS5 21 Foundation of Artificial Intelligence  
+• CDS524 Machine Learning for Business  
+ 
+Elective Courses*:  
+• CDS 525 Practical Application of Deep Learning  
+• CDS527  Big Data Analytics  
+• CDS528  Blockchain  
+• CDS530  Healthcare Analytics  
+• CDS5 40 Computer Vision  
+* Offering of the elective courses is subject to sufficient demand and faculty availability. 7 
+ 2. 7. 3. Curriculum Mapping  
+ 
+ Programme Intended 
+Learning Outcomes 
+(PILO s) 
+Required courses  1 2 3 4 5 6 
+CDS532 Programming for Data Science        
+CDS533 Statistics for Data Science       
+CDS534 Database Management        
+CDS535 Data Mining        
+CDS536 Data Science Project        
+CDS521 Foundation of Artificial Intelligence        
+CDS524 Machine Learning for Business        
+Elective Courses   
+CDS537  Introduction to Cyber Security       
+CDS538  Cloud Computing        
+CDS539  Natural Language Processing        
+CDS540  Computer Vision        
+CDS541  Operations Management        
+CDS542  Data Visualization        
+CDS543  Social Computing        
+CDS544  Mobile Edge Computing       
+CDS515  Business Decision Making with Software        
+CDS525  Practical Application of Deep Learning        
+CDS527  Big Data Analytics        
+CDS528  Blockchain        
+CDS530  Healthcare Analytics        
+SCI501 Geospatial Intelligence for Sustainable Development        
+ 
+ 
+2.
+
+--- Segment 27 ---
+Curriculum Mapping  
+ 
+ Programme Intended 
+Learning Outcomes 
+(PILO s) 
+Required courses  1 2 3 4 5 6 
+CDS532 Programming for Data Science        
+CDS533 Statistics for Data Science       
+CDS534 Database Management        
+CDS535 Data Mining        
+CDS536 Data Science Project        
+CDS521 Foundation of Artificial Intelligence        
+CDS524 Machine Learning for Business        
+Elective Courses   
+CDS537  Introduction to Cyber Security       
+CDS538  Cloud Computing        
+CDS539  Natural Language Processing        
+CDS540  Computer Vision        
+CDS541  Operations Management        
+CDS542  Data Visualization        
+CDS543  Social Computing        
+CDS544  Mobile Edge Computing       
+CDS515  Business Decision Making with Software        
+CDS525  Practical Application of Deep Learning        
+CDS527  Big Data Analytics        
+CDS528  Blockchain        
+CDS530  Healthcare Analytics        
+SCI501 Geospatial Intelligence for Sustainable Development        
+ 
+ 
+2. 8. Student Progression Requirements  
+ 
+2. 8. 1 Minimum CGPA requirement for progression of this programme is 2. 50 out of 4. 0. 2. 8. 2 A student should be subject to an academic review at the end of each term generally. In 
+the case where a student enrolled in less than 6 credits in a term, the academic review 
+8 
+ shall be done when he/she has cumulatively enrolled in 6 credits or more.
+
+--- Segment 28 ---
+In 
+the case where a student enrolled in less than 6 credits in a term, the academic review 
+8 
+ shall be done when he/she has cumulatively enrolled in 6 credits or more. 2. 8. 3 Students who failed to meet to minimum CGPA requirement for progression would be 
+closely considered by the Programme on their academic quality or standard, to see if a 
+chance of continuation, i. e. putting the students on academic probation; or 
+discontinuat ion of studies from the programme would be recommended to the 
+Postgraduate Studies Committee for consideration.
+
+--- Segment 29 ---
+putting the students on academic probation; or 
+discontinuat ion of studies from the programme would be recommended to the 
+Postgraduate Studies Committee for consideration. 2. 8. 4 At the end of the term in which the student on academic probation has cumulatively 
+enrolled in 6 or more credits, if he/she obtains a Cumulative GPA of 2. 50  or above, 
+probation will be lifted. Otherwise, his/her studies will be discontinued. 2. 8. 5 A student may be put on academic probation for only one time during his/her whole 
+period of study on the programme. After the academic probation is lifted and the student 
+continues on the programme, the student will be discontinued from his/her studies if 
+his/her Cumulative GPA is below 2.
+
+--- Segment 30 ---
+After the academic probation is lifted and the student 
+continues on the programme, the student will be discontinued from his/her studies if 
+his/her Cumulative GPA is below 2. 50 at an academic review. 2. 8. 6 A warning concerning the need to improve his/her academic performance should be 
+issued to a student whose Cumulative GPA is at or above the level required for 
+progression but below the level for graduation. The warning should be sent to a student 
+whose Cum ulative GPA is at or above 2.
+
+--- Segment 31 ---
+The warning should be sent to a student 
+whose Cum ulative GPA is at or above 2. 33 but below 2. 67 (which is the minimum 
+required for graduation). 2. 9. Graduation Requirements  
+ 
+2. 9. 1. A student will be evaluated for graduation at the conclusion of the term in which he/she 
+may satisfy all the conditions for an award. If a student is not allowed to graduate, 
+he/she will be re- evaluated for graduation at the end of subsequent terms .
+
+--- Segment 32 ---
+If a student is not allowed to graduate, 
+he/she will be re- evaluated for graduation at the end of subsequent terms . 2. 9. 2. The student should have fulfilled all graduation requirements stipulated in the curriculum of his/her programme. The University reserves the right to make 
+amendments to academic programmes from time to time as approved by the Senate. 2. 9. 3. For graduation, students are required to complete a total of 10 courses of 30 credits as specified in the programme curriculum, including 7 required courses and 3 elective 
+courses .
+
+--- Segment 33 ---
+For graduation, students are required to complete a total of 10 courses of 30 credits as specified in the programme curriculum, including 7 required courses and 3 elective 
+courses . 2. 9. 4. The cumulative grade point average that a student should have obtained for graduation 
+shall not be below 2. 67. 2. 9. 5. If a student was admitted to the programme with an English test score just below the minimum as specified in Section 3. 2 of the Regulations Governing Taught Master’s 
+Degree Programmes, the student is required to fulfil an exit requirement on English 
+langua ge competency before graduation.
+
+--- Segment 34 ---
+2 of the Regulations Governing Taught Master’s 
+Degree Programmes, the student is required to fulfil an exit requirement on English 
+langua ge competency before graduation. 2. 9. 6. A student is required to graduate as soon as he/she satisfies all the conditions for an award . 9 
+ 2. 9. 7. A student may graduate upon completion of all requirements at the end of any term in 
+an academic year . 2. 9. 8. A student’s eligibility for graduation is subject to Senate approval .
+
+--- Segment 35 ---
+A student’s eligibility for graduation is subject to Senate approval . 2. 10. Award Classification  
+ 
+2. 10. 1  A student who has fulfilled all the requirements for graduation will be awarded a MSc 
+degree with one of the following classifications:   
+ 
+Degree Classification  Minimum Cumulative G. P. A. Required  
+Distinction  3. 50 
+Pass 2. 67 
+ 
+2. 10. 2  These classifications are given according to the student's Cumulative G.
+
+--- Segment 36 ---
+2  These classifications are given according to the student's Cumulative G. P. A. 2. 11. Intermediate Award  
+ 
+2. 11. 1  Students will be awarded a Postgraduate Diploma in Data Science ((數據科學深造
+文憑) if they complete any four required courses with a minimum Cumulative GPA 
+of 2. 33. 2. 11. 2  Acceptance of an intermediate award implies an intention not to complete the final 
+award. Where students seek re -admission to complete the award, readmission cannot 
+be guaranteed. Where students are readmitted and go on to complete the award, their 
+transcr ipts will indicate that the intermediate award has been superseded.
+
+--- Segment 37 ---
+Where students are readmitted and go on to complete the award, their 
+transcr ipts will indicate that the intermediate award has been superseded. 2. 12. Degree Conferment Date  
+ 
+Awards of this programme will be conferred on 31 March, 31 August or 15 November in 
+each academic year. Students shall be invited to indicate their preferred degree conferment 
+date. 2. 13. Early Alert System  
+ 
+To enhance support for a student with potential study problems, the Programme Curriculum 
+Committee (PCC) of the programme will give an early warning/advice to the student or may 
+10 
+ have a special consideration for the student's chance of study continuation, which depends 
+on the conditions specified below.
+
+--- Segment 38 ---
+Early Alert System  
+ 
+To enhance support for a student with potential study problems, the Programme Curriculum 
+Committee (PCC) of the programme will give an early warning/advice to the student or may 
+10 
+ have a special consideration for the student's chance of study continuation, which depends 
+on the conditions specified below. • If a student's Cumulative G. P. A. is equal to or greater than 2. 50 but smaller than 2. 67, 
+then the PCC of the MSc DS Programme will give an early warning/advice to the 
+student. • If a student's Cumulative G. P. A. is smaller than 2. 50 but equal to or greater than 2. 33 
+(equivalent to "C+"), then the PCC of the MSc DS Programme may have a special 
+consideration for the student's chance of study continuation.
+
+--- Segment 39 ---
+33 
+(equivalent to "C+"), then the PCC of the MSc DS Programme may have a special 
+consideration for the student's chance of study continuation. Here, the cumulative 
+G. P. A. of 2. 33 is regarded as the minimum Cumulative G. P. A. threshold for special consideration for a chance of continuation. • If the student satisfies the Cumulative G. P. A. requirement for special consideration, 
+then the student can apply for an interview to be conducted by the Programme Director , 
+who will closely consider the student's eligibility for continuation and then report their recommendation to the Board of Examiners for the MSc DS Programme. The Board of 
+Examiners will make a decision on the marginal case and report their thinking and decision to the University's Postgraduate Studies Committee (PSC) for information, or make recommendations on the marginal case for special consideration by the PSC for 
+a chance of continuation. If approved by the PSC, the student who is given a chance of continuation will be put on academic probation in the following term, the academic 
+probation will be lifted if he/she obtains a cumulative GPA of 2.
+
+--- Segment 40 ---
+If approved by the PSC, the student who is given a chance of continuation will be put on academic probation in the following term, the academic 
+probation will be lifted if he/she obtains a cumulative GPA of 2. 5 or above. 2. 14. Scholarships  
+ 
+Scholarships might be considered for outstanding students on the basis of academic merit. All students admitted to the programme  will automatically be the candidates for the 
+scholarships. No application is required . 2. 15. Official Communication Channel  
+ 
+Email is the official communication channel in Lingnan University. Students should use 
+their Lingnan student email account to exchange messages with members of the University .
+
+--- Segment 41 ---
+Students should use 
+their Lingnan student email account to exchange messages with members of the University . 2. 16. Programme Contact Information  
+   
+  Staff and Contacts of MSc DS Programme Office  
+   
+Name (Post)  
+Telephone  Office  Email  
+11 
+ Prof. SHEN Jiaxing  
+(Programme Director)  2616 8377  
+ AD105/ 6 jiaxingshen @ln. edu. hk  
+Ms. LIAO Carmen  
+(Senior Programme 
+Officer ) 2616 8096  
+ AD105  
+ jiaminliao @ln.
+
+--- Segment 42 ---
+LIAO Carmen  
+(Senior Programme 
+Officer ) 2616 8096  
+ AD105  
+ jiaminliao @ln. edu. hk  
+Ms. WANG Hanqi  
+(Programme Officer ) 2616 8090  
+ AD105  hannahwang@ln. edu. hk  
+Mr. HE Harry  
+(Assistant Teaching 
+Officer)  - AD105  yugaohe@ln. edu. hk
+
