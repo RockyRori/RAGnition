@@ -1,13 +1,13 @@
-import os
+import random
+import json
+import uvicorn
 
-from fastapi import FastAPI, HTTPException, status, Depends
+from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form
 from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime
-import uvicorn
 from fastapi.responses import StreamingResponse
 from backend.model.rag_stream import stream_answer
-import json
 from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
@@ -180,6 +180,80 @@ async def list_files(db: Session = Depends(get_db)):
             }
             for file in files
         ]
+    }
+
+
+def generate_file_id() -> str:
+    """生成 file_id: file- + YYYYMMDD + 三位随机数"""
+    date_part = datetime.utcnow().strftime("%Y%m%d")
+    rand_part = f"{random.randint(0, 999):03d}"
+    return f"file-{date_part}{rand_part}"
+
+
+def summarize_content(content: bytes) -> str:
+    """
+    如果需要，可在此处实现对文件内容（如 TXT、PDF、DOCX）进行文本抽取和摘要生成。
+    如果暂不方便，则直接返回空字符串，后续再行处理。
+    """
+    # placeholder, 暂不生成摘要
+    return "generating description"
+
+
+@app.post("/api/v1/files")
+async def upload_file(
+        file: UploadFile = File(...),
+        db: Session = Depends(get_db)
+):
+    content = await file.read()
+    if not content:
+        raise HTTPException(status_code=400, detail="Empty file")
+
+    # 1. 生成新的 file_id
+    file_id = generate_file_id()
+
+    # 2. 计算并格式化文件大小
+    size_kb = len(content) / 1024
+    file_size = f"{size_kb:.1f}KB" if size_kb < 1024 else f"{size_kb / 1024:.1f}MB"
+
+    # 3. 生成文件描述（暂为空或摘要）
+    file_description = summarize_content(content)
+
+    # 4. 检查同名文件，若存在则覆盖
+    existing = db.query(DBFile).filter(DBFile.file_name == file.filename).first()
+    if existing:
+        existing.file_content = content
+        existing.file_size = file_size
+        existing.file_description = file_description
+        existing.uploaded_at = datetime.utcnow()
+        db.commit()
+        db.refresh(existing)
+        return {
+            "file_id": existing.file_id,
+            "file_name": existing.file_name,
+            "file_description": existing.file_description,
+            "uploaded_at": existing.uploaded_at,
+            "file_size": existing.file_size,
+            "message": "Existing file overwritten"
+        }
+
+    # 5. 不存在则新建
+    new_file = DBFile(
+        file_id=file_id,
+        file_name=file.filename,
+        file_description=file_description,
+        file_content=content,
+        file_size=file_size
+    )
+    db.add(new_file)
+    db.commit()
+    db.refresh(new_file)
+    return {
+        "file_id": new_file.file_id,
+        "file_name": new_file.file_name,
+        "file_description": new_file.file_description,
+        "uploaded_at": new_file.uploaded_at,
+        "file_size": new_file.file_size,
+        "message": "File uploaded"
     }
 
 

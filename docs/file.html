@@ -87,7 +87,7 @@
                 // 获取文件列表
                 async function fetchFileList() {
                     try {
-                        const response = await fetch('http://localhost:8536/api/v1/files/list');
+                        const response = await fetch(URLS.FILES_LIST);
                         if (!response.ok) {
                             throw new Error(`HTTP error! status: ${response.status}`);
                         }
@@ -210,14 +210,35 @@
                     `).join('');
                 }
 
-                function handleSubmit() {
+                async function handleSubmit() {
                     if (selectedFiles.length === 0) {
                         alert('请选择要上传的文件');
                         return;
                     }
-                    // 文件上传逻辑
-                    console.log('Files to upload:', selectedFiles);
-                    hideUploadModal();
+
+                    try {
+                        for (const item of selectedFiles) {
+                            const formData = new FormData();
+                            formData.append('file', item.file);
+
+                            const resp = await fetch(URLS.FILE_UPLOAD, {
+                                method: 'POST',
+                                body: formData
+                            });
+                            if (!resp.ok) {
+                                throw new Error(`上传失败：${resp.status}`);
+                            }
+                            const result = await resp.json();
+                            console.log('上传结果：', result);
+                        }
+
+                        hideUploadModal();
+                        fetchFileList();
+                        alert('文件上传成功！');
+                    } catch (err) {
+                        console.error(err);
+                        alert('上传出错：' + err.message);
+                    }
                 }
 
                 // 点击模态框外部关闭
