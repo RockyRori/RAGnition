@@ -10,6 +10,7 @@ from backend.model.ques_assemble import generate_search_query
 # RAG回答用户提问
 import time
 
+from backend.model.translation import sync_translate
 from backend.root_path import PROJECT_ROOT
 
 
@@ -22,6 +23,7 @@ def answer(question: str, history: List[str]) -> Tuple[str, List[str]]:
 
     # Measure query generation time
     start_generate = time.time()
+    question = sync_translate(question)
     search_query, assembled_question = generate_search_query(question, history)
     generate_time = time.time() - start_generate
 

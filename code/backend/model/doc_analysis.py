@@ -76,19 +76,22 @@ def split_sentences(text):
 def segment_text(text, similarity_threshold=0.3):
     """
     使用 TF-IDF 对句子向量化，计算相邻句子的余弦相似度进行分割。
-    在生成分割片段后，如果某个片段的字符数小于28（除第一个片段外），
-    则将该片段合并到前一个片段中。
+    分割后增加以下两条规则：
+    1. 如果当前段落的字数不足300字，则将下一段落的内容合并进来。
+    2. 每个段落的开头复制上一段的最后一个完整句子作为冗余。
     """
+    # 假定 split_sentences 是已定义的函数，用于将文本分割为句子列表
     sentences = split_sentences(text)
     if not sentences:
         return []
 
+    # 使用 TF-IDF 对句子进行向量化
     vectorizer = TfidfVectorizer().fit(sentences)
     vectors = vectorizer.transform(sentences)
 
+    # 根据相邻句子的余弦相似度初步进行分段
     segments = []
     current_segment = sentences[0]
-
     for i in range(len(sentences) - 1):
         sim = cosine_similarity(vectors[i], vectors[i + 1])[0][0]
         if sim < similarity_threshold:
@@ -98,15 +101,25 @@ def segment_text(text, similarity_threshold=0.3):
             current_segment += " " + sentences[i + 1]
     segments.append(current_segment)
 
-    # 后处理：如果分割出的片段字符数小于28，且不是第一个片段，则合并到前一个片段中
-    merged_segments = []
-    for seg in segments:
-        if merged_segments and len(seg) < 81:
-            merged_segments[-1] += " " + seg
+    # 后处理规则1：如果当前段落字数不足300字，则将下一段的内容合并进来
+    i = 0
+    while i < len(segments) - 1:
+        if len(segments[i]) < 300:
+            segments[i] = segments[i] + " " + segments[i+1]
+            del segments[i+1]
         else:
-            merged_segments.append(seg)
+            i += 1
 
-    return merged_segments
+    # 后处理规则2：每个段落的开头复制上一段的最后一个完整句子作为冗余
+    for i in range(1, len(segments)):
+        prev_segment = segments[i-1]
+        # 使用 split_sentences 提取上一段的句子列表
+        prev_sentences = split_sentences(prev_segment)
+        redundancy = prev_sentences[-1] if prev_sentences else ""
+        segments[i] = redundancy + " " + segments[i]
+
+    return segments
+
 
 
 def output_segments(segments, output_path, output_format="txt"):

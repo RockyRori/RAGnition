@@ -51,6 +51,10 @@ QA system is both efficient and accurate for real-time policy inquiries.
    medical large language model via graph retrieval-augmented generation. arXiv preprint arXiv:2408.04187.
 4. https://www.cnblogs.com/tgltt/p/18512586
 
+# System Architecture
+
+![architecture.png](figuras/architecture.png)
+
 # RAGnition Talk Series
 
 ### RAGnition Talk 1
