@@ -1,3 +1,5 @@
+// js/index.js
+
 const translations = {
     'zh-CN': {
         'welcome': '欢迎回来，RAGnition',
@@ -36,8 +38,8 @@ const translations = {
 
 let currentLang = localStorage.getItem('lang') || 'en';
 updateLanguage(currentLang);
-document.querySelector('#languageDropdown').textContent = 
-    currentLang === 'zh-CN' ? '简体中文' : 
+document.querySelector('#languageDropdown').textContent =
+    currentLang === 'zh-CN' ? '简体中文' :
     currentLang === 'zh-TW' ? '繁體中文' : 'English';
 
 document.querySelectorAll('[data-lang]').forEach(item => {
@@ -47,8 +49,8 @@ document.querySelectorAll('[data-lang]').forEach(item => {
         currentLang = lang;
         localStorage.setItem('lang', lang);
         updateLanguage(lang);
-        document.querySelector('#languageDropdown').textContent = 
-            lang === 'zh-CN' ? '简体中文' : 
+        document.querySelector('#languageDropdown').textContent =
+            lang === 'zh-CN' ? '简体中文' :
             lang === 'zh-TW' ? '繁體中文' : 'English';
     });
 });
@@ -65,11 +67,11 @@ function updateLanguage(lang) {
             link.textContent = translations[lang]['file'];
         }
     });
-    
+
     document.querySelectorAll('.card h3').forEach((card, index) => {
         card.textContent = translations[lang][`kb${index + 1}`];
     });
-    
+
     document.querySelectorAll('.card small').forEach(doc => {
         const count = doc.textContent.split(' ')[0];
         doc.textContent = `${count} ${translations[lang]['docs']}`;

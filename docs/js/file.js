@@ -1,3 +1,5 @@
+// js/file.js
+
 const translations = {
     'zh-CN': {
         'welcome': '欢迎回来，RAGnition',
@@ -57,8 +59,8 @@ const translations = {
 
 let currentLang = localStorage.getItem('lang') || 'en';
 updateLanguage(currentLang);
-document.querySelector('#languageDropdown').textContent = 
-    currentLang === 'zh-CN' ? '简体中文' : 
+document.querySelector('#languageDropdown').textContent =
+    currentLang === 'zh-CN' ? '简体中文' :
     currentLang === 'zh-TW' ? '繁體中文' : 'English';
 
 document.querySelectorAll('[data-lang]').forEach(item => {
@@ -68,8 +70,8 @@ document.querySelectorAll('[data-lang]').forEach(item => {
         currentLang = lang;
         localStorage.setItem('lang', lang);
         updateLanguage(lang);
-        document.querySelector('#languageDropdown').textContent = 
-            lang === 'zh-CN' ? '简体中文' : 
+        document.querySelector('#languageDropdown').textContent =
+            lang === 'zh-CN' ? '简体中文' :
             lang === 'zh-TW' ? '繁體中文' : 'English';
     });
 });
@@ -84,7 +86,7 @@ function updateLanguage(lang) {
             link.textContent = translations[lang]['file'];
         }
     });
-    
+
     // Update table headers
     const ths = document.querySelectorAll('.table thead th');
     if (ths.length >= 5) {
@@ -94,27 +96,27 @@ function updateLanguage(lang) {
         ths[3].textContent = translations[lang]['file_size'];
         ths[4].textContent = translations[lang]['operation'];
     }
-    
+
     document.querySelectorAll('.badge.bg-secondary').forEach(badge => {
         badge.textContent = translations[lang]['preview'];
     });
-    
+
     // Update upload button and modal elements
     const uploadBtn = document.querySelector('.upload-btn');
     if (uploadBtn) {
         uploadBtn.innerHTML = `<i class="fas fa-upload"></i> ${translations[lang]['upload_file']}`;
     }
-    
+
     const uploadTitle = document.querySelector('#uploadModal h3');
     if (uploadTitle) {
         uploadTitle.textContent = translations[lang]['upload_title'];
     }
-    
+
     const uploadHint = document.querySelector('#dropZone p');
     if (uploadHint) {
         uploadHint.textContent = translations[lang]['upload_hint'];
     }
-    
+
     const submitBtn = document.querySelector('.submit-btn');
     if (submitBtn) {
         submitBtn.textContent = translations[lang]['submit'];

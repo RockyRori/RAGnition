@@ -8,242 +8,8 @@
     <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #2563eb;
-            --hover-color: #1d4ed8;
-            --border-radius: 12px;
-            --button-gradient: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
-        }
+    <link href="css/file.css" rel="stylesheet">
 
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            background: #f8fafc;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .navbar {
-            background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-            padding: 0.5rem 1rem;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-        }
-
-        .navbar-brand {
-            font-weight: 600;
-            color: var(--primary-color);
-        }
-
-        .nav-link {
-            color: #4b5563;
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            transition: all 0.2s;
-        }
-
-        .nav-link:hover {
-            background: #f0f6ff;
-            color: var(--primary-color);
-        }
-
-        .nav-link.active {
-            background: #f0f6ff;
-            color: var(--primary-color);
-        }
-
-        .content-wrapper {
-            margin-top: 56px;
-            padding: 2rem;
-            flex: 1;
-        }
-
-        .table {
-            background: white;
-            border-radius: var(--border-radius);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-        }
-
-        .table thead th {
-            background: #f8fafc;
-            border-bottom: 2px solid #e9ecef;
-            color: #4b5563;
-            font-weight: 600;
-            padding: 16px;
-            text-align: center;
-        }
-
-        .table tbody td {
-            padding: 16px;
-            border-bottom: 1px solid #e9ecef;
-            color: #4b5563;
-            text-align: center;
-            vertical-align: middle;
-        }
-
-        .table tbody tr:hover {
-            background: #f8fafc;
-        }
-
-        .table .badge {
-            padding: 6px 12px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .table .badge:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .upload-btn {
-            background: var(--button-gradient);
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: var(--border-radius);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            width: 100%;
-            justify-content: center;
-        }
-
-        .upload-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-        }
-
-        .modal-content {
-            position: relative;
-            background: white;
-            width: 500px;
-            max-width: 90%;
-            margin: 100px auto;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        .close-btn {
-            position: absolute;
-            right: 20px;
-            top: 20px;
-            font-size: 24px;
-            cursor: pointer;
-            color: #666;
-        }
-
-        .drop-zone {
-            border: 2px dashed #e9ecef;
-            border-radius: 8px;
-            padding: 40px;
-            text-align: center;
-            margin: 20px 0;
-            transition: all 0.3s ease;
-        }
-
-        .drop-zone.dragover {
-            border-color: #2563eb;
-            background: #f0f6ff;
-        }
-
-        .drop-zone i {
-            font-size: 48px;
-            color: #2563eb;
-            margin-bottom: 16px;
-        }
-
-        .file-list {
-            margin-top: 20px;
-            max-height: 200px;
-            overflow-y: auto;
-        }
-
-        .file-item {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 12px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            margin-bottom: 8px;
-            border: 1px solid #e9ecef;
-        }
-
-        .file-info {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .file-icon {
-            color: #2563eb;
-            font-size: 20px;
-        }
-
-        .file-name {
-            font-size: 14px;
-            color: #333;
-        }
-
-        .file-size {
-            font-size: 12px;
-            color: #666;
-            white-space: nowrap;
-        }
-
-        .remove-file {
-            color: #dc3545;
-            cursor: pointer;
-            padding: 4px;
-            border-radius: 4px;
-            transition: all 0.2s;
-        }
-
-        .remove-file:hover {
-            background: #ffebee;
-        }
-
-        .submit-btn {
-            background: #2563eb;
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
-            cursor: pointer;
-            width: 100%;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-
-        .submit-btn:hover {
-            background: #1d4ed8;
-        }
-    </style>
 </head>
 
 <body>
@@ -265,6 +31,18 @@
                         <a class="nav-link active" href="file.html">文件</a>
                     </li>
                 </ul>
+                <div class="ms-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item" data-lang="zh-CN">简体中文</a></li>
+                            <li><a class="dropdown-item" data-lang="zh-TW">繁體中文</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -304,19 +82,31 @@
             </div>
 
             <script>
-                const API_BASE = 'http://localhost:8536/api/v1';
-                // const API_BASE = 'https://ipaq-brass-patch-travis.trycloudflare.com/api/v1';
                 let selectedFiles = [];
 
                 // 获取文件列表
                 async function fetchFileList() {
                     try {
-                        const response = await fetch(`${API_BASE}/files/list`);
+                        const response = await fetch('http://localhost:8536/api/v1/files/list');
                         if (!response.ok) {
                             throw new Error(`HTTP error! status: ${response.status}`);
                         }
                         const data = await response.json();
-                        updateFileTable(data.files);
+                        const formattedFiles = data.files.map(file => {
+                            const date = new Date(file.uploaded_at);
+                            const year = date.getFullYear();
+                            const month = String(date.getMonth() + 1).padStart(2, '0');
+                            const day = String(date.getDate()).padStart(2, '0');
+                            const hours = String(date.getHours()).padStart(2, '0');
+                            const minutes = String(date.getMinutes()).padStart(2, '0');
+                            const seconds = String(date.getSeconds()).padStart(2, '0');
+
+                            return {
+                                ...file,
+                                uploaded_at: `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`
+                            };
+                        });
+                        updateFileTable(formattedFiles);
                     } catch (error) {
                         console.error('获取文件列表失败:', error);
                         alert('获取文件列表失败，请稍后重试');
@@ -327,14 +117,14 @@
                 function updateFileTable(files) {
                     const tbody = document.querySelector('.table tbody');
                     tbody.innerHTML = files.map(file => `
-                    <tr>
-                        <td>${file.file_name}</td>
-                        <td>${file.file_description || '-'}</td>
-                        <td>${file.uploaded_at}</td>
-                        <td>${file.file_size}</td>
-                        <td><span class="badge bg-secondary">预览</span></td>
-                    </tr>
-                `).join('');
+                        <tr>
+                            <td>${file.file_name}</td>
+                            <td>${file.file_description || '-'}</td>
+                            <td>${file.uploaded_at}</td>
+                            <td>${file.file_size}</td>
+                            <td><span class="badge bg-secondary">${translations[currentLang]['preview']}</span></td>
+                        </tr>
+                    `).join('');
                 }
 
                 document.addEventListener('DOMContentLoaded', fetchFileList);
@@ -355,13 +145,10 @@
                 const fileInput = document.getElementById('fileInput');
                 const fileList = document.getElementById('fileList');
 
-                // 点击区域选择文件
                 dropZone.addEventListener('click', () => fileInput.click());
 
-                // 处理文件选择
                 fileInput.addEventListener('change', handleFiles);
 
-                // 拖放处理
                 dropZone.addEventListener('dragover', (e) => {
                     e.preventDefault();
                     dropZone.classList.add('dragover');
@@ -410,17 +197,17 @@
 
                 function updateFileList() {
                     fileList.innerHTML = selectedFiles.map(item => `
-                    <div class="file-item">
-                        <div class="file-info">
-                            <i class="fas fa-file file-icon"></i>
-                            <div>
-                                <div class="file-name">${item.file.name}</div>
-                                <div class="file-size">${formatFileSize(item.file.size)}</div>
+                        <div class="file-item">
+                            <div class="file-info">
+                                <i class="fas fa-file file-icon"></i>
+                                <div>
+                                    <div class="file-name">${item.file.name}</div>
+                                    <div class="file-size">${formatFileSize(item.file.size)}</div>
+                                </div>
                             </div>
+                            <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
                         </div>
-                        <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
-                    </div>
-                `).join('');
+                    `).join('');
                 }
 
                 function handleSubmit() {
@@ -444,7 +231,10 @@
         </div>
     </div>
 
+    <script src="js/url.js"></script>
+    <script src="js/file.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

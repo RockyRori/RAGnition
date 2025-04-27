@@ -1,3 +1,5 @@
+// js/chat.js
+
 const translations = {
     'zh-CN': {
         'home': '首页',
@@ -42,8 +44,8 @@ const translations = {
 
 let currentLang = localStorage.getItem('lang') || 'en';
 updateLanguage(currentLang);
-document.querySelector('#languageDropdown').textContent = 
-    currentLang === 'zh-CN' ? '简体中文' : 
+document.querySelector('#languageDropdown').textContent =
+    currentLang === 'zh-CN' ? '简体中文' :
     currentLang === 'zh-TW' ? '繁體中文' : 'English';
 
 document.querySelectorAll('[data-lang]').forEach(item => {
@@ -53,8 +55,8 @@ document.querySelectorAll('[data-lang]').forEach(item => {
         currentLang = lang;
         localStorage.setItem('lang', lang);
         updateLanguage(lang);
-        document.querySelector('#languageDropdown').textContent = 
-            lang === 'zh-CN' ? '简体中文' : 
+        document.querySelector('#languageDropdown').textContent =
+            lang === 'zh-CN' ? '简体中文' :
             lang === 'zh-TW' ? '繁體中文' : 'English';
     });
 });
@@ -69,27 +71,27 @@ function updateLanguage(lang) {
             link.textContent = translations[lang]['file'];
         }
     });
-    
+
     document.querySelector('.new-chat-btn').innerHTML = `<i class="fas fa-plus"></i> ${translations[lang]['newChat']}`;
     document.getElementById('user-input').placeholder = translations[lang]['inputPlaceholder'];
     document.querySelector('.send-btn').innerHTML = `<i class="fas fa-paper-plane"></i> ${translations[lang]['send']}`;
-    
+
     const refHeaders = document.querySelectorAll('.reference-content h6');
-    if(refHeaders.length > 0) {
+    if (refHeaders.length > 0) {
         refHeaders.forEach(header => {
             header.textContent = translations[lang]['references'];
         });
     }
-    
+
     const similaritySpans = document.querySelectorAll('.ref-similarity');
-    if(similaritySpans.length > 0) {
+    if (similaritySpans.length > 0) {
         similaritySpans.forEach(span => {
             span.textContent = `${translations[lang]['similarity']}：${span.textContent.split('：')[1]}`;
         });
     }
 
     const referenceLink = document.querySelectorAll('.ref-link');
-    if(referenceLink.length > 0) {
+    if (referenceLink.length > 0) {
         referenceLink.forEach(span => {
             span.innerHTML = `<i class="fas fa-link fa-xs"></i> ${translations[lang]['referenceLink']}`;
         });
@@ -110,7 +112,7 @@ function createNewChat() {
             type: 'bot',
             content: translations[currentLang]['welcomeMessage']
         }],
-        isFirstMessage: true 
+        isFirstMessage: true
     };
     chats.push(chat);
     currentChatId = chatId;
@@ -163,24 +165,24 @@ function handleStarClick(event) {
     lastBotMessage.rating = rating;
 
     const sessionId = lastBotMessage.sessionId;
-    const questionId = lastBotMessage.questionId; 
+    const questionId = lastBotMessage.questionId;
 
     const feedbackData = {
         session_id: sessionId,
         question_id: questionId,
-        rating: rating * 2 
+        rating: rating * 2
     };
 
-    fetch('http://localhost:8536/api/v1/feedback', {
-        method: 'GET',
-        body: JSON.stringify(feedbackData)
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`反馈提交失败: ${response.status} ${response.statusText}`);
-        }
-        return response.json();
-    });
+    fetch(URLS.FEEDBACK, {
+            method: 'GET',
+            body: JSON.stringify(feedbackData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`反馈提交失败: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        });
 }
 
 function renderMessages() {
@@ -210,9 +212,9 @@ function renderMessages() {
                             </div>
                             <div class="ref-meta">
                                 <span class="ref-similarity">${translations[currentLang]['similarity']}：${msg.reference_simliarity[index]}</span>
-                                ${msg.reference_links && msg.reference_links[index] ? 
-                                    `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> ${translations[currentLang]['referenceLink']}</a>` : 
-                                    ''}
+                                ${msg.reference_links && msg.reference_links[index] ?
+            `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> ${translations[currentLang]['referenceLink']}</a>` :
+            ''}
                             </div>
                         </div>
                     `).join('')}
@@ -221,7 +223,7 @@ function renderMessages() {
             ${msg.type === 'bot' ? `
             <div class="rating-container">
                 <div class="star-rating" ${msg.rating ? `data-rated="${msg.rating}"` : ''}>
-                    ${[1,2,3,4,5].map(i => `<i class="fas fa-star ${msg.rating && i <= msg.rating ? 'active' : ''}" data-rating="${i}"></i>`).join('')}
+                    ${[1, 2, 3, 4, 5].map(i => `<i class="fas fa-star ${msg.rating && i <= msg.rating ? 'active' : ''}" data-rating="${i}"></i>`).join('')}
                 </div>
             </div>
             ` : ''}
@@ -233,7 +235,7 @@ function renderMessages() {
 function toggleExpand(button) {
     const content = button.previousElementSibling;
     const isExpanded = content.classList.contains('expanded');
-    
+
     content.classList.toggle('expanded');
     button.classList.toggle('expanded');
 }
@@ -246,64 +248,61 @@ function sendMessage() {
     const chat = chats.find(c => c.id === currentChatId);
     if (!chat) return;
 
+    // add user message
     chat.messages.push({
         type: 'user',
-        content: content
+        content
     });
-
     if (chat.isFirstMessage) {
-        chat.title = content.length > 10 ? content.substring(0, 10) + '...' : content;
+        chat.title = content.length > 10 ? content.slice(0, 10) + '...' : content;
         chat.isFirstMessage = false;
         updateChatList();
     }
 
+    // prepare bot placeholder
+    const botMessage = {
+        type: 'bot',
+        content: ''
+    };
+    chat.messages.push(botMessage);
+    renderMessages();
+
+    // build SSE URL
     const requestData = {
         session_id: chat.id.toString(),
         question_id: Date.now().toString(),
-        previous_questions: chat.messages
-           .filter(msg => msg.type === 'user')
-           .map(msg => msg.content),
+        previous_questions: chat.messages.filter(m => m.type === 'user').map(m => m.content),
         current_question: content,
-        language: currentLang === 'zh-CN' ? 'cn' : 
-                 currentLang === 'zh-TW' ? 'tw' : 'en'
+        language: currentLang === 'zh-CN' ? 'cn' : (currentLang === 'zh-TW' ? 'tw' : 'en')
     };
-
-    fetch('http://localhost:8536/api/v1/questions', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(requestData)
-    })
-   .then(response => {
-        if (!response.ok) {
-            throw new Error(`请求失败: ${response.status} ${response.statusText}`);
-        }
-        return response.json();
-    })
-   .then(data => {
-        chat.messages.push({
-            type: 'bot',
-            content: data.answer,
-            references: data.references.map(ref => ref.content),
-            reference_links: data.references.map(ref => ref.source),
-            reference_simliarity: data.references.map(ref => ref.similarity),
-            questionId: data.question_id,
-            sessionId: data.session_id
-        });
-        renderMessages();
-    })
-   .catch(error => {
-        console.error('发送消息失败:', error);
-        chat.messages.push({
-            type: 'bot',
-            content: translations[currentLang]['errorMessage']
-        });
-        renderMessages();
+    const url = new URL(URLS.STREAM);
+    Object.entries(requestData).forEach(([k, v]) => {
+        url.searchParams.append(k, typeof v === 'string' ? v : JSON.stringify(v));
     });
 
+    const eventSource = new EventSource(url);
+    eventSource.onmessage = (event) => {
+        if (event.data === "[DONE]") {
+            eventSource.close();
+            return;
+        }
+        const data = JSON.parse(event.data);
+        if (data.references) {
+            botMessage.references = data.references.map(r => r.content);
+            botMessage.reference_links = data.references.map(r => r.source);
+            botMessage.reference_simliarity = data.references.map(r => r.similarity);
+        } else if (data.token) {
+            botMessage.content += data.token;
+        }
+        renderMessages();
+    };
+    eventSource.onerror = () => {
+        eventSource.close();
+        botMessage.content += " [连接中断]";
+        renderMessages();
+    };
+
     input.value = '';
-    renderMessages();
 }
 
 createNewChat();
