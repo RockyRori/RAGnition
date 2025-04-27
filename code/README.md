@@ -1,3 +1,15 @@
+## 1. GitHub Pages
+
+docs文件夹既是前端文件又是GitHub Pages默认的部署文件夹。
+
+## 2. Backend
+
+Python后端服务，启动方式参考5. 测试启动后端服务
+
+## 3. Database
+
+MySQL数据库，存储历史数据。
+
 ## 4. 创建环境变量
 
 确保已安装 unzip 工具
@@ -131,6 +143,7 @@ sudo ufw allow 8536
 ## 9. 更新代码
 
 直接更新git仓库即可，服务会自动重启。或者使用下面命令来确保服务重启：
+
 ```bash
 sudo systemctl status ragnition.service
 sudo systemctl restart ragnition.service

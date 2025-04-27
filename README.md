@@ -115,11 +115,18 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0317-0330                                    |
 | Output | add stream answer output,use qdrant database |
 
-### RAGnition Talk 8
+### RAGnition Rehearsal
 
 | Time   | To Be Done |
 |--------|------------|
-| Period | 0331-0406  |
+| Period | 0331-0430  |
+| Output | To Be Done |
+
+### RAGnition Presentation
+
+| Time   | To Be Done |
+|--------|------------|
+| Period | 0501-0508  |
 | Output | To Be Done |
 
 # Obstacles
