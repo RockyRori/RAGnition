@@ -150,7 +150,7 @@ async def segment_text(text, similarity_threshold=0.3):
     zero_width_pattern = re.compile(
         "[\u200B\u200C\u200D\uFEFF]"
     )
-    segments = [zero_width_pattern.sub("", s) for s in segments]
+    segments = [zero_width_pattern.sub(" ", s) for s in segments]
     return segments
 
 
