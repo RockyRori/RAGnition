@@ -17,16 +17,11 @@ async def async_translate(text: Union[str, list[str]], target_language: Literal[
         return text
 
 
-def sync_translate(text, target_language: Literal['en', 'zh-cn', 'zh-tw'] = 'en'):
-    # 使用 asyncio.run 在同步环境中运行异步函数
-    return asyncio.run(async_translate(text, target_language))
-
-
 if __name__ == "__main__":
-    original_text = ""
-    translated_text = ""
-    original_list = ""
-    translated_list = ""
+    original_text = "我是岭南大学政策小助手"
+    translated_text = asyncio.run(async_translate(original_text, "zh-tw"))
+    original_list = ["how about running", "請根據用戶問題和參考資料來回答"]
+    translated_list = asyncio.run(async_translate(original_list, "zh-cn"))
     print("original_text", original_text)
     print("translated_text", translated_text)
     print("original_list", original_list)

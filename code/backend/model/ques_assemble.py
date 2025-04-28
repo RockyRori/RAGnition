@@ -1,11 +1,12 @@
+import asyncio
 import time
 from typing import Literal
 
-from backend.model.translation import async_translate, sync_translate
+from backend.model.translation import async_translate
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-def generate_search_query(user_question: str, history_questions: list[str]):
+async def generate_search_query(user_question: str, history_questions: list[str]):
     """
     生成用于文档搜索的查询内容
 
@@ -21,7 +22,7 @@ def generate_search_query(user_question: str, history_questions: list[str]):
     start_generate = time.time()
     # 构造语料库，将历史问题和当前问题合并
     corpus = history_questions + [user_question]
-    corpus = sync_translate(text=corpus, target_language='en')
+    corpus = await async_translate(corpus, "en")
 
     # 使用英文停用词，可以根据需要调整或替换为中文停用词列表
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -58,7 +59,8 @@ if __name__ == "__main__":
         "I want to eat good"
     ]
 
-    search_query_test, assembled_question_test, _ = generate_search_query(user_question_test, history_questions_test)
+    search_query_test, assembled_question_test, _ = asyncio.run(
+        generate_search_query(user_question_test, history_questions_test))
     print("生成的搜索查询内容：")
     print(search_query_test)
     print("\n组装后的完整用户问题：")

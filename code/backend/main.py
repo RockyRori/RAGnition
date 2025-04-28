@@ -16,7 +16,7 @@ from backend.model.rag_stream import stream_answer
 from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary, text, orm
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
-from backend.model.rag import answer
+
 from backend.model.ques_assemble import generate_search_query
 from backend.model.doc_search import search_documents, load_segments_from_folder
 from backend.root_path import PIECES_DIR, locate_path, policy_file, piece_file, piece_dir
@@ -156,11 +156,12 @@ async def stream_question(session_id, question_id, previous_questions, current_q
     previous_questions_list = json.loads(previous_questions)
 
     # 检索向量
-    search_query, assembled_question, generate_time = generate_search_query(current_question, previous_questions_list)
+    search_query, assembled_question, generate_time = await generate_search_query(current_question,
+                                                                                  previous_questions_list)
 
     # 参考文献
-    references, search_time = search_documents(search_query,
-                                               load_segments_from_folder(input_folder=piece_dir(base=base)))
+    references, search_time = await search_documents(search_query,
+                                                     load_segments_from_folder(input_folder=piece_dir(base=base)))
 
     # 生成流式回答
     async def event_generator():

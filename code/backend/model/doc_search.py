@@ -1,3 +1,4 @@
+import asyncio
 import os
 import re
 import time
@@ -57,7 +58,7 @@ def load_segments_from_folder(input_folder):
     return document_segments
 
 
-def search_documents(search_query, document_segments, top_k=8):
+async def search_documents(search_query, document_segments, top_k=8):
     """
     根据搜索查询内容，从文档片段中检索与查询最相关的片段。
 
@@ -128,18 +129,18 @@ def search_documents(search_query, document_segments, top_k=8):
 
 if __name__ == "__main__":
     # 配置参数
-    input_folder = PIECES_DIR  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
-    search_query = "student card pass graduate academic"  # 用户的查询问题
-    top_k = 10  # 选中相似度最高的前 10 个片段
+    input_folder_test = PIECES_DIR  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
+    search_query_test = "student card pass graduate academic"  # 用户的查询问题
+    top_k_test = 10  # 选中相似度最高的前 10 个片段
 
     # 加载文件夹中所有文档片段
-    document_segments = load_segments_from_folder(input_folder)
-    if not document_segments:
+    document_segments_test = load_segments_from_folder(input_folder_test)
+    if not document_segments_test:
         print("未在文件夹中找到任何文档片段。")
 
     # 根据查询搜索相关文档片段
-    results, _ = search_documents(search_query, document_segments, top_k=top_k)
+    results_test, _ = asyncio.run(search_documents(search_query_test, document_segments_test, top_k=top_k_test))
 
     # 输出结果
     print("与查询问题相关的文档片段：")
-    print(results)
+    print(results_test)
