@@ -2,6 +2,7 @@ import os
 import re
 import json
 import pickle
+import nltk
 
 # 文档读取相关库
 import docx
@@ -10,12 +11,15 @@ from bs4 import BeautifulSoup
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.text_rank import TextRankSummarizer
+from langdetect import detect
 
 # 用于文本向量化和计算余弦相似度
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 from backend.root_path import PROJECT_ROOT, PIECES_DIR, POLICIES_DIR
+
+nltk.download('punkt_tab', quiet=True)
 
 
 def read_txt(file_path):
@@ -79,7 +83,7 @@ def read_file(file_path):
     elif ext in ['.html', '.htm']:
         return read_html(file_path)
     else:
-        raise ValueError(f"不支持的文件格式：{ext}")
+        return "unsupported policy type"
 
 
 def split_sentences(text):
@@ -179,7 +183,7 @@ def get_supported_files(folder):
 
 
 def generate_summary(text: str, max_length=66) -> str:
-    parser = PlaintextParser.from_string(text, Tokenizer("english"))
+    parser = PlaintextParser.from_string(text, Tokenizer(detect(text)))
     summarizer = TextRankSummarizer()
     summary_sentences = summarizer(parser.document, 1)  # 取一到两句
     summary = " ".join(str(sentence) for sentence in summary_sentences)

@@ -8,7 +8,7 @@ import uvicorn
 from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form, Query
 from pydantic import BaseModel, Field
 from typing import List, Dict
-from datetime import datetime
+from datetime import datetime, timezone
 from fastapi.responses import StreamingResponse
 
 from backend.model.doc_analysis import split
@@ -200,7 +200,7 @@ async def list_files(
 
 def generate_file_id() -> str:
     """生成 file_id: file- + YYYYMMDDHHMMSS + 三位随机数"""
-    date_part = datetime.utcnow().strftime("%Y%m%d%H%M%S")
+    date_part = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
     rand_part = f"{random.randint(0, 999):03d}"
     return f"file-{date_part}-{rand_part}"
 
@@ -244,7 +244,7 @@ async def upload_file(
         existing.file_content = content
         existing.file_size = file_size
         existing.file_description = file_description
-        existing.uploaded_at = datetime.utcnow()
+        existing.uploaded_at = datetime.now(timezone.utc)
         db.commit()
         db.refresh(existing)
         return {
