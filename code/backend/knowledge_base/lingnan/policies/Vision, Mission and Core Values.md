@@ -1,0 +1,74 @@
+# Lingnan University  
+**作育英才，服务社会**  
+**Education for Service**
+
+---
+
+## Our Vision, Mission, and Core Values
+
+### Commitment to Quality Education
+
+At Lingnan University, our commitment to quality education is realized through a comprehensive curriculum that integrates pioneering research and aims to shape the future. This educational approach is enriched by:
+
+- Close student-faculty relationships  
+- A vibrant residential campus life  
+- Diverse extra-curricular activities  
+- Active community service involvement  
+- Extensive workplace experience  
+- A strong and impactful global alumni network  
+- Numerous international learning opportunities  
+
+We are evolving from a purely liberal arts focus to a broader emphasis on quality education, ensuring that every aspect of the Lingnan experience contributes to the development of well-rounded, knowledgeable, and socially responsible individuals.
+
+---
+
+### Vision
+
+To excel as a leading Asian liberal arts university with international recognition, distinguished by outstanding teaching, learning, scholarship, and community engagement.
+
+---
+
+### Mission
+
+Lingnan University is committed to:
+
+- Providing quality whole-person education by integrating the best of Chinese and Western liberal arts traditions.  
+- Encouraging faculty and students to contribute to society through impactful research and effective knowledge transfer.
+
+---
+
+### Motto
+
+**Education for Service**  
+**作育英才，服务社会**
+
+---
+
+### Core Values
+
+1. **A Collegial Community of Learning and Discovery**  
+   Lingnan strives to build a vibrant learning community with collegial students and scholar-teachers who:  
+   - Respect one another  
+   - Maintain open-mindedness  
+   - Embrace diversity  
+   - Value different perspectives  
+   - Uphold academic freedom and freedom of expression  
+   - Take responsibility for their words and actions  
+
+2. **Whole-Person Cultivation and All-Round Development**  
+   Lingnan promotes the holistic growth of students by encouraging:  
+   - Independent and critical thinking  
+   - Creativity and innovation  
+   - Excellent communication skills, including high literacy  
+   - Social responsibility and personal integrity  
+   - A commitment to excellence and lifelong learning  
+
+3. **Community Engagement and Social Responsibility**  
+   Lingnan inspires its members to:  
+   - Care for others  
+   - Be accountable for their actions  
+   - Serve both local and global communities  
+   - Make a positive impact for the betterment of humanity  
+
+4. **The Lingnan Spirit**  
+   Since its founding in Canton (Guangzhou) in 1888 as Christian College in China, the Lingnan spirit has united all Lingnanians. This enduring spirit, marked by passion, loyalty, perseverance, openness to different ideas and cultures, and a dedication to service, continues to inspire the University today.

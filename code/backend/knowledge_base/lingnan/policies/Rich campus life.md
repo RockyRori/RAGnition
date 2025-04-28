@@ -1,0 +1,33 @@
+# Rich Campus Life through Hostel Education
+
+**Education for Service**
+
+作育英才 服务社会
+
+Unique hostel education to all student residents.
+
+---
+
+## Lingnan University’s Distinctive Campus Life
+
+Lingnan University is different from all the other universities in Hong Kong – its “small size” makes it stand out. This ensures that every student has access to the resources and opportunities that the university offers. 
+
+Lingnan's campus in Fu Tei, Tuen Mun, has 10 hostels, providing unique hostel education to all student residents. During their stay, students bond with each other by studying together, sharing accommodation, joining clubs, and organising events. In fact, Lingnan students are more like brothers and sisters. Every Lingnanian, and every visitor, can sense the friendly vibes and harmony on the campus.
+
+Apart from full residential university life, every Lingnan student is allocated generous resources so they can make the most out of their 4-year studies. Lingnan offers a wide range of scholarships, sponsorships, and other subsidies to outstanding and needy students to support their studies, living expenses, and participation in overseas exchange programmes. 
+
+In addition, the University recently launched an entrepreneurship initiative to help students pursue their dreams of becoming social entrepreneurs. The aim is to uphold the motto "Education for Service” by providing students with service-learning and community service opportunities.
+
+---
+
+## Global Exposure and Personal Growth
+
+“Small is beautiful” also means that students can take advantage of the many overseas exchange opportunities on offer. About 85 per cent of Lingnan's undergraduates have an opportunity to spend a term studying abroad in one of its 210+ partner institutions in about 43 countries. Students can also participate in short-term summer programmes. 
+
+These overseas trips broaden their horizons, and allow them to experience different cultures and make friends from different backgrounds – experiences which make great life lessons.
+
+---
+
+## Academic Excellence and Close Teacher-Student Interaction
+
+Lingnan’s small classes and curriculum design also ensure a close relationship between students and teachers, and this makes learning more efficient and dynamic. The class size also enables teachers to have more flexibility in teaching.

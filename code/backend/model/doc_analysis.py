@@ -260,7 +260,7 @@ async def splitting():
 
 
 if __name__ == "__main__":
-    # asyncio.run(splitting())
-    description_test = asyncio.run(split(policy_file(base="base1", filename="Sample.docx"), piece_dir(base="base1"),
-                                         output_format="txt", similarity_threshold=0.2))
-    print("description: ", description_test)
+    asyncio.run(splitting())
+    # description_test = asyncio.run(split(policy_file(base="base1", filename="Sample.docx"), piece_dir(base="base1"),
+    #                                      output_format="txt", similarity_threshold=0.2))
+    # print("description: ", description_test)
