@@ -60,10 +60,17 @@
             <div class="input-container">
                 <div class="input-wrapper">
                     <textarea id="user-input" placeholder="请输入您的问题（最多2000字）..."></textarea>
-                    <button class="send-btn" onclick="sendMessage()">
-                        <i class="fas fa-paper-plane"></i>
-                        发送
-                    </button>
+                    <div class="model-select-wrapper">
+                        <select class="model-select">
+                            <option value="deepseek">DeepSeek</option>
+                            <option value="gpt4o">GPT-4o</option>
+                            <option value="tongyi">通义千问</option>
+                        </select>
+                        <button class="send-btn" onclick="sendMessage()">
+                            <i class="fas fa-paper-plane"></i>
+                            发送
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

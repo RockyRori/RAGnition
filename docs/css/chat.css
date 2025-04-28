@@ -274,11 +274,34 @@ body {
     gap: 16px;
     max-width: 1200px;
     padding: 0 20px;
+    align-items: center;
+}
+
+.model-select {
+    border: 2px solid #e9ecef;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 5px;
+    width: 140px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
 #user-input {
     flex: 1;
-    min-height: 100px;
+    min-height: 100.5px;
     max-height: 300px;
     padding: 18px;
     border: 2px solid #e9ecef;
@@ -304,9 +327,11 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     font-weight: 500;
     transition: all 0.2s;
+    width: 140px;
 }
 
 .send-btn:hover {
@@ -371,4 +396,20 @@ body {
 
 .expand-btn i {
     font-size: 0.8em;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 2rem;
+}
+
+.model-select option {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #4b5563;
+    transition: all 0.2s;
+}
+
+.model-select option:hover {
+    background: #f0f6ff;
+    color: var(--primary-color);
 }

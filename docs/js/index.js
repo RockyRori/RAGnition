@@ -7,9 +7,8 @@ const translations = {
         'home': '首页',
         'chat': '聊天',
         'file': '文件',
-        'kb1': '知识库1',
-        'kb2': '知识库2',
-        'kb3': '知识库3',
+        'kb1': '岭南大学政策文件',
+        'kb2': '自定义知识库',
         'docs': '文档'
     },
     'zh-TW': {
@@ -18,9 +17,8 @@ const translations = {
         'home': '首頁',
         'chat': '聊天',
         'file': '文件',
-        'kb1': '知識庫1',
-        'kb2': '知識庫2',
-        'kb3': '知識庫3',
+        'kb1': '嶺南大學政策文件',
+        'kb2': '自定義知識庫',
         'docs': '文檔'
     },
     'en': {
@@ -29,9 +27,8 @@ const translations = {
         'home': 'Home',
         'chat': 'Chat',
         'file': 'Files',
-        'kb1': 'Knowledge Base 1',
-        'kb2': 'Knowledge Base 2',
-        'kb3': 'Knowledge Base 3',
+        'kb1': 'Lingnan University Policy Documents',
+        'kb2': 'Custom Knowledge Base',
         'docs': 'Documents'
     }
 };
@@ -54,7 +51,6 @@ document.querySelectorAll('[data-lang]').forEach(item => {
             lang === 'zh-TW' ? '繁體中文' : 'English';
     });
 });
-
 function updateLanguage(lang) {
     document.querySelector('h3 strong').textContent = translations[lang]['welcome'];
     document.querySelector('h6').textContent = translations[lang]['choose'];
@@ -77,3 +73,18 @@ function updateLanguage(lang) {
         doc.textContent = `${count} ${translations[lang]['docs']}`;
     });
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const lingnan = document.getElementById('lingnan');
+    const base1 = document.getElementById('base1');
+
+    lingnan.classList.add('active');
+    localStorage.setItem('activeCard', 'lingnan'); 
+
+    [lingnan, base1].forEach(card => {
+        card.addEventListener('click', function() {
+            [lingnan, base1].forEach(c => c.classList.remove('active'));
+            this.classList.add('active');
+            localStorage.setItem('activeCard', this.id);
+        });
+    });
+});

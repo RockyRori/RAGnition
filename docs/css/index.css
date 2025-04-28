@@ -58,3 +58,18 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card.active {
+    background: #2563eb;
+    color: white;
+    box-shadow: 0 1cm 1rem rgba(255, 255, 255, 0.3);
+}

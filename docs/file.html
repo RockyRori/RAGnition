@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -81,6 +82,20 @@
                 </div>
             </div>
 
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false" data-bs-keyboard="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">预览</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                  </div>
+                </div>
+            </div>
+
             <script>
                 let selectedFiles = [];
 
@@ -88,7 +103,7 @@
                 async function fetchFileList() {
                     try {
                         //改成获取实际的知识库
-                        const base = "base1"
+                        const base = localStorage.getItem('activeCard') || "lingnan";
 
                         const response = await fetch(`${URLS.FILES_LIST}?base=${encodeURIComponent(base)}`);
                         if (!response.ok) {
@@ -125,9 +140,31 @@
                             <td>${file.file_description || '-'}</td>
                             <td>${file.uploaded_at}</td>
                             <td>${file.file_size}</td>
-                            <td><span class="badge bg-secondary">${translations[currentLang]['preview']}</span></td>
+                            <td><span class="badge bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="updateModalContent('${file.file_name}')">${translations[currentLang]['preview']}</span></td>
                         </tr>
                     `).join('');
+                }
+
+                function updateModalTitle(fileName) {
+                    document.getElementById('exampleModalLabel').textContent = `${fileName}`;
+                }
+
+                function loadFileContent(fileName) {
+                    const base = localStorage.getItem('activeCard') || "lingnan";
+                    fetch(`http://localhost:8536//api/v1/files/preview?file_name=${fileName}&base=${base}`)
+                        .then(response => response.text())
+                        .then(data => {
+                            document.querySelector('.modal-body').innerHTML = `<pre>${data}</pre>`;
+                        })
+                        .catch(error => {
+                            console.error('Error loading file content:', error);
+                            document.querySelector('.modal-body').innerHTML = 'Failed to load file content.';
+                        });
+                }
+
+                function updateModalContent(fileName) {
+                    updateModalTitle(fileName);
+                    loadFileContent(fileName);
                 }
 
                 document.addEventListener('DOMContentLoaded', fetchFileList);
@@ -219,8 +256,7 @@
                         return;
                     }
 
-                    //改成获取实际的知识库
-                    const base = "base1"
+                    const base = localStorage.getItem('activeCard') || "lingnan";
 
                     try {
                         for (const item of selectedFiles) {

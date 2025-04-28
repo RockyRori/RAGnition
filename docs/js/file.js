@@ -76,6 +76,13 @@ document.querySelectorAll('[data-lang]').forEach(item => {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const activeCard = localStorage.getItem('activeCard');
+    // if (activeCard) {
+    //     alert(`当前激活的卡片是: ${activeCard}`);
+    // }
+});
+
 function updateLanguage(lang) {
     document.querySelectorAll('.nav-link').forEach(link => {
         if (link.getAttribute('href') === 'index.html') {
