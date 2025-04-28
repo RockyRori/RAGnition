@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS sessions;
 -- 创建会话表
 CREATE TABLE sessions
 (
-    session_id    VARCHAR(255) PRIMARY KEY,
+    session_id    VARCHAR(28) PRIMARY KEY,
     created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     last_activity TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -21,8 +21,8 @@ CREATE TABLE sessions
 -- 创建问题表（使用反引号处理保留字）
 CREATE TABLE questions
 (
-    session_id         VARCHAR(255),
-    question_id        VARCHAR(255),
+    session_id         VARCHAR(28),
+    question_id        VARCHAR(28),
     previous_questions JSON, -- 存储历史问题列表
     current_question   TEXT,
     answer             TEXT,
@@ -37,12 +37,13 @@ CREATE TABLE questions
 -- 创建文件表
 CREATE TABLE files
 (
-    file_id          VARCHAR(255) PRIMARY KEY,
-    file_name        VARCHAR(255) NOT NULL,
-    file_description TEXT,
-    file_content     LONGBLOB NOT NULL,
-    uploaded_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    file_size        VARCHAR(50) NOT NULL -- 新增字段: 文件大小
+    base             VARCHAR(28) NOT NULL DEFAULT 'lingnan' COMMENT '文件来源于哪个知识库',
+    file_id          VARCHAR(28) PRIMARY KEY COMMENT '文件编号，格式：file-YYYYMMDD-三位随机数',
+    file_name        VARCHAR(255) NOT NULL COMMENT '文件名称',
+    file_description TEXT COMMENT '文件简介',
+    file_content     LONGBLOB NOT NULL COMMENT '文件本体',
+    file_size        VARCHAR(28) NOT NULL COMMENT '文件大小',
+    uploaded_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP COMMENT '上传/更新文件时间'
 );
 
 
@@ -86,6 +87,19 @@ VALUES
  }]',
  3);
 
-INSERT INTO files (file_id, file_name, file_description, file_content, file_size)
-VALUES ('file-20231025001', 'document.pdf', 'Thesis submission guidelines', 0x255044462d312e340a25c7ec8fa2, '1.2MB'),
-       ('file-20231025002', 'image.png', 'Campus Map', 0x89504e470d0a1a0a0000000d49484452, '500KB');
+INSERT INTO files (base, file_id, file_name, file_description, file_content, file_size)
+VALUES
+  ('lingnan',
+   'file-20231025102930-001',
+   'document.pdf',
+   'Thesis submission guidelines',
+   0x255044462D312E340A25C7EC8FA2,
+   '1.2MB'
+  ),
+  ('base1',
+   'file-20231025123928-999',
+   'image.png',
+   'Campus Map',
+   0x89504E470D0A1A0A0000000D49484452,
+   '500KB'
+  );

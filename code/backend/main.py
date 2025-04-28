@@ -1,42 +1,43 @@
+import io
+import mimetypes
 import random
 import json
 import uvicorn
 
-from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form
+from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form, Query
 from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime
 from fastapi.responses import StreamingResponse
 from backend.model.rag_stream import stream_answer
-from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary, text, orm
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
 from backend.model.rag import answer
 from backend.model.ques_assemble import generate_search_query
 from backend.model.doc_search import search_documents, load_segments_from_folder
-from backend.root_path import PROJECT_ROOT, PIECES_DIR
+from backend.root_path import PIECES_DIR
 
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-Base = declarative_base()
+Base = orm.declarative_base()
 
 
 # 数据库模型
 class DBSession(Base):
     __tablename__ = "sessions"
-    session_id = Column(String(255), primary_key=True)
+    session_id = Column(String(28), primary_key=True)
     created_at = Column(TIMESTAMP, server_default=func.now())
     last_activity = Column(TIMESTAMP, server_default=func.now(), onupdate=func.now())
 
 
 class DBQuestion(Base):
     __tablename__ = "questions"
-    session_id = Column(String(255), primary_key=True)
-    question_id = Column(String(255), primary_key=True)
+    session_id = Column(String(28), primary_key=True)
+    question_id = Column(String(28), primary_key=True)
     previous_questions = Column(JSON)
     current_question = Column(Text)
     answer = Column(Text)
@@ -47,12 +48,13 @@ class DBQuestion(Base):
 
 class DBFile(Base):
     __tablename__ = "files"
-    file_id = Column(String(255), primary_key=True)
+    base = Column(String(28), nullable=False, server_default="lingnan")
+    file_id = Column(String(28), primary_key=True)
     file_name = Column(String(255), nullable=False)
     file_description = Column(Text)
     file_content = Column(LargeBinary, nullable=False)
-    uploaded_at = Column(TIMESTAMP, server_default=func.now())
-    file_size = Column(String(50), nullable=False)  # 新增字段
+    file_size = Column(String(28), nullable=False)
+    uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
 
 
 Base.metadata.create_all(bind=engine)
@@ -167,16 +169,26 @@ async def stream_question(session_id: str, question_id: str, current_question: s
 
 
 @app.get("/api/v1/files/list")
-async def list_files(db: Session = Depends(get_db)):
-    files = db.query(DBFile).all()
+async def list_files(
+        base: str = Query("lingnan"),
+        db: Session = Depends(get_db)
+):
+    # 只查询指定 base 下的文件
+    files = (
+        db.query(DBFile)
+        .filter(DBFile.base == base)
+        .all()
+    )
+
     return {
         "files": [
             {
                 "file_id": file.file_id,
                 "file_name": file.file_name,
                 "file_description": file.file_description,
+                "file_size": file.file_size,
                 "uploaded_at": file.uploaded_at,
-                "file_size": file.file_size
+                "base": file.base
             }
             for file in files
         ]
@@ -184,23 +196,19 @@ async def list_files(db: Session = Depends(get_db)):
 
 
 def generate_file_id() -> str:
-    """生成 file_id: file- + YYYYMMDD + 三位随机数"""
-    date_part = datetime.utcnow().strftime("%Y%m%d")
+    """生成 file_id: file- + YYYYMMDDHHMMSS + 三位随机数"""
+    date_part = datetime.utcnow().strftime("%Y%m%d%H%M%S")
     rand_part = f"{random.randint(0, 999):03d}"
-    return f"file-{date_part}{rand_part}"
+    return f"file-{date_part}-{rand_part}"
 
 
 def summarize_content(content: bytes) -> str:
-    """
-    如果需要，可在此处实现对文件内容（如 TXT、PDF、DOCX）进行文本抽取和摘要生成。
-    如果暂不方便，则直接返回空字符串，后续再行处理。
-    """
-    # placeholder, 暂不生成摘要
     return "generating description"
 
 
 @app.post("/api/v1/files")
 async def upload_file(
+        base: str = Form(...),
         file: UploadFile = File(...),
         db: Session = Depends(get_db)
 ):
@@ -208,18 +216,18 @@ async def upload_file(
     if not content:
         raise HTTPException(status_code=400, detail="Empty file")
 
-    # 1. 生成新的 file_id
     file_id = generate_file_id()
-
-    # 2. 计算并格式化文件大小
     size_kb = len(content) / 1024
     file_size = f"{size_kb:.1f}KB" if size_kb < 1024 else f"{size_kb / 1024:.1f}MB"
-
-    # 3. 生成文件描述（暂为空或摘要）
     file_description = summarize_content(content)
 
-    # 4. 检查同名文件，若存在则覆盖
-    existing = db.query(DBFile).filter(DBFile.file_name == file.filename).first()
+    # 先看看同名文件是否已存在
+    existing = (
+        db.query(DBFile)
+        .filter(DBFile.base == base,
+                DBFile.file_name == file.filename)
+        .first()
+    )
     if existing:
         existing.file_content = content
         existing.file_size = file_size
@@ -228,6 +236,7 @@ async def upload_file(
         db.commit()
         db.refresh(existing)
         return {
+            "base": existing.base,
             "file_id": existing.file_id,
             "file_name": existing.file_name,
             "file_description": existing.file_description,
@@ -236,8 +245,9 @@ async def upload_file(
             "message": "Existing file overwritten"
         }
 
-    # 5. 不存在则新建
+    # 不存在则新建，显式传入 base，让 SQL 默认值生效也会回填
     new_file = DBFile(
+        base=base,
         file_id=file_id,
         file_name=file.filename,
         file_description=file_description,
@@ -247,7 +257,9 @@ async def upload_file(
     db.add(new_file)
     db.commit()
     db.refresh(new_file)
+
     return {
+        "base": new_file.base,
         "file_id": new_file.file_id,
         "file_name": new_file.file_name,
         "file_description": new_file.file_description,
@@ -255,6 +267,36 @@ async def upload_file(
         "file_size": new_file.file_size,
         "message": "File uploaded"
     }
+
+
+@app.get("/api/v1/files/{file_id}/preview")
+async def preview_file(
+        file_id: str,
+        base: str = Query("lingnan"),
+        db: Session = Depends(get_db)
+):
+    # 1. 查库：按 base + file_id 唯一定位
+    file = (
+        db.query(DBFile)
+        .filter(DBFile.base == base, DBFile.file_id == file_id)
+        .first()
+    )
+    if not file:
+        raise HTTPException(status_code=404, detail="File not found")
+
+    # 2. 根据后缀猜 MIME 类型，默认 application/octet-stream
+    mime_type, _ = mimetypes.guess_type(file.file_name)
+    mime_type = mime_type or "application/octet-stream"
+
+    # 3. 返回 StreamingResponse，把二进制直接流给前端，设置 inline 以内嵌预览
+    headers = {
+        "Content-Disposition": f'inline; filename="{file.file_name}"'
+    }
+    return StreamingResponse(
+        io.BytesIO(file.file_content),
+        media_type=mime_type,
+        headers=headers
+    )
 
 
 @app.post("/api/v1/feedback", response_model=FeedbackResponse)

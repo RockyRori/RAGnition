@@ -87,7 +87,10 @@
                 // 获取文件列表
                 async function fetchFileList() {
                     try {
-                        const response = await fetch(URLS.FILES_LIST);
+                        //改成获取实际的知识库
+                        const base = "lingnan"
+
+                        const response = await fetch(`${URLS.FILES_LIST}?base=${encodeURIComponent(base)}`);
                         if (!response.ok) {
                             throw new Error(`HTTP error! status: ${response.status}`);
                         }
@@ -216,9 +219,13 @@
                         return;
                     }
 
+                    //改成获取实际的知识库
+                    const base = "lingnan"
+
                     try {
                         for (const item of selectedFiles) {
                             const formData = new FormData();
+                            formData.append('base', base);
                             formData.append('file', item.file);
 
                             const resp = await fetch(URLS.FILE_UPLOAD, {
