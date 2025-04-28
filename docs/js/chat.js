@@ -273,7 +273,7 @@ function sendMessage() {
         question_id: Date.now().toString(),
         previous_questions: chat.messages.filter(m => m.type === 'user').map(m => m.content),
         current_question: content,
-        language: currentLang === 'zh-CN' ? 'cn' : (currentLang === 'zh-TW' ? 'tw' : 'en'),
+        language: currentLang === 'zh-CN' ? 'zh-cn' : (currentLang === 'zh-TW' ? 'zh-tw' : 'en'),
         base:"lingnan"
     };
     const url = new URL(URLS.STREAM);
