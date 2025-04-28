@@ -281,34 +281,78 @@ async def upload_file(
     }
 
 
-@app.get("/api/v1/files/{file_id}/preview")
+@app.get("/api/v1/files/preview")
 async def preview_file(
-        file_id: str,
-        base: str = Query("lingnan"),
-        db: Session = Depends(get_db)
+        file_name: str = Query(...),
+        base: str = Query("lingnan")
 ):
-    # 1. 查库：按 base + file_id 唯一定位
-    file = (
-        db.query(DBFile)
-        .filter(DBFile.base == base, DBFile.file_id == file_id)
-        .first()
-    )
-    if not file:
+    # 构造文件路径
+    file_path = policy_file(base=base, filename=file_name)
+
+    # 检查文件是否存在
+    if not os.path.exists(file_path):
         raise HTTPException(status_code=404, detail="File not found")
 
-    # 2. 根据后缀猜 MIME 类型，默认 application/octet-stream
-    mime_type, _ = mimetypes.guess_type(file.file_name)
+    # 读取文件内容
+    with open(file_path, "rb") as f:
+        content = f.read()
+
+    # 猜测 MIME 类型
+    mime_type, _ = mimetypes.guess_type(file_name)
     mime_type = mime_type or "application/octet-stream"
 
-    # 3. 返回 StreamingResponse，把二进制直接流给前端，设置 inline 以内嵌预览
+    # 返回 StreamingResponse
     headers = {
-        "Content-Disposition": f'inline; filename="{file.file_name}"'
+        "Content-Disposition": f'inline; filename="{file_name}"'
     }
     return StreamingResponse(
-        io.BytesIO(file.file_content),
+        io.BytesIO(content),
         media_type=mime_type,
         headers=headers
     )
+
+
+@app.delete("/api/v1/files")
+async def delete_file(
+        base: str = Query(...),
+        file_name: str = Query(...),
+        db: Session = Depends(get_db)
+):
+    # 查找数据库记录
+    existing = (
+        db.query(DBFile)
+        .filter(DBFile.base == base, DBFile.file_name == file_name)
+        .first()
+    )
+
+    if not existing:
+        raise HTTPException(status_code=404, detail="File not found in database")
+
+    # 构造文件路径
+    policy_path = policy_file(base=base, filename=file_name)
+    pieces_path = piece_file(base=base, filename=file_name)
+
+    # 删除 policy 文件
+    if os.path.exists(policy_path):
+        os.remove(policy_path)
+
+    # 删除 pieces 目录或文件
+    if os.path.exists(pieces_path):
+        if os.path.isdir(pieces_path):
+            import shutil
+            shutil.rmtree(pieces_path)
+        else:
+            os.remove(pieces_path)
+
+    # 删除数据库记录
+    db.delete(existing)
+    db.commit()
+
+    return {
+        "base": base,
+        "file_name": file_name,
+        "message": "File and related data deleted successfully"
+    }
 
 
 @app.post("/api/v1/feedback", response_model=FeedbackResponse)
