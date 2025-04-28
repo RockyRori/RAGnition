@@ -1,1550 +1,480 @@
 --- Segment 1 ---
-Student Handbook  for  
-Taught Postgraduate Programmes  
-2024 -25 
- 
- 
-Table of Contents  
-About the Handbook  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Student Handbook for Taught Postgraduate Programmes 2024 -25 Table of Contents About the Handbook . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 2 ---
-. . . . . . . . . . . . . . . . . 1 
-1. Introduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 
-1.
+. . . . . . . . . . 1 1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 1. 1 About Lingnan University .
 
 --- Segment 3 ---
-3 
-1. 1 About Lingnan University  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 
-1. 2 Graduate Attributes for Taught Postgraduate Programmes  . . . . . . . . .
+1 About Lingnan University . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 1. 2 Graduate Attributes for Taught Postgraduate Programmes . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 4 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 
- 
-2. Registration and Enrolment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . 5 2. Registration and Enrolment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 2. 1 Student Identity Card (LU Card) .
 
 --- Segment 5 ---
-. 7 
-2. 1 Student Identity Card (LU Card)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 
-2. 2 Change of Personal Particulars  . . . . . . . . . . . . . . . . . . . . . . . .
+1 Student Identity Card (LU Card) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 2. 2 Change of Personal Particulars . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 6 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 
-2. 3 Double Registration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 2. 3 Double Registration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 7 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 
-2. 4 Class Attendance  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . 8 2. 4 Class Attendance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 2. 5 Leave of Absence . . . . . . .
 
 --- Segment 8 ---
-. . . . . . 8 
-2. 5 Leave of Absence  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 
-2. 6 Withdrawal of Study . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 2. 6 Withdrawal of Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 9 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 
-2. 7 Adding and Dropping Courses and Changing Courses  . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 2. 7 Adding and Dropping Courses and Changing Courses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 2.
 
 --- Segment 10 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . 9 
-2. 8 Credit Transfer and Course Exemption  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
-2. 9 Student Progression  . . . . . . . . . . . . . .
+9 2. 8 Credit Transfer and Course Exemption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 2. 9 Student Progression . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 11 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
-2. 10 Discontinuation of Studies  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 2. 10 Discontinuation of Studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 12 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 
- 
-3. Assessment  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . 11 3. Assessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 3.
 
 --- Segment 13 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 
-3. 1 Outcome -based Approach to Teaching and Learning (OBATL)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 
-3. 2 Use of Rubrics  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+13 3. 1 Outcome -based Approach to Teaching and Learning (OBATL) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 3. 2 Use of Rubrics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 14 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 
-3. 3 Grading System  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 3. 3 Grading System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 15 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 
-3. 4 Grade Point Average (G. P. A. )  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . 13 3. 4 Grade Point Average (G. P. A. ) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 3. 5 Course Assessment . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 16 ---
-. . . . . 14 
-3. 5 Course Assessment  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 
-3. 6 Supplementary Assessments  . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 3. 6 Supplementary Assessments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 17 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 
-3. 7 Re -taking a Course  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 3. 7 Re -taking a Course . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 18 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 
-3. 8 Review of Grades and Reassessment  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 
- 
-4.
+. . . . . . . . . 15 3. 8 Review of Grades and Reassessment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 4. Award . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 19 ---
-16 
- 
-4. Award  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 
-4. 1 Graduation Requirements  .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 4. 1 Graduation Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 20 ---
-1 Graduation Requirements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 
-4. 2 Award Classification  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 4. 2 Award Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 21 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 
- 
-  4. 3 Testimonials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 19 4. 3 Testimonials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 4. 4 Transcripts .
 
 --- Segment 22 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 
-4. 4 Transcripts  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4 Transcripts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 5. Student Conduct and Academic Integrity . . . . . . . . . . .
 
 --- Segment 23 ---
-. . . . . . . . . . . . . . . . . . . 20 
- 
-5. Student Conduct and Academic Integrity  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 
-5. 1 Academic Dishonesty  . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 5. 1 Academic Dishonesty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 24 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 
-5. 2 Plagiarism and Online Tutorial on Plagiarism Awareness  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . 22 5. 2 Plagiarism and Online Tutorial on Plagiarism Awareness . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 5. 3 Code of Conduct . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 25 ---
-. . . . . . . 23 
-5. 3 Code of Conduct . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 
-5. 4 Disciplinary Penalties  . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 5. 4 Disciplinary Penalties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 26 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 
- 
-6. Student Services and Facilities  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 6. Student Services and Facilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 6. 1 Email Services .
 
 --- Segment 27 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 
-6. 1 Email Services  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1 Email Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 6. 2 Wi -Fi Access . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 28 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 
-6. 2 Wi -Fi Access  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 6. 3 General Computer Laboratories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 29 ---
-. . . 27 
-6. 3 General Computer Laboratories  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 
-6. 4 Moodle  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 6. 4 Moodle . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 30 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 
-6. 5 Generative AI Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . 27 6. 5 Generative AI Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 6. 6 Information Technology Services Centre (ITSC) Services .
 
 --- Segment 31 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 
-6. 6 Information Technology Services Centre (ITSC) Services  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 
-6. 7 Library Services  . . . . .
+6 Information Technology Services Centre (ITSC) Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 6. 7 Library Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 32 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 
-6. 8 Students with Special Educational Needs (SEN)  . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . 28 6. 8 Students with Special Educational Needs (SEN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 6. 9 Counselling Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 33 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 
-6. 9 Counselling Services  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 6. 10 Career Advising Services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 34 ---
-. . . . . . . . 28 
-6. 10 Career Advising Services  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 
-6. 11 Integrated Learning Programme (ILP)  . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . 29 6. 11 Integrated Learning Programme (ILP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 6. 12 Learning Enhancement Activities Plan (LEAP) . . . .
 
 --- Segment 35 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 
-6. 12 Learning Enhancement Activities Plan (LEAP) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 
-6.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 6. 13 Lingnan Language Enhancement Initiative (L2EI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 6. 14 Student Medical and Dental Schemes .
 
 --- Segment 36 ---
-29 
-6. 13 Lingnan Language Enhancement Initiative (L2EI) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 
-6. 14 Student Medical and Dental Schemes  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+14 Student Medical and Dental Schemes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 6. 15 Catering Outlets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 37 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . 30 
-6. 15 Catering Outlets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 
-6. 16 Indoor and Outdoor Sports Facilities  .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 6. 16 Indoor and Outdoor Sports Facilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 6. 17 Chaplain’s Office .
 
 --- Segment 38 ---
-16 Indoor and Outdoor Sports Facilities  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 
-6. 17 Chaplain’s Office  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+17 Chaplain’s Office . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 7. Communication Channels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 39 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 
- 
-7. Communication Channels  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 7. 1 Lingnan Email Account . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 40 ---
-. . . . . . . . 32 
-7. 1 Lingnan Email Account  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 
-7. 2 Course Teaching and Learning Evaluation (CTLE)  .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 7. 2 Course Teaching and Learning Evaluation (CTLE) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 7. 3 Staff -Student Consultation Committee (SSCC) . . . . . . . . . . . . . .
 
 --- Segment 41 ---
-2 Course Teaching and Learning Evaluation (CTLE)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 
- 
-  7. 3 Staff -Student Consultation Committee (SSCC)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 
-7. 4 Grievances and Complaints  .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 7. 4 Grievances and Complaints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 42 ---
-4 Grievances and Complaints  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 
- 
-8. Notes for Non -local Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . 32 8. Notes for Non -local Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 8. 1 Hong Kong Identity Card (HKID Card) . . . . . . . . . . . . .
 
 --- Segment 43 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 
-8. 1 Hong Kong Identity Card (HKID Card)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 
-8.
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 8. 2 Change of Visa Status During Study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 44 ---
-35 
-8. 2 Change of Visa Status During Study  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 
-8. 3 Visa Extension  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . 35 8. 3 Visa Extension . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 8. 4 Employment Policy for Non -local Students in Hong Kong .
 
 --- Segment 45 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 
-8. 4 Employment Policy for Non -local Students in Hong Kong  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 
-8. 5 Immigration Arrangements for Non -local Graduate Policy (IANG)  .
+4 Employment Policy for Non -local Students in Hong Kong . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 8. 5 Immigration Arrangements for Non -local Graduate Policy (IANG) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 8. 6 Tips for Avoiding Scammers . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 46 ---
-5 Immigration Arrangements for Non -local Graduate Policy (IANG)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 
-8. 6 Tips for Avoiding Scammers  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 
- 
-9. Important Policies, Academic Regulations and Guidelines  .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36 9. Important Policies, Academic Regulations and Guidelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 1 Bad Weather Arrangements .
 
 --- Segment 47 ---
-Important Policies, Academic Regulations and Guidelines  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 1 Bad Weather Arrangements  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1 Bad Weather Arrangements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 2 Credit Transfer and Course Exemption . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 48 ---
-. 38 
-9. 2 Credit Transfer and Course Exemption  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 3 Equal Opportunities Policy  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 3 Equal Opportunities Policy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 4 Data Privacy and Protection .
 
 --- Segment 49 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 4 Data Privacy and Protection  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4 Data Privacy and Protection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 5 Policy on Research, Knowledge Transfer and Intellectual Property . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 50 ---
-. . . . . . . . . . . . . . . . . 38 
-9. 5 Policy on Research, Knowledge Transfer and Intellectual Property  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 6 Regulations Governing Taught Doctoral/Master’s Degree Programmes  . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 7 Regulations Governing University Examinations and Course Work  .
+. . . . . . . 38 9. 6 Regulations Governing Taught Doctoral/Master’s Degree Programmes . . . . . . . . . . . . . . . . . . . . . . . 38 9. 7 Regulations Governing University Examinations and Course Work . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 8 Regulations Governing Discipline of Students .
 
 --- Segment 51 ---
-7 Regulations Governing University Examinations and Course Work  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 8 Regulations Governing Discipline of Students  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 9 Regulations Governing the Format of Theses  . . . . . . .
+8 Regulations Governing Discipline of Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 9 Regulations Governing the Format of Theses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 52 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 10 Information on Human Ethics Approval for Research Conducted by Research 
-Postgraduate / Taught Postgraduate Students  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+. 38 9. 10 Information on Human Ethics Approval for Research Conducted by Research Postgraduate / Taught Postgraduate Students . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 9. 11 Guidelines for Learning .
 
 --- Segment 53 ---
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 
-9. 11 Guidelines for Learning  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11 Guidelines for Learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38 10. Useful Contacts and Campus Map . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 --- Segment 54 ---
-. . . . . 38 
- 
-10. Useful Contacts and Campus Map  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 
- 
- 
-1 
- About the Handbook  
-This Student Handbook provides essential  information about the taught postgraduate 
-programmes offered by Lingnan University for the  2024 -25 academic year . Information 
-contained in this Handbook is current as of July 2024 .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40 1 About the Handbook This Student Handbook provides essential information about the taught postgraduate programmes offered by Lingnan University for the 2024 -25 academic year . Information contained in this Handbook is current as of July 2024 .
 
 --- Segment 55 ---
-Information 
-contained in this Handbook is current as of July 2024 . Changes may be made as necessary , and 
-the University reserves the right to amend the contents without prior notice. In the event of any 
-inconsistency between the information in this Handbook and University policies and 
-regulations, or where interpretation is required, the decision of the U niversity shall be final.
+Information contained in this Handbook is current as of July 2024 . Changes may be made as necessary , and the University reserves the right to amend the contents without prior notice. In the event of any inconsistency between the information in this Handbook and University policies and regulations, or where interpretation is required, the decision of the U niversity shall be final.
 
 --- Segment 56 ---
-In the event of any 
-inconsistency between the information in this Handbook and University policies and 
-regulations, or where interpretation is required, the decision of the U niversity shall be final. Readers are encouraged to contact the relevant offices directly for the most up -to-date 
-information . (Last update: 3 1 July 2024)
-2 
-  
-Chapter  1  
-Introduction  
-3 
- 1. Introduction  
-1. 1 About Lingnan University  
-Lingnan University  (LU) , a venerable institution in Hong Kong's academic landscape, has a 
-rich heritage that dates back to its founding in Guangzhou in 1888. Known in its earlier years 
-as Lingnan Xuexiao and subsequently as Lingnan University, the institution flourished in the 
-field of higher education until 1952.
+In the event of any inconsistency between the information in this Handbook and University policies and regulations, or where interpretation is required, the decision of the U niversity shall be final. Readers are encouraged to contact the relevant offices directly for the most up -to-date information . (Last update: 3 1 July 2024) 2 Chapter 1 Introduction 3 1. Introduction 1. 1 About Lingnan University Lingnan University (LU) , a venerable institution in Hong Kong's academic landscape, has a rich heritage that dates back to its founding in Guangzhou in 1888. Known in its earlier years as Lingnan Xuexiao and subsequently as Lingnan University, the institution flourished in the field of higher education until 1952.
 
 --- Segment 57 ---
-Known in its earlier years 
-as Lingnan Xuexiao and subsequently as Lingnan University, the institution flourished in the 
-field of higher education until 1952. It was reborn in Hong Kong in 1967 and has since aspired 
-to evolve into a distinguished research -focused liberal arts university for the digital age. Lingnan is committed to excellence in teaching, learning, research, a nd fostering community 
-ties, aiming for international acclaim. Meaning of the Lingnan Emblem  
-The mountain, river, trees and path illustrated in the University logo each symbolises        
-a profound principle:  
- 
- 
-• The White Cloud Mountain depicts the highest aspiration in life;  
-• The Pearl River represents the wide dissemination of Lingnan education;  
-• The lychee trees - with ripe fruit hanging in clusters - represent the commitment to realise 
-the precept "For God, for Country, and for Lingnan";  
-• The path represents the road to the future by virtue of hard work;  
-• The panoramic view of the campus in the emblem ' reminds alumni and friends of Lingnan 
-of their loyalty wherever they may be. The red and grey colours of the emblem help nourish 
-the sentiment; they are "blood -red and iron -grey", symbolising loyalty and steadfastness. The red and grey reflect the Lingnan spirit, a spirit inspiring them to lay the foundations 
-for a splendid future forever '1.
+Known in its earlier years as Lingnan Xuexiao and subsequently as Lingnan University, the institution flourished in the field of higher education until 1952. It was reborn in Hong Kong in 1967 and has since aspired to evolve into a distinguished research -focused liberal arts university for the digital age. Lingnan is committed to excellence in teaching, learning, research, a nd fostering community ties, aiming for international acclaim. Meaning of the Lingnan Emblem The mountain, river, trees and path illustrated in the University logo each symbolises a profound principle: • The White Cloud Mountain depicts the highest aspiration in life; • The Pearl River represents the wide dissemination of Lingnan education; • The lychee trees - with ripe fruit hanging in clusters - represent the commitment to realise the precept "For God, for Country, and for Lingnan"; • The path represents the road to the future by virtue of hard work; • The panoramic view of the campus in the emblem ' reminds alumni and friends of Lingnan of their loyalty wherever they may be. The red and grey colours of the emblem help nourish the sentiment; they are "blood -red and iron -grey", symbolising loyalty and steadfastness. The red and grey reflect the Lingnan spirit, a spirit inspiring them to lay the foundations for a splendid future forever '1.
 
 --- Segment 58 ---
-The red and grey reflect the Lingnan spirit, a spirit inspiring them to lay the foundations 
-for a splendid future forever '1. Vision, Mission and Core Values  
-At Lingnan, our commitment to quality education is realised  through a comprehensive 
-curriculum that builds upon pioneering research to shape the future. This educational approach 
-is enriched by close staff -student relationships, vibrant residential campus life, diverse extra -
-curricular activities, proactive commun ity service, extensive workplace experience, global  
- 
-1 Lee, Sui -ming.
+The red and grey reflect the Lingnan spirit, a spirit inspiring them to lay the foundations for a splendid future forever '1. Vision, Mission and Core Values At Lingnan, our commitment to quality education is realised through a comprehensive curriculum that builds upon pioneering research to shape the future. This educational approach is enriched by close staff -student relationships, vibrant residential campus life, diverse extra - curricular activities, proactive commun ity service, extensive workplace experience, global 1 Lee, Sui -ming.
 
 --- Segment 59 ---
-This educational approach 
-is enriched by close staff -student relationships, vibrant residential campus life, diverse extra -
-curricular activities, proactive commun ity service, extensive workplace experience, global  
- 
-1 Lee, Sui -ming. A Phoenix of South China: The Story of Lingnan (University) College Sun Yat -sen University. Hong Kong: The Commercial Press, 2005. 4 
- alumni network and impact, as well as numerous global learning opportunities. We are evolving 
-from a focus on liberal arts to a broader emphasis on quality education, ensuring that each 
-element of our university experience contributes to the development of  well-rounded, informed, 
-and socially responsible individuals.
+This educational approach is enriched by close staff -student relationships, vibrant residential campus life, diverse extra - curricular activities, proactive commun ity service, extensive workplace experience, global 1 Lee, Sui -ming. A Phoenix of South China: The Story of Lingnan (University) College Sun Yat -sen University. Hong Kong: The Commercial Press, 2005. 4 alumni network and impact, as well as numerous global learning opportunities. We are evolving from a focus on liberal arts to a broader emphasis on quality education, ensuring that each element of our university experience contributes to the development of well-rounded, informed, and socially responsible individuals.
 
 --- Segment 60 ---
-We are evolving 
-from a focus on liberal arts to a broader emphasis on quality education, ensuring that each 
-element of our university experience contributes to the development of  well-rounded, informed, 
-and socially responsible individuals. Vision  
-To excel as a leading Asian quality education university with international recognition, 
-distinguished by outstanding teaching, learning, scholarship and community engagement. Mission  
-Lingnan University is committed to  
-• providing quality whole -person education by combining the best of the Chinese and 
-Western liberal arts traditions; and  
-• encouraging faculty and students to contribute to society through original research and 
-knowledge transfer. Motto  
-Education for service  
- 
-Core Values  
-A collegial community of learning and discovery for students and scholar -teachers  
-Lingnan aims to build a community of learning and discovery with collegial students and 
-scholar -teachers who respect each other, keep an open mind, embrace diversity, appreciate 
-different views, uphold academic freedom and freedom of expression, and accept  responsibility 
-for their words and deeds.
+We are evolving from a focus on liberal arts to a broader emphasis on quality education, ensuring that each element of our university experience contributes to the development of well-rounded, informed, and socially responsible individuals. Vision To excel as a leading Asian quality education university with international recognition, distinguished by outstanding teaching, learning, scholarship and community engagement. Mission Lingnan University is committed to • providing quality whole -person education by combining the best of the Chinese and Western liberal arts traditions; and • encouraging faculty and students to contribute to society through original research and knowledge transfer. Motto Education for service Core Values A collegial community of learning and discovery for students and scholar -teachers Lingnan aims to build a community of learning and discovery with collegial students and scholar -teachers who respect each other, keep an open mind, embrace diversity, appreciate different views, uphold academic freedom and freedom of expression, and accept responsibility for their words and deeds.
 
 --- Segment 61 ---
-Motto  
-Education for service  
- 
-Core Values  
-A collegial community of learning and discovery for students and scholar -teachers  
-Lingnan aims to build a community of learning and discovery with collegial students and 
-scholar -teachers who respect each other, keep an open mind, embrace diversity, appreciate 
-different views, uphold academic freedom and freedom of expression, and accept  responsibility 
-for their words and deeds. Whole -person cultivation and all -round development  
-Lingnan endeavours to cultivate students’ whole -person and all -round growth. It encourages 
-students to pursue independent and critical thinking, creativity and innovation, excellent 
-communication skills including a high level of literacy, social responsibi lity, personal virtue, 
-cultural accomplishment and a passion for lifelong learning. Community engagement and social responsibility  
-Lingnan encourages its members to care for others, to be responsible for their own actions, to 
-serve the local community and beyond, and to make a positive impact for the betterment of 
-humanity.
+Motto Education for service Core Values A collegial community of learning and discovery for students and scholar -teachers Lingnan aims to build a community of learning and discovery with collegial students and scholar -teachers who respect each other, keep an open mind, embrace diversity, appreciate different views, uphold academic freedom and freedom of expression, and accept responsibility for their words and deeds. Whole -person cultivation and all -round development Lingnan endeavours to cultivate students’ whole -person and all -round growth. It encourages students to pursue independent and critical thinking, creativity and innovation, excellent communication skills including a high level of literacy, social responsibi lity, personal virtue, cultural accomplishment and a passion for lifelong learning. Community engagement and social responsibility Lingnan encourages its members to care for others, to be responsible for their own actions, to serve the local community and beyond, and to make a positive impact for the betterment of humanity.
 
 --- Segment 62 ---
-Community engagement and social responsibility  
-Lingnan encourages its members to care for others, to be responsible for their own actions, to 
-serve the local community and beyond, and to make a positive impact for the betterment of 
-humanity. 5 
- The Lingnan spirit  
-The Lingnan spirit, which has flourished since Lingnan’s founding in Canton (Guangzhou) in 
-1888 as Christian College in China, has served over the years to bond all Lingnanians together, 
-and continues to inspire the University today. The Lingnan spirit is marked by passion, loyalty, 
-perseverance, openness to different ideas and cultures, and a readiness to serve.
+Community engagement and social responsibility Lingnan encourages its members to care for others, to be responsible for their own actions, to serve the local community and beyond, and to make a positive impact for the betterment of humanity. 5 The Lingnan spirit The Lingnan spirit, which has flourished since Lingnan’s founding in Canton (Guangzhou) in 1888 as Christian College in China, has served over the years to bond all Lingnanians together, and continues to inspire the University today. The Lingnan spirit is marked by passion, loyalty, perseverance, openness to different ideas and cultures, and a readiness to serve.
 
 --- Segment 63 ---
-The Lingnan spirit is marked by passion, loyalty, 
-perseverance, openness to different ideas and cultures, and a readiness to serve. 1. 2 Graduate Attributes for Taught Postgraduate Programmes  
-For taught postgraduate programmes, LU graduates are expected to possess the following 
-attributes in terms of knowledge, skills and attitudes:  
- 
-Independent and Critical Scholar  
-LU graduates will possess in -depth discipline specific knowledge as well as a diverse range of 
-professional and scholarship skills. Advanced Professional Problem -solver  
-LU graduates will have a deep understanding of discipline knowledge to creatively solve 
-complex problems and provide innovative solutions. Critical and Creative  
-LU graduates will be critically analytical and have a creative perspective and outlook in their 
-research areas / professional discipline. Skilled Communicator  
-LU graduates will be advanced communicators and be able to articulate clearly and coherently 
-in written, digital and oral forms. Ethically and Socially Responsible Researcher/Professional  
-LU graduates will be reflective, ethical and socially responsible in conducting their research / 
-professional practice.
+The Lingnan spirit is marked by passion, loyalty, perseverance, openness to different ideas and cultures, and a readiness to serve. 1. 2 Graduate Attributes for Taught Postgraduate Programmes For taught postgraduate programmes, LU graduates are expected to possess the following attributes in terms of knowledge, skills and attitudes: Independent and Critical Scholar LU graduates will possess in -depth discipline specific knowledge as well as a diverse range of professional and scholarship skills. Advanced Professional Problem -solver LU graduates will have a deep understanding of discipline knowledge to creatively solve complex problems and provide innovative solutions. Critical and Creative LU graduates will be critically analytical and have a creative perspective and outlook in their research areas / professional discipline. Skilled Communicator LU graduates will be advanced communicators and be able to articulate clearly and coherently in written, digital and oral forms. Ethically and Socially Responsible Researcher/Professional LU graduates will be reflective, ethical and socially responsible in conducting their research / professional practice.
 
 --- Segment 64 ---
-Ethically and Socially Responsible Researcher/Professional  
-LU graduates will be reflective, ethical and socially responsible in conducting their research / 
-professional practice. 6 
-  
-Chapter  2  
-Registration  and Enrolment  
-7 
- 2. Registration  and Enrolment  
- 
-Registration  
- 
-2. 1 Student Identity Card  (LU Card)  
-A Student Identity Card  (LU Card)  is issued free -of-charge to new students upon  completion 
-of the registration procedure. The LU Card  is a student’s personal identification document and 
-is required for access to the University’s premises and its facilities. The LU Card will normally 
-expire at the end of the normal study period , and the card holder can no longer use the Card to 
-access the University facilities  after the expiry date . The Card will also be invalid once a student 
-has terminated his/her studies.
+Ethically and Socially Responsible Researcher/Professional LU graduates will be reflective, ethical and socially responsible in conducting their research / professional practice. 6 Chapter 2 Registration and Enrolment 7 2. Registration and Enrolment Registration 2. 1 Student Identity Card (LU Card) A Student Identity Card (LU Card) is issued free -of-charge to new students upon completion of the registration procedure. The LU Card is a student’s personal identification document and is required for access to the University’s premises and its facilities. The LU Card will normally expire at the end of the normal study period , and the card holder can no longer use the Card to access the University facilities after the expiry date . The Card will also be invalid once a student has terminated his/her studies.
 
 --- Segment 65 ---
-The Card will also be invalid once a student 
-has terminated his/her studies. The LU Card is the property of the University and is not transferable. Misuse or falsification 
-of the Card constitutes a major offence and is subject to disciplinary action. The University 
-may, at its discretion, require a student to return his/her Card at any ti me. Students  should take good care of their LU  Card s.
+The Card will also be invalid once a student has terminated his/her studies. The LU Card is the property of the University and is not transferable. Misuse or falsification of the Card constitutes a major offence and is subject to disciplinary action. The University may, at its discretion, require a student to return his/her Card at any ti me. Students should take good care of their LU Card s.
 
 --- Segment 66 ---
-Students  should take good care of their LU  Card s. If a student has  lost or damaged the Card, 
-he/she  may apply for a replacement card at a cost. Details are given on this page . The LU Card  will normally expire at the end of the normal study period. If a student is  eligible 
-to continue with his/her  study after the expiry of his/her  LU Card, he/she  should apply to the 
-Registry with a completed “ Application for a Replacement Copy of LU Card for Students ” for 
-renewal two weeks before expiry.
+Students should take good care of their LU Card s. If a student has lost or damaged the Card, he/she may apply for a replacement card at a cost. Details are given on this page . The LU Card will normally expire at the end of the normal study period. If a student is eligible to continue with his/her study after the expiry of his/her LU Card, he/she should apply to the Registry with a completed “ Application for a Replacement Copy of LU Card for Students ” for renewal two weeks before expiry.
 
 --- Segment 67 ---
-If a student is  eligible 
-to continue with his/her  study after the expiry of his/her  LU Card, he/she  should apply to the 
-Registry with a completed “ Application for a Replacement Copy of LU Card for Students ” for 
-renewal two weeks before expiry. 2. 2 Change of Personal Particulars  
-Students  are fully responsible for notifying  the University of any changes to their personal 
-details after registration. The University assumes that the name recorded at the time of admission i s a student’s  official 
-name. This name match es the one on the student’s  Hong Kong Identity Card (HKID) or 
-Passport.
+If a student is eligible to continue with his/her study after the expiry of his/her LU Card, he/she should apply to the Registry with a completed “ Application for a Replacement Copy of LU Card for Students ” for renewal two weeks before expiry. 2. 2 Change of Personal Particulars Students are fully responsible for notifying the University of any changes to their personal details after registration. The University assumes that the name recorded at the time of admission i s a student’s official name. This name match es the one on the student’s Hong Kong Identity Card (HKID) or Passport.
 
 --- Segment 68 ---
-This name match es the one on the student’s  Hong Kong Identity Card (HKID) or 
-Passport. If a student  did not submit a copy of his/her  HKID Card during registration, he/she  
-must provide a copy of his/her  HKID Card to the Programme Office of his/her  programme as  
-soon as it is available . This will ensure that the student’s  HKID number and Chinese name (if 
-applicable ) are updated in his/her  student record. A student’s name (both Chinese and English) 
-and HKID number will be displayed on his/her  transcript.
+This name match es the one on the student’s Hong Kong Identity Card (HKID) or Passport. If a student did not submit a copy of his/her HKID Card during registration, he/she must provide a copy of his/her HKID Card to the Programme Office of his/her programme as soon as it is available . This will ensure that the student’s HKID number and Chinese name (if applicable ) are updated in his/her student record. A student’s name (both Chinese and English) and HKID number will be displayed on his/her transcript.
 
 --- Segment 69 ---
-A student’s name (both Chinese and English) 
-and HKID number will be displayed on his/her  transcript. 8 
- Requests to amend  personal particulars , such as the name  or information on the HKID Card or 
-Passport, must be supported by legal documentary evidence. Students should  contact  the 
-Programme Office concerned  for such requests. Additionally, student s should notify  the 
-Programme Office concerned  immediately of any change s to their address or other personal 
-particulars.
+A student’s name (both Chinese and English) and HKID number will be displayed on his/her transcript. 8 Requests to amend personal particulars , such as the name or information on the HKID Card or Passport, must be supported by legal documentary evidence. Students should contact the Programme Office concerned for such requests. Additionally, student s should notify the Programme Office concerned immediately of any change s to their address or other personal particulars.
 
 --- Segment 70 ---
-Additionally, student s should notify  the 
-Programme Office concerned  immediately of any change s to their address or other personal 
-particulars. 2. 3 Double Registration  
-A full -time student of the University is not allowed to pursue simultaneously any programme  
-at another tertiary institution. A student in breach of this regulation is subject to having his/her 
-studies at the University discontinued. 2. 4 Class Attendance  
-A student should attend required lectures, tutorials and other class activities, tests and 
-examinations and complete the work assigned by the teachers of the courses in which the 
-student has enrolled. Students are expected to attend classes and other class activities punctually and regularly, to 
-the satisfaction of the lecturers of courses.
+Additionally, student s should notify the Programme Office concerned immediately of any change s to their address or other personal particulars. 2. 3 Double Registration A full -time student of the University is not allowed to pursue simultaneously any programme at another tertiary institution. A student in breach of this regulation is subject to having his/her studies at the University discontinued. 2. 4 Class Attendance A student should attend required lectures, tutorials and other class activities, tests and examinations and complete the work assigned by the teachers of the courses in which the student has enrolled. Students are expected to attend classes and other class activities punctually and regularly, to the satisfaction of the lecturers of courses.
 
 --- Segment 71 ---
-Students are expected to attend classes and other class activities punctually and regularly, to 
-the satisfaction of the lecturers of courses. Each course may have specific requirements for 
-student attendance. Appropriate sanctions, where necessary, would be approved by the Board 
-of Examiners concerned . 2. 5 Leave of Absence  
-A student who wishes to obtain leave of absence of more than three weeks should obtain prior 
-permission from the programme concerned through a written application, stating the reasons 
-for seeking leave of absence. Leave of absence may be granted for a maximum period of 12 months. Any periods of leave 
-of absence taken shall be included as part of the period of study. In case of illness or other serious emergencies, a student who has been granted leave of absence 
-may apply to the Programme Director concerned for permission to carry out make -up work for 
-assignments, tests and examinations.
+Students are expected to attend classes and other class activities punctually and regularly, to the satisfaction of the lecturers of courses. Each course may have specific requirements for student attendance. Appropriate sanctions, where necessary, would be approved by the Board of Examiners concerned . 2. 5 Leave of Absence A student who wishes to obtain leave of absence of more than three weeks should obtain prior permission from the programme concerned through a written application, stating the reasons for seeking leave of absence. Leave of absence may be granted for a maximum period of 12 months. Any periods of leave of absence taken shall be included as part of the period of study. In case of illness or other serious emergencies, a student who has been granted leave of absence may apply to the Programme Director concerned for permission to carry out make -up work for assignments, tests and examinations.
 
 --- Segment 72 ---
-In case of illness or other serious emergencies, a student who has been granted leave of absence 
-may apply to the Programme Director concerned for permission to carry out make -up work for 
-assignments, tests and examinations. Such applications are subject t o approval by the 
-Programme Director in consultation with the teachers concerned. A student whose accumulated leave of absence exceeds one -third of the term should not be  
-assessed and awarded credits for the courses enrolled in the term. A student may be required to take leave of absence if the condition of the student’s health will 
-9 
- constitute a definite hazard to the University community.
+In case of illness or other serious emergencies, a student who has been granted leave of absence may apply to the Programme Director concerned for permission to carry out make -up work for assignments, tests and examinations. Such applications are subject t o approval by the Programme Director in consultation with the teachers concerned. A student whose accumulated leave of absence exceeds one -third of the term should not be assessed and awarded credits for the courses enrolled in the term. A student may be required to take leave of absence if the condition of the student’s health will 9 constitute a definite hazard to the University community.
 
 --- Segment 73 ---
-A student may be required to take leave of absence if the condition of the student’s health will 
-9 
- constitute a definite hazard to the University community. Such a student should seek 
-appropriate treatment. After the prescribed period of absence and before the student applies to 
-resume classes, he/she should obtain a certificate signed by a registered m edical doctor, stating 
-that the student no longer constitutes a hazard to the University community.
+A student may be required to take leave of absence if the condition of the student’s health will 9 constitute a definite hazard to the University community. Such a student should seek appropriate treatment. After the prescribed period of absence and before the student applies to resume classes, he/she should obtain a certificate signed by a registered m edical doctor, stating that the student no longer constitutes a hazard to the University community. 2.
 
 --- Segment 74 ---
-After the prescribed period of absence and before the student applies to 
-resume classes, he/she should obtain a certificate signed by a registered m edical doctor, stating 
-that the student no longer constitutes a hazard to the University community. 2. 6 Withdrawal of Study  
-A student who wishes to leave the University before graduation must seek official withdrawal 
-from the University. The student should complete and submit an application form obtainable 
-from the Programme Office. Approval will be granted by the Programme Director only after proper clearance by relevant 
-units. A student who leaves the University without prior approval by the Programme Director or is 
-absent for over three weeks continuously without prior permission of his/her programme 
-prescribed above will be considered as having unofficially withdrawn from studies at the 
-University with effect from the date of confirmation by the programme concerned. An unofficially withdrawn student will not be issued any official documents of the University 
-and will not be re -admitted.
+2. 6 Withdrawal of Study A student who wishes to leave the University before graduation must seek official withdrawal from the University. The student should complete and submit an application form obtainable from the Programme Office. Approval will be granted by the Programme Director only after proper clearance by relevant units. A student who leaves the University without prior approval by the Programme Director or is absent for over three weeks continuously without prior permission of his/her programme prescribed above will be considered as having unofficially withdrawn from studies at the University with effect from the date of confirmation by the programme concerned. An unofficially withdrawn student will not be issued any official documents of the University and will not be re -admitted.
 
 --- Segment 75 ---
-An unofficially withdrawn student will not be issued any official documents of the University 
-and will not be re -admitted. Enrolment  
- 
-2. 7 Adding and Dropping Courses and Changing Courses  
-A student who wishes to add or drop a course or change a course after registration must 
-complete a prescribed form obtainable from the Programme Office. The deadline is two weeks 
-after the beginning of the term concerned, or at an earlier time as decided by the Programme 
-Office for a course operated on an irregular mode. The student is required to obtain the endorsement of the teachers involved and the approval of 
-the Programme Director concerned. If the application is approved, the student must return the form with the signatures of 
-endorsement and approval to the Programme Office by the specified deadline. Only under very 
-special circumstances may a student apply in writing to the Programme Direct or for permission 
-10 
- to add or drop a course after the stipulated deadline, but no student is allowed to drop a course 
-after a lapse of one -third of the term or the course which is operated on an irregular mode.
+An unofficially withdrawn student will not be issued any official documents of the University and will not be re -admitted. Enrolment 2. 7 Adding and Dropping Courses and Changing Courses A student who wishes to add or drop a course or change a course after registration must complete a prescribed form obtainable from the Programme Office. The deadline is two weeks after the beginning of the term concerned, or at an earlier time as decided by the Programme Office for a course operated on an irregular mode. The student is required to obtain the endorsement of the teachers involved and the approval of the Programme Director concerned. If the application is approved, the student must return the form with the signatures of endorsement and approval to the Programme Office by the specified deadline. Only under very special circumstances may a student apply in writing to the Programme Direct or for permission 10 to add or drop a course after the stipulated deadline, but no student is allowed to drop a course after a lapse of one -third of the term or the course which is operated on an irregular mode.
 
 --- Segment 76 ---
-Only under very 
-special circumstances may a student apply in writing to the Programme Direct or for permission 
-10 
- to add or drop a course after the stipulated deadline, but no student is allowed to drop a course 
-after a lapse of one -third of the term or the course which is operated on an irregular mode. A transaction fee will be charged for each entry to be altered if the application is approved. If 
-the change is initiated by a teacher, no fee will be charged. A student who adds or changes a course without going through the prescribed procedure s 
-specified in the Regulations Governing Taught Doctoral/Master ’s Degree Programmes  will not 
-be given a grade or credits for the course. A student who drops a course without going through the prescribed procedure specified in the 
-Regulations  mentioned above  will be given an “F” grade for the course.
+Only under very special circumstances may a student apply in writing to the Programme Direct or for permission 10 to add or drop a course after the stipulated deadline, but no student is allowed to drop a course after a lapse of one -third of the term or the course which is operated on an irregular mode. A transaction fee will be charged for each entry to be altered if the application is approved. If the change is initiated by a teacher, no fee will be charged. A student who adds or changes a course without going through the prescribed procedure s specified in the Regulations Governing Taught Doctoral/Master ’s Degree Programmes will not be given a grade or credits for the course. A student who drops a course without going through the prescribed procedure specified in the Regulations mentioned above will be given an “F” grade for the course.
 
 --- Segment 77 ---
-A student who drops a course without going through the prescribed procedure specified in the 
-Regulations  mentioned above  will be given an “F” grade for the course. 2. 8 Credit  Transfer and Course Exemption   
-A student who has passed public, professional, or other examinations recognised by the 
-University or has successfully completed a similar course at an appropriate level offered by a 
-recognised institution may apply for credit transfer/course exemption.
+A student who drops a course without going through the prescribed procedure specified in the Regulations mentioned above will be given an “F” grade for the course. 2. 8 Credit Transfer and Course Exemption A student who has passed public, professional, or other examinations recognised by the University or has successfully completed a similar course at an appropriate level offered by a recognised institution may apply for credit transfer/course exemption. Please refer to Section 9 of Regulations Governing Taught Doctoral/Master’ s Degree Programmes for details.
 
 --- Segment 78 ---
-8 Credit  Transfer and Course Exemption   
-A student who has passed public, professional, or other examinations recognised by the 
-University or has successfully completed a similar course at an appropriate level offered by a 
-recognised institution may apply for credit transfer/course exemption. Please refer to    
-Section 9 of Regulations Governing Taught Doctoral/Master’ s Degree Programmes  for details. 2. 9 Student Progression  
-A student should be subject to an academic review at the end of each term generally. In the case 
-where a student enrolled in less than 6 credits in a term, the academic review shall be done 
-when he/she has cumulatively enrolled in 6 credits or more.
+Please refer to Section 9 of Regulations Governing Taught Doctoral/Master’ s Degree Programmes for details. 2. 9 Student Progression A student should be subject to an academic review at the end of each term generally. In the case where a student enrolled in less than 6 credits in a term, the academic review shall be done when he/she has cumulatively enrolled in 6 credits or more. A student whose Cumulative G.
 
 --- Segment 79 ---
-In the case 
-where a student enrolled in less than 6 credits in a term, the academic review shall be done 
-when he/she has cumulatively enrolled in 6 credits or more. A student whose Cumulative G. P. A. is below 2. 33* at the academic review will  be put on 
-academic probation in the following term (unless his/her studies shall  be discontinued as 
-prescribed in the Regulations Governing Taught Doctoral/Master’ s Degree Programmes ). At the end of the term in which the student on academic probation has  cumulatively enrolled 
-in 6 or more credits, if he/she obtains a Cumulative G.
+A student whose Cumulative G. P. A. is below 2. 33* at the academic review will be put on academic probation in the following term (unless his/her studies shall be discontinued as prescribed in the Regulations Governing Taught Doctoral/Master’ s Degree Programmes ). At the end of the term in which the student on academic probation has cumulatively enrolled in 6 or more credits, if he/she obtains a Cumulative G.
 
 --- Segment 80 ---
-At the end of the term in which the student on academic probation has  cumulatively enrolled 
-in 6 or more credits, if he/she obtains a Cumulative G. P. A. of 2. 33 * or above , probation will be 
-lifted. Otherwise, his/her studies will be  discontinued. A student may be put on academic probation for only one time during his/her  whole period of 
-study on the programme. After the academic probation is lifted  and the student continue s on 
-the programme, the student will be discontinued  from his/her studies if his/her Cumulative 
-G.
+At the end of the term in which the student on academic probation has cumulatively enrolled in 6 or more credits, if he/she obtains a Cumulative G. P. A. of 2. 33 * or above , probation will be lifted. Otherwise, his/her studies will be discontinued. A student may be put on academic probation for only one time during his/her whole period of study on the programme. After the academic probation is lifted and the student continue s on the programme, the student will be discontinued from his/her studies if his/her Cumulative G.
 
 --- Segment 81 ---
-After the academic probation is lifted  and the student continue s on 
-the programme, the student will be discontinued  from his/her studies if his/her Cumulative 
-G. P. A. is below 2. 33 * at an academic  review. 11 
- *Important Note:  
-Individual programmes may set higher and additional requirements  governing students’ 
-progression, and the higher Cumulative G. P . A. requirement set by the programme would be 
-adopted as the programme’s minimum Cumulative G. P .
+After the academic probation is lifted and the student continue s on the programme, the student will be discontinued from his/her studies if his/her Cumulative G. P. A. is below 2. 33 * at an academic review. 11 *Important Note: Individual programmes may set higher and additional requirements governing students’ progression, and the higher Cumulative G. P . A. requirement set by the programme would be adopted as the programme’s minimum Cumulative G. P . A. requirement for progression when reviewing the academic performance of students at the academi c revie w.
 
 --- Segment 82 ---
-P . A. requirement for progression when 
-reviewing the academic performance of students at the academi c revie w. 2. 10 Discontinuation of Studies  
-The Senate may, on the recommendation of the Postgraduate Studies Committee, discontinue 
-the studies of a student at any time on the grounds of the candidate’s unsatisfactory performance 
-or failure to comply with the Regulations  of the University . The studies of a student will normally be discontinued if,  
-• he/she fails to have his/her academic probation lifted at the end of the term when he/she 
-has taken cumulatively 6 or more credits since he/she has been put on probation ; or 
-• his/her Cumulative G.
+requirement for progression when reviewing the academic performance of students at the academi c revie w. 2. 10 Discontinuation of Studies The Senate may, on the recommendation of the Postgraduate Studies Committee, discontinue the studies of a student at any time on the grounds of the candidate’s unsatisfactory performance or failure to comply with the Regulations of the University . The studies of a student will normally be discontinued if, • he/she fails to have his/her academic probation lifted at the end of the term when he/she has taken cumulatively 6 or more credits since he/she has been put on probation ; or • his/her Cumulative G.
 
 --- Segment 83 ---
-The studies of a student will normally be discontinued if,  
-• he/she fails to have his/her academic probation lifted at the end of the term when he/she 
-has taken cumulatively 6 or more credits since he/she has been put on probation ; or 
-• his/her Cumulative G. P. A. is below 2. 33 (or the Cumulative G. P. A. requirement of the 
-programme for progression) at an academic review after the academic probation is lifted 
-and the student continue s on the programme;  or 
-• he/she fails to fulfil progression requirements specified for his/her programme; or  
-• he/she fails to fulfil all requirements for graduation within the maximum study period. A student with studies discontinued on academic grounds is normally not allowed to be 
-admitted to the same programme of the University in the following academic year. A student 
-whose studies have been discontinued may appeal through the Registrar against the decision.
+The studies of a student will normally be discontinued if, • he/she fails to have his/her academic probation lifted at the end of the term when he/she has taken cumulatively 6 or more credits since he/she has been put on probation ; or • his/her Cumulative G. P. A. is below 2. 33 (or the Cumulative G. P. A. requirement of the programme for progression) at an academic review after the academic probation is lifted and the student continue s on the programme; or • he/she fails to fulfil progression requirements specified for his/her programme; or • he/she fails to fulfil all requirements for graduation within the maximum study period. A student with studies discontinued on academic grounds is normally not allowed to be admitted to the same programme of the University in the following academic year. A student whose studies have been discontinued may appeal through the Registrar against the decision.
 
 --- Segment 84 ---
-A student 
-whose studies have been discontinued may appeal through the Registrar against the decision. Details are stipulated in Section 9. 1 of the Regulations Governing University Examinations 
-and Course Work . Please refer to the following regulations for more information:  
-Regulations Governing Taught Doctoral/Master ’s Degree Programmes  
-Regulations Governing University Examinations and Course Work  
-12 
- 
-Chapter  3  
-Assessment  
-13 
- 3.
+A student whose studies have been discontinued may appeal through the Registrar against the decision. Details are stipulated in Section 9. 1 of the Regulations Governing University Examinations and Course Work . Please refer to the following regulations for more information: Regulations Governing Taught Doctoral/Master ’s Degree Programmes Regulations Governing University Examinations and Course Work 12 Chapter 3 Assessment 13 3.
 
 --- Segment 85 ---
-Please refer to the following regulations for more information:  
-Regulations Governing Taught Doctoral/Master ’s Degree Programmes  
-Regulations Governing University Examinations and Course Work  
-12 
- 
-Chapter  3  
-Assessment  
-13 
- 3. Assessment  
-3. 1 Outcome -based Approach to Teaching and Learning (OBATL)  
-Lingnan University has put in place effective mechanisms to assure and enhance the quality of 
-its education with a view to achieving the graduate attributes  and learning outcomes 
-exemplifying the qualities expected of Lingnan graduates. OBATL is grounded in a set of pedagogical and institutional values and principles that 
-articulate clearly stated “ intended learning outcomes ” (ILOs) with a set of assessment tasks 
-(methods) for measuring them.
+Please refer to the following regulations for more information: Regulations Governing Taught Doctoral/Master ’s Degree Programmes Regulations Governing University Examinations and Course Work 12 Chapter 3 Assessment 13 3. Assessment 3. 1 Outcome -based Approach to Teaching and Learning (OBATL) Lingnan University has put in place effective mechanisms to assure and enhance the quality of its education with a view to achieving the graduate attributes and learning outcomes exemplifying the qualities expected of Lingnan graduates. OBATL is grounded in a set of pedagogical and institutional values and principles that articulate clearly stated “ intended learning outcomes ” (ILOs) with a set of assessment tasks (methods) for measuring them.
 
 --- Segment 86 ---
-OBATL is grounded in a set of pedagogical and institutional values and principles that 
-articulate clearly stated “ intended learning outcomes ” (ILOs) with a set of assessment tasks 
-(methods) for measuring them. OBATL requires that assessment processes be based on clearly 
-expressed criteria which are then used for determining the final grade (criterion -referencing). In other words, students are graded on the basis of attaining well defined learning 
-outcomes (i. e. , knowledge, skills, attributes criteria)  rather than how they compare with their 
-peer group (norm -referencing).
+OBATL is grounded in a set of pedagogical and institutional values and principles that articulate clearly stated “ intended learning outcomes ” (ILOs) with a set of assessment tasks (methods) for measuring them. OBATL requires that assessment processes be based on clearly expressed criteria which are then used for determining the final grade (criterion -referencing). In other words, students are graded on the basis of attaining well defined learning outcomes (i. e. , knowledge, skills, attributes criteria) rather than how they compare with their peer group (norm -referencing).
 
 --- Segment 87 ---
-, knowledge, skills, attributes criteria)  rather than how they compare with their 
-peer group (norm -referencing). 3. 2 Use of Rubrics  
-Rubrics are developed for assessment tasks to help assess to what extent students have attained 
-the intended outcomes. 3. 3 Grading System  
-Letter grades are used to indicate a student ’s academic performance in a course. Grades are 
-awarded according to the following system  for taught postgraduate programmes : 
-Grade  Standard  Sub-divisions  Grade Points  
-A Excellent  A 4.
+, knowledge, skills, attributes criteria) rather than how they compare with their peer group (norm -referencing). 3. 2 Use of Rubrics Rubrics are developed for assessment tasks to help assess to what extent students have attained the intended outcomes. 3. 3 Grading System Letter grades are used to indicate a student ’s academic performance in a course. Grades are awarded according to the following system for taught postgraduate programmes : Grade Standard Sub-divisions Grade Points A Excellent A 4.
 
 --- Segment 88 ---
-Grades are 
-awarded according to the following system  for taught postgraduate programmes : 
-Grade  Standard  Sub-divisions  Grade Points  
-A Excellent  A 4. 00 
-A- 3. 67 
-B Good  B+ 3. 33 
-B 3. 00 
-B- 2. 67 
-C Pass C+ 2. 33 
-C 2. 00 
-C- 1. 67 
-F Failure  F 0 
-I Incomplete   0* 
-M Merit   No grade point given*  
-VS Very Satisfactory   No grade point given*  
-S Satisfactory   No grade point given*  
-U Unsatisfactory   No grade point given*  
-PASS/FAIL    No grade point given*  
-14 
- *Not included in the calculation of grade point average. Grade F indicates failure.
+Grades are awarded according to the following system for taught postgraduate programmes : Grade Standard Sub-divisions Grade Points A Excellent A 4. 00 A- 3. 67 B Good B+ 3. 33 B 3. 00 B- 2. 67 C Pass C+ 2. 33 C 2. 00 C- 1. 67 F Failure F 0 I Incomplete 0* M Merit No grade point given* VS Very Satisfactory No grade point given* S Satisfactory No grade point given* U Unsatisfactory No grade point given* PASS/FAIL No grade point given* 14 *Not included in the calculation of grade point average. Grade F indicates failure.
 
 --- Segment 89 ---
-Grade F indicates failure. A student who receives the grade in the first term of a year course is 
-normally not allowed to continue with that course in the second term. Grade I is a temporary grade which indicates that the course work or examination has not been 
-completed for reasons acceptable to both the teacher and the Board of Examiners concerned. The assessment should be completed within four weeks after official rel ease of the preliminary 
-assessment results, and the grade I will be converted to a final grade which includes all 
-assessment marks; otherwise, the grade I will be converted to grade F. The final grade will be 
-used in the calculation of grade point averages . Pass or Fail grade may only be given as specified in the approved syllabus of the course 
-concerned.
+Grade F indicates failure. A student who receives the grade in the first term of a year course is normally not allowed to continue with that course in the second term. Grade I is a temporary grade which indicates that the course work or examination has not been completed for reasons acceptable to both the teacher and the Board of Examiners concerned. The assessment should be completed within four weeks after official rel ease of the preliminary assessment results, and the grade I will be converted to a final grade which includes all assessment marks; otherwise, the grade I will be converted to grade F. The final grade will be used in the calculation of grade point averages . Pass or Fail grade may only be given as specified in the approved syllabus of the course concerned.
 
 --- Segment 90 ---
-Pass or Fail grade may only be given as specified in the approved syllabus of the course 
-concerned. 3. 4 Grade Point Average  (G. P. A. )  
- 
-Term G. P . A. This is a figure ranging from 0 to 4. 00 (A = 4. 00) used to indicate the performance of a student 
-in the term concerned. Term G. P. A. =   
-Total weighted points for all courses enrolled in during the term concerned  
-Total number of credits  of relevant courses   
-enrolled in during the term concerned  
- 
-Where weighted points = grade points x the number of credits of the course concerned.
+Pass or Fail grade may only be given as specified in the approved syllabus of the course concerned. 3. 4 Grade Point Average (G. P. A. ) Term G. P . A. This is a figure ranging from 0 to 4. 00 (A = 4. 00) used to indicate the performance of a student in the term concerned. Term G. P. A. = Total weighted points for all courses enrolled in during the term concerned Total number of credits of relevant courses enrolled in during the term concerned Where weighted points = grade points x the number of credits of the course concerned.
 
 --- Segment 91 ---
-=   
-Total weighted points for all courses enrolled in during the term concerned  
-Total number of credits  of relevant courses   
-enrolled in during the term concerned  
- 
-Where weighted points = grade points x the number of credits of the course concerned. Cumulative G. P . A. This is a figure ranging from 0 to 4. 00 (A = 4. 00) used to indicate the overall performance of a  
-student in all the terms up to date . Cumulative G. P. A. =   
-Total weighted points for all courses enrolled in  
-Total number of credits  of relevant courses  enrolled in  
-for all terms  
- 
-Courses enrolled, whether passed or failed, will be taken in the calculation of Term or 
-Cumulative G.
+= Total weighted points for all courses enrolled in during the term concerned Total number of credits of relevant courses enrolled in during the term concerned Where weighted points = grade points x the number of credits of the course concerned. Cumulative G. P . A. This is a figure ranging from 0 to 4. 00 (A = 4. 00) used to indicate the overall performance of a student in all the terms up to date . Cumulative G. P. A. = Total weighted points for all courses enrolled in Total number of credits of relevant courses enrolled in for all terms Courses enrolled, whether passed or failed, will be taken in the calculation of Term or Cumulative G.
 
 --- Segment 92 ---
-=   
-Total weighted points for all courses enrolled in  
-Total number of credits  of relevant courses  enrolled in  
-for all terms  
- 
-Courses enrolled, whether passed or failed, will be taken in the calculation of Term or 
-Cumulative G. P. A. , but for courses which have been retaken, only the grade and weighted 
-points obtained in the final attempt will be included in the G. P. A. calculation. 15 
- Courses which are exempted are not included in the calculation of Term or Cumulative G. P. A. 3. 5 Course Assessment  
-A student is assessed for every course in which he/she has enrolled in the form of any one or 
-any combination of the following: class work, written assignment, laboratory work, field work, 
-research papers, projects, tests, written examinations, oral examin ations and any other 
-method(s) of academic assessment.
+= Total weighted points for all courses enrolled in Total number of credits of relevant courses enrolled in for all terms Courses enrolled, whether passed or failed, will be taken in the calculation of Term or Cumulative G. P. A. , but for courses which have been retaken, only the grade and weighted points obtained in the final attempt will be included in the G. P. A. calculation. 15 Courses which are exempted are not included in the calculation of Term or Cumulative G. P. A. 3. 5 Course Assessment A student is assessed for every course in which he/she has enrolled in the form of any one or any combination of the following: class work, written assignment, laboratory work, field work, research papers, projects, tests, written examinations, oral examin ations and any other method(s) of academic assessment.
 
 --- Segment 93 ---
-5 Course Assessment  
-A student is assessed for every course in which he/she has enrolled in the form of any one or 
-any combination of the following: class work, written assignment, laboratory work, field work, 
-research papers, projects, tests, written examinations, oral examin ations and any other 
-method(s) of academic assessment. Students  may be required to submit a thesis/project report 
-covering an element of research or creative work as defined by the respective programme 
-requirements. A student is required to complete all the course work and take all the prescribed tests and 
-examinations. A student who fails to attend a test or an examination without a good reason will 
-not be given marks for that test or examination and no supplementary  assessment will be given.
+5 Course Assessment A student is assessed for every course in which he/she has enrolled in the form of any one or any combination of the following: class work, written assignment, laboratory work, field work, research papers, projects, tests, written examinations, oral examin ations and any other method(s) of academic assessment. Students may be required to submit a thesis/project report covering an element of research or creative work as defined by the respective programme requirements. A student is required to complete all the course work and take all the prescribed tests and examinations. A student who fails to attend a test or an examination without a good reason will not be given marks for that test or examination and no supplementary assessment will be given.
 
 --- Segment 94 ---
-A student who fails to attend a test or an examination without a good reason will 
-not be given marks for that test or examination and no supplementary  assessment will be given. 3. 6 Supplementary Assessments  
-A student who is unable to sit for an examination but has medical or other compelling reasons 
-acceptable to the Programme Office responsible for the course concerned may apply in writing 
-with documentary evidence to the Programme Office concerned for a supplementary 
-assessment.
+A student who fails to attend a test or an examination without a good reason will not be given marks for that test or examination and no supplementary assessment will be given. 3. 6 Supplementary Assessments A student who is unable to sit for an examination but has medical or other compelling reasons acceptable to the Programme Office responsible for the course concerned may apply in writing with documentary evidence to the Programme Office concerned for a supplementary assessment.
 
 --- Segment 95 ---
-6 Supplementary Assessments  
-A student who is unable to sit for an examination but has medical or other compelling reasons 
-acceptable to the Programme Office responsible for the course concerned may apply in writing 
-with documentary evidence to the Programme Office concerned for a supplementary 
-assessment. The application  should be made at the earliest possible moment and no later than 
-one week after the examination concerned is held. All applications for supplementary assessments should be made to the Programme Office  
-concerned  by the subject teacher on behalf of the students. Supplementary assessments should be held as soon as possible and not later than 3 weeks after 
-the end of the examination period.
+6 Supplementary Assessments A student who is unable to sit for an examination but has medical or other compelling reasons acceptable to the Programme Office responsible for the course concerned may apply in writing with documentary evidence to the Programme Office concerned for a supplementary assessment. The application should be made at the earliest possible moment and no later than one week after the examination concerned is held. All applications for supplementary assessments should be made to the Programme Office concerned by the subject teacher on behalf of the students. Supplementary assessments should be held as soon as possible and not later than 3 weeks after the end of the examination period.
 
 --- Segment 96 ---
-Supplementary assessments should be held as soon as possible and not later than 3 weeks after 
-the end of the examination period. Exceptions could be granted by the Chairman of the 
-Postgraduate Studies Committee. 3. 7 Re-taking a Course  
-A student must retake a failed required course or take a substitute course approved in writing 
-by the Programme Office concerned. A student may retake a  required course passed with grade 
-C+ or below or take a substitute course approved in writing by the Programme Office 
-concerned. A student who has failed an elective course or passed the elective course with grade C+ or 
-below may retake it or substitute it with another elective in a subsequent term.
+Supplementary assessments should be held as soon as possible and not later than 3 weeks after the end of the examination period. Exceptions could be granted by the Chairman of the Postgraduate Studies Committee. 3. 7 Re-taking a Course A student must retake a failed required course or take a substitute course approved in writing by the Programme Office concerned. A student may retake a required course passed with grade C+ or below or take a substitute course approved in writing by the Programme Office concerned. A student who has failed an elective course or passed the elective course with grade C+ or below may retake it or substitute it with another elective in a subsequent term.
 
 --- Segment 97 ---
-A student who has failed an elective course or passed the elective course with grade C+ or 
-below may retake it or substitute it with another elective in a subsequent term. Students are 
-required to register all substitutions with the relevant Programme Offi ce prior to 
-commencement of the term. 16 
- Also, a student may retake a course only twice, be it retaking a failed course or a course with 
-grade C+ or below. Course grades for all attempts, inclusive of any course substitute for 
-required or elective course, will appear on the student's transcript, but only the final grade and 
-weighted points obtained will be taken in the calculation of the student's G.
+A student who has failed an elective course or passed the elective course with grade C+ or below may retake it or substitute it with another elective in a subsequent term. Students are required to register all substitutions with the relevant Programme Offi ce prior to commencement of the term. 16 Also, a student may retake a course only twice, be it retaking a failed course or a course with grade C+ or below. Course grades for all attempts, inclusive of any course substitute for required or elective course, will appear on the student's transcript, but only the final grade and weighted points obtained will be taken in the calculation of the student's G.
 
 --- Segment 98 ---
-Course grades for all attempts, inclusive of any course substitute for 
-required or elective course, will appear on the student's transcript, but only the final grade and 
-weighted points obtained will be taken in the calculation of the student's G. P. As, and only the 
-credits for the final attempt will be counted towards fulfillment of graduation requirements. Students may only choose two courses passed with grade C+ or below for course retaking or 
-course substitution while each course can have at most two attempts of retaking and/or 
-substitution. Credit bearing or non -credit bearing courses which a student has previously t aken 
-and passed with grade B- or above shall not be retaken.
+Course grades for all attempts, inclusive of any course substitute for required or elective course, will appear on the student's transcript, but only the final grade and weighted points obtained will be taken in the calculation of the student's G. P. As, and only the credits for the final attempt will be counted towards fulfillment of graduation requirements. Students may only choose two courses passed with grade C+ or below for course retaking or course substitution while each course can have at most two attempts of retaking and/or substitution. Credit bearing or non -credit bearing courses which a student has previously t aken and passed with grade B- or above shall not be retaken.
 
 --- Segment 99 ---
-Credit bearing or non -credit bearing courses which a student has previously t aken 
-and passed with grade B- or above shall not be retaken. For retaking a course, a student shall attend classes, complete assignments, take  tests and attend 
-the final examination, if any, as other students. In case a  student shall retake a course in a  
-different mode, such shall be considered and  approved by the Postgraduate Studies Committee 
-on an exceptional basis . A student shall be charged a dditional tuition fees for retaking a course, in an amount to be 
-determined by the Academic Unit/Programme Office concerned.
+Credit bearing or non -credit bearing courses which a student has previously t aken and passed with grade B- or above shall not be retaken. For retaking a course, a student shall attend classes, complete assignments, take tests and attend the final examination, if any, as other students. In case a student shall retake a course in a different mode, such shall be considered and approved by the Postgraduate Studies Committee on an exceptional basis . A student shall be charged a dditional tuition fees for retaking a course, in an amount to be determined by the Academic Unit/Programme Office concerned.
 
 --- Segment 100 ---
-A student shall be charged a dditional tuition fees for retaking a course, in an amount to be 
-determined by the Academic Unit/Programme Office concerned. 3. 8 Review of Grades and Reassessment  
-As all course grades are assigned according to criterion referencing, student s are  entitled to 
-know the basis on which the grade has been assigned. This includes the criteria for grades on 
-individual assessment tasks and weighting of individual assessment tasks in calculating the 
-course grade.
+A student shall be charged a dditional tuition fees for retaking a course, in an amount to be determined by the Academic Unit/Programme Office concerned. 3. 8 Review of Grades and Reassessment As all course grades are assigned according to criterion referencing, student s are entitled to know the basis on which the grade has been assigned. This includes the criteria for grades on individual assessment tasks and weighting of individual assessment tasks in calculating the course grade.
 
 --- Segment 101 ---
-This includes the criteria for grades on 
-individual assessment tasks and weighting of individual assessment tasks in calculating the 
-course grade. A student  unsure of how a course grade has been arrived at is encouraged to seek an explanation 
-from the course instructor. It is the course instructor’s obligation to provide this information, 
-which may include an explanation of the criteria used in marking indivi dual assessment tasks 
-and/or a confirmation of the scores and weightings on which the course grade is based. In case 
-a face -to-face meeting is impossible, the instructor and the student can communicate by other 
-means, such as email or phone call .
+This includes the criteria for grades on individual assessment tasks and weighting of individual assessment tasks in calculating the course grade. A student unsure of how a course grade has been arrived at is encouraged to seek an explanation from the course instructor. It is the course instructor’s obligation to provide this information, which may include an explanation of the criteria used in marking indivi dual assessment tasks and/or a confirmation of the scores and weightings on which the course grade is based. In case a face -to-face meeting is impossible, the instructor and the student can communicate by other means, such as email or phone call .
 
 --- Segment 102 ---
-In case 
-a face -to-face meeting is impossible, the instructor and the student can communicate by other 
-means, such as email or phone call . During the process, the student is not allowed to lobby for 
-a change of grade. When the student approaches the instructor for an explanation, he/she may be required to 
-provide the work in question if this has been returned to him/her. A student may appeal through the Registrar for a review of grades. The appeal process requires 
-the student to explain briefly why he or she believes the original calculation is incorrect. The 
-17 
- Registrar will refer the appeal to the Programme Director/Head of Academic Unit concerned, 
-who will inform the subject teacher. The Programme Director/Head of Academic Unit will 
-return the result of the review to the Registrar, who will inform the student. A student may appeal through the Registrar for a reassessment of one or more written works.
+In case a face -to-face meeting is impossible, the instructor and the student can communicate by other means, such as email or phone call . During the process, the student is not allowed to lobby for a change of grade. When the student approaches the instructor for an explanation, he/she may be required to provide the work in question if this has been returned to him/her. A student may appeal through the Registrar for a review of grades. The appeal process requires the student to explain briefly why he or she believes the original calculation is incorrect. The 17 Registrar will refer the appeal to the Programme Director/Head of Academic Unit concerned, who will inform the subject teacher. The Programme Director/Head of Academic Unit will return the result of the review to the Registrar, who will inform the student. A student may appeal through the Registrar for a reassessment of one or more written works.
 
 --- Segment 103 ---
-A student may appeal through the Registrar for a reassessment of one or more written works. The appeal process requires the student to explain briefly why he or she believes the original 
-grade is unfair, with reference to the relevant rubric or marking sch eme. The Registrar will 
-refer the appeal to the Programme Director/Head of Academic Unit concerned. The Programme  
-Director/Head of Academic Unit will return the result of the reassessment to the Registrar, who 
-will inform the student. An appeal for review or reassessment requires a deposit, which will be refunded only if the 
-appeal results in a change to the grade.
+A student may appeal through the Registrar for a reassessment of one or more written works. The appeal process requires the student to explain briefly why he or she believes the original grade is unfair, with reference to the relevant rubric or marking sch eme. The Registrar will refer the appeal to the Programme Director/Head of Academic Unit concerned. The Programme Director/Head of Academic Unit will return the result of the reassessment to the Registrar, who will inform the student. An appeal for review or reassessment requires a deposit, which will be refunded only if the appeal results in a change to the grade.
 
 --- Segment 104 ---
-An appeal for review or reassessment requires a deposit, which will be refunded only if the 
-appeal results in a change to the grade. Appeals must be made within two weeks from the 
-release of preliminary examination results. Results of appeals will be determin ed within 7 
-working days from the day when the application is lodged . Please refer to the following regulations for more information:  
-Regulations Governing Taught Doctoral/Master ’s Degree Programmes  
-Regulations Governing University Examinations and Course Work  
-18 
-  
-Chapter  4 Award  
-19 
- 4.
+An appeal for review or reassessment requires a deposit, which will be refunded only if the appeal results in a change to the grade. Appeals must be made within two weeks from the release of preliminary examination results. Results of appeals will be determin ed within 7 working days from the day when the application is lodged . Please refer to the following regulations for more information: Regulations Governing Taught Doctoral/Master ’s Degree Programmes Regulations Governing University Examinations and Course Work 18 Chapter 4 Award 19 4.
 
 --- Segment 105 ---
-Please refer to the following regulations for more information:  
-Regulations Governing Taught Doctoral/Master ’s Degree Programmes  
-Regulations Governing University Examinations and Course Work  
-18 
-  
-Chapter  4 Award  
-19 
- 4. Award  
-4. 1 Graduation Requirements  
-A student will be evaluated for graduation at the conclusion of the term in which he/she may 
-satisfy all the conditions for an award. If a student is not allowed to graduate, he/she will be re -
-evaluated for graduation at the end of subsequent terms. The student should have fulfilled all graduation requirements stipulated in the curriculum of 
-his/her programme.
+Please refer to the following regulations for more information: Regulations Governing Taught Doctoral/Master ’s Degree Programmes Regulations Governing University Examinations and Course Work 18 Chapter 4 Award 19 4. Award 4. 1 Graduation Requirements A student will be evaluated for graduation at the conclusion of the term in which he/she may satisfy all the conditions for an award. If a student is not allowed to graduate, he/she will be re - evaluated for graduation at the end of subsequent terms. The student should have fulfilled all graduation requirements stipulated in the curriculum of his/her programme.
 
 --- Segment 106 ---
-The student should have fulfilled all graduation requirements stipulated in the curriculum of 
-his/her programme. The University reserves the right to make amendments to academic 
-programmes from time to time as approved by the Senate. The Cumulative G. P. A. that a student 
-should have obtained for graduation will be specified by individual programmes and this shall 
-not be below 2. 67. Students admitted to the programme with an English test score just below the minimum  
-requirement specified by the University and/or individual programmes as approved by the 
-University  are required to fulfil an exit requirement on English language competency before 
-graduation. A student is required to graduate as soon as he/she satisfies all the conditions for an award. Also, a student may graduate upon completion of all requirements at the end of any term in an 
-academic year.
+The student should have fulfilled all graduation requirements stipulated in the curriculum of his/her programme. The University reserves the right to make amendments to academic programmes from time to time as approved by the Senate. The Cumulative G. P. A. that a student should have obtained for graduation will be specified by individual programmes and this shall not be below 2. 67. Students admitted to the programme with an English test score just below the minimum requirement specified by the University and/or individual programmes as approved by the University are required to fulfil an exit requirement on English language competency before graduation. A student is required to graduate as soon as he/she satisfies all the conditions for an award. Also, a student may graduate upon completion of all requirements at the end of any term in an academic year.
 
 --- Segment 107 ---
-Also, a student may graduate upon completion of all requirements at the end of any term in an 
-academic year. Please note that a student’s eligibility for graduation is subject to Senate ’s 
-approval. 4. 2 Award Classification  
-Unless a higher Cumulative G. P. A. requirement has been stipulated by an individual 
-programme for its final award, distinction will be awarded when a student achieves a 
-Cumulative G.
+Also, a student may graduate upon completion of all requirements at the end of any term in an academic year. Please note that a student’s eligibility for graduation is subject to Senate ’s approval. 4. 2 Award Classification Unless a higher Cumulative G. P. A. requirement has been stipulated by an individual programme for its final award, distinction will be awarded when a student achieves a Cumulative G. P.
 
 --- Segment 108 ---
-requirement has been stipulated by an individual 
-programme for its final award, distinction will be awarded when a student achieves a 
-Cumulative G. P. A. of 3. 50 or above for a taught doctoral /master ’s degree programme, and has 
-fulfilled the requirements for graduation as specified for individual programmes. 4. 3 Testimonials  
-A student who wishes to have a letter certifying his/her student status or attendance records 
-may apply to the Registry for such a testimonial.
+P. A. of 3. 50 or above for a taught doctoral /master ’s degree programme, and has fulfilled the requirements for graduation as specified for individual programmes. 4. 3 Testimonials A student who wishes to have a letter certifying his/her student status or attendance records may apply to the Registry for such a testimonial.
 
 --- Segment 109 ---
-3 Testimonials  
-A student who wishes to have a letter certifying his/her student status or attendance records 
-may apply to the Registry for such a testimonial. Details on the application of testimonial s can 
-be found here. If a student wishes  to obtain a personal recommendation or reference letter, he/she should 
-approach a teacher who knows him/her well . 20 
- 4. 4 Transcripts  
-A student who wishes to apply for transfer or admission to another educational institution or 
-for employment may apply to the Registry for an official transcript.
+3 Testimonials A student who wishes to have a letter certifying his/her student status or attendance records may apply to the Registry for such a testimonial. Details on the application of testimonial s can be found here. If a student wishes to obtain a personal recommendation or reference letter, he/she should approach a teacher who knows him/her well . 20 4. 4 Transcripts A student who wishes to apply for transfer or admission to another educational institution or for employment may apply to the Registry for an official transcript.
 
 --- Segment 110 ---
-4 Transcripts  
-A student who wishes to apply for transfer or admission to another educational institution or 
-for employment may apply to the Registry for an official transcript. Details on the application 
-of transcript can be found here. An official transcript shows the relevant particulars of a student, title of his/her programme, all 
-courses taken and retaken regardless of passed or failed, grades obtained, grade point averages, 
-academic scholarships, academic awards and disciplinary act ions taken, if any. An official transcript will be sent directly by the Registry to the institution or prospective  
-employer upon the student’s request and payment of the prescribed fees and postage. An official 
-transcript  is not issued to a student as a personal copy or to any private individual and shall not 
-be issued to students who have not completed a term of study. A student who has unofficially withdrawn from the University or has unpaid accounts or 
-obligations due to the University will not be issued any transcript or testimonial.
+4 Transcripts A student who wishes to apply for transfer or admission to another educational institution or for employment may apply to the Registry for an official transcript. Details on the application of transcript can be found here. An official transcript shows the relevant particulars of a student, title of his/her programme, all courses taken and retaken regardless of passed or failed, grades obtained, grade point averages, academic scholarships, academic awards and disciplinary act ions taken, if any. An official transcript will be sent directly by the Registry to the institution or prospective employer upon the student’s request and payment of the prescribed fees and postage. An official transcript is not issued to a student as a personal copy or to any private individual and shall not be issued to students who have not completed a term of study. A student who has unofficially withdrawn from the University or has unpaid accounts or obligations due to the University will not be issued any transcript or testimonial.
 
 --- Segment 111 ---
-A student who has unofficially withdrawn from the University or has unpaid accounts or 
-obligations due to the University will not be issued any transcript or testimonial. Please refer to the following regulations for more information:  
-Regulations Governing Taught Doctoral/Master ’s Degree Programmes  
-21 
-  
-Chapter  5 Student Conduct 
-and Academic Integrity  
-22 
- 5. Student Conduct and Academic Integrity  
-Academic Studies  
- 
-5. 1 Academic Dishonesty  
-If a student attempts to gain an advantage in the assessment of his/her work by undertaking any 
-of the following acts or any other form of dishonest practice, it will be regarded as a case of 
-misconduct:  
-  
-a.
+A student who has unofficially withdrawn from the University or has unpaid accounts or obligations due to the University will not be issued any transcript or testimonial. Please refer to the following regulations for more information: Regulations Governing Taught Doctoral/Master ’s Degree Programmes 21 Chapter 5 Student Conduct and Academic Integrity 22 5. Student Conduct and Academic Integrity Academic Studies 5. 1 Academic Dishonesty If a student attempts to gain an advantage in the assessment of his/her work by undertaking any of the following acts or any other form of dishonest practice, it will be regarded as a case of misconduct: a.
 
 --- Segment 112 ---
-1 Academic Dishonesty  
-If a student attempts to gain an advantage in the assessment of his/her work by undertaking any 
-of the following acts or any other form of dishonest practice, it will be regarded as a case of 
-misconduct:  
-  
-a. Collusion - where two or more students misrepresent their individual work by knowingly 
-withholding crucial information from teachers on who actually do the work;  
- 
-b. Falsification of Data - where the presentation of data in reports, projects or research papers,  
-which is purported to be based on experimental or research work conducted by the student, 
-has actually been invented by the student or obtained from other sources by unfair means;  
- 
-c. Plagiarism - the presentation of another person’s work without proper acknowledgement of 
-the source, including exact phrases, summarised ideas, or even footnotes/citations, whether 
-protected by copyright or not, as the student’s own work;  
- 
-d. Dishonesty in connection with test(s) or examination(s), or violation of any rules or 
-regulations governing the conduct of examinations;  
- 
-e.
+1 Academic Dishonesty If a student attempts to gain an advantage in the assessment of his/her work by undertaking any of the following acts or any other form of dishonest practice, it will be regarded as a case of misconduct: a. Collusion - where two or more students misrepresent their individual work by knowingly withholding crucial information from teachers on who actually do the work; b. Falsification of Data - where the presentation of data in reports, projects or research papers, which is purported to be based on experimental or research work conducted by the student, has actually been invented by the student or obtained from other sources by unfair means; c. Plagiarism - the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the student’s own work; d. Dishonesty in connection with test(s) or examination(s), or violation of any rules or regulations governing the conduct of examinations; e.
 
 --- Segment 113 ---
-Dishonesty in connection with test(s) or examination(s), or violation of any rules or 
-regulations governing the conduct of examinations;  
- 
-e. Any other form of dishonest practice, e. g. submission of the same or substantially the same 
-work for two different assessments (e. g. for assessment in two different courses) without 
-prior approval; or  
- 
-f. Related to (a) or (c) above, allowing another student to copy his/her work  is also regarded 
-as an act of misconduct.
+Dishonesty in connection with test(s) or examination(s), or violation of any rules or regulations governing the conduct of examinations; e. Any other form of dishonest practice, e. g. submission of the same or substantially the same work for two different assessments (e. g. for assessment in two different courses) without prior approval; or f. Related to (a) or (c) above, allowing another student to copy his/her work is also regarded as an act of misconduct.
 
 --- Segment 114 ---
-Related to (a) or (c) above, allowing another student to copy his/her work  is also regarded 
-as an act of misconduct. The Board of Examiners will determine whether it is a case of academic misconduct and decide 
-on the appropriate penalty. The penalty guidelines are as follows:  
- 
-a. Zero mark is given to that particular examination paper/piece of work;  
-b. One demerit* is given to the student; and  
-c. The Board of Examiners has the discretion to revise downward the overall course grade for 
-a serious case, such as impersonation of or by another person. 23 
- * Removal of the demerit from the transcript is subject to review before graduation  
- 
-If a case involves copying the work of another student, the Board of Examiners should also 
-determine the appropriate penalty for the student allowing his/her work to be  copied , 
-considering relevant factors such as the context and reason for allowing his/her own work to 
-be copied, but in any case, the penalty should not be heavier than that for the student who 
-plagiarised.
+Related to (a) or (c) above, allowing another student to copy his/her work is also regarded as an act of misconduct. The Board of Examiners will determine whether it is a case of academic misconduct and decide on the appropriate penalty. The penalty guidelines are as follows: a. Zero mark is given to that particular examination paper/piece of work; b. One demerit* is given to the student; and c. The Board of Examiners has the discretion to revise downward the overall course grade for a serious case, such as impersonation of or by another person. 23 * Removal of the demerit from the transcript is subject to review before graduation If a case involves copying the work of another student, the Board of Examiners should also determine the appropriate penalty for the student allowing his/her work to be copied , considering relevant factors such as the context and reason for allowing his/her own work to be copied, but in any case, the penalty should not be heavier than that for the student who plagiarised.
 
 --- Segment 115 ---
-23 
- * Removal of the demerit from the transcript is subject to review before graduation  
- 
-If a case involves copying the work of another student, the Board of Examiners should also 
-determine the appropriate penalty for the student allowing his/her work to be  copied , 
-considering relevant factors such as the context and reason for allowing his/her own work to 
-be copied, but in any case, the penalty should not be heavier than that for the student who 
-plagiarised. 5. 2 Plagiarism and Online Tutorial on Plagiarism Awareness  
-In order to enhance students’ understanding of plagiarism, all taught postgraduate students are 
-required to complete the Online Tutorial on Plagiarism Awareness by the end of the first term 
-of their studies in Lingnan . Students will be blocked from the next course registration if they 
-have not completed the Online Tutorial on Plagiarism Awareness. The Online Tutorial on Plagiarism Awareness is an hour long and consists of videos and 
-exercises.
+23 * Removal of the demerit from the transcript is subject to review before graduation If a case involves copying the work of another student, the Board of Examiners should also determine the appropriate penalty for the student allowing his/her work to be copied , considering relevant factors such as the context and reason for allowing his/her own work to be copied, but in any case, the penalty should not be heavier than that for the student who plagiarised. 5. 2 Plagiarism and Online Tutorial on Plagiarism Awareness In order to enhance students’ understanding of plagiarism, all taught postgraduate students are required to complete the Online Tutorial on Plagiarism Awareness by the end of the first term of their studies in Lingnan . Students will be blocked from the next course registration if they have not completed the Online Tutorial on Plagiarism Awareness. The Online Tutorial on Plagiarism Awareness is an hour long and consists of videos and exercises.
 
 --- Segment 116 ---
-The Online Tutorial on Plagiarism Awareness is an hour long and consists of videos and 
-exercises. Students can access it at the Lingnan Portal or by accessing this page . For more 
-information on the Online Tutorial, please access this page . General Conduct and Discipline  
- 
-5. 3 Code of Conduct  
-In addition to the Rules and Regulations of the University, all students are expected to observe 
-the following code of conduct:  
-   
-• Students should not eat or drink in lecture theatres, classrooms, laboratories, examination 
-venues and any other areas so designated by the University.
+The Online Tutorial on Plagiarism Awareness is an hour long and consists of videos and exercises. Students can access it at the Lingnan Portal or by accessing this page . For more information on the Online Tutorial, please access this page . General Conduct and Discipline 5. 3 Code of Conduct In addition to the Rules and Regulations of the University, all students are expected to observe the following code of conduct: • Students should not eat or drink in lecture theatres, classrooms, laboratories, examination venues and any other areas so designated by the University.
 
 --- Segment 117 ---
-3 Code of Conduct  
-In addition to the Rules and Regulations of the University, all students are expected to observe 
-the following code of conduct:  
-   
-• Students should not eat or drink in lecture theatres, classrooms, laboratories, examination 
-venues and any other areas so designated by the University. • Smoking is strictly prohibited in all indoor and open areas within the campus. • Gambling or betting in any form is prohibited in the University. Students are reminded that cases of non -observance of any of the above will be referred to the 
-Student Disciplinary Committee. 5. 4 Disciplinary Penalties  
-When a matter deemed a potential contravention of any rule or regulation of the University is 
-brought to the attention of a member of the university community (faculty, staff or students), 
-that member may report the matter to the Head of the Department/Unit/Division concerned, or 
-to the Director of Student Affairs. 24 
-  
-Other than cases involving academic dishonesty, except those involving a violation of the laws 
-of Hong Kong (when they must be reported), it shall be at the discretion of the Director of  
-Student Affairs (for non -academic cases not related to hostels) or the Head of 
-Department/Unit/Division to whom the item was reported, in consultation with the Director of  
-Student Affairs  to decide whether  the matter will be referred to the Student Disciplinary 
-Committee. In the event the Director of Student Affairs (for non -academic cases not related to 
-hostels) or the Head of Department/Unit /Division  decides that the matter does not warrant 
-referral to the Student Disciplinary Committee, it is at his/her discretion whether to impose the 
-penalties . When the Student Disciplinary Committee receives written notification of a matter from  a Head , 
-the Committee will decide whether the case should be pursued. If the Committee decides to 
-further investigate the matter, it will follow the basic principles and procedures set out below. If the Committee decides not to investigate the case further, the m atter will be dropped.
+3 Code of Conduct In addition to the Rules and Regulations of the University, all students are expected to observe the following code of conduct: • Students should not eat or drink in lecture theatres, classrooms, laboratories, examination venues and any other areas so designated by the University. • Smoking is strictly prohibited in all indoor and open areas within the campus. • Gambling or betting in any form is prohibited in the University. Students are reminded that cases of non -observance of any of the above will be referred to the Student Disciplinary Committee. 5. 4 Disciplinary Penalties When a matter deemed a potential contravention of any rule or regulation of the University is brought to the attention of a member of the university community (faculty, staff or students), that member may report the matter to the Head of the Department/Unit/Division concerned, or to the Director of Student Affairs. 24 Other than cases involving academic dishonesty, except those involving a violation of the laws of Hong Kong (when they must be reported), it shall be at the discretion of the Director of Student Affairs (for non -academic cases not related to hostels) or the Head of Department/Unit/Division to whom the item was reported, in consultation with the Director of Student Affairs to decide whether the matter will be referred to the Student Disciplinary Committee. In the event the Director of Student Affairs (for non -academic cases not related to hostels) or the Head of Department/Unit /Division decides that the matter does not warrant referral to the Student Disciplinary Committee, it is at his/her discretion whether to impose the penalties . When the Student Disciplinary Committee receives written notification of a matter from a Head , the Committee will decide whether the case should be pursued. If the Committee decides to further investigate the matter, it will follow the basic principles and procedures set out below. If the Committee decides not to investigate the case further, the m atter will be dropped.
 
 --- Segment 118 ---
-If the Committee decides not to investigate the case further, the m atter will be dropped. The Student Disciplinary Committee may, as a result of its inquiry or investigation, take 
-disciplinary action against a student who violates any rules or regulations of the University or 
-commits any misconduct, including, but not restricted to:  
- 
-a. falsification or misuse of University document(s) or record(s);  
-b. wilful misrepresentation(s) or false statement(s) made in any application or document(s) 
-submitted to the University or to other organisation(s) via the University;  
-c.
+If the Committee decides not to investigate the case further, the m atter will be dropped. The Student Disciplinary Committee may, as a result of its inquiry or investigation, take disciplinary action against a student who violates any rules or regulations of the University or commits any misconduct, including, but not restricted to: a. falsification or misuse of University document(s) or record(s); b. wilful misrepresentation(s) or false statement(s) made in any application or document(s) submitted to the University or to other organisation(s) via the University; c.
 
 --- Segment 119 ---
-wilful misrepresentation(s) or false statement(s) made in any application or document(s) 
-submitted to the University or to other organisation(s) via the University;  
-c. a statement, oral or written, that attacks a person’s reputation without justification;  
-d. the unlawful use of force on another person; or an attempt to inflict bodily injury upon 
-another person by using unlawful force;  
-e. failure to comply with any regulations or orders by authorised person(s) or bodies 
-prohibiting any conduct which disrupts teaching, study, research or administration of the 
-University;  
-f. damage to or defacement of any property of the University;  
-g. fraud, theft, or misuse of University funds or property of any kind;  
-h. any conduct which is detrimental to the reputation and well -being of the University, 
-including breaking the laws of Hong Kong; and/or  
-i. an offence for which the student was convicted by a court of law in Hong Kong or outside 
-of Hong Kong and the student poses a threat to the safety or health of the University 
-community. Disciplinary action taken by the Student DisciplinaryCommittee may take the form of any of 
-25 
- the following penalties in accordance with the nature and seriousness of the offence:  
- 
-a.
+wilful misrepresentation(s) or false statement(s) made in any application or document(s) submitted to the University or to other organisation(s) via the University; c. a statement, oral or written, that attacks a person’s reputation without justification; d. the unlawful use of force on another person; or an attempt to inflict bodily injury upon another person by using unlawful force; e. failure to comply with any regulations or orders by authorised person(s) or bodies prohibiting any conduct which disrupts teaching, study, research or administration of the University; f. damage to or defacement of any property of the University; g. fraud, theft, or misuse of University funds or property of any kind; h. any conduct which is detrimental to the reputation and well -being of the University, including breaking the laws of Hong Kong; and/or i. an offence for which the student was convicted by a court of law in Hong Kong or outside of Hong Kong and the student poses a threat to the safety or health of the University community. Disciplinary action taken by the Student DisciplinaryCommittee may take the form of any of 25 the following penalties in accordance with the nature and seriousness of the offence: a.
 
 --- Segment 120 ---
-Disciplinary action taken by the Student DisciplinaryCommittee may take the form of any of 
-25 
- the following penalties in accordance with the nature and seriousness of the offence:  
- 
-a. a reprimand;  
-b. a written or verbal apology by the student;   
-c. suspension from part or all of  the rights and privileges and/or the use of part or all of the 
-facilities of the University for a specified period of time;   
-d. compensation for any damage to property or premises caused in the University;   
-e.
+Disciplinary action taken by the Student DisciplinaryCommittee may take the form of any of 25 the following penalties in accordance with the nature and seriousness of the offence: a. a reprimand; b. a written or verbal apology by the student; c. suspension from part or all of the rights and privileges and/or the use of part or all of the facilities of the University for a specified period of time; d. compensation for any damage to property or premises caused in the University; e.
 
 --- Segment 121 ---
-compensation for any damage to property or premises caused in the University;   
-e. one or two demerit(s). A total of three demerits may result in the termination of studies at 
-the University;   
-f. a fine;  
-g. a University service order;   
-h. suspension from the University for a specified period of time; and/or   
-i. termination of studies at the University. Penalty ( i) may be imposed only upon the decision of the Senate. The Student Disciplinary 
-Committee shall make a recommendation on whether the student concerned can be re -admitted 
-to the same or another programme of the University; however, in case of termination of studies 
-due to submission of forged document(s), the student should not be allowed to be re -admitted 
-to the same or another programme of the University. Penalties imposed on a student may be entered into the transcript of his/her academic records.
+compensation for any damage to property or premises caused in the University; e. one or two demerit(s). A total of three demerits may result in the termination of studies at the University; f. a fine; g. a University service order; h. suspension from the University for a specified period of time; and/or i. termination of studies at the University. Penalty ( i) may be imposed only upon the decision of the Senate. The Student Disciplinary Committee shall make a recommendation on whether the student concerned can be re -admitted to the same or another programme of the University; however, in case of termination of studies due to submission of forged document(s), the student should not be allowed to be re -admitted to the same or another programme of the University. Penalties imposed on a student may be entered into the transcript of his/her academic records.
 
 --- Segment 122 ---
-Penalties imposed on a student may be entered into the transcript of his/her academic records. Please refer to the following regulations for more information:  
-Regulations Governing University Examinations and Course Work  
-Regulations Governing Discipline of Students  
- 
-  
-Chapter  6  
-Student Services  and Facilities  
-27 
- 6. Student Services  and Facilities  
-6. 1 Email Services  
-Email serves as the primary and official communication channel at Lingnan University.
+Penalties imposed on a student may be entered into the transcript of his/her academic records. Please refer to the following regulations for more information: Regulations Governing University Examinations and Course Work Regulations Governing Discipline of Students Chapter 6 Student Services and Facilities 27 6. Student Services and Facilities 6. 1 Email Services Email serves as the primary and official communication channel at Lingnan University.
 
 --- Segment 123 ---
-1 Email Services  
-Email serves as the primary and official communication channel at Lingnan University. Each 
-student is provided with a computer account that is uniquely identified by a MyLingnan Portal 
-username  and an associated password  for accessing a range of network services and 
-applications and communicating with fellow students and other members of the University. Students should use their Lingnan student email accounts to exchange messages with members 
-of the University. The University disseminates important information and notices and communicate s with 
-students through the Lingnan  email accounts.
+1 Email Services Email serves as the primary and official communication channel at Lingnan University. Each student is provided with a computer account that is uniquely identified by a MyLingnan Portal username and an associated password for accessing a range of network services and applications and communicating with fellow students and other members of the University. Students should use their Lingnan student email accounts to exchange messages with members of the University. The University disseminates important information and notices and communicate s with students through the Lingnan email accounts.
 
 --- Segment 124 ---
-The University disseminates important information and notices and communicate s with 
-students through the Lingnan  email accounts. Therefore, it is imperative that students visit 
-MyLingnan Portal  regularly and check their Lingnan  email account to stay informed. More 
-information can be found here. 6. 2 Wi-Fi Access  
-Students can gain access to the University Wi -Fi network on campus using the Lingnan  
-username and password.
+The University disseminates important information and notices and communicate s with students through the Lingnan email accounts. Therefore, it is imperative that students visit MyLingnan Portal regularly and check their Lingnan email account to stay informed. More information can be found here. 6. 2 Wi-Fi Access Students can gain access to the University Wi -Fi network on campus using the Lingnan username and password. More information on network connection can be found here.
 
 --- Segment 125 ---
-2 Wi-Fi Access  
-Students can gain access to the University Wi -Fi network on campus using the Lingnan  
-username and password. More information on network connection can be found here. 6. 3 General Computer Laboratories  
-The general computer laboratories  equipped with desktop computer are open to access by 
-students. Location and services hours of the laboratories can be found here. 6. 4 Moodle  
-Moodle is an online learning environment that allows students  to locate learning materials and 
-activities related to their studies from any location with internet access. Students can login to 
-the Moodle using Lingnan username and password via the following URL:  
-• Moodle Direct Login   
-• Login via MyLingnan Portal  (Academic Matters Tab > Moodle and ePortfolio)  
- 
-Training materials for Moodle can be found  on the Teaching and Learning Centre’s  website .
+More information on network connection can be found here. 6. 3 General Computer Laboratories The general computer laboratories equipped with desktop computer are open to access by students. Location and services hours of the laboratories can be found here. 6. 4 Moodle Moodle is an online learning environment that allows students to locate learning materials and activities related to their studies from any location with internet access. Students can login to the Moodle using Lingnan username and password via the following URL: • Moodle Direct Login • Login via MyLingnan Portal (Academic Matters Tab > Moodle and ePortfolio) Training materials for Moodle can be found on the Teaching and Learning Centre’s website .
 
 --- Segment 126 ---
-Students can login to 
-the Moodle using Lingnan username and password via the following URL:  
-• Moodle Direct Login   
-• Login via MyLingnan Portal  (Academic Matters Tab > Moodle and ePortfolio)  
- 
-Training materials for Moodle can be found  on the Teaching and Learning Centre’s  website . 6. 5 Generative AI Tools  
-The University requires all staff and students to use the generative AI tools  ethically and 
-responsibly, ensuring compliance with the  University’s academic integrity and honesty 
-policy , data privacy policy  and security policy . Studnets may login to the LU ChatGPT  using Lingnan username and password via the  
-28 
- following URL:  
-• ChatGPT Direct Login  
-• Login via MyLingnan Portal  (Academic Matters Tab > Generative AI Tools)  
- 
-Useful tips on the use of LU ChatGPT are given here. Information on generative AI workshops , 
-generative AI tools for students  and generative AI tools citation  can be found on the Teaching 
-and Learning Centre’s website .
+Students can login to the Moodle using Lingnan username and password via the following URL: • Moodle Direct Login • Login via MyLingnan Portal (Academic Matters Tab > Moodle and ePortfolio) Training materials for Moodle can be found on the Teaching and Learning Centre’s website . 6. 5 Generative AI Tools The University requires all staff and students to use the generative AI tools ethically and responsibly, ensuring compliance with the University’s academic integrity and honesty policy , data privacy policy and security policy . Studnets may login to the LU ChatGPT using Lingnan username and password via the 28 following URL: • ChatGPT Direct Login • Login via MyLingnan Portal (Academic Matters Tab > Generative AI Tools) Useful tips on the use of LU ChatGPT are given here. Information on generative AI workshops , generative AI tools for students and generative AI tools citation can be found on the Teaching and Learning Centre’s website .
 
 --- Segment 127 ---
-Information on generative AI workshops , 
-generative AI tools for students  and generative AI tools citation  can be found on the Teaching 
-and Learning Centre’s website . 6. 6 Information Technology Services Centre (ITSC)  Services  
-Details on IT services  provided for students  by the ITSC, e. g. online teaching and video 
-conference platform “Zoom ”, audio visual services, etc . , can be found here. 6. 7 Library  Services  
-The Fong Sum Wood Library  is located on the first to the third floor of the Patrick Lee Wan 
-Keung Academic Building.
+Information on generative AI workshops , generative AI tools for students and generative AI tools citation can be found on the Teaching and Learning Centre’s website . 6. 6 Information Technology Services Centre (ITSC) Services Details on IT services provided for students by the ITSC, e. g. online teaching and video conference platform “Zoom ”, audio visual services, etc . , can be found here. 6. 7 Library Services The Fong Sum Wood Library is located on the first to the third floor of the Patrick Lee Wan Keung Academic Building.
 
 --- Segment 128 ---
-7 Library  Services  
-The Fong Sum Wood Library  is located on the first to the third floor of the Patrick Lee Wan 
-Keung Academic Building. It provides seating for 600+ users and offers a wide range of study 
-materials. Students can access and check out materials using their LU Card. The online 
-catalogue is accessible on and off campus. Electronic information services are available to all 
-staff and students. Photocopying machines in the Library accept payment using an  Octopus 
-Card.
+7 Library Services The Fong Sum Wood Library is located on the first to the third floor of the Patrick Lee Wan Keung Academic Building. It provides seating for 600+ users and offers a wide range of study materials. Students can access and check out materials using their LU Card. The online catalogue is accessible on and off campus. Electronic information services are available to all staff and students. Photocopying machines in the Library accept payment using an Octopus Card.
 
 --- Segment 129 ---
-Photocopying machines in the Library accept payment using an  Octopus 
-Card. Please visit the Library’s website  for more information. Regular Opening Hours 
-Mondays to Fridays  8:30 a. m. to 9:00 p. m. Saturdays  9:30 a. m. to 6:00 p. m. Sundays  1:00 p. m. to 6:00 p. m. 6. 8 Students with Special Educational Needs (SEN)   
-Students with SEN should register with the Office of Student Affairs  (OSA)  at the beginning 
-of the academic year and as early as possible if students require support and services such as 
-academic adjustments.
+Photocopying machines in the Library accept payment using an Octopus Card. Please visit the Library’s website for more information. Regular Opening Hours Mondays to Fridays 8:30 a. m. to 9:00 p. m. Saturdays 9:30 a. m. to 6:00 p. m. Sundays 1:00 p. m. to 6:00 p. m. 6. 8 Students with Special Educational Needs (SEN) Students with SEN should register with the Office of Student Affairs (OSA) at the beginning of the academic year and as early as possible if students require support and services such as academic adjustments.
 
 --- Segment 130 ---
-8 Students with Special Educational Needs (SEN)   
-Students with SEN should register with the Office of Student Affairs  (OSA)  at the beginning 
-of the academic year and as early as possible if students require support and services such as 
-academic adjustments. Such requests should be supported by documentary evidence such as 
-medical reports. Please visit  this website  for more information . 6. 9 Counse lling Services  
-The counse lling services  provided by the OSA  aim to enhance students’ personal development 
-for a rewarding university experience, promote skills and attitudes for a smooth transition and 
-adaptation to university life and assist students in embrac ing challenges and achiev ing  
-academic success.
+8 Students with Special Educational Needs (SEN) Students with SEN should register with the Office of Student Affairs (OSA) at the beginning of the academic year and as early as possible if students require support and services such as academic adjustments. Such requests should be supported by documentary evidence such as medical reports. Please visit this website for more information . 6. 9 Counse lling Services The counse lling services provided by the OSA aim to enhance students’ personal development for a rewarding university experience, promote skills and attitudes for a smooth transition and adaptation to university life and assist students in embrac ing challenges and achiev ing academic success.
 
 --- Segment 131 ---
-9 Counse lling Services  
-The counse lling services  provided by the OSA  aim to enhance students’ personal development 
-for a rewarding university experience, promote skills and attitudes for a smooth transition and 
-adaptation to university life and assist students in embrac ing challenges and achiev ing  
-academic success. Counseling services are available to  full-time students only. 29 
- 6. 10 Career Advising Services  
-The career advising services  of the OSA  assist students in making informed career choices 
-commensurate with their talents, interests and aptitude in preparation for employment after 
-graduation. Career education and development programmes are organi sed to guide students 
-through different phases of the career planning stage.
+9 Counse lling Services The counse lling services provided by the OSA aim to enhance students’ personal development for a rewarding university experience, promote skills and attitudes for a smooth transition and adaptation to university life and assist students in embrac ing challenges and achiev ing academic success. Counseling services are available to full-time students only. 29 6. 10 Career Advising Services The career advising services of the OSA assist students in making informed career choices commensurate with their talents, interests and aptitude in preparation for employment after graduation. Career education and development programmes are organi sed to guide students through different phases of the career planning stage.
 
 --- Segment 132 ---
-Career education and development programmes are organi sed to guide students 
-through different phases of the career planning stage. Recruitment talks and placement 
-activities are held throughout the year to provide the latest job market information and channels 
-for direct interaction with employers. Workshops like resume writing, mock interview sessions, mock written tests, job interview 
-skills, image building, personal grooming and business etiquette will be offered during the 
-academic year.
+Career education and development programmes are organi sed to guide students through different phases of the career planning stage. Recruitment talks and placement activities are held throughout the year to provide the latest job market information and channels for direct interaction with employers. Workshops like resume writing, mock interview sessions, mock written tests, job interview skills, image building, personal grooming and business etiquette will be offered during the academic year.
 
 --- Segment 133 ---
-Workshops like resume writing, mock interview sessions, mock written tests, job interview 
-skills, image building, personal grooming and business etiquette will be offered during the 
-academic year. Career advising services are available to full-time students only. 6. 11 Integrated Learning Programme (ILP)  
-The ILP is one of the signature co -curricular programmes in the University, which facilitates 
-students to extend their learning beyond the classroom. With its broad spectrum of contents 
-and interactive delivery modes, students are enabled to unlock potentials, bo ost confidence, 
-make plans for life, and achieve success.
+Workshops like resume writing, mock interview sessions, mock written tests, job interview skills, image building, personal grooming and business etiquette will be offered during the academic year. Career advising services are available to full-time students only. 6. 11 Integrated Learning Programme (ILP) The ILP is one of the signature co -curricular programmes in the University, which facilitates students to extend their learning beyond the classroom. With its broad spectrum of contents and interactive delivery modes, students are enabled to unlock potentials, bo ost confidence, make plans for life, and achieve success.
 
 --- Segment 134 ---
-With its broad spectrum of contents 
-and interactive delivery modes, students are enabled to unlock potentials, bo ost confidence, 
-make plans for life, and achieve success. Students can develop new interests and explore 
-learning opportunities from over 400 ILP activities each year. There are six learning domains 
-in the ILP:  
-1. Civic Education and Leadership Development  
-2. Intellectual and Entrepreneurship Development  
-3. Social and Emotional Well -being  
-4. Physical Fitness and Well -being  
-5.
+With its broad spectrum of contents and interactive delivery modes, students are enabled to unlock potentials, bo ost confidence, make plans for life, and achieve success. Students can develop new interests and explore learning opportunities from over 400 ILP activities each year. There are six learning domains in the ILP: 1. Civic Education and Leadership Development 2. Intellectual and Entrepreneurship Development 3. Social and Emotional Well -being 4. Physical Fitness and Well -being 5.
 
 --- Segment 135 ---
-Physical Fitness and Well -being  
-5. Aesthetic Development  
-6. Residential Education  
- 
-ILP programmes are available to full-time students only. 6. 12 Learning Enhancement Activities Plan (LEAP)  
-To enrich student learning experience and to promote the development of Lingnan Graduate 
-Attributes (in terms of knowledge, skills, and attitudes), the School of Graduate Studies has 
-charted the LEAP  under which a range of activities is organised , such as Orientations for 
-Effective Learning, Academic Learning Enhancement, Community Engagement, Career 
-Development and Competitiveness  for both full -time and part -time postgraduate students .
+Physical Fitness and Well -being 5. Aesthetic Development 6. Residential Education ILP programmes are available to full-time students only. 6. 12 Learning Enhancement Activities Plan (LEAP) To enrich student learning experience and to promote the development of Lingnan Graduate Attributes (in terms of knowledge, skills, and attitudes), the School of Graduate Studies has charted the LEAP under which a range of activities is organised , such as Orientations for Effective Learning, Academic Learning Enhancement, Community Engagement, Career Development and Competitiveness for both full -time and part -time postgraduate students .
 
 --- Segment 136 ---
-12 Learning Enhancement Activities Plan (LEAP)  
-To enrich student learning experience and to promote the development of Lingnan Graduate 
-Attributes (in terms of knowledge, skills, and attitudes), the School of Graduate Studies has 
-charted the LEAP  under which a range of activities is organised , such as Orientations for 
-Effective Learning, Academic Learning Enhancement, Community Engagement, Career 
-Development and Competitiveness  for both full -time and part -time postgraduate students . 30 
- 6. 13 Lingnan Language Enhancement Initiative (L2EI) 
-In order to  create a multi -cultural and multi -lingual campus and promote cross -cultural 
-appreciation, the University encourages interaction and integration among local, mainland and 
-overseas students. Accordingly, L2EI is launched to enhance students’ language competency 
-while nurturing multi -lingual learning and cross -cultural appreciation among students.
+12 Learning Enhancement Activities Plan (LEAP) To enrich student learning experience and to promote the development of Lingnan Graduate Attributes (in terms of knowledge, skills, and attitudes), the School of Graduate Studies has charted the LEAP under which a range of activities is organised , such as Orientations for Effective Learning, Academic Learning Enhancement, Community Engagement, Career Development and Competitiveness for both full -time and part -time postgraduate students . 30 6. 13 Lingnan Language Enhancement Initiative (L2EI) In order to create a multi -cultural and multi -lingual campus and promote cross -cultural appreciation, the University encourages interaction and integration among local, mainland and overseas students. Accordingly, L2EI is launched to enhance students’ language competency while nurturing multi -lingual learning and cross -cultural appreciation among students.
 
 --- Segment 137 ---
-Accordingly, L2EI is launched to enhance students’ language competency 
-while nurturing multi -lingual learning and cross -cultural appreciation among students. Under L2EI, the Centre for English and Additional Languages (CEAL) and the Chinese 
-Language Education and Assessment Centre (CLEAC) organi se programmes or activities to 
-cater for the needs of students. Programmes and activities organised by the CLEAC are 
-available to  full-time students only. 6.
+Accordingly, L2EI is launched to enhance students’ language competency while nurturing multi -lingual learning and cross -cultural appreciation among students. Under L2EI, the Centre for English and Additional Languages (CEAL) and the Chinese Language Education and Assessment Centre (CLEAC) organi se programmes or activities to cater for the needs of students. Programmes and activities organised by the CLEAC are available to full-time students only. 6. 14 Student Medical and Dental Schemes Full-time students can choose one of the designated clinics scattered over Hong Kong Island, Kowloon, the New Territories and Outlying Island for consultation.
 
 --- Segment 138 ---
-6. 14 Student Medical and Dental Schemes  
-Full-time students can choose one of the designated clinics scattered over Hong Kong Island, 
-Kowloon, the New Territories and Outlying Island for consultation. On each visit, students 
-should present their LU Card and pay a nominal fee which includes basic medications.
+14 Student Medical and Dental Schemes Full-time students can choose one of the designated clinics scattered over Hong Kong Island, Kowloon, the New Territories and Outlying Island for consultation. On each visit, students should present their LU Card and pay a nominal fee which includes basic medications. Students can also receive simple laboratory and X -ray tests upon presentation of a referral letter from a doctor. More details can be found here. Full-time students are charged a nominal fee for their simple dental treatments at designated clinics and will be charged at a preferential rate if they want to receive other forms of dental treatments and services.
 
 --- Segment 139 ---
-On each visit, students 
-should present their LU Card and pay a nominal fee which includes basic medications. Students 
-can also receive simple laboratory and X -ray tests upon presentation of a referral letter from a 
-doctor. More details can be found here. Full-time students are charged a nominal fee for their simple dental treatments at designated 
-clinics  and will be charged at a preferential rate if they want to receive other forms of dental 
-treatments and services.
+Full-time students are charged a nominal fee for their simple dental treatments at designated clinics and will be charged at a preferential rate if they want to receive other forms of dental treatments and services. More details can be found here. 6. 15 Catering Outlets Catering outlets such as canteen , coffee corner, café and Lingnan House (Chinese Restaurant) are available on campus. These catering outlets provide a wide selection of Chinese and Western cuisine, set meals, pastry, sandwiches and snacks. Opening hours of the catering outlets can be found here.
 
 --- Segment 140 ---
-Full-time students are charged a nominal fee for their simple dental treatments at designated 
-clinics  and will be charged at a preferential rate if they want to receive other forms of dental 
-treatments and services. More details can be found here. 6. 15 Catering Outlets  
-Catering outlets such as canteen , coffee corner, café and Lingnan House (Chinese Restaurant)  
-are available on campus. These catering outlets provide a wide selection of Chinese and 
-Western cuisine, set meals, pastry, sandwiches and snacks. Opening hours of the catering 
-outlets can be found here.
+Opening hours of the catering outlets can be found here. 6. 16 Indoor and Outdoor Sports Facilities Both indoor and outdoor sports facilities are provided on campus. Students can use the sports facilities by paying a nominal fee. The list of air -conditioned indoor facilities and outdoor facilities, as well as booking procedures for sports facilities etc.
 
 --- Segment 141 ---
-Opening hours of the catering 
-outlets can be found here. 6. 16 Indoor and Outdoor Sports Facilities  
-Both indoor and outdoor sports facilities are provided on campus. Students can use the sports 
-facilities by paying a nominal fee. The list of air -conditioned indoor facilities and outdoor 
-facilities, as well as booking procedures for sports facilities  etc.
+The list of air -conditioned indoor facilities and outdoor facilities, as well as booking procedures for sports facilities etc. , can be found here. 6. 17 Chaplain’s Office The Chaplain’s Office provides pastoral care and Christian counseling for the University community. Please visit their website for more details . Chapter 7 Communication Channel s 32 7. Communication Channel s 7. 1 Lingnan Email Account Email serves as the primary and official communication channel at Lingnan University.
 
 --- Segment 142 ---
-The list of air -conditioned indoor facilities and outdoor 
-facilities, as well as booking procedures for sports facilities  etc. , can be found here. 6. 17 Chaplain’s Office  
-The Chaplain’s Office provides pastoral care and Christian counseling for the University 
-community. Please visit their website for more details . Chapter 7  
-Communication Channel s 
-32 
- 7. Communication Channel s 
-7. 1 Lingnan Email Account  
-Email serves as the primary and official communication channel at Lingnan University.
+1 Lingnan Email Account Email serves as the primary and official communication channel at Lingnan University. Each student is provided with a computer account that is uniquely identified by a MyLingnan Portal username and an associated password for accessing a range of network services and applications and communicating with fellow students and other members of the University. Students should use their Lingnan student email accounts to exchange messages with members of the University. The University disseminates important information and notices and communicates with students through the Lingnan email accounts.
 
 --- Segment 143 ---
-1 Lingnan Email Account  
-Email serves as the primary and official communication channel at Lingnan University. Each 
-student is provided with a computer account that is uniquely identified by a MyLingnan Portal 
-username  and an associated password  for accessing a range of network services and 
-applications and communicating with fellow students and other members of the University. Students should use their Lingnan student email accounts to exchange messages with members 
-of the University. The University disseminates important information and notices and communicates  with 
-students through the Lingnan  email accounts.
+The University disseminates important information and notices and communicates with students through the Lingnan email accounts. Therefore, it is imperative that students visit MyLingnan Portal regularly and check their Lingnan email account to stay informed. 7. 2 Course Teaching and Learning Evaluation (CTLE) Lingnan is committed to monitoring and improving the quality of course teaching and learning. Students are well placed to provide feedback on many aspects of course teaching and learning.
 
 --- Segment 144 ---
-The University disseminates important information and notices and communicates  with 
-students through the Lingnan  email accounts. Therefore, it is imperative that students  visit 
-MyLingnan Portal  regularly and check their Lingnan  email account to stay informed. 7. 2 Course Teaching and Learning Evaluation (CTLE)  
-Lingnan is committed to monitoring and improving the quality of course teaching and learning. Students are well placed to provide feedback on many aspects of course teaching and learning.
+Students are well placed to provide feedback on many aspects of course teaching and learning. The University runs formal and mandatory mid -term and term -end CTLE exercises generally for all courses to collect students' feedback for timely improvement. Online CTLE is a web -based, ongoing course, teaching and learning enhancement process to supplement the conventional paper system. It provides a platform for instructors to collect immediate and formative feedback from students for the continuous improveme nt of course and teaching quality.
 
 --- Segment 145 ---
-Students are well placed to provide feedback on many aspects of course teaching and learning. The University runs formal and mandatory mid -term and term -end CTLE exercises  
-generally for all courses  to collect students' feedback for timely improvement. Online CTLE is a web -based, ongoing course, teaching and learning enhancement process to 
-supplement the conventional paper system. It provides a platform for instructors to collect 
-immediate and formative feedback from students for the continuous improveme nt of course 
-and teaching quality.
+It provides a platform for instructors to collect immediate and formative feedback from students for the continuous improveme nt of course and teaching quality. 7. 3 Staff -Student Consultation Committee (SSCC) The SSCC provides a platform for students to express their views on the programme and individual courses and for the programme to solicit student feedback on specific aspects of the programme and courses for continuous improvement. 7. 4 Grievances and Complaints When a student encounters difficulties, concerns, problems or complaints related to their programme, the first point of contact should normally be the Programme Director or the Programme Office concerned.
 
 --- Segment 146 ---
-It provides a platform for instructors to collect 
-immediate and formative feedback from students for the continuous improveme nt of course 
-and teaching quality. 7. 3 Staff -Student Consultation Committee (SSCC)  
-The SSCC provides a platform for students to express their views on the programme and 
-individual courses and for the programme to solicit student feedback on specific aspects of the 
-programme and courses for continuous improvement. 7. 4 Grievances  and Complaints  
-When a student encounters difficulties, concerns, problems or complaints related to their 
-programme, the first point of contact should normally be the Programme Director or the 
-Programme Office concerned.
+4 Grievances and Complaints When a student encounters difficulties, concerns, problems or complaints related to their programme, the first point of contact should normally be the Programme Director or the Programme Office concerned. If this approach is ineffective or inappropriate fo r some reason, students may discuss the issue with the Head of Department/Unit/Divisio n of the Academic Unit concerned . Should the matter pertain to existing academic policies, it may be referred to the Postgraduate Studies Committee for further consideration.
 
 --- Segment 147 ---
-4 Grievances  and Complaints  
-When a student encounters difficulties, concerns, problems or complaints related to their 
-programme, the first point of contact should normally be the Programme Director or the 
-Programme Office concerned. If this approach is ineffective or inappropriate fo r some reason, 
-students may discuss the issue with the Head of Department/Unit/Divisio n of the  Academic 
-Unit concerned . Should the matter pertain to existing academic policies, it may be referred to 
-the Postgraduate Studies Committee for further consideration.
+Should the matter pertain to existing academic policies, it may be referred to the Postgraduate Studies Committee for further consideration. 33 For grievances, concerns or problems of a personal nature , students are encouraged to seek advice from a counse llor at the Office of Student Affairs. Chapter 8 Notes for Non -Local Students 35 8. Notes for Non -local Students 8. 1 Hong Kong Identity Card (HKID Card) Students who are permitted to stay in Hong Kong for more than 180 days are required to register for an identity card within 30 days of arrival or upon acquiring such permission to stay. For details, please refer to the website of the Hong Kong Immigration Department .
 
 --- Segment 148 ---
-Should the matter pertain to existing academic policies, it may be referred to 
-the Postgraduate Studies Committee for further consideration. 33 
- For grievances, concerns or problems of a personal nature , students are encouraged to seek 
-advice from a counse llor at the Office of Student Affairs. Chapter 8  
-Notes for Non -Local Students  
-35 
- 8. Notes for Non -local Students  
-8. 1 Hong Kong Identity Card  (HKID Card)  
-Students who are permitted to stay in Hong Kong for more than 180 days are required to 
-register for an identity card within 30 days of arrival or upon acquiring such permission to stay. For details, please refer to the website  of the Hong Kong Immigration Department .
+For details, please refer to the website of the Hong Kong Immigration Department . Non-local students must carry their HKID card and/or passport/travel document as an identity document with them at all times while in Hong Kong. 8. 2 Change of Visa Status During Study It is the responsibility of individual students to maintain a valid and legitimate visa status throughout their studies at Lingnan. Should there be any circumstantial or personal changes leading to the termination of the student’s current visa status, the student must report the se changes immediately to the Hong Kong Immigration Department and apply for a new visa for study.
 
 --- Segment 149 ---
-For details, please refer to the website  of the Hong Kong Immigration Department . Non-local 
-students  must carry their HKID  card and/or passport/travel document as an identity document 
-with them  at all times while in  Hong Kong. 8. 2 Change of Visa Status During Study  
-It is the responsibility of individual students to maintain a valid and legitimate visa status 
-throughout their studies at Lingnan. Should there be any circumstantial or personal changes 
-leading to the termination of the student’s current  visa status, the student must  report the se 
-changes immediately to the Hong Kong Immigration Department and apply for a new visa for 
-study.
+Should there be any circumstantial or personal changes leading to the termination of the student’s current visa status, the student must report the se changes immediately to the Hong Kong Immigration Department and apply for a new visa for study. Pursuing stud ies without a valid visa constitutes a legal violation . 8. 3 Visa Extension Non-local Students who have extended their study or whose limit of stay is shorter than the duration of their study programme should apply for a visa extension 4 weeks before their limit of stay expires. It is the responsibility of individual students to renew their visa s in a timely manner to maintain a valid and legitimate visa status throughout their study at Lingnan.
 
 --- Segment 150 ---
-Should there be any circumstantial or personal changes 
-leading to the termination of the student’s current  visa status, the student must  report the se 
-changes immediately to the Hong Kong Immigration Department and apply for a new visa for 
-study. Pursuing stud ies without a valid visa constitutes a legal violation . 8. 3 Visa Extension  
-Non-local Students who have extended their study or whose limit of stay is shorter than the 
-duration of their study programme  should apply for a visa extension 4 weeks before their limit 
-of stay expires. It is the responsibility of individual students to renew their visa s in a timely 
-manner to maintain a valid and legitimate visa status throughout their study at Lingnan.
+It is the responsibility of individual students to renew their visa s in a timely manner to maintain a valid and legitimate visa status throughout their study at Lingnan. Please refer to the website of the Office of Global Education for details and procedures . 8. 4 Employment Policy for Non -local Students in Hong Kong To enhance learning and enrichment opportunities for non -local students, the Chief Executive of the HKSAR Government announced in his 2023 Policy Address a new measure pertaining to taking up part -time jobs by full -time non -local postgraduate students. Sta rting from 1 November 2023, full -time non -local postgraduate students, on taking up part -time jobs, would be temporarily exempted from the restrictions that they only be allowed to take up part - time on -campus employment for not more than 20 hours per week throughout the year.
 
 --- Segment 151 ---
-It is the responsibility of individual students to renew their visa s in a timely 
-manner to maintain a valid and legitimate visa status throughout their study at Lingnan. Please refer to the website of the Office of Global Education  for details and procedures . 8. 4 Employment Policy for Non -local Students in Hong Kong  
-To enhance learning and enrichment opportunities for non -local students, the Chief Executive 
-of the HKSAR Government announced in his 2023 Policy Address a new measure pertaining 
-to taking up part -time jobs by full -time non -local postgraduate students. Sta rting from       
-1 November 2023, full -time non -local postgraduate students, on taking up part -time jobs, 
-would be temporarily exempted from the restrictions that they only be allowed to take up part -
-time on -campus employment for not more than 20 hours per week throughout the year.
+Sta rting from 1 November 2023, full -time non -local postgraduate students, on taking up part -time jobs, would be temporarily exempted from the restrictions that they only be allowed to take up part - time on -campus employment for not more than 20 hours per week throughout the year. The arrangement will be implemented on a trial basis for two years (i. e. from 1 November 2023 until 31 October 2025). For details, please refer to the website of the Hong Kong Immigration Department . 36 8. 5 Immigration Arrangements for Non -local Graduate Policy (IANG) They may apply to stay/return and work in Honbg Kong under the IANG, regardless of when they obtained the requisite qualification. There is no restriction on the number of times a non - local graduate may apply to stay/return and work under the IANG.
 
 --- Segment 152 ---
-Sta rting from       
-1 November 2023, full -time non -local postgraduate students, on taking up part -time jobs, 
-would be temporarily exempted from the restrictions that they only be allowed to take up part -
-time on -campus employment for not more than 20 hours per week throughout the year. The 
-arrangement will be implemented on a trial basis for two years (i. e. from 1 November 2023 
-until 31 October 2025). For details, please refer to the website  of the Hong Kong Immigration 
-Department . 36 
- 8. 5 Immigration Arrangements for Non -local Graduate Policy (IANG)  
-They may apply to stay/return and work in Honbg Kong  under the IANG, regardless of when  
-they obtained the requisite qualification. There is no restriction on the number of times a non -
-local graduate may apply to stay/return and work under the IANG.
+There is no restriction on the number of times a non - local graduate may apply to stay/return and work under the IANG. For details, please visit the website of the Hong Kong Immigration Department . 8. 6 Tips for Avoiding Scammers Telephone d eception , cyber romance scams and online shopping scams are the most common types of fraud in Hong Kong . Scammers often impersonate law enforcement officers, governmental officials, bank staff or employees of reputable companies and organisations.
 
 --- Segment 153 ---
-There is no restriction on the number of times a non -
-local graduate may apply to stay/return and work under the IANG. For details, please visit the 
-website  of the Hong Kong Immigration Department . 8. 6 Tips for Avoiding Scammers  
-Telephone d eception , cyber romance scams and online shopping scams are the most common 
-types of fraud  in Hong Kong . Scammers often impersonate law enforcement officers, 
-governmental officials, bank staff or employees of reputable companies and organisations.
+Scammers often impersonate law enforcement officers, governmental officials, bank staff or employees of reputable companies and organisations. Students are strongly advised to remain vigilant and avoid disclosing any personal information (such as your HKID number, bank account number and password) , and refrain from transferring money to unknown parties. The Anti-Deception Coordination Centre (ADCC) of the Hong Kong Police Force provides instant telephone consultation services, educate s the public on preventing deception, and closely monitor s and analyse s trends in deception cases.
 
 --- Segment 154 ---
-Scammers often impersonate law enforcement officers, 
-governmental officials, bank staff or employees of reputable companies and organisations. Students are strongly advised to remain  vigilant and avoid disclosing any personal information  
-(such as your  HKID  number, bank account number and password) , and refrain from 
-transferring money to unknown parties. The Anti-Deception Coordination Centre (ADCC)  of the Hong Kong Police Force provides 
-instant telephone consultation services, educate s the public on preventing deception, and 
-closely monitor s and analyse s trends in deception cases.
+The Anti-Deception Coordination Centre (ADCC) of the Hong Kong Police Force provides instant telephone consultation services, educate s the public on preventing deception, and closely monitor s and analyse s trends in deception cases. In case of doubt or further assistance is required, students are strongly recommended to contact the Anti -Scam Helpline at 18222 operated by the ADCC. More tips for avoid ing scammers can be found here. Chapter 9 Important Policies, Academic Regulations and Guidelines 38 9. Important Policies , Academic Regulations and Guidelines 9.
 
 --- Segment 155 ---
-The Anti-Deception Coordination Centre (ADCC)  of the Hong Kong Police Force provides 
-instant telephone consultation services, educate s the public on preventing deception, and 
-closely monitor s and analyse s trends in deception cases. In case of doubt or further assistance  
-is required, students are strongly recommended to contact  the Anti -Scam Helpline at 18222 
-operated by the ADCC. More tips for avoid ing scammers  can be found here. Chapter 9  
-Important Policies,  
-Academic Regulations and Guidelines  
- 
-38 
- 9. Important Policies , Academic Regulations and 
-Guidelines  
- 
-9.
+Important Policies , Academic Regulations and Guidelines 9. 1 Bad Weather A rrangements 9. 2 Credit Transfer and Course Exemption 9. 3 Equal Opportunities Policy 9. 4 Data Privacy and Protection 9. 5 Policy on Research, Knowledge Transfer and Intellectual Property 9. 6 Regulations Governing Taught Doctoral/Master’s Degree Programmes 9. 7 Regulations Governing University Examinations and Course Work 9. 8 Regulations Governing Discipline of Students 9. 9 Regulations Governing the Format of Theses 9.
 
 --- Segment 156 ---
-Important Policies , Academic Regulations and 
-Guidelines  
- 
-9. 1 Bad Weather A rrangements  
- 
-9. 2 Credit Transfer and Course Exemption  
- 
-9. 3 Equal Opportunities Policy  
- 
-9. 4 Data Privacy and Protection  
- 
-9. 5 Policy on Research, Knowledge Transfer and Intellectual Property  
- 
-9. 6 Regulations Governing Taught Doctoral/Master’s Degree Programmes  
- 
-9. 7 Regulations Governing University Examinations and Course Work  
- 
-9. 8 Regulations Governing Discipline of Students  
- 
-9. 9 Regulations Governing the Format of Theses  
- 
-9.
+9 Regulations Governing the Format of Theses 9. 10 Information on Human Ethics Approval for Research Conducted by Research Postgraduate / Taught Postgraduate Students 9. 11 Guidelines for Learning Chapter 10 Useful Contacts and Campus Map 40 10. Useful Contacts and Campus Map University Units/Campus Facilities Department/Unit Location Tel Email Campus Emergency Hotline ADG04, G/F, Wong Administration Building 2616 8000 (24 hours) - Security Office ADG04, G/F, Wong Administration Building 2616 8705 (24 hours) - Counselling Service LYH318, 3/F, Lau Lee Yuen Haan Amenities Building Hotline: 2616 8866 (24 hours) To make an appointment: 2616 7024 counsel@LN.
 
 --- Segment 157 ---
-9 Regulations Governing the Format of Theses  
- 
-9. 10 Information on Human Ethics Approval for Research Conducted by Research 
-Postgraduate  / Taught Postgraduate  Students  
- 
-9. 11 Guidelines for Learning  
- 
- 
- 
- 
- 
-  
-Chapter 10  
-Useful Contacts and Campus Map  
-40 
- 10. Useful Contacts  and Campus Map  
-University Units/Campus Facilities  
-Department/Unit  Location  Tel Email  
-Campus Emergency Hotline  ADG04, G/F, Wong Administration Building  2616 8000 (24 hours)  - 
-Security Office  ADG04, G/F, Wong Administration Building  2616 8705 (24 hours)  - 
-Counselling Service  LYH318, 3/F, Lau Lee Yuen Haan Amenities 
-Building  Hotline: 2616 8866 (24 hours)  
-To make an appointment:  
-2616 7024  counsel@LN.
+Useful Contacts and Campus Map University Units/Campus Facilities Department/Unit Location Tel Email Campus Emergency Hotline ADG04, G/F, Wong Administration Building 2616 8000 (24 hours) - Security Office ADG04, G/F, Wong Administration Building 2616 8705 (24 hours) - Counselling Service LYH318, 3/F, Lau Lee Yuen Haan Amenities Building Hotline: 2616 8866 (24 hours) To make an appointment: 2616 7024 counsel@LN. edu. hk Office of the Faculty of Arts HSHG02, G/F, Ho Sin Hang Building 2616 7438 arts@LN. edu. hk Office of the Faculty of Business SEK208, 2/F, Simon and Eleanor Kwok Building 2616 8373 fb@LN. edu. hk Office of the Faculty of Social Sciences WYL302, 3/F, Dorothy Y. L. Wong Building 2616 7176 or 2617 7552 socsc@LN.
 
 --- Segment 158 ---
-Useful Contacts  and Campus Map  
-University Units/Campus Facilities  
-Department/Unit  Location  Tel Email  
-Campus Emergency Hotline  ADG04, G/F, Wong Administration Building  2616 8000 (24 hours)  - 
-Security Office  ADG04, G/F, Wong Administration Building  2616 8705 (24 hours)  - 
-Counselling Service  LYH318, 3/F, Lau Lee Yuen Haan Amenities 
-Building  Hotline: 2616 8866 (24 hours)  
-To make an appointment:  
-2616 7024  counsel@LN. edu. hk  
-Office of the Faculty of Arts  HSHG02, G/F, Ho Sin Hang Building  2616 7438  arts@LN. edu. hk  
-Office of the Faculty of 
-Business  SEK208, 2/F, Simon and Eleanor Kwok 
-Building  2616 8373  fb@LN. edu. hk  
-Office of the Faculty of Social 
-Sciences  WYL302, 3/F, Dorothy Y. L. Wong Building  2616 7176 or 2617 7552  socsc@LN.
+Wong Building 2616 7176 or 2617 7552 socsc@LN. edu. hk Office of the School of Data Science SEK212/1, 2/F, Simon and Eleanor Kwok Building 2616 8099 sds@LN. edu. hk Office of the School of Interdisciplinary Studies UG06, Lau Chung Him Building 2616 8476 sis@LN. edu. hk Office of the School of Graduate Studies UG03, Lau Chung Him Building 2616 8720 sgs@LN.
 
 --- Segment 159 ---
-Wong Building  2616 7176 or 2617 7552  socsc@LN. edu. hk  
-Office of the School of Data 
-Science  SEK212/1, 2/F, Simon and Eleanor Kwok 
-Building  2616 8099  sds@LN. edu. hk   
-Office of the School of 
-Interdisciplinary Studies  UG06, Lau Chung Him Building  2616 8476  sis@LN. edu. hk   
-Office of the School of 
-Graduate Studies  UG03, Lau Chung Him Building  2616 8720  sgs@LN.
+hk Office of the School of Graduate Studies UG03, Lau Chung Him Building 2616 8720 sgs@LN. edu. hk Registry ADG08, G/F, Wong Administration Building 2616 8750 registry@LN. edu. hk Office of Student Affairs G/F, Dorothy Y . L. Wong Building 2616 7309 osa@LN. edu. hk Office of Global Education AD208/1, 2/F, Wong Administration Building 2616 8990 oge@LN. edu. hk 41 Finance Office Unit 1902, 19/F, Nina Tower, 8 Yeung Uk Road, Tsuen Wan, Hong Kong 2616 8888 foadmin@LN.
 
 --- Segment 160 ---
-hk   
-Office of the School of 
-Graduate Studies  UG03, Lau Chung Him Building  2616 8720  sgs@LN. edu. hk   
-Registry  ADG08, G/F, Wong Administration Building  2616 8750  registry@LN. edu. hk  
-Office of Student Affairs  G/F, Dorothy Y . L. Wong Building  2616 7309  osa@LN. edu. hk  
-Office of Global Education  AD208/1, 2/F, Wong Administration Building  2616 8990  oge@LN. edu. hk  
- 
-41 
- Finance Office  Unit 1902, 19/F, Nina Tower, 8 Yeung Uk 
-Road, Tsuen Wan, Hong Kong  2616 8888  foadmin@LN.
-
---- Segment 161 ---
-hk  
- 
-41 
- Finance Office  Unit 1902, 19/F, Nina Tower, 8 Yeung Uk 
-Road, Tsuen Wan, Hong Kong  2616 8888  foadmin@LN. edu. hk  
-Library  1/F, Patrick Lee Wan Keung Academic 
-Building  2616 8586  library@LN. edu. hk  
-Information and Technology 
-Services Centre (ITSC)  MB402, Patrick Lee Wan Keung Academic 
-Building  Hotline: 2616 7995  itsc@LN. edu. hk  
-Indoor Sports Complex  G/F, Indoor Sports Complex  Hotline: 2616 7147  - 
- 
-Useful Contacts in Hong Kong  
-Organisation/Service  Address  Telephone  
-Emergency Services (police, fire, ambulance)  - 999 
-Hong Kong SAR Government  - Hotline: 1823  
-Hong Kong Immigration Department (Headquarters)  6/F, Immigration Tower, 7 Gloucester Road, Wan Chai  2824 6111  
-Immigration and Registration of Person - Yuen Long 
-Office  (nearest office for application of Hong Kong 
-Identity  card)  1/F, Yuen Long Government Offices, 2 Kiu Lok Square, 
-Yuen Long (MTR Long Ping Station - Exit E) (Light Rail 
-Hong Lok Road Station)  2475 4145  
-Hong Kong Police Force  - Tuen Mun Police Station  100 Pui To Road, Tuen Mun  3661 1670  
-Anti-Deception Coordination Centre (ADCC)  
-Hong Kong Police Force  - Hotline: 18222  
-Centre for Health Protection  147C Argyle Street, Kowloon  - 
-Tuen Mun Hospital  23 Tsing Chung Koon Road, Tuen Mun  2468 5111  
-Hong Kong Tourism Board  Facebook  / Instagram  - 
-Dial-a-Weather  - 1878200  
-Overseas IDD and card phone enquiries  - 10010  
-42 
- Campus Map
+hk 41 Finance Office Unit 1902, 19/F, Nina Tower, 8 Yeung Uk Road, Tsuen Wan, Hong Kong 2616 8888 foadmin@LN. edu. hk Library 1/F, Patrick Lee Wan Keung Academic Building 2616 8586 library@LN. edu. hk Information and Technology Services Centre (ITSC) MB402, Patrick Lee Wan Keung Academic Building Hotline: 2616 7995 itsc@LN. edu. hk Indoor Sports Complex G/F, Indoor Sports Complex Hotline: 2616 7147 - Useful Contacts in Hong Kong Organisation/Service Address Telephone Emergency Services (police, fire, ambulance) - 999 Hong Kong SAR Government - Hotline: 1823 Hong Kong Immigration Department (Headquarters) 6/F, Immigration Tower, 7 Gloucester Road, Wan Chai 2824 6111 Immigration and Registration of Person - Yuen Long Office (nearest office for application of Hong Kong Identity card) 1/F, Yuen Long Government Offices, 2 Kiu Lok Square, Yuen Long (MTR Long Ping Station - Exit E) (Light Rail Hong Lok Road Station) 2475 4145 Hong Kong Police Force - Tuen Mun Police Station 100 Pui To Road, Tuen Mun 3661 1670 Anti-Deception Coordination Centre (ADCC) Hong Kong Police Force - Hotline: 18222 Centre for Health Protection 147C Argyle Street, Kowloon - Tuen Mun Hospital 23 Tsing Chung Koon Road, Tuen Mun 2468 5111 Hong Kong Tourism Board Facebook / Instagram - Dial-a-Weather - 1878200 Overseas IDD and card phone enquiries - 10010 42 Campus Map
 

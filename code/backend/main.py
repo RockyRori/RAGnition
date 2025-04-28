@@ -19,7 +19,7 @@ from sqlalchemy.dialects.mysql import JSON
 from backend.model.rag import answer
 from backend.model.ques_assemble import generate_search_query
 from backend.model.doc_search import search_documents, load_segments_from_folder
-from backend.root_path import PIECES_DIR, locate_path, policy_file, piece_file
+from backend.root_path import PIECES_DIR, locate_path, policy_file, piece_file, piece_dir
 
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
@@ -151,15 +151,17 @@ async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
 
 
 @app.get("/api/v1/questions/stream")
-async def stream_question(session_id: str, question_id: str, current_question: str, previous_questions: str):
+async def stream_question(session_id, question_id, previous_questions, current_question: str, language="en",
+                          base="lingnan"):
     previous_questions_list = json.loads(previous_questions)
 
-    search_query, _ = generate_search_query(current_question, previous_questions_list)
-    input_folder = PIECES_DIR
+    # 单独生成参考资料
+    search_query, assembled_question = generate_search_query(current_question, previous_questions_list)
+    input_folder = piece_dir(base=base)
     references = search_documents(search_query,
-                                  load_segments_from_folder(input_folder=input_folder),
-                                  top_k=4)
+                                  load_segments_from_folder(input_folder=input_folder))
 
+    # 生成流式回答
     async def event_generator():
         async for token in stream_answer(current_question, previous_questions_list):
             yield f"data: {json.dumps({'token': token})}\n\n"
@@ -226,7 +228,7 @@ async def upload_file(
     os.makedirs(pieces_dir, exist_ok=True)
 
     policy_path = policy_file(base=base, filename=file.filename)
-    pieces_path = piece_file(base=base, filename=file.filename)
+    pieces_path = piece_dir(base=base)
 
     with open(policy_path, "wb") as f:
         f.write(content)
@@ -330,19 +332,19 @@ async def delete_file(
 
     # 构造文件路径
     policy_path = policy_file(base=base, filename=file_name)
-    pieces_path = piece_file(base=base, filename=file_name)
+
+    deleted_path = os.path.basename(policy_path)
+    file_base, _ = os.path.splitext(deleted_path)
+    output_format = "txt"
+    pieces_path = os.path.join(piece_dir(base=base), f"{file_base}_segmented.{output_format}")
 
     # 删除 policy 文件
     if os.path.exists(policy_path):
         os.remove(policy_path)
 
-    # 删除 pieces 目录或文件
+    # 删除 pieces 文件
     if os.path.exists(pieces_path):
-        if os.path.isdir(pieces_path):
-            import shutil
-            shutil.rmtree(pieces_path)
-        else:
-            os.remove(pieces_path)
+        os.remove(pieces_path)
 
     # 删除数据库记录
     db.delete(existing)

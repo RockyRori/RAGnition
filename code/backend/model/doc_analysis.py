@@ -17,7 +17,7 @@ from langdetect import detect
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from backend.root_path import PROJECT_ROOT, PIECES_DIR, POLICIES_DIR
+from backend.root_path import PROJECT_ROOT, PIECES_DIR, POLICIES_DIR, locate_path, policy_file, piece_file, piece_dir
 
 nltk.download('punkt_tab', quiet=True)
 
@@ -196,6 +196,7 @@ def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2
     返回处理描述。
     """
     try:
+        print(f"处理文件：{policy_path}")
         # 读取文件内容
         text = read_file(policy_path)
 
@@ -204,19 +205,19 @@ def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2
 
         # 准备输出路径
         filename = os.path.basename(policy_path)
-        base, _ = os.path.splitext(filename)
+        file_base, _ = os.path.splitext(filename)
         os.makedirs(pieces_dir, exist_ok=True)
-        output_path = os.path.join(pieces_dir, f"{base}_segmented.{output_format}")
+        output_path = os.path.join(pieces_dir, f"{file_base}_segmented.{output_format}")
 
         # 输出结果
         output_segments(segments, output_path, output_format=output_format)
 
         description = generate_summary(text)
-
+        print(f"完成处理，输出文件：{output_path}\n")
         return description
 
     except Exception as e:
-        print(f"Error splitting file {policy_path}: {e}")
+        print(f"处理 {policy_path} 时发生错误：{e}")
         return "Error during generating description"
 
 
@@ -251,4 +252,7 @@ def splitting():
 
 
 if __name__ == "__main__":
-    splitting()
+    # splitting()
+    print("description: ",
+          split(policy_file(base="base1", filename="Sample.docx"), piece_dir(base="base1"),
+                output_format="txt", similarity_threshold=0.2))

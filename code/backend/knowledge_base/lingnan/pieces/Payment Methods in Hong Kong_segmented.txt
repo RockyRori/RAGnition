@@ -1,30 +1,20 @@
 --- Segment 1 ---
-Page 1 of 2 HSBC / Hang Seng Bank ATM Machine JETCO  ATM Machine 1. Select “Bill Payment” (! "#$) 1. Select “Bill Payment” (! ") 
-5. Collect and retain the customer advice as proof of payment %&'()*Payment Methods in Hong Kong  1. By Cash / Cheque a. You may pay your fees at any branch of Bank of East Asia by Cash / Cheque.
+Page 1 of 2 HSBC / Hang Seng Bank ATM Machine JETCO ATM Machine 1. Select “Bill Payment” (! "#$) 1. Select “Bill Payment” (! ") 5. Collect and retain the customer advice as proof of payment %&'()*Payment Methods in Hong Kong 1. By Cash / Cheque a. You may pay your fees at any branch of Bank of East Asia by Cash / Cheque.
 
 --- Segment 2 ---
-You may pay your fees at any branch of Bank of East Asia by Cash / Cheque. b. Cheque should be crossed and made payable to “Lingnan University”. Please write down the “Payment Reference No. ” and student name at the back of the cheque. c. Keep the pay-in-slip as shown below returned by the bank as a proof of payment. 2. Through Automatic Teller Machine (ATM) If you have an ATM card issued by HSBC, Hang Seng or JETCO, you may settle your fees at the ATM by following the steps shown in the chart below:   
-    
-4.
+You may pay your fees at any branch of Bank of East Asia by Cash / Cheque. b. Cheque should be crossed and made payable to “Lingnan University”. Please write down the “Payment Reference No. ” and student name at the back of the cheque. c. Keep the pay-in-slip as shown below returned by the bank as a proof of payment. 2. Through Automatic Teller Machine (ATM) If you have an ATM card issued by HSBC, Hang Seng or JETCO, you may settle your fees at the ATM by following the steps shown in the chart below: 4.
 
 --- Segment 3 ---
-Through Automatic Teller Machine (ATM) If you have an ATM card issued by HSBC, Hang Seng or JETCO, you may settle your fees at the ATM by following the steps shown in the chart below:   
-    
-4. Enter : l Bill Type (+,-. ): Select “01” for Tuition Fee or Select “02” for Hostel Fee l Payment Reference Number (+,/0)": An 11-digit number shown on the “eTuition / eHostel Fee Note” 
-3. Select "Lingnan University (1234)” 2. Select "Education (5647)" 2. Select "Education - Universities (894:–34)" 
- Page 2 of 2 On the ‘Bill Payment’ page: 1.
+Through Automatic Teller Machine (ATM) If you have an ATM card issued by HSBC, Hang Seng or JETCO, you may settle your fees at the ATM by following the steps shown in the chart below: 4. Enter : l Bill Type (+,-. ): Select “01” for Tuition Fee or Select “02” for Hostel Fee l Payment Reference Number (+,/0)": An 11-digit number shown on the “eTuition / eHostel Fee Note” 3. Select "Lingnan University (1234)” 2. Select "Education (5647)" 2. Select "Education - Universities (894:–34)" Page 2 of 2 On the ‘Bill Payment’ page: 1.
 
 --- Segment 4 ---
-Select "Education - Universities (894:–34)" 
- Page 2 of 2 On the ‘Bill Payment’ page: 1. Select “View & Pay Bill” 2. Add New Bill and Select “Lingnan University” 3. Bill Type – Select “01” for Tuition Fee or Select “02” for Hostel Fee 4. Bill Account Number – An 11-digit number shown on the “eTuition / eHostel Fee Note” 5. Print or write down the “Payment Reference No. ” as a proof of payment 
-When you settle your fees with PPS, please key in: 1.
+Select "Education - Universities (894:–34)" Page 2 of 2 On the ‘Bill Payment’ page: 1. Select “View & Pay Bill” 2. Add New Bill and Select “Lingnan University” 3. Bill Type – Select “01” for Tuition Fee or Select “02” for Hostel Fee 4. Bill Account Number – An 11-digit number shown on the “eTuition / eHostel Fee Note” 5. Print or write down the “Payment Reference No. ” as a proof of payment When you settle your fees with PPS, please key in: 1.
 
 --- Segment 5 ---
-” as a proof of payment 
-When you settle your fees with PPS, please key in: 1. PPS Merchant Code – “9154” 2. Bill Account Number- An 11-digit number shown on the “eTuition / eHostel Fee Note” 3. Bill Type – Select “01” for Tuition Fee or Select “02” for Hostel Fee 4. Write down the “Payment Reference No. ” as a proof of payment 3. Through e-Banking    4. Payment by Phone Services (PPS) - PPS Merchant Code 商⼾編號 – “9154” Payment may be made by funds transfer from any designated bank account in Hong Kong using a  touch-tone phone or via the PPS website https://www.
+” as a proof of payment When you settle your fees with PPS, please key in: 1. PPS Merchant Code – “9154” 2. Bill Account Number- An 11-digit number shown on the “eTuition / eHostel Fee Note” 3. Bill Type – Select “01” for Tuition Fee or Select “02” for Hostel Fee 4. Write down the “Payment Reference No. ” as a proof of payment 3. Through e-Banking 4. Payment by Phone Services (PPS) - PPS Merchant Code 商⼾編號 – “9154” Payment may be made by funds transfer from any designated bank account in Hong Kong using a touch-tone phone or via the PPS website https://www.
 
 --- Segment 6 ---
-Payment by Phone Services (PPS) - PPS Merchant Code 商⼾編號 – “9154” Payment may be made by funds transfer from any designated bank account in Hong Kong using a  touch-tone phone or via the PPS website https://www. ppshk. com. Please call 18011 (English) /  18013 (Cantonese) for bill registration and 18031 (English) / 18033 (Cantonese) for bill payment. Important Notes: 1. In accordance with the University regulations, a penalty of HK$500 and HK$300 will be charged on late payment of tuition fee and hostel fee respectively.
+Payment by Phone Services (PPS) - PPS Merchant Code 商⼾編號 – “9154” Payment may be made by funds transfer from any designated bank account in Hong Kong using a touch-tone phone or via the PPS website https://www. ppshk. com. Please call 18011 (English) / 18013 (Cantonese) for bill registration and 18031 (English) / 18033 (Cantonese) for bill payment. Important Notes: 1. In accordance with the University regulations, a penalty of HK$500 and HK$300 will be charged on late payment of tuition fee and hostel fee respectively.
 
 --- Segment 7 ---
 In accordance with the University regulations, a penalty of HK$500 and HK$300 will be charged on late payment of tuition fee and hostel fee respectively. 2. Please note that if you pay by credit card, you may have to pay a charge to your credit card issuing bank. 3. Although the payment data will be transferred to the University electronically, it is advisable to keep a proof of payment yourself. 4. For payments by ATM, E-banking and PPS, some banks may name the “Bill Account Number” as “Payment Reference Number “or “Bill Number” or “Account Number” or “Student Number”, please input the 11-digit reference number shown on the “eTuition / eHostel Fee Note”.

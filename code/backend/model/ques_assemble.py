@@ -1,3 +1,6 @@
+from backend.model.translation import async_translate, sync_translate
+
+
 def generate_search_query(user_question, history_questions):
     """
     生成用于文档搜索的查询内容
@@ -13,8 +16,8 @@ def generate_search_query(user_question, history_questions):
     from sklearn.feature_extraction.text import TfidfVectorizer
 
     # 构造语料库，将历史问题和当前问题合并
-    # 加入预置词汇防止空值报错。
-    corpus = ["ok,thankyou."] + history_questions + [user_question]
+    corpus = history_questions + [user_question]
+    corpus = sync_translate(corpus)
 
     # 使用英文停用词，可以根据需要调整或替换为中文停用词列表
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -25,7 +28,7 @@ def generate_search_query(user_question, history_questions):
     user_vector = tfidf_matrix[-1].toarray().flatten()
 
     # 选择 TF-IDF 得分最高的前 5 个关键词（可根据需要调整）
-    top_n = 5
+    top_n = 8
     top_indices = user_vector.argsort()[-top_n:][::-1]
     top_terms = [feature_names[i] for i in top_indices if user_vector[i] > 0]
 
@@ -43,15 +46,15 @@ def generate_search_query(user_question, history_questions):
 
 if __name__ == "__main__":
     # 示例：用户输入的问题和历史问题列表
-    user_question = "Which brand is tasty?"
-    history_questions = [
+    user_question_test = "Which brand is tasty?"
+    history_questions_test = [
         "What are the famous potato chip brands?",
         "I want you to recommend some delicious snack.",
         "I want to eat good"
     ]
 
-    search_query, assembled_question = generate_search_query(user_question, history_questions)
+    search_query_test, assembled_question_test = generate_search_query(user_question_test, history_questions_test)
     print("生成的搜索查询内容：")
-    print(search_query)
+    print(search_query_test)
     print("\n组装后的完整用户问题：")
-    print(assembled_question)
+    print(assembled_question_test)

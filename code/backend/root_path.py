@@ -20,3 +20,7 @@ def policy_file(base, filename: str):
 
 def piece_file(base, filename: str):
     return os.path.join(PROJECT_ROOT, "knowledge_base", base, "pieces", filename)
+
+
+def piece_dir(base: str):
+    return os.path.join(PROJECT_ROOT, "knowledge_base", base, "pieces")

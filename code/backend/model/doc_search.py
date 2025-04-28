@@ -25,18 +25,33 @@ def load_segments_from_file(file_path):
 
 def load_segments_from_folder(input_folder):
     """
-    遍历指定文件夹，读取所有文件中的文档片段。
+    遍历指定文件夹，读取所有文件或子文件夹中的文档片段。
     返回所有片段构成的列表。
     """
     document_segments = []
-    for file in os.listdir(input_folder):
-        file_path = os.path.join(input_folder, file)
-        if os.path.isfile(file_path):
+
+    for entry in os.listdir(input_folder):
+        entry_path = os.path.join(input_folder, entry)
+
+        if os.path.isfile(entry_path):
+            # 直接读取文件
             try:
-                segs = load_segments_from_file(file_path)
+                segs = load_segments_from_file(entry_path)
                 document_segments.extend(segs)
             except Exception as e:
-                print(f"读取 {file_path} 时发生错误：{e}")
+                print(f"读取文件 {entry_path} 时发生错误：{e}")
+
+        elif os.path.isdir(entry_path):
+            # 读取子文件夹中的所有文件
+            for sub_file in os.listdir(entry_path):
+                sub_file_path = os.path.join(entry_path, sub_file)
+                if os.path.isfile(sub_file_path):
+                    try:
+                        segs = load_segments_from_file(sub_file_path)
+                        document_segments.extend(segs)
+                    except Exception as e:
+                        print(f"读取子文件夹文件 {sub_file_path} 时发生错误：{e}")
+
     return document_segments
 
 

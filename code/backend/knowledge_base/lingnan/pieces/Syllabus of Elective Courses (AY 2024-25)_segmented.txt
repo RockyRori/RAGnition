@@ -1,1196 +1,273 @@
 --- Segment 1 ---
-Course Title  : Practical Application of Deep Learning  
-Course Code  : CDS 525  
-Recommended Study Year  
-No. of Credits/Term  : 
-: 1 
-3 
-Mode of Tuition  : Lectures  
-Class Contact Hours  : 42 hours (3 to 6 hours per week*)  
-Category  in Major Prog. : Required course  
-Discipline  : Business  
-Prerequisite(s)  : Nil 
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption Requirement(s)  : Nil 
-Brief Course Description : 
-Deep learning is one of the bleeding -edge technologies of machine learning.
+Course Title : Practical Application of Deep Learning Course Code : CDS 525 Recommended Study Year No. of Credits/Term : : 1 3 Mode of Tuition : Lectures Class Contact Hours : 42 hours (3 to 6 hours per week*) Category in Major Prog. : Required course Discipline : Business Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description : Deep learning is one of the bleeding -edge technologies of machine learning.
 
 --- Segment 2 ---
-: Required course  
-Discipline  : Business  
-Prerequisite(s)  : Nil 
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption Requirement(s)  : Nil 
-Brief Course Description : 
-Deep learning is one of the bleeding -edge technologies of machine learning. It is a 
-neural network used to establish and simulate the human brain for analytical learning 
-and to interpret data by imitating the mechanism of the human brain. Deep learning is 
-widely used in computer vision, speech rec ognition, natural language processing, and 
-other fields. This course aims at providing an intensive understanding and hands -on 
-experience of the existing deep learning approaches.
+: Required course Discipline : Business Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description : Deep learning is one of the bleeding -edge technologies of machine learning. It is a neural network used to establish and simulate the human brain for analytical learning and to interpret data by imitating the mechanism of the human brain. Deep learning is widely used in computer vision, speech rec ognition, natural language processing, and other fields. This course aims at providing an intensive understanding and hands -on experience of the existing deep learning approaches.
 
 --- Segment 3 ---
-This course aims at providing an intensive understanding and hands -on 
-experience of the existing deep learning approaches. The topics will cover how to select 
-deep neural networks, how to design deep  neural networks, and how to train and 
-optimize the neural networks for practical applications. The course will cover deep 
-neural network models, including convolutional neural networks, recurrent neural 
-networks, long short -term memory networks, deep resi dual networks, generative 
-adversarial networks, attention -based models, adversarial learning models, and training 
-techniques including dropout, batch normalization, selection of activation functions and 
-so on.
+This course aims at providing an intensive understanding and hands -on experience of the existing deep learning approaches. The topics will cover how to select deep neural networks, how to design deep neural networks, and how to train and optimize the neural networks for practical applications. The course will cover deep neural network models, including convolutional neural networks, recurrent neural networks, long short -term memory networks, deep resi dual networks, generative adversarial networks, attention -based models, adversarial learning models, and training techniques including dropout, batch normalization, selection of activation functions and so on.
 
 --- Segment 4 ---
-The course will cover deep 
-neural network models, including convolutional neural networks, recurrent neural 
-networks, long short -term memory networks, deep resi dual networks, generative 
-adversarial networks, attention -based models, adversarial learning models, and training 
-techniques including dropout, batch normalization, selection of activation functions and 
-so on. TensorFlow, Pytorch, or other state -of-the-art deep learning tools will be 
-introduced and applied to solve different classes of problems with huge datasets in 
-business domains. Aims : 
-This course aims to:  
-1. Introduce fundamental theories, concepts, and approaches to deep learning. 2. Develop students' ability to use TensorFlow, Pytorch or other state -of-the-art
-deep learning platforms.
+The course will cover deep neural network models, including convolutional neural networks, recurrent neural networks, long short -term memory networks, deep resi dual networks, generative adversarial networks, attention -based models, adversarial learning models, and training techniques including dropout, batch normalization, selection of activation functions and so on. TensorFlow, Pytorch, or other state -of-the-art deep learning tools will be introduced and applied to solve different classes of problems with huge datasets in business domains. Aims : This course aims to: 1. Introduce fundamental theories, concepts, and approaches to deep learning. 2. Develop students' ability to use TensorFlow, Pytorch or other state -of-the-art deep learning platforms.
 
 --- Segment 5 ---
-Develop students' ability to use TensorFlow, Pytorch or other state -of-the-art
-deep learning platforms. 3. Enable students to solve various business problems with huge datasets using
-deep learning techniques. 4. Equip students communication skills for presenting and delivering their deep
-learning solutions for business problems to different stakeholders. Learning Outcomes (LOs) : 
-Upon successful completion of this course, students will be able to:  
-1.
+Develop students' ability to use TensorFlow, Pytorch or other state -of-the-art deep learning platforms. 3. Enable students to solve various business problems with huge datasets using deep learning techniques. 4. Equip students communication skills for presenting and delivering their deep learning solutions for business problems to different stakeholders. Learning Outcomes (LOs) : Upon successful completion of this course, students will be able to: 1.
 
 --- Segment 6 ---
-Learning Outcomes (LOs) : 
-Upon successful completion of this course, students will be able to:  
-1. Identify, describe and apply various deep learning models for problem solving ;  
-2. Discriminate and verify the advantages and limitations of various deep learning 
-networks under different business scenarios;  
-3. Design, implement and deploy deep learning models and systems for solving 
-some real -world business problems;  
-4. Visualize and present the solutions or findings based on deep learning models 
-for business problems.
+Learning Outcomes (LOs) : Upon successful completion of this course, students will be able to: 1. Identify, describe and apply various deep learning models for problem solving ; 2. Discriminate and verify the advantages and limitations of various deep learning networks under different business scenarios; 3. Design, implement and deploy deep learning models and systems for solving some real -world business problems; 4. Visualize and present the solutions or findings based on deep learning models for business problems.
 
 --- Segment 7 ---
-Visualize and present the solutions or findings based on deep learning models 
-for business problems. Indicative Content s: 
-1. Neural Networks  
-Perceptron, fully connective layer, active function, output layer, loss. 2. Deep Feedforward Networks  
-Basic theory: overfitting, overgeneralization, stochastic gradient descent, 
-hidden units, regularization, architecture design  
-Classical models:  Multilayer perceptron network , Back-propagation  network , 
-Radial basis function network and so on.
+Visualize and present the solutions or findings based on deep learning models for business problems. Indicative Content s: 1. Neural Networks Perceptron, fully connective layer, active function, output layer, loss. 2. Deep Feedforward Networks Basic theory: overfitting, overgeneralization, stochastic gradient descent, hidden units, regularization, architecture design Classical models: Multilayer perceptron network , Back-propagation network , Radial basis function network and so on.
 
 --- Segment 8 ---
-Deep Feedforward Networks  
-Basic theory: overfitting, overgeneralization, stochastic gradient descent, 
-hidden units, regularization, architecture design  
-Classical models:  Multilayer perceptron network , Back-propagation  network , 
-Radial basis function network and so on. Practical Application s- function approximation, drug prediction, badge 
-classification  
- 
-3. Convolutional Neural Networks  
-Basic theory: convolution layers, pooling layers, gradient propagation, batch 
-normalization, transferred learning;  
-Classical models:  LeNet -5, DRN, ResNet, DensNet, GoogleNet, VGG net, 
-AlexNet;  
-Practical Application s- image classification, object recognition, action 
-recognition, pose estimation  
- 
-4. Recurrent Neural Networks  
-Classical models : Recurrent neural networks, bidirectional recurrent neural 
-networks, long -short term memory models;  
-Practical Application s- voice recognition, text recognition, action recognition  
-  
-5. Unsupervised Pre -trained Neural Networks  
-Classical models: auto-encoder , deep generative models, Boltzmann machines, 
-restricted Boltzmann machines, deep belief neural networks.
+Deep Feedforward Networks Basic theory: overfitting, overgeneralization, stochastic gradient descent, hidden units, regularization, architecture design Classical models: Multilayer perceptron network , Back-propagation network , Radial basis function network and so on. Practical Application s- function approximation, drug prediction, badge classification 3. Convolutional Neural Networks Basic theory: convolution layers, pooling layers, gradient propagation, batch normalization, transferred learning; Classical models: LeNet -5, DRN, ResNet, DensNet, GoogleNet, VGG net, AlexNet; Practical Application s- image classification, object recognition, action recognition, pose estimation 4. Recurrent Neural Networks Classical models : Recurrent neural networks, bidirectional recurrent neural networks, long -short term memory models; Practical Application s- voice recognition, text recognition, action recognition 5. Unsupervised Pre -trained Neural Networks Classical models: auto-encoder , deep generative models, Boltzmann machines, restricted Boltzmann machines, deep belief neural networks.
 
 --- Segment 9 ---
-Unsupervised Pre -trained Neural Networks  
-Classical models: auto-encoder , deep generative models, Boltzmann machines, 
-restricted Boltzmann machines, deep belief neural networks. Practical Application s- Dimension reduction , feature extraction and 
-reconstruction  
- 
-6. Other Deep Learning Methods  
-Classical models: Generative adversarial networks, attention -based models, 
-adversarial learning models, deep reinforcement learning ,  
-Practical Application s-image generation, image transformation  
- 
-Teaching Methods : 
-There are different teaching and learning activities, including lectures, assignments, and 
-tutorials.
+Unsupervised Pre -trained Neural Networks Classical models: auto-encoder , deep generative models, Boltzmann machines, restricted Boltzmann machines, deep belief neural networks. Practical Application s- Dimension reduction , feature extraction and reconstruction 6. Other Deep Learning Methods Classical models: Generative adversarial networks, attention -based models, adversarial learning models, deep reinforcement learning , Practical Application s-image generation, image transformation Teaching Methods : There are different teaching and learning activities, including lectures, assignments, and tutorials.
 
 --- Segment 10 ---
-Other Deep Learning Methods  
-Classical models: Generative adversarial networks, attention -based models, 
-adversarial learning models, deep reinforcement learning ,  
-Practical Application s-image generation, image transformation  
- 
-Teaching Methods : 
-There are different teaching and learning activities, including lectures, assignments, and 
-tutorials. The concepts, principles, and categories of deep learning and different will be 
-discussed in lectures. Students will learn how to select deep neural networks, how to 
-design deep neural networks, how to train and optimi ze the neural networks for 
-practical applications in lectures. The implementations of deep neural networks in 
-TensorFlow, PyTorch, or Keras will be assigned as daily group assignments and 
-projects.
+Other Deep Learning Methods Classical models: Generative adversarial networks, attention -based models, adversarial learning models, deep reinforcement learning , Practical Application s-image generation, image transformation Teaching Methods : There are different teaching and learning activities, including lectures, assignments, and tutorials. The concepts, principles, and categories of deep learning and different will be discussed in lectures. Students will learn how to select deep neural networks, how to design deep neural networks, how to train and optimi ze the neural networks for practical applications in lectures. The implementations of deep neural networks in TensorFlow, PyTorch, or Keras will be assigned as daily group assignments and projects.
 
 --- Segment 11 ---
-The implementations of deep neural networks in 
-TensorFlow, PyTorch, or Keras will be assigned as daily group assignments and 
-projects. Students will learn these two parts by hand -on programming  based on some 
-real projects. The edge deep learning technologies and applications will be discussed in 
-tutorials. Students will learn these part s by analyzing some real cases and application 
-examples. Measurement of Learning Outcomes : 
-Learning 
-Outcome  Class 
-Attendance 
-and 
-Participation  Individual  
-Assign -
-ments  Group 
-Project  Group 
-Present -
-ation  Examination  
-1.
+The implementations of deep neural networks in TensorFlow, PyTorch, or Keras will be assigned as daily group assignments and projects. Students will learn these two parts by hand -on programming based on some real projects. The edge deep learning technologies and applications will be discussed in tutorials. Students will learn these part s by analyzing some real cases and application examples. Measurement of Learning Outcomes : Learning Outcome Class Attendance and Participation Individual Assign - ments Group Project Group Present - ation Examination 1.
 
 --- Segment 12 ---
-Measurement of Learning Outcomes : 
-Learning 
-Outcome  Class 
-Attendance 
-and 
-Participation  Individual  
-Assign -
-ments  Group 
-Project  Group 
-Present -
-ation  Examination  
-1. Identify, 
-describe and 
-apply various 
-deep learning 
-models for 
-problem solving  ✓ ✓ ✓ ✓ ✓ 
-2. Discriminate 
-and verify the 
-advantages and 
-limitations of 
-various deep 
-learning 
-network under 
-different 
-business 
-scenario  ✓ ✓ ✓ ✓ ✓ 
-3. Design, 
-implement and 
-deploy deep  ✓ ✓ ✓ ✓ 
-learning models 
-and systems for 
-solving some 
-real-world 
-business 
-problems  
-4. Visualize and 
-present the 
-solutions or 
-findings based 
-on deep learning 
-models for 
-business 
-problems    ✓ ✓ ✓ 
- 
-Assessment : 
-1.
+Measurement of Learning Outcomes : Learning Outcome Class Attendance and Participation Individual Assign - ments Group Project Group Present - ation Examination 1. Identify, describe and apply various deep learning models for problem solving ✓ ✓ ✓ ✓ ✓ 2. Discriminate and verify the advantages and limitations of various deep learning network under different business scenario ✓ ✓ ✓ ✓ ✓ 3. Design, implement and deploy deep ✓ ✓ ✓ ✓ learning models and systems for solving some real-world business problems 4. Visualize and present the solutions or findings based on deep learning models for business problems ✓ ✓ ✓ Assessment : 1.
 
 --- Segment 13 ---
-Visualize and 
-present the 
-solutions or 
-findings based 
-on deep learning 
-models for 
-business 
-problems    ✓ ✓ ✓ 
- 
-Assessment : 
-1. 10% Class Attendance and Participation:  Class attendance and participation 
-evaluate whether students identify and describe various deep learning models, 
-criticize and value various deep learning networks under different scenarios. 2. 20% Individual Assignments:   Assignments require students to criticize and 
-value various deep learning networks under different scenarios, apply deep 
-learning tools to programming deep learning methods.
+Visualize and present the solutions or findings based on deep learning models for business problems ✓ ✓ ✓ Assessment : 1. 10% Class Attendance and Participation: Class attendance and participation evaluate whether students identify and describe various deep learning models, criticize and value various deep learning networks under different scenarios. 2. 20% Individual Assignments: Assignments require students to criticize and value various deep learning networks under different scenarios, apply deep learning tools to programming deep learning methods.
 
 --- Segment 14 ---
-20% Individual Assignments:   Assignments require students to criticize and 
-value various deep learning networks under different scenarios, apply deep 
-learning tools to programming deep learning methods. 3. 20% Group Project:  A group project requires students to develop and deploy 
-deep learning systems to solve some sophisticated business problems. They need 
-to analyze and design deep learning models, programming the models to solve 
-practical problems. Meanwhile, students can p resent their work well.
+20% Individual Assignments: Assignments require students to criticize and value various deep learning networks under different scenarios, apply deep learning tools to programming deep learning methods. 3. 20% Group Project: A group project requires students to develop and deploy deep learning systems to solve some sophisticated business problems. They need to analyze and design deep learning models, programming the models to solve practical problems. Meanwhile, students can p resent their work well.
 
 --- Segment 15 ---
-Meanwhile, students can p resent their work well. 4. 10% Group Presentation:  Students will form groups present and visualize their 
-ideas about the rationale and procedures for developing deep learning solutions for 
-business problems. This is to verify their communication skills and critical thinking 
-on how to deliver and visualize their deep learning solutions for business problems 
-for different stakeholders with a variety of diverse backgrounds.
+Meanwhile, students can p resent their work well. 4. 10% Group Presentation: Students will form groups present and visualize their ideas about the rationale and procedures for developing deep learning solutions for business problems. This is to verify their communication skills and critical thinking on how to deliver and visualize their deep learning solutions for business problems for different stakeholders with a variety of diverse backgrounds.
 
 --- Segment 16 ---
-This is to verify their communication skills and critical thinking 
-on how to deliver and visualize their deep learning solutions for business problems 
-for different stakeholders with a variety of diverse backgrounds. 5. 40% Exam ination : Assess various deep learning models for problems solv ing, the 
-advantage and limitations of deep neural networks, design of deep learning models 
-for business problems, and deliver and visualize their solutions comprehensively. Required/Essential Readings : 
-Goodfellow, Ian, Bengio, Yoshua, and Courville, Aaron (2016).
+This is to verify their communication skills and critical thinking on how to deliver and visualize their deep learning solutions for business problems for different stakeholders with a variety of diverse backgrounds. 5. 40% Exam ination : Assess various deep learning models for problems solv ing, the advantage and limitations of deep neural networks, design of deep learning models for business problems, and deliver and visualize their solutions comprehensively. Required/Essential Readings : Goodfellow, Ian, Bengio, Yoshua, and Courville, Aaron (2016).
 
 --- Segment 17 ---
-Required/Essential Readings : 
-Goodfellow, Ian, Bengio, Yoshua, and Courville, Aaron (2016). Deep learning . MIT 
-press. Aggarwal , Charu C . (2018). Neural networks and deep learning . Springer. Recommended/Supplementary Readings : 
-Gilbert Strang (2016). Introduction to Linear Algebra, Fifth Edition , Wellesley -
-Cambridge Press  
-Francois Chollet (2018). Deep Learning with Python , Manning Publications Co.
+Required/Essential Readings : Goodfellow, Ian, Bengio, Yoshua, and Courville, Aaron (2016). Deep learning . MIT press. Aggarwal , Charu C . (2018). Neural networks and deep learning . Springer. Recommended/Supplementary Readings : Gilbert Strang (2016). Introduction to Linear Algebra, Fifth Edition , Wellesley - Cambridge Press Francois Chollet (2018). Deep Learning with Python , Manning Publications Co.
 
 --- Segment 18 ---
-Deep Learning with Python , Manning Publications Co. Rajalingappaa Shanmugamani (2018) Deep Learning for Computer Vision: Expert 
-techniques to train advanced neural networks using TensorFlow and Keras , Packt 
-Publishing. Patterson, Josh, and Gibson, Adam. (2017). Deep Learning: A Practitioner’s Approach . O’Reilly Media. Chris Albon (2018). Machine Learning with Python Cookbook: Practical Solutions 
-from Preprocessing to Deep Learning , O'Reilly Media.
+Deep Learning with Python , Manning Publications Co. Rajalingappaa Shanmugamani (2018) Deep Learning for Computer Vision: Expert techniques to train advanced neural networks using TensorFlow and Keras , Packt Publishing. Patterson, Josh, and Gibson, Adam. (2017). Deep Learning: A Practitioner’s Approach . O’Reilly Media. Chris Albon (2018). Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning , O'Reilly Media.
 
 --- Segment 19 ---
-Machine Learning with Python Cookbook: Practical Solutions 
-from Preprocessing to Deep Learning , O'Reilly Media. Maxim Lapan . (2018). Deep Reinforcement Learning Hands -On: Apply modern RL 
-methods, with deep Q -networks, value iteration, policy gradients, TRPO, AlphaGo Zero 
-and more (English Edition) . Packt Publishing. Vihar Kurama . (2020). Hands -On Neural Networks with PyTorch 1. 0: An all -in-one 
-guide to implement deep learning architectures using Python (English Edition) .
+Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning , O'Reilly Media. Maxim Lapan . (2018). Deep Reinforcement Learning Hands -On: Apply modern RL methods, with deep Q -networks, value iteration, policy gradients, TRPO, AlphaGo Zero and more (English Edition) . Packt Publishing. Vihar Kurama . (2020). Hands -On Neural Networks with PyTorch 1. 0: An all -in-one guide to implement deep learning architectures using Python (English Edition) .
 
 --- Segment 20 ---
-0: An all -in-one 
-guide to implement deep learning architectures using Python (English Edition) . Packt 
-Publishing . Giancarlo Zaccone, Md. Rezaul Karim. (2018). Deep Learning with TensorFlow: 
-Explore neural networks and build intelligent systems with Python, 2nd Edition 
-(English Edition) . Packt Publishing . Rowel Atienza . (2018). Advanced Deep Learning with Keras: Apply deep learning 
-techniques, autoencoders, GANs, variational autoencoders, deep reinforcement 
-learning, policy gradients, and more (English Edition) .
+0: An all -in-one guide to implement deep learning architectures using Python (English Edition) . Packt Publishing . Giancarlo Zaccone, Md. Rezaul Karim. (2018). Deep Learning with TensorFlow: Explore neural networks and build intelligent systems with Python, 2nd Edition (English Edition) . Packt Publishing . Rowel Atienza . (2018). Advanced Deep Learning with Keras: Apply deep learning techniques, autoencoders, GANs, variational autoencoders, deep reinforcement learning, policy gradients, and more (English Edition) .
 
 --- Segment 21 ---
-Advanced Deep Learning with Keras: Apply deep learning 
-techniques, autoencoders, GANs, variational autoencoders, deep reinforcement 
-learning, policy gradients, and more (English Edition) . Packt Publishing . Yusuke Sugomori,Boštjan Kaluža,Fábio M. Soares,Alan M. F. Souza . (2017). Deep 
-Learning: Practical Neural Networks with Java . Packt Publishing . Important Notes:  
-(1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 
-6* hours of personal study) per week to achieve the course learning  outcomes.
+Advanced Deep Learning with Keras: Apply deep learning techniques, autoencoders, GANs, variational autoencoders, deep reinforcement learning, policy gradients, and more (English Edition) . Packt Publishing . Yusuke Sugomori,Boštjan Kaluža,Fábio M. Soares,Alan M. F. Souza . (2017). Deep Learning: Practical Neural Networks with Java . Packt Publishing . Important Notes: (1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes.
 
 --- Segment 22 ---
-3* hours of class contact and 
-6* hours of personal study) per week to achieve the course learning  outcomes. (2) Students shall be aware of the University regulations about dishonest practice in 
-course work, tests and examinations, and the possible consequences as stipulated in 
-the Regulations Governing University Examinations and Course Work . In 
-particular, plagiarism, being a kind of dishonest practice, is “the presentation of 
-another person’s work without proper acknowledgment of the source, including 
-exact phrases, or summarised ideas, or even footnotes/citations, whether protected 
-by copy right or not, as the stud ent’s own work”.
+3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work . In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgment of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copy right or not, as the stud ent’s own work”.
 
 --- Segment 23 ---
-In 
-particular, plagiarism, being a kind of dishonest practice, is “the presentation of 
-another person’s work without proper acknowledgment of the source, including 
-exact phrases, or summarised ideas, or even footnotes/citations, whether protected 
-by copy right or not, as the stud ent’s own work”. Students are required to strictly 
-follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial 
-on Plagiarism Awareness” is available on https://pla.
+In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgment of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copy right or not, as the stud ent’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla.
 
 --- Segment 24 ---
-(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial 
-on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course Title  : Big Data  Analytics  
-Course Code  : CDS 527 
-Recommended Study Year  : 1 
-No. of Credits/Term  : 3 
-Mode of Tuition  : Lectures  
-Class Contact Hours  : 42 hours (3 to 6 hours per week*)  
-Category  in Major Prog.
+(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course Title : Big Data Analytics Course Code : CDS 527 Recommended Study Year : 1 No. of Credits/Term : 3 Mode of Tuition : Lectures Class Contact Hours : 42 hours (3 to 6 hours per week*) Category in Major Prog.
 
 --- Segment 25 ---
-of Credits/Term  : 3 
-Mode of Tuition  : Lectures  
-Class Contact Hours  : 42 hours (3 to 6 hours per week*)  
-Category  in Major Prog. : Elective  course  
-Discipline  : Business  
-Prerequisite(s)  : Nil 
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption Requirement(s)  : Nil 
- 
-Brief Course Description:  
- 
-This course provides an understanding of the concept and challenge of big data. The focus is 
-on the data analytic techniques to tackle the V’s (volume, velocity, variety, veracity, valence, 
-and value)  in big data and how these  impacts  data collection,  monitoring,  storage,  analysis  and 
-reporting. The following topics across the big data domain will be introduced: distributed file 
-systems; big data analysis techniques; high -performance processing algorithms for big data; 
-big data search and query technologies. An example (Apache Spark ) of big data management 
-system to manage and process large -scale data is introduced in the course.
+of Credits/Term : 3 Mode of Tuition : Lectures Class Contact Hours : 42 hours (3 to 6 hours per week*) Category in Major Prog. : Elective course Discipline : Business Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description: This course provides an understanding of the concept and challenge of big data. The focus is on the data analytic techniques to tackle the V’s (volume, velocity, variety, veracity, valence, and value) in big data and how these impacts data collection, monitoring, storage, analysis and reporting. The following topics across the big data domain will be introduced: distributed file systems; big data analysis techniques; high -performance processing algorithms for big data; big data search and query technologies. An example (Apache Spark ) of big data management system to manage and process large -scale data is introduced in the course.
 
 --- Segment 26 ---
-An example (Apache Spark ) of big data management 
-system to manage and process large -scale data is introduced in the course. Big data analytics 
-applications in business will also be elaborated. Students will actively participate in the del ivery 
-of this course through assignments, portfolio development, and  projects. Aims:  
- 
-This course aims to:  
-1. Understand the fundamental platforms, such as Spark, Hadoop, and other  tools.
+An example (Apache Spark ) of big data management system to manage and process large -scale data is introduced in the course. Big data analytics applications in business will also be elaborated. Students will actively participate in the del ivery of this course through assignments, portfolio development, and projects. Aims: This course aims to: 1. Understand the fundamental platforms, such as Spark, Hadoop, and other tools.
 
 --- Segment 27 ---
-Understand the fundamental platforms, such as Spark, Hadoop, and other  tools. 2. Develop students’ hands -on experience of construction of big data analysis using 
-professional software  packages. 3. Identify the challenges and constraints associated with scaling big data  algorithms. 4. Enhance  students’  reasoning  and problem -solving  abilities,  particularly  in dealing  with 
-big data analytics solution in real applications.
+Understand the fundamental platforms, such as Spark, Hadoop, and other tools. 2. Develop students’ hands -on experience of construction of big data analysis using professional software packages. 3. Identify the challenges and constraints associated with scaling big data algorithms. 4. Enhance students’ reasoning and problem -solving abilities, particularly in dealing with big data analytics solution in real applications.
 
 --- Segment 28 ---
-Enhance  students’  reasoning  and problem -solving  abilities,  particularly  in dealing  with 
-big data analytics solution in real applications. Learning Outcomes  (LOs) : 
- 
-Upon completion of this course, students will be able to:  
-1. Explain the concepts and components of fundamental platforms supporting big data 
-applications. 2. Evaluate  the efficiency  and effectiveness  of big analytical  data management  systems  in 
-business  areas.
+Enhance students’ reasoning and problem -solving abilities, particularly in dealing with big data analytics solution in real applications. Learning Outcomes (LOs) : Upon completion of this course, students will be able to: 1. Explain the concepts and components of fundamental platforms supporting big data applications. 2. Evaluate the efficiency and effectiveness of big analytical data management systems in business areas. 3. Apply and implement the tools and techniques of big data analytics using pySpark.
 
 --- Segment 29 ---
-Evaluate  the efficiency  and effectiveness  of big analytical  data management  systems  in 
-business  areas. 3. Apply and implement the tools and techniques of big data analytics using  pySpark. 4. Construct a big analytical data management system and decision support system using 
-professional  software. 5. Deliver the system and demonstrate communication strategies with different 
-stakeholders with various  backgrounds.
+Apply and implement the tools and techniques of big data analytics using pySpark. 4. Construct a big analytical data management system and decision support system using professional software. 5. Deliver the system and demonstrate communication strategies with different stakeholders with various backgrounds. Indicative Contents: 1. An Introduction to Spark with Python a. Components b.
 
 --- Segment 30 ---
-Deliver the system and demonstrate communication strategies with different 
-stakeholders with various  backgrounds. Indicative Contents:  
- 
-1. An Introduction to Spark with  Python  
-a. Components  
-b. How Spark  Works  
-c. Configuration Running  Platform  
-2. Programming with Resilient Distributed Dataset  (RDD)  
-a. Create  RDD  
-b. Spark  Operations  
-3. Statistics and Linear Algebra  Preliminaries  
-a. Linear Algebra  Preliminaries  
-b.
+Components b. How Spark Works c. Configuration Running Platform 2. Programming with Resilient Distributed Dataset (RDD) a. Create RDD b. Spark Operations 3. Statistics and Linear Algebra Preliminaries a. Linear Algebra Preliminaries b. Measurement Formula c. Confusion Matrix 4. Data Exploration, Manipulation and Feature Extraction for Big Data a.
 
 --- Segment 31 ---
-Linear Algebra  Preliminaries  
-b. Measurement  Formula  
-c. Confusion  Matrix  
-4. Data Exploration, Manipulation and Feature Extraction for Big  Data  
-a. Univariate  Analysis  
-b. Multivariate  Analysis  
-c. Data  Manipulation  
-d. Feature  Transform  
-e. Feature  Selection  
-5. Regression, Classification and Clustering Solution for Big  Data  
-a. Linear  Regression  
-b. Generalized Linear  Regression  
-c. Binomial Logistic  Regression  
-d. Multinomial logistic  regression  
-e. Decision Tree Regression and  Classification  
-f. Random Forest Regression and Classification  
-g. Gradient -boosted Tree Regression and  Classification  
-h.
+Data Exploration, Manipulation and Feature Extraction for Big Data a. Univariate Analysis b. Multivariate Analysis c. Data Manipulation d. Feature Transform e. Feature Selection 5. Regression, Classification and Clustering Solution for Big Data a. Linear Regression b. Generalized Linear Regression c. Binomial Logistic Regression d. Multinomial logistic regression e. Decision Tree Regression and Classification f. Random Forest Regression and Classification g. Gradient -boosted Tree Regression and Classification h.
 
 --- Segment 32 ---
-Gradient -boosted Tree Regression and  Classification  
-h. Naive Bayes  Classification  
-i. K-Means  Clustering  
-6. Text Mining  Solution  
-a. Text collection  
-b. Text Preprocessing  
-c. Text Classification  
-d. Sentiment  analysis  
-e. N-grams and  Correlations  
-7. Wrap PySpark  Package  
- a. Package  Wrapper  
-b. Package Publishing on  PyPI  
-c. Install from  Repo  
-d.
+Gradient -boosted Tree Regression and Classification h. Naive Bayes Classification i. K-Means Clustering 6. Text Mining Solution a. Text collection b. Text Preprocessing c. Text Classification d. Sentiment analysis e. N-grams and Correlations 7. Wrap PySpark Package a. Package Wrapper b. Package Publishing on PyPI c. Install from Repo d. Auditing on Big Dataset e.
 
 --- Segment 33 ---
-Install from  Repo  
-d. Auditing on Big  Dataset  
-e. PySpark  API 
-8. Real world Business Application Practice  
- 
-Teaching Method:  
- 
-There are different teaching and learning activities, including lectures, assignments, project 
-and tutorials. The basic concepts and components of fundamental platforms supporting big 
-data applications will be explained in lectures (LO1).
+Auditing on Big Dataset e. PySpark API 8. Real world Business Application Practice Teaching Method: There are different teaching and learning activities, including lectures, assignments, project and tutorials. The basic concepts and components of fundamental platforms supporting big data applications will be explained in lectures (LO1).
 
 --- Segment 34 ---
-The basic concepts and components of fundamental platforms supporting big 
-data applications will be explained in lectures (LO1). Students will als o learn various data 
-exploration, manipulation and feature extraction, regression, classification and clustering 
-solutions, and text mining in lectures (LO3). The implementations of some solutions in PySpark 
-platforms and tools will be assigned as group projects (LO3 -5). The detailed efficiency and 
-effectiveness of different solutions will be discussed in tutorials (LO2).
+The basic concepts and components of fundamental platforms supporting big data applications will be explained in lectures (LO1). Students will als o learn various data exploration, manipulation and feature extraction, regression, classification and clustering solutions, and text mining in lectures (LO3). The implementations of some solutions in PySpark platforms and tools will be assigned as group projects (LO3 -5). The detailed efficiency and effectiveness of different solutions will be discussed in tutorials (LO2).
 
 --- Segment 35 ---
-The detailed efficiency and 
-effectiveness of different solutions will be discussed in tutorials (LO2). Measurement of Learning Outcomes:  
- 
-Learning Outcomes  Attendance 
-and In-class 
-Participation  Individual 
-Assignments  Group 
-Project  Group 
-Presentation  
-Explain the concepts and 
-components of fundamental  
-platforms supporting Big 
-Data applications. ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- 
-Evaluate the efficiency and 
-effectiveness of big  
-analytical data management 
-systems in business areas. ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- 
-Apply and implement the 
-tools and techniques of big 
-data analytics using 
-pySpark.
+The detailed efficiency and effectiveness of different solutions will be discussed in tutorials (LO2). Measurement of Learning Outcomes: Learning Outcomes Attendance and In-class Participation Individual Assignments Group Project Group Presentation Explain the concepts and components of fundamental platforms supporting Big Data applications. ✓ ✓ ✓ ✓ Evaluate the efficiency and effectiveness of big analytical data management systems in business areas. ✓ ✓ ✓ ✓ Apply and implement the tools and techniques of big data analytics using pySpark.
 
 --- Segment 36 ---
-✓ 
- 
- ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- 
-Apply and implement the 
-tools and techniques of big 
-data analytics using 
-pySpark. ✓ 
- 
- ✓ 
- 
- ✓ 
- 
- 
-Construct a big analytical 
-data management system 
-and decision support system 
-using professional software. ✓ 
- 
- ✓ 
- 
- 
-Deliver the system and 
-demonstrate communication 
-strategies with different 
-stakeholders with various 
-backgrounds. ✓ 
- 
- ✓ 
- 
- 
- 
- 
- 
- 
- Assessment:  
- 
-1.
+✓ ✓ ✓ ✓ Apply and implement the tools and techniques of big data analytics using pySpark. ✓ ✓ ✓ Construct a big analytical data management system and decision support system using professional software. ✓ ✓ Deliver the system and demonstrate communication strategies with different stakeholders with various backgrounds. ✓ ✓ Assessment: 1. 10% Attendance and In -class Participation: In class, students need to understand the concepts and components of fundamental platforms for big data analytics. Furthermore, they need to learn how to evaluate the efficiency and effectiveness of big analytical data management systems in business areas.
 
 --- Segment 37 ---
-✓ 
- 
- ✓ 
- 
- 
- 
- 
- 
- 
- Assessment:  
- 
-1. 10%  Attendance and In -class Participation: In class, students need to understand the 
-concepts and components of fundamental platforms for big data analytics. Furthermore, 
-they need to learn how to evaluate the efficiency and effectiveness of big analytical data 
-management  systems in business areas.
+Furthermore, they need to learn how to evaluate the efficiency and effectiveness of big analytical data management systems in business areas. Attendance will be taken in each lecture and grade also depends on whether a student actively participates in discussion and offers constructive views. 2. 30% Individual Assignments : Students will individually work on several after -class assignments. These assignments will test whether students are able to understand the basic concept of components of fundamental platforms for big data analytics, evaluate the efficiency and effectiveness of big analytical data management systems in business areas.
 
 --- Segment 38 ---
-Furthermore, 
-they need to learn how to evaluate the efficiency and effectiveness of big analytical data 
-management  systems in business areas. Attendance will be taken in each lecture and grade 
-also depends on whether a student actively participates in discussion and offers 
-constructive views. 2. 30%  Individual Assignments : Students will individually work on several after -class 
-assignments. These assignments will test whether students are able to understand the basic 
-concept of  components of fundamental platforms for big data analytics, evaluate the 
-efficiency and effectiveness of big analytical data management systems in business  areas.
+These assignments will test whether students are able to understand the basic concept of components of fundamental platforms for big data analytics, evaluate the efficiency and effectiveness of big analytical data management systems in business areas. 3. 40% Group Project : Students will work as groups. The Project will test whether students are able to work as a team to solve the real world problem by using professional software. 4. 20% Group Presentation: Students will form groups and present their ideas about the rationale and procedures for developing a big analytical data management system and decision support system for business problems. This is to verify their communication skills and critical thinking on how to deliver their system for business problems for the users with different backgrounds .
 
 --- Segment 39 ---
-These assignments will test whether students are able to understand the basic 
-concept of  components of fundamental platforms for big data analytics, evaluate the 
-efficiency and effectiveness of big analytical data management systems in business  areas. 3. 40%  Group Project : Students will work as groups. The Project will test whether students 
-are able to work as a team to solve the real world problem by using professional software. 4. 20%  Group  Presentation:  Students  will form  groups  and present  their ideas  about  the 
-rationale  and procedures for developing a big analytical data management system and 
-decision support system  for business  problems. This is to verify  their communication  skills  
-and critical  thinking on how to deliver their system for business problems for the users 
-with different  backgrounds .
+This is to verify their communication skills and critical thinking on how to deliver their system for business problems for the users with different backgrounds . Required/Essential Readings: N/A Recommended/ Supplementary Readings: 1. Wenqiang Feng : Learning Apache Spark with Python , 2020. [Online]: https://runawayhorse001. github. io/LearningApacheSpark/pyspark. pdf 2. EMC Education Services : Data Science & Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data , 2015.
 
 --- Segment 40 ---
-This is to verify  their communication  skills  
-and critical  thinking on how to deliver their system for business problems for the users 
-with different  backgrounds . Required/Essential Readings:  
- 
-N/A 
- 
-Recommended/ Supplementary Readings:  
- 
-1. Wenqiang Feng : Learning Apache Spark with Python , 2020. [Online]: https://runawayhorse001. github. io/LearningApacheSpark/pyspark. pdf  
-2. EMC Education Services : Data Science & Big Data Analytics: Discovering, Analyzing, 
-Visualizing and Presenting Data , 2015.
+EMC Education Services : Data Science & Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data , 2015. ISBN: 9781118876138. 3. Holden Karau, Andy Konwinski , Patrick Wendell , Matei Zaharia : Learning Spark: Lightning -Fast Big Data Analysis 1 st Edition , ISBN: 1449358624. 4. Rajkumar Buyya Rodrigo Calheiros Amir Vahid Dastjerdi : Big Data: Principles and Paradigms, 1 st Edition , 2016, ISBN: 9780128093467.
 
 --- Segment 41 ---
-EMC Education Services : Data Science & Big Data Analytics: Discovering, Analyzing, 
-Visualizing and Presenting Data , 2015. ISBN:  9781118876138. 3. Holden Karau,  Andy Konwinski , Patrick Wendell , Matei Zaharia : Learning Spark: 
-Lightning -Fast Big Data Analysis 1 st Edition , ISBN: 1449358624. 4. Rajkumar Buyya Rodrigo Calheiros Amir Vahid Dastjerdi : Big Data: Principles and 
-Paradigms, 1 st Edition , 2016, ISBN:  9780128093467.
+Rajkumar Buyya Rodrigo Calheiros Amir Vahid Dastjerdi : Big Data: Principles and Paradigms, 1 st Edition , 2016, ISBN: 9780128093467. 5. Venkat Ankam : Big Data Analytics , 2016, ISBN: 9781785884696. Important Notes: (1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work . In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the stu dent’s own work”.
 
 --- Segment 42 ---
-Rajkumar Buyya Rodrigo Calheiros Amir Vahid Dastjerdi : Big Data: Principles and 
-Paradigms, 1 st Edition , 2016, ISBN:  9780128093467. 5. Venkat Ankam : Big Data Analytics , 2016, ISBN: 9781785884696. Important Notes:  
-(1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact 
-and 6* hours of personal study) per week to achieve the course learning 
-outcomes. (2) Students shall be aware of the University regulations about dishonest practice in 
-course work, tests and examinations, and the possible consequences as stipulated 
-in the Regulations Governing University Examinations and Course Work . In 
-particular, plagiarism, being a kind  of dishonest practice, is “the presentation of 
-another person’s work without proper acknowledgement of the source, including 
-exact phrases, or summarised ideas, or even footnotes/citations, whether 
-protected by copyright or not, as the stu dent’s own work”.
+In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the stu dent’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla.
 
 --- Segment 43 ---
-In 
-particular, plagiarism, being a kind  of dishonest practice, is “the presentation of 
-another person’s work without proper acknowledgement of the source, including 
-exact phrases, or summarised ideas, or even footnotes/citations, whether 
-protected by copyright or not, as the stu dent’s own work”. Students  are required  
-to strictly  follow  university  regulations  governing  academic  integrity and honesty. (3) Students are required to submit writing assignment(s) using  Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial 
-on Plagiarism Awareness” is available on  https://pla.
+(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course Title : Blockchain Course Code : CDS528 Recommended Study Year : 1 No. of Credits/Term : 3 Mode of Tuition : Lectures Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : Business Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description: Blockchain, as a decentralized open ledger, has proven to be a phenomenal success.
 
 --- Segment 44 ---
-(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial 
-on Plagiarism Awareness” is available on  https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course  Title  : Blockchain  
-Course  Code  : CDS528  
-Recommended  Study Year : 1 
-No. of Credits/Term    : 3 
-Mode  of Tuition  : Lectures  
-Class  Contact  Hours  : 42 hours (3 to 6 hours per week*)  
-Category  : Elective  course  
-Discipline  : Business  
-Prerequisite(s)  : Nil 
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption  Requirement(s)  : Nil 
-Brief Course Description:  
-Blockchain, as a decentralized open ledger, has proven to be a phenomenal success.
+of Credits/Term : 3 Mode of Tuition : Lectures Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : Business Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description: Blockchain, as a decentralized open ledger, has proven to be a phenomenal success. This ground -breaking technique holds a huge promise in various fields, digital identification, data marketing, cryptocurrencies like bitcoin, etc. This course introduces students the fundamentals of blockchain, distributed ledger technology, alternative consensus, smart contracts and security, and cryptocurrencies.
 
 --- Segment 45 ---
-of Credits/Term    : 3 
-Mode  of Tuition  : Lectures  
-Class  Contact  Hours  : 42 hours (3 to 6 hours per week*)  
-Category  : Elective  course  
-Discipline  : Business  
-Prerequisite(s)  : Nil 
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption  Requirement(s)  : Nil 
-Brief Course Description:  
-Blockchain, as a decentralized open ledger, has proven to be a phenomenal success. This 
-ground -breaking technique holds a huge promise in various fields, digital identification, data 
-marketing,  cryptocurrencies  like bitcoin,  etc. This course  introduces  students  the fundamentals 
-of blockchain, distributed ledger technology, alternative consensus, smart contracts and 
-security, and cryptocurrencies.
+This course introduces students the fundamentals of blockchain, distributed ledger technology, alternative consensus, smart contracts and security, and cryptocurrencies. Case studies of cryptocurrencies and examples of application (e. g. , Bitcoin) will be also elaborated. Students will understand the impact of blockchain technologies on financial services and other industries th rough assignments and projects. Aims: This course aims to: 1. Demonstrate a blockchain system’s fundamental components, how they fit together and examine a modular blockchain system in more detail.
 
 --- Segment 46 ---
-This course  introduces  students  the fundamentals 
-of blockchain, distributed ledger technology, alternative consensus, smart contracts and 
-security, and cryptocurrencies. Case studies of cryptocurrencies and examples of application 
-(e. g. , Bitcoin) will be also elaborated. Students will understand the impact of blockchain 
-technologies on financial services and other industries th rough assignments and  projects. Aims:  
-This course aims to:  
-1. Demonstrate a blockchain system’s fundamental components, how they fit together and
-examine a modular blockchain system in more  detail.
+Demonstrate a blockchain system’s fundamental components, how they fit together and examine a modular blockchain system in more detail. 2. Understand private and public keys as well as addresses and how exactly they are constructed and used. 3. Provide a thorough understanding of cryptocurrency, smart contracts, their technical capabilities, practical applications, limitations and security constraints they operate within. 4. Enhance students’ reasoning, problem -solving and modeling abilities, particularly in dealing with blockchain solution in real applications.
 
 --- Segment 47 ---
-Demonstrate a blockchain system’s fundamental components, how they fit together and
-examine a modular blockchain system in more  detail. 2. Understand private and public keys as well as addresses and how exactly they are
-constructed and  used. 3. Provide a thorough understanding of cryptocurrency, smart contracts, their technical
-capabilities,  practical  applications,  limitations  and security  constraints  they operate  within. 4.
+Enhance students’ reasoning, problem -solving and modeling abilities, particularly in dealing with blockchain solution in real applications. Learning Outcomes (LOs): Upon successful completion of this course, students will be able to: 1. Explain the concepts and components of blockchain, cryptocurrency, and distributed ledger technologies ; 2. Evaluate security issues relating to blockchain and cryptocurrency ; 3. Analyze the application and impact of blockchain technology in the business areas ; and 4.
 
 --- Segment 48 ---
-4. Enhance students’ reasoning, problem -solving and modeling abilities, particularly in
-dealing with blockchain solution in real  applications. Learning Outcomes (LOs): 
-Upon successful completion of this course, students will be able to:  
-1. Explain the concepts and components of blockchain, cryptocurrency, and distributed
-ledger  technologies ;
-2. Evaluate security issues relating to blockchain and  cryptocurrency ;
-3.
+Analyze the application and impact of blockchain technology in the business areas ; and 4. Design solution by using blockchain technologies in other markets. Indicative Contents: 1. Introduction 2. Cryptography and Security a. Asymmetrical Cryptography b. Public key and Private key 3. Blockchain Fundamental Technologies a. Distributed System b. Hash Function c. Digital Signature d. Alternative Consensus e.
 
 --- Segment 49 ---
-Evaluate security issues relating to blockchain and  cryptocurrency ;
-3. Analyze the application and impact of blockchain technology in the business  areas ; and
-4. Design solution by using blockchain technologies in other  markets. Indicative Contents:  
- 
-1. Introduction  
-2. Cryptography and  Security  
-a. Asymmetrical  Cryptography  
-b. Public key and Private  key 
-3.
+Alternative Consensus e. Smart Contract f. P2P Network g. Classification 4. Bitcoin a. Bitcoin Network b. Bitcoin clients and APIs c. Transaction and Payments d. Bitcoin Mining 5. Other Classical Blockchain Systems a. Hyperledger b. Ethereum Teaching Method: There are different teaching and learning activities, including lectures, assignments, projects, and tutorials.
 
 --- Segment 50 ---
-Public key and Private  key 
-3. Blockchain Fundamental  Technologies  
-a. Distributed  System  
-b. Hash  Function  
-c. Digital  Signature  
-d. Alternative  Consensus  
-e. Smart  Contract  
-f. P2P Network  
-g. Classification  
-4. Bitcoin  
-a. Bitcoin  Network  
-b. Bitcoin clients and  APIs  
-c. Transaction and  Payments  
-d. Bitcoin  Mining  
-5.
+Ethereum Teaching Method: There are different teaching and learning activities, including lectures, assignments, projects, and tutorials. The concepts of cryptography and security, data models, blockchain fundamental technologies, and bitcoin technologies will be discussed in lectures (LO1, LO3). The instructor will provide in-class examples while students need to work on in-class exercises. Students will also learn classical blockchain systems in real world. The implementations of blockchain fundamental technologies and classical systems will be assigned as group projects (LO4).
 
 --- Segment 51 ---
-Bitcoin  Mining  
-5. Other Classical Blockchain Systems  
-a. Hyperledger  
-b. Ethereum  
- 
- 
-Teaching Method:  
- 
-There are different teaching and learning activities, including lectures, assignments, projects, 
-and tutorials. The concepts  of cryptography  and security,  data models,  blockchain  fundamental 
-technologies,  and bitcoin  technologies  will be discussed  in lectures  (LO1,  LO3).
+The implementations of blockchain fundamental technologies and classical systems will be assigned as group projects (LO4). The security evaluation, impact analysis and solution design will be discussed in tutorials (LO2). Measurement of Learning Outcomes: Learning Outcomes Attendance and In -class Participation Assignments Project Examination Understand the concepts and components of blockchain, cryptocurrency, and distributed ledger technologies.
 
 --- Segment 52 ---
-The concepts  of cryptography  and security,  data models,  blockchain  fundamental 
-technologies,  and bitcoin  technologies  will be discussed  in lectures  (LO1,  LO3). The instructor 
-will provide  in-class  examples  while  students  need  to work  on in-class  exercises. Students  will 
-also learn classical blockchain systems in real world. The implementations of blockchain 
-fundamental technologies and classical systems will be assigned as group projects (LO4).
+Measurement of Learning Outcomes: Learning Outcomes Attendance and In -class Participation Assignments Project Examination Understand the concepts and components of blockchain, cryptocurrency, and distributed ledger technologies. ✓ ✓ ✓ ✓ Evaluate security issues relating to blockchain and cryptocurrency. ✓ ✓ ✓ ✓ Analyze the application and impact of blockchain technology in the business areas. ✓ ✓ ✓ Design solution by using blockchain technologies in other markets. ✓ ✓ ✓ Assessment: 1. 10% Attendance and In -class Participation : In class, students need to understand various knowledge of blockchain, cryptocurrency, and distributed ledger technologies. Furthermore, they need to learn security issues relating to blockchain and cryptocurrency.
 
 --- Segment 53 ---
-The implementations of blockchain 
-fundamental technologies and classical systems will be assigned as group projects (LO4). The 
-security evaluation, impact analysis and solution design will be discussed in tutorials  (LO2). Measurement of Learning Outcomes:  
- 
-Learning Outcomes  Attendance 
-and In -class 
-Participation  Assignments  Project  Examination  
-Understand the concepts 
-and components of 
-blockchain, 
-cryptocurrency, and 
-distributed ledger 
-technologies.
+Furthermore, they need to learn security issues relating to blockchain and cryptocurrency. Attendance will be taken in each lectur e and grade also depends on whether a student actively participates in discussion and offers constructive views. 2. 20% Assignments : Students will individually work on several after -class assignments. These assignments will test whether students are able to understand the basic concept of blockchain, cryptocurrency and distributed ledger technologies. apply blockchain methodologies to formulate the problem and whether they are able to comprehensively solve the problem.
 
 --- Segment 54 ---
-Measurement of Learning Outcomes:  
- 
-Learning Outcomes  Attendance 
-and In -class 
-Participation  Assignments  Project  Examination  
-Understand the concepts 
-and components of 
-blockchain, 
-cryptocurrency, and 
-distributed ledger 
-technologies. ✓ ✓ ✓ ✓ 
-Evaluate security issues  
-relating to blockchain and 
-cryptocurrency. ✓ ✓ ✓ ✓ 
-Analyze the application 
-and impact of blockchain 
-technology in the business 
-areas. ✓ ✓ ✓ 
-Design solution by using 
-blockchain technologies in 
-other markets. ✓ ✓ ✓ 
- 
- 
-Assessment:  
- 
-1. 10%  Attendance and In -class Participation : In class, students need to understand 
-various knowledge of blockchain, cryptocurrency, and distributed ledger technologies. Furthermore, they need to learn security issues relating to blockchain and 
-cryptocurrency.
+apply blockchain methodologies to formulate the problem and whether they are able to comprehensively solve the problem. 3. 40% Project : Students will work as groups. The Project will test whether students are able to work as a team to solve the real world problem by using blockchain. 4. 30% Examinations : Exam will include basic concept of blockchain, cryptocurrency, and distributed ledger technologies. Each problem requires students to formulate problem and convey ideas and solutions, and apply appropriate analytics techniques.
 
 --- Segment 55 ---
-Furthermore, they need to learn security issues relating to blockchain and 
-cryptocurrency. Attendance will be taken in each lectur e and grade also depends on 
-whether a student actively participates in discussion and offers constructive views. 2. 20%  Assignments : Students will individually work on several after -class assignments. These assignments will test whether students are able to understand the basic concept of 
-blockchain, cryptocurrency and distributed ledger technologies. apply blockchain 
-methodologies to formulate the problem and whether they are able to comprehensively 
-solve the problem.
+Each problem requires students to formulate problem and convey ideas and solutions, and apply appropriate analytics techniques. Required/Essential Readings: N/A Recommended/ Supplementary Readings: 1. William Mougayar. The Buisness Blockchain: Promise, Practice, and Application of the Next Internet Technology. Wiley; 1st edition (May 9, 2016), ISBN: 9781119300311. 2. Daniel Drescher. Blockchain Basics: A Non -Technical Introduction in 25 Steps.
 
 --- Segment 56 ---
-apply blockchain 
-methodologies to formulate the problem and whether they are able to comprehensively 
-solve the problem. 3. 40%  Project : Students will work as groups. The Project will test whether students are 
-able to work as a team to solve the real world problem by using blockchain. 4. 30%  Examinations : Exam will include basic concept of blockchain, cryptocurrency, and 
-distributed ledger technologies. Each problem requires students to formulate problem and 
-convey ideas and solutions, and apply appropriate analytics techniques.
+Blockchain Basics: A Non -Technical Introduction in 25 Steps. 1st edition, ISBN: 1484226038. 3. Melanie Swan. Blockchain: Blueprint for a New Economy. ISBN: 9781491920497. 4. Imran Bashir. Mastering Blockchain: Distributed ledger technology, decentralization, and smart contracts explained, 2nd Edition, ISBN: 1788839048. 5. Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder.
 
 --- Segment 57 ---
-Each problem requires students to formulate problem and 
-convey ideas and solutions, and apply appropriate analytics techniques. Required/Essential Readings:  
- 
-N/A 
- 
-Recommended/ Supplementary Readings:  
- 
-1. William Mougayar. The Buisness Blockchain: Promise, Practice, and Application 
-of the  Next Internet Technology. Wiley; 1st edition (May 9, 2016), ISBN:  
-9781119300311. 2. Daniel Drescher. Blockchain Basics: A Non -Technical Introduction in 25 Steps.
+Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven Goldfeder. Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction. Princeton University Press (July 19, 2016), ISBN: 0691171696. 6. Nakamoto S. Bitcoin: A peer -to-peer electronic cash system[J]. 2008. Important Notes: (1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes.
 
 --- Segment 58 ---
-Blockchain Basics: A Non -Technical Introduction in 25 Steps. 1st edition, ISBN:  1484226038. 3. Melanie Swan. Blockchain: Blueprint for a New Economy. ISBN:  
-9781491920497. 4. Imran Bashir. Mastering Blockchain: Distributed ledger technology, 
-decentralization, and  smart contracts explained, 2nd Edition, ISBN:  1788839048. 5. Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven 
-Goldfeder.
+3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work . In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by cop yright or not, as the student’s own work”.
 
 --- Segment 59 ---
-Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, and Steven 
-Goldfeder. Bitcoin and Cryptocurrency Technologies: A Comprehensive 
-Introduction. Princeton University Press (July 19, 2016), ISBN:  0691171696. 6. Nakamoto S. Bitcoin: A peer -to-peer electronic cash system[J]. 2008. Important Notes:  
- 
-(1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact 
-and 6* hours of personal study) per week to achieve the course learning 
-outcomes.
+In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by cop yright or not, as the student’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla.
 
 --- Segment 60 ---
-3* hours of class contact 
-and 6* hours of personal study) per week to achieve the course learning 
-outcomes. (2) Students shall be aware of the University regulations about dishonest practice 
-in course work, tests and examinations, and the possible consequences as 
-stipulated in the Regulations Governing University Examinations and Course 
-Work . In particular, plagiarism, being a kind of dishonest practice, is “the 
-presentation of another person’s work without proper acknowledgement of the 
-source, including exact phrases, or summarised ideas, or even 
-footnotes/citations, whether protected by cop yright or not, as the student’s own 
-work”.
+(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course Title : Healthcare Analytics Course Code : CDS530 Recommended Study Year : Any No. of Credits/Term : 3 Mode of Tuition : Sectional Approach Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : - Prerequisite (s) : Nil Co-requisite (s) : Nil Exclusion (s) : Nil Exemption Requiremen t(s) : Nil Brief Course Description: Healthcare analytics transform the traditional medical system in an all -round way, making healthcare more efficient, more convenient, and more personalized.
 
 --- Segment 61 ---
-In particular, plagiarism, being a kind of dishonest practice, is “the 
-presentation of another person’s work without proper acknowledgement of the 
-source, including exact phrases, or summarised ideas, or even 
-footnotes/citations, whether protected by cop yright or not, as the student’s own 
-work”. Students are required to strictly follow university regulations 
-governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using  Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online 
-Tutorial on Plagiarism Awareness” is available on  https://pla.
+of Credits/Term : 3 Mode of Tuition : Sectional Approach Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : - Prerequisite (s) : Nil Co-requisite (s) : Nil Exclusion (s) : Nil Exemption Requiremen t(s) : Nil Brief Course Description: Healthcare analytics transform the traditional medical system in an all -round way, making healthcare more efficient, more convenient, and more personalized. This course will introduce student the key technologies that support smart healthcare. It explains how to build the surveillance infra structure and how the data is collected and transmitted back from various wearable sensors of multiple sources, by using the technologies of Internet of Things (IoT): MAC protocols, routing protocols.
 
 --- Segment 62 ---
-(4) To enhance students’ understanding of plagiarism, a mini -course “Online 
-Tutorial on Plagiarism Awareness” is available on  https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. Course Title          : Healthcare Analytics    
-Course Code     : CDS530  
-Recommended Study Year   : Any  
-No. of Credits/Term    : 3  
-Mode of Tuition        : Sectional Approach  
-Class Contact Hours    : 42 hours (3 to 6 hours per week*)   
-Category              : Elective course  
-Discipline         : -  
-Prerequisite (s)        : Nil  
-Co-requisite (s)       : Nil  
-Exclusion (s)         : Nil  
-Exemption Requiremen t(s)  : Nil 
- 
-Brief Course Description:  
- 
-Healthcare analytics transform the traditional medical system in an all -round way, making 
-healthcare more efficient, more convenient, and more personalized.
+It explains how to build the surveillance infra structure and how the data is collected and transmitted back from various wearable sensors of multiple sources, by using the technologies of Internet of Things (IoT): MAC protocols, routing protocols. This course will also describe data fusion of health and healthcare data, data models, data management, machine learning algorithms, and analytics techniques and tools for health risk prediction. Case studies and examples of application will be elaborated in this course. Aims: This course aims to: 1.
 
 --- Segment 63 ---
-of Credits/Term    : 3  
-Mode of Tuition        : Sectional Approach  
-Class Contact Hours    : 42 hours (3 to 6 hours per week*)   
-Category              : Elective course  
-Discipline         : -  
-Prerequisite (s)        : Nil  
-Co-requisite (s)       : Nil  
-Exclusion (s)         : Nil  
-Exemption Requiremen t(s)  : Nil 
- 
-Brief Course Description:  
- 
-Healthcare analytics transform the traditional medical system in an all -round way, making 
-healthcare more efficient, more convenient, and more personalized. This course will 
-introduce student the key technologies that support smart healthcare. It explains how to build 
-the surveillance infra structure and how the data is collected and transmitted back from 
-various wearable sensors of multiple sources, by using the technologies of Internet of Things 
-(IoT): MAC protocols, routing protocols.
+Aims: This course aims to: 1. Demonstrate knowledge of how data are gathered, transmitted, managed, and analyzed for healthcare data analytics. 2. Demonstrate knowledge of the principles undergirding the tools of big data analysis in health care. 3. Provide a comprehensive foundation to apply machine learning algorithms, analytics techniques in solving problems in healthcare.
 
 --- Segment 64 ---
-It explains how to build 
-the surveillance infra structure and how the data is collected and transmitted back from 
-various wearable sensors of multiple sources, by using the technologies of Internet of Things 
-(IoT): MAC protocols, routing protocols. This course will also describe data fusion of health 
-and healthcare data, data models, data management, machine learning algorithms, and 
-analytics techniques and tools for health risk prediction. Case studies and examples of 
-application will be elaborated in this course. Aims:  
- 
-This course aims to:  
-1.
+Provide a comprehensive foundation to apply machine learning algorithms, analytics techniques in solving problems in healthcare. 4. Enhance students’ reasoning, problem -solving and modeling abilities, particularly in dealing with healthcare data problems. Learning Outcomes (LOs) : On completion of this course, students will be able to: 1. Demonstrate a comprehension of understanding of how data are gathered, stored, managed, and analyzed for healthcare data analytics.
 
 --- Segment 65 ---
-Aims:  
- 
-This course aims to:  
-1. Demonstrate knowledge of how data are gathered, transmitted, managed, and analyzed 
-for healthcare data analytics. 2. Demonstrate knowledge of the principles undergirding the tools of big data analysis in 
-health care. 3. Provide a comprehensive foundation to apply machine learning algorithms, analytics 
-techniques in solving problems in healthcare.
+Demonstrate a comprehension of understanding of how data are gathered, stored, managed, and analyzed for healthcare data analytics. 2. Apply tools and techniques in the analysis of real world healthcare data effectively. 3. Formulate problems and convey solutions in healthcare analytics. 4. Evaluate and validate the discovered knowledge. Indicative Contents: 1. Data Sensing a. Surveillance Infrastructure based on Internet of Things (IoT) b.
 
 --- Segment 66 ---
-Provide a comprehensive foundation to apply machine learning algorithms, analytics 
-techniques in solving problems in healthcare. 4. Enhance students’ reasoning, problem -solving and modeling abilities, particularly in 
-dealing with healthcare data problems. Learning Outcomes  (LOs) :  
- 
-On completion of this course, students will be able to:  
-1. Demonstrate a comprehension of understanding of how data are gathered, stored, 
-managed, and analyzed for healthcare data analytics.
+Surveillance Infrastructure based on Internet of Things (IoT) b. Introduction to Sensing Devices 2. Data Collection a. Data Transmission i. Mac Protocol ii. Routing protocol b. Data Fusion 3. Data Analytics Tools and Techniques a. Data Model and Management b. Statistical Prediction Models c. Clinical Prediction Models i. Cost Sensitive Learning ii. Multiple Instance Learning iii.
 
 --- Segment 67 ---
-Demonstrate a comprehension of understanding of how data are gathered, stored, 
-managed, and analyzed for healthcare data analytics. 2. Apply tools and techniques in the analysis of real world healthcare data effectively. 3. Formulate problems and convey solutions in healthcare analytics. 4. Evaluate and validate the discovered knowledge. Indicative Contents:  
- 
-1. Data Sensing  
-a. Surveillance Infrastructure based on Internet of Things (IoT)  
-b.
+Multiple Instance Learning iii. Reinforcement Learning iv. Sparse Methods v. Kernel Methods d. Survival Models e. Temporal Data Mining for Healthcare Data f. Dimensionality Reduction g. Health Risk Prediction 4. Case Study a. Real World Healthcare Problem Teaching Method: There a re different teaching and learning activities, including lectures, assignments, project and tutorials.
 
 --- Segment 68 ---
-Surveillance Infrastructure based on Internet of Things (IoT)  
-b. Introduction to Sensing Devices   
-2. Data  Collection  
-a. Data Transmission  
-i. Mac Protocol  
-ii. Routing protocol  
-b. Data Fusion  
-3. Data Analytics Tools and Techniques  
-a. Data Model and Management  
-b. Statistical Prediction Models  
-c. Clinical Prediction Models  
-i. Cost Sensitive Learning  
-ii.
+Real World Healthcare Problem Teaching Method: There a re different teaching and learning activities, including lectures, assignments, project and tutorials. The concepts of data gathering, data models, data management and data prediction models will be discussed in lectures (LO1). The instructor will provide in-class examples while students need to work on in -class exercises (LO3). St udents will also learn various prediction models and survival models in lectures based on real word scenarios (LO1, LO3). The implementations of some data models and prediction models will be assigned as group projects (LO2).
 
 --- Segment 69 ---
-Cost Sensitive Learning  
-ii. Multiple Instance Learning  
-iii. Reinforcement Learning  
-iv. Sparse Methods  
-v. Kernel Methods  
-d. Survival Models  
-e. Temporal Data Mining for Healthcare Data  
-f. Dimensionality Reduction  
-g. Health Risk Prediction   
-4. Case Study  
-a. Real World Healthcare Problem  
- 
-Teaching Method:  
- 
-There a re different teaching and learning activities, including lectures, assignments, project 
-and tutorials.
+The implementations of some data models and prediction models will be assigned as group projects (LO2). The problem formulation, solution evaluation and knowledge discovery will be discussed in tutorials (LO3 -4). Measurement of Learning Outcomes: Learning Outcomes Class Attendance and Participation Assignments Project Examination Demonstrate a comprehension of understanding of how data are gathered, stored, managed, and analyzed for healthcare data analytics.
 
 --- Segment 70 ---
-Real World Healthcare Problem  
- 
-Teaching Method:  
- 
-There a re different teaching and learning activities, including lectures, assignments, project 
-and tutorials. The concepts of data gathering, data models, data management and data 
-prediction models will be discussed in lectures (LO1). The instructor will provide in-class 
-examples while students need to work on in -class exercises (LO3). St udents will also learn 
-various prediction models and survival models in lectures based on real word scenarios (LO1, 
-LO3). The implementations of some data models and prediction models will be assigned as 
-group projects (LO2).
+Measurement of Learning Outcomes: Learning Outcomes Class Attendance and Participation Assignments Project Examination Demonstrate a comprehension of understanding of how data are gathered, stored, managed, and analyzed for healthcare data analytics. ✓ ✓ ✓ ✓ Apply tools and techniques in the analysis of real world healthcare data effectively. ✓ ✓ ✓ Formulate problems and convey solutions in healthcare analytics. ✓ ✓ ✓ Evaluate and validate the discovered knowledge. ✓ ✓ ✓ Assessment: 1. 10% Class Attendance and Participation: In class, students need to understand various knowledge of data sensing and data collection. Furthermore, they need to learn the data analytics tools and techniques.
 
 --- Segment 71 ---
-The implementations of some data models and prediction models will be assigned as 
-group projects (LO2). The problem formulation, solution evaluation and knowledge 
-discovery will be discussed in tutorials (LO3 -4). Measurement of Learning Outcomes:  
- 
-Learning Outcomes  
- Class 
-Attendance 
-and 
-Participation  Assignments  
- Project  Examination  
- 
-Demonstrate a 
-comprehension of 
-understanding of how 
-data are gathered, 
-stored, managed, and 
-analyzed for healthcare 
-data analytics.
+Furthermore, they need to learn the data analytics tools and techniques. Attendance will be taken in each lecture and grade also depends on whether a student actively participates in discussion and offers constructive views. 2. 20% Assignments : Students will individually work on several after -class assignments. These assignments will test whether students are able to apply data analytics tools and methodologies to formulate the problem and whether they are able to comprehensively solve the problem.
 
 --- Segment 72 ---
-Measurement of Learning Outcomes:  
- 
-Learning Outcomes  
- Class 
-Attendance 
-and 
-Participation  Assignments  
- Project  Examination  
- 
-Demonstrate a 
-comprehension of 
-understanding of how 
-data are gathered, 
-stored, managed, and 
-analyzed for healthcare 
-data analytics. ✓ ✓ ✓ ✓ 
-Apply tools and 
-techniques in the 
-analysis of real world 
-healthcare data 
-effectively. ✓  
- 
- ✓ ✓ 
-Formulate problems 
-and convey solutions 
-in healthcare analytics. ✓ ✓ ✓ 
-Evaluate and validate 
-the discovered  
-knowledge. ✓ ✓ ✓ 
-  
-Assessment:  
- 
-1. 10%  Class Attendance and Participation: In class, students need to understand 
-various knowledge of data sensing and data collection. Furthermore, they need to learn 
-the data analytics tools and techniques.
+These assignments will test whether students are able to apply data analytics tools and methodologies to formulate the problem and whether they are able to comprehensively solve the problem. 3. 40% Project : Students will work as groups. The Project will test whether students are able to work as a team to solve the real world healthcare problem. 4. 30% Examination : Exam will include basic concept of data sensing and data collection, data analytics tools and techniques. Each problem requires students to formulate problem and convey ideas and solutions, and apply appropriate analytics techniques .
 
 --- Segment 73 ---
-Furthermore, they need to learn 
-the data analytics tools and techniques. Attendance will be taken in each lecture and 
-grade also depends on whether a student actively participates in discussion and offers 
-constructive views. 2. 20% Assignments : Students will individually work on several after -class assignments. These assignments will test whether students are able to apply data analytics tools and 
-methodologies to formulate the problem and whether they are able to comprehensively 
-solve the problem.
+Each problem requires students to formulate problem and convey ideas and solutions, and apply appropriate analytics techniques . Required/Essential Readings: N/A Recommended/ Supplementary Readings: 1. Zhou, Zhi -hua, Machine Learning, 1 st Edition, Springer Singapore (2020), ISBN: 978- 981-15-1966 -6 2. Yunhao Liu, Introduction to IoT , (2013), ISBN: 978 -7-03-037257 -4 3. Chandan K. Reddy , Healthcare Data Analytics , ISBN: 978-1482232110 Important Notes: (1) Students are expected to spend a total of 9* hours (i.
 
 --- Segment 74 ---
-These assignments will test whether students are able to apply data analytics tools and 
-methodologies to formulate the problem and whether they are able to comprehensively 
-solve the problem. 3. 40%  Project : Students will work as groups. The Project will test whether students are 
-able to work as a team to solve the real world healthcare problem. 4. 30%  Examination : Exam will include basic concept of data sensing and data collection, 
-data analytics tools and techniques. Each problem requires students to formulate 
-problem and convey ideas and solutions, and apply appropriate analytics techniques .
+Reddy , Healthcare Data Analytics , ISBN: 978-1482232110 Important Notes: (1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work . In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by cop yright or not, as the stu dent’s own work”.
 
 --- Segment 75 ---
-Each problem requires students to formulate 
-problem and convey ideas and solutions, and apply appropriate analytics techniques . Required/Essential Readings:  
- 
-N/A 
- 
-Recommended/ Supplementary Readings:  
- 
-1. Zhou, Zhi -hua, Machine Learning, 1 st Edition,  Springer Singapore (2020), ISBN:  978-
-981-15-1966 -6  
-2. Yunhao  Liu, Introduction to IoT , (2013), ISBN: 978 -7-03-037257 -4 
-3. Chandan K. Reddy , Healthcare Data Analytics , ISBN:  978-1482232110  
- 
-Important Notes:  
-(1) Students are expected to spend a total of 9* hours (i.
+In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by cop yright or not, as the stu dent’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla.
 
 --- Segment 76 ---
-Reddy , Healthcare Data Analytics , ISBN:  978-1482232110  
- 
-Important Notes:  
-(1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 
-6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in 
-course work, tests and examinations, and the possible consequences as stipulated in 
-the Regulations Governing University Examinations and Course Work . In particular, 
-plagiarism, being a kind of dishonest practice, is “the presentation of another person’s 
-work without proper acknowledgement of the source, including exact phrases, or 
-summarised ideas, or even footnotes/citations, whether protected by cop yright or not, 
-as the stu dent’s own work”.
+(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. 1 Course Title : Computer Vision Course Code : CDS5 40 Recommended Study Year : 1 No. of Credits/Term : 3 Mode of Tuition : Sectional Approach Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : - Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description: This course will introduce the techniques for visual data processing and analysis.
 
 --- Segment 77 ---
-In particular, 
-plagiarism, being a kind of dishonest practice, is “the presentation of another person’s 
-work without proper acknowledgement of the source, including exact phrases, or 
-summarised ideas, or even footnotes/citations, whether protected by cop yright or not, 
-as the stu dent’s own work”. Students are required to strictly follow university 
-regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on 
-Plagiarism Awareness” is available on https://pla.
+of Credits/Term : 3 Mode of Tuition : Sectional Approach Class Contact Hours : 42 hours (3 to 6 hours per week*) Category : Elective course Discipline : - Prerequisite(s) : Nil Co-requisite(s) : Nil Exclusion(s) : Nil Exemption Requirement(s) : Nil Brief Course Description: This course will introduce the techniques for visual data processing and analysis. Topics include image p rocessing and analysis in spatial and frequency domains, image restoration and compression, image segmentation and registration, morphological image processing, representation and description, feature description, face recognition, iris recognition, fingerprint recognition, image analysis topics, such as medical image analysis.
 
 --- Segment 78 ---
-(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on 
-Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching. 1 Course Title  : Computer Vision  
-Course Code  : CDS5 40 
-Recommended Study Year   : 1 
-No. of Credits/Term  : 3 
-Mode of Tuition  : Sectional Approach  
-Class Contact Hours  : 42 hours (3 to 6 hours per week*)  
-Category  : Elective course  
-Discipline  : - 
-Prerequisite(s)  : Nil  
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption Requirement(s)  : Nil 
- 
-Brief Course Description:  
-This course will introduce the techniques for visual data processing and analysis.
+Topics include image p rocessing and analysis in spatial and frequency domains, image restoration and compression, image segmentation and registration, morphological image processing, representation and description, feature description, face recognition, iris recognition, fingerprint recognition, image analysis topics, such as medical image analysis. Aims: This course aims to: 1. introduce concepts, techniques and potential applications of computer vision. 2. provide students a comprehensive understanding of the development of computer vision. 3. equip students with hands-on experience in implementing computer vision applications. 4. enable students to apply appropriate computer vision models to solve real world problems.
 
 --- Segment 79 ---
-of Credits/Term  : 3 
-Mode of Tuition  : Sectional Approach  
-Class Contact Hours  : 42 hours (3 to 6 hours per week*)  
-Category  : Elective course  
-Discipline  : - 
-Prerequisite(s)  : Nil  
-Co-requisite(s)  : Nil 
-Exclusion(s)  : Nil 
-Exemption Requirement(s)  : Nil 
- 
-Brief Course Description:  
-This course will introduce the techniques for visual data processing and analysis. Topics include 
-image p rocessing and analysis in spatial and frequency domains, image restoration and compression, 
-image segmentation and registration, morphological image processing, representation and description, feature description, face recognition, iris recognition, fingerprint recognition, image analysis topics, such as medical image analysis.
+enable students to apply appropriate computer vision models to solve real world problems. Learning Outcomes: On completion of the course, student will be able to: 1. demonstrate command of theories and techniques in computer vision and pattern recognition 2. describe and apply advanced computer vision algorithms for real -world visual tasks (e. g. , image classification and generation) 3.
 
 --- Segment 80 ---
-Topics include 
-image p rocessing and analysis in spatial and frequency domains, image restoration and compression, 
-image segmentation and registration, morphological image processing, representation and description, feature description, face recognition, iris recognition, fingerprint recognition, image analysis topics, such as medical image analysis. Aims:  
-This course aims to: 1. introduce concepts, techniques and potential applications of computer vision. 2. provide students a comprehensive understanding of the development of computer vision. 3. equip students with hands-on experience in implementing computer vision applications. 4. enable students to apply appropriate computer vision models to solve real world problems.
+, image classification and generation) 3. identify and evaluate various approaches of computer vision and pattern recognition 4. present and deliver their computer vision solutions to different stakeholders. Indication Contents: 1. Introduction to Computer Vision 2. Image Processing Fundamentals 3. Image Features and Descriptors 4. Image Classification and Object Recognition 5. Object Detection and Localization 6.
 
 --- Segment 81 ---
-enable students to apply appropriate computer vision models to solve real world problems. Learning Outcomes:  
-On completion of the course, student will be able to: 1. demonstrate command of theories and techniques in computer vision and pattern recognition 
-2. describe and apply advanced computer vision algorithms for real -world visual tasks (e. g. , image 
-classification and generation)  
-3.
+Object Detection and Localization 6. Image Segmentation 7. Deep Learning for Computer Vision 8. Video Analysis and Tracking 9. Advanced Topics in Computer Vision 2 Teaching Method: The course will be delivered through lectures, lab exercises, assignments and group projects. The fundamental concepts, techniques, and applications of computer vision, software packages, such as OpenCV , will be covered in lectures. Students are required to apply the concepts and principles covered in this course to analyze the real -world problem(s) and formulate them as visual problem(s) in their assignments. Students perform a group project and develop computer vision system(s) to solve real -world problem(s) (e.
 
 --- Segment 82 ---
-, image 
-classification and generation)  
-3. identify and evaluate various approaches of computer vision and pattern recognition  
-4. present and deliver their computer vision solutions to different stakeholders. Indication Contents:  
-1. Introduction to Computer Vision 
-2. Image Processing Fundamentals 
-3. Image Features and Descriptors  
-4. Image Classification and Object Recognition  
-5. Object Detection and Localization  
-6.
+Students perform a group project and develop computer vision system(s) to solve real -world problem(s) (e. g. , image classifcation). Moreover, computer vision applications, algorithms for image processing, analyzing visual models and design of vision systems will be learnt by students through project -based learning, case studies, and interactive exercises. In the end of the project, they are required to present their proposed viusal systems, with analysis, formulations and evaluation.
 
 --- Segment 83 ---
-Object Detection and Localization  
-6. Image Segmentation  
-7. Deep Learning for Computer Vision 
-8. Video Analysis and Tracking 
-9. Advanced Topics in Computer Vision 
- 
- 2 Teaching Method:  
-The course will be delivered through lectures, lab exercises, assignments and group projects. The 
-fundamental concepts, techniques, and applications of computer vision, software packages, such as OpenCV , will be covered in lectures. Students are required to apply the concepts and principles covered in this course to analyze the real -world problem(s) and formulate them as visual problem(s) 
-in their assignments. Students perform a group project and develop computer vision system(s) to solve real -world problem(s) (e.
+In the end of the project, they are required to present their proposed viusal systems, with analysis, formulations and evaluation. Measurement of Learning Outcomes: Learning Outcome Class Attendance and Participation Individual Assignments Group Project 1. Demonstrate command of theories and techniques in computer vision and pattern recognition    2. Describe and apply advanced computer vision algorithms for real -world visual task    3.
 
 --- Segment 84 ---
-Students perform a group project and develop computer vision system(s) to solve real -world problem(s) (e. g. , image classifcation). Moreover, computer vision applications, 
-algorithms for image processing, analyzing visual models and design of vision systems will be learnt by students through project -based learning, case studies, and interactive exercises. In the end of the 
-project, they are required to present their proposed viusal systems, with analysis, formulations and evaluation.
+Describe and apply advanced computer vision algorithms for real -world visual task    3. Identify and evaluate various approaches of computer vision and pattern recognition   4. Present and deliver their computer vision solutions to different stakeholders  Assessment: 1. 10% Class Attendance and Participation: There are a number of classroom activities such as lab exercise, question answering and group discussion to consolidate students’ knowledge and develop their skills in computer vision.
 
 --- Segment 85 ---
-In the end of the 
-project, they are required to present their proposed viusal systems, with analysis, formulations and evaluation. Measurement of Learning Outcomes:  
- 
-Learning Outcome  Class 
-Attendance and 
-Participation  Individual  
-Assignments  Group Project  
-1. Demonstrate command of 
-theories and techniques in computer vision and pattern 
-recognition     
-2. Describe and apply advanced 
-computer vision algorithms 
-for real -world visual task     
-3.
+10% Class Attendance and Participation: There are a number of classroom activities such as lab exercise, question answering and group discussion to consolidate students’ knowledge and develop their skills in computer vision. 2. 40% Individual Assignments (about 1000 -2000 words): Assignments require students to obtain a critical awareness of the characteristics and effectiveness of computer vision algorithms 3. 50% Group Project (about 5- 6 students): A Group Project requires students to develop computer vision systems to solve some complex real -world problems under different scenarios.
 
 --- Segment 86 ---
-Describe and apply advanced 
-computer vision algorithms 
-for real -world visual task     
-3. Identify and evaluate various 
-approaches of computer vision and pattern 
-recognition     
-4. Present and deliver their 
-computer vision solutions to 
-different stakeholders     
-Assessment:  
-1. 10% Class Attendance and Participation:  There are a number of  classroom activities such as 
-lab exercise, question answering and group discussion to consolidate students’ knowledge and develop their skills in computer vision.
+50% Group Project (about 5- 6 students): A Group Project requires students to develop computer vision systems to solve some complex real -world problems under different scenarios. It assesses student’s overall understanding in the computer vision concepts, and their ability to compare and evaluate the effectiveness of different computer vision solutions, as well as deliver the key findings to stakeholders through report (about 2000-2500 words) and presentation. 3 Required/Essential Readings: 1.
 
 --- Segment 87 ---
-10% Class Attendance and Participation:  There are a number of  classroom activities such as 
-lab exercise, question answering and group discussion to consolidate students’ knowledge and develop their skills in computer vision. 2. 40% Individual Assignments (about 1000 -2000 words):  Assignments require students to 
-obtain a critical awareness of the characteristics and effectiveness of computer vision algorithms  
-3. 50% Group Project (about 5- 6 students): A Group Project requires students to develop 
-computer vision systems to solve some complex real -world problems under different scenarios.
+3 Required/Essential Readings: 1. Klette, Reinhard, Concise computer vision - An introduction into theory and algorithm, Springer, 2014. 2. Richard Szeliski, Computer Vision: Algorithms and Applications, Springer, 2010 3. Goodfellow, Bengio, and Courville, Deep Learning, MIT Press, 2016. 4. IEEE Transactions on Image Processing. 5. Journal of Pattern Recognition.
 
 --- Segment 88 ---
-50% Group Project (about 5- 6 students): A Group Project requires students to develop 
-computer vision systems to solve some complex real -world problems under different scenarios. It assesses student’s overall understanding in the computer vision concepts, and their ability to 
-compare and evaluate the effectiveness of different computer vision solutions, as well as deliver 
-the key findings to stakeholders through report (about 2000-2500 words) and presentation. 3 Required/Essential Readings:  
-1.
+Journal of Pattern Recognition. 6. IEEE Transactions on Pattern Analysis and Machine Intelligence. 7. International Journal on Computer Vision. Recommended/Supplementary Readings: N/A Important Notes: (1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes.
 
 --- Segment 89 ---
-3 Required/Essential Readings:  
-1. Klette, Reinhard, Concise computer vision - An introduction into theory and algorithm, Springer, 
-2014. 2. Richard Szeliski, Computer Vision: Algorithms and Applications, Springer, 2010 
-3. Goodfellow, Bengio, and Courville, Deep Learning, MIT Press, 2016. 4. IEEE Transactions on Image Processing. 5.
+3* hours of class contact and 6* hours of personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work. In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the student’s own work”.
 
 --- Segment 90 ---
-5. Journal of Pattern Recognition. 6. IEEE Transactions on Pattern Analysis and Machine Intelligence. 7. International Journal on Computer Vision. Recommended/Supplementary Readings:  
-N/A 
-Important Notes:  
-(1) Students are expected to spend a total of 9* hours (i. e. 3* hours of class contact and 6* hours of 
-personal study) per week to achieve the course learning outcomes.
+In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the student’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla.
 
 --- Segment 91 ---
-3* hours of class contact and 6* hours of 
-personal study) per week to achieve the course learning outcomes. (2) Students shall be aware of the University regulations about dishonest practice in course work, tests and examinations, and the possible consequences as stipulated in the Regulations Governing University Examinations and Course Work. In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the student’s own work”.
-
---- Segment 92 ---
-In particular, plagiarism, being a kind of dishonest practice, is “the presentation of another person’s work without proper acknowledgement of the source, including exact phrases, or summarised ideas, or even footnotes/citations, whether protected by copyright or not, as the student’s own work”. Students are required to strictly follow university regulations governing academic integrity and honesty. (3) Students are required to submit writing assignment(s) using Turnitin. (4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism 
-Awareness” is available on https://pla.
-
---- Segment 93 ---
-(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism 
-Awareness” is available on https://pla. ln. edu. hk/
-. * Numbers of hours per week are subject to different modes of teaching
+(4) To enhance students’ understanding of plagiarism, a mini -course “Online Tutorial on Plagiarism Awareness” is available on https://pla. ln. edu. hk/ . * Numbers of hours per week are subject to different modes of teaching
 
