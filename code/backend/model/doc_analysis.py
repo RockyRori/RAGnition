@@ -7,6 +7,9 @@ import pickle
 import docx
 import PyPDF2
 from bs4 import BeautifulSoup
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.text_rank import TextRankSummarizer
 
 # 用于文本向量化和计算余弦相似度
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -173,6 +176,44 @@ def get_supported_files(folder):
         if ext in supported_extensions:
             files.append(os.path.join(folder, file))
     return files
+
+
+def generate_summary(text: str, max_length=66) -> str:
+    parser = PlaintextParser.from_string(text, Tokenizer("english"))
+    summarizer = TextRankSummarizer()
+    summary_sentences = summarizer(parser.document, 1)  # 取一到两句
+    summary = " ".join(str(sentence) for sentence in summary_sentences)
+    return summary[:max_length]
+
+
+def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2) -> str:
+    """
+    读取 policy_path 文件，进行文本分段，并输出到 pieces_dir。
+    返回处理描述。
+    """
+    try:
+        # 读取文件内容
+        text = read_file(policy_path)
+
+        # 分段处理
+        segments = segment_text(text, similarity_threshold=similarity_threshold)
+
+        # 准备输出路径
+        filename = os.path.basename(policy_path)
+        base, _ = os.path.splitext(filename)
+        os.makedirs(pieces_dir, exist_ok=True)
+        output_path = os.path.join(pieces_dir, f"{base}_segmented.{output_format}")
+
+        # 输出结果
+        output_segments(segments, output_path, output_format=output_format)
+
+        description = generate_summary(text)
+
+        return description
+
+    except Exception as e:
+        print(f"Error splitting file {policy_path}: {e}")
+        return "Error during generating description"
 
 
 def splitting():

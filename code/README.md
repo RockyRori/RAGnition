@@ -39,6 +39,7 @@ source venv/bin/activate
 
 ```bash
 cd code
+pip install --upgrade -r requirements.txt
 python -m backend.main
 ```
 

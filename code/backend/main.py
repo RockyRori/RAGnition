@@ -1,5 +1,6 @@
 import io
 import mimetypes
+import os
 import random
 import json
 import uvicorn
@@ -9,6 +10,8 @@ from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime
 from fastapi.responses import StreamingResponse
+
+from backend.model.doc_analysis import split
 from backend.model.rag_stream import stream_answer
 from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary, text, orm
 from sqlalchemy.orm import sessionmaker, Session
@@ -16,7 +19,7 @@ from sqlalchemy.dialects.mysql import JSON
 from backend.model.rag import answer
 from backend.model.ques_assemble import generate_search_query
 from backend.model.doc_search import search_documents, load_segments_from_folder
-from backend.root_path import PIECES_DIR
+from backend.root_path import PIECES_DIR, locate_path, policy_file, piece_file
 
 # 数据库配置
 DATABASE_URL = "mysql+mysqlconnector://root:qwertyuiop@localhost:3306/ragnition"
@@ -202,10 +205,6 @@ def generate_file_id() -> str:
     return f"file-{date_part}-{rand_part}"
 
 
-def summarize_content(content: bytes) -> str:
-    return "generating description"
-
-
 @app.post("/api/v1/files")
 async def upload_file(
         base: str = Form(...),
@@ -219,7 +218,20 @@ async def upload_file(
     file_id = generate_file_id()
     size_kb = len(content) / 1024
     file_size = f"{size_kb:.1f}KB" if size_kb < 1024 else f"{size_kb / 1024:.1f}MB"
-    file_description = summarize_content(content)
+
+    # 文件保存到 policies 目录
+    policies_dir = locate_path("knowledge_base", base, "policies")
+    os.makedirs(policies_dir, exist_ok=True)
+    pieces_dir = locate_path("knowledge_base", base, "pieces")
+    os.makedirs(pieces_dir, exist_ok=True)
+
+    policy_path = policy_file(base=base, filename=file.filename)
+    pieces_path = piece_file(base=base, filename=file.filename)
+
+    with open(policy_path, "wb") as f:
+        f.write(content)
+
+    file_description = split(policy_path, pieces_path)
 
     # 先看看同名文件是否已存在
     existing = (
