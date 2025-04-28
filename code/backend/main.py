@@ -156,7 +156,7 @@ async def stream_question(session_id, question_id, previous_questions, current_q
     previous_questions_list = json.loads(previous_questions)
 
     # 单独生成参考资料
-    search_query, assembled_question = generate_search_query(current_question, previous_questions_list)
+    search_query, assembled_question, generate_time = generate_search_query(current_question, previous_questions_list)
     input_folder = piece_dir(base=base)
     references = search_documents(search_query,
                                   load_segments_from_folder(input_folder=input_folder))

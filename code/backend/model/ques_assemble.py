@@ -1,7 +1,11 @@
+import time
+from typing import Literal
+
 from backend.model.translation import async_translate, sync_translate
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
-def generate_search_query(user_question, history_questions):
+def generate_search_query(user_question: str, history_questions: list[str]):
     """
     生成用于文档搜索的查询内容
 
@@ -13,11 +17,11 @@ def generate_search_query(user_question, history_questions):
       - search_query: 一个由 TF-IDF 提取的关键词组合，适合用于文档搜索
       - assembled_question: 组装后的完整用户问题，结合了历史问题和当前问题的信息
     """
-    from sklearn.feature_extraction.text import TfidfVectorizer
 
+    start_generate = time.time()
     # 构造语料库，将历史问题和当前问题合并
     corpus = history_questions + [user_question]
-    corpus = sync_translate(corpus)
+    corpus = sync_translate(text=corpus, target_language='en')
 
     # 使用英文停用词，可以根据需要调整或替换为中文停用词列表
     vectorizer = TfidfVectorizer(stop_words='english')
@@ -27,7 +31,7 @@ def generate_search_query(user_question, history_questions):
     # 获取当前问题（最后一项）的 TF-IDF 分数
     user_vector = tfidf_matrix[-1].toarray().flatten()
 
-    # 选择 TF-IDF 得分最高的前 5 个关键词（可根据需要调整）
+    # 选择 TF-IDF 得分最高的前 8 个关键词（可根据需要调整）
     top_n = 8
     top_indices = user_vector.argsort()[-top_n:][::-1]
     top_terms = [feature_names[i] for i in top_indices if user_vector[i] > 0]
@@ -36,12 +40,13 @@ def generate_search_query(user_question, history_questions):
     search_query = " ".join(top_terms)
 
     # 组装完整用户问题（简单将历史问题和当前问题拼接在一起）
-    assembled_question = ("History Questions: " +
-                          "; ".join(history_questions) +
-                          ";Current Questions: " +
-                          user_question)
+    assembled_question = str("History Questions: " +
+                             "; ".join(history_questions) +
+                             ";Current Questions: " +
+                             user_question)
 
-    return search_query, assembled_question
+    generate_time = time.time() - start_generate
+    return search_query, assembled_question, generate_time
 
 
 if __name__ == "__main__":
