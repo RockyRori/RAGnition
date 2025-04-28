@@ -1,3 +1,4 @@
+import asyncio
 import os
 import re
 import json
@@ -17,6 +18,7 @@ from langdetect import detect
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from backend.model.translation import async_translate
 from backend.root_path import PROJECT_ROOT, PIECES_DIR, POLICIES_DIR, locate_path, policy_file, piece_file, piece_dir
 
 nltk.download('punkt_tab', quiet=True)
@@ -96,7 +98,7 @@ def split_sentences(text):
     return sentences
 
 
-def segment_text(text, similarity_threshold=0.3):
+async def segment_text(text, similarity_threshold=0.3):
     """
     使用 TF-IDF 对句子向量化，计算相邻句子的余弦相似度进行分割。
     分割后增加以下两条规则：
@@ -143,6 +145,12 @@ def segment_text(text, similarity_threshold=0.3):
         redundancy = prev_sentences[-1] if prev_sentences else ""
         segments[i] = redundancy + " " + segments[i]
 
+    segments = await (async_translate(segments, "en"))
+
+    zero_width_pattern = re.compile(
+        "[\u200B\u200C\u200D\uFEFF]"
+    )
+    segments = [zero_width_pattern.sub("", s) for s in segments]
     return segments
 
 
@@ -190,7 +198,7 @@ def generate_summary(text: str, max_length=66) -> str:
     return summary[:max_length]
 
 
-def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2) -> str:
+async def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2) -> str:
     """
     读取 policy_path 文件，进行文本分段，并输出到 pieces_dir。
     返回处理描述。
@@ -201,7 +209,7 @@ def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2
         text = read_file(policy_path)
 
         # 分段处理
-        segments = segment_text(text, similarity_threshold=similarity_threshold)
+        segments = await segment_text(text, similarity_threshold=similarity_threshold)
 
         # 准备输出路径
         filename = os.path.basename(policy_path)
@@ -212,7 +220,7 @@ def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2
         # 输出结果
         output_segments(segments, output_path, output_format=output_format)
 
-        description = generate_summary(text)
+        description = generate_summary(segments[0])
         print(f"完成处理，输出文件：{output_path}\n")
         return description
 
@@ -221,7 +229,7 @@ def split(policy_path, pieces_dir, output_format="txt", similarity_threshold=0.2
         return "Error during generating description"
 
 
-def splitting():
+async def splitting():
     # 硬编码配置参数
     input_folder = POLICIES_DIR  # 输入文件夹路径，文件夹下所有支持格式的文件将参与处理
     output_folder = PIECES_DIR  # 输出文件夹路径，分割后的文件将存储于此文件夹内
@@ -241,7 +249,7 @@ def splitting():
         try:
             print(f"处理文件：{file_path}")
             text = read_file(file_path)
-            segments = segment_text(text, similarity_threshold=similarity_threshold)
+            segments = await segment_text(text, similarity_threshold=similarity_threshold)
             filename = os.path.basename(file_path)
             base, _ = os.path.splitext(filename)
             output_path = os.path.join(output_folder, f"{base}_segmented.{output_format}")
@@ -252,7 +260,7 @@ def splitting():
 
 
 if __name__ == "__main__":
-    # splitting()
-    print("description: ",
-          split(policy_file(base="base1", filename="Sample.docx"), piece_dir(base="base1"),
-                output_format="txt", similarity_threshold=0.2))
+    # asyncio.run(splitting())
+    description_test = asyncio.run(split(policy_file(base="base1", filename="Sample.docx"), piece_dir(base="base1"),
+                                         output_format="txt", similarity_threshold=0.2))
+    print("description: ", description_test)

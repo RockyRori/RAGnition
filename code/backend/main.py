@@ -236,7 +236,7 @@ async def upload_file(
     with open(policy_path, "wb") as f:
         f.write(content)
 
-    file_description = split(policy_path, pieces_path)
+    file_description = await split(policy_path, pieces_path)
 
     # 先看看同名文件是否已存在
     existing = (
