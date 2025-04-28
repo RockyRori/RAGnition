@@ -1,5 +1,7 @@
 import os
 import re
+import time
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -55,7 +57,7 @@ def load_segments_from_folder(input_folder):
     return document_segments
 
 
-def search_documents(search_query, document_segments, top_k=5):
+def search_documents(search_query, document_segments, top_k=8):
     """
     根据搜索查询内容，从文档片段中检索与查询最相关的片段。
 
@@ -67,6 +69,8 @@ def search_documents(search_query, document_segments, top_k=5):
     输出:
       - results: 每个结果包含 'content', 'source' 以及相似度 'similarity' 分数。
     """
+    start_search = time.time()
+
     # 构造语料库：文档片段内容列表
     corpus = [seg['content'] for seg in document_segments]
 
@@ -101,33 +105,41 @@ def search_documents(search_query, document_segments, top_k=5):
 
         # 格式化结果（保留一位小数，若小数点后为0可按需调整）
         similarity_str = f"{new_percent:.1f}%"
+
         results.append({
             'content': document_segments[idx]['content'],
             'source': document_segments[idx]['source'],
             'similarity': similarity_str
         })
-    return results
+
+    if results:
+        first_similarity = float(results[0]['similarity'].strip('%'))
+        if first_similarity < 60:
+            results = results[:2]
+        else:
+            high_similarity_results = [item for item in results if float(item['similarity'].strip('%')) > 60]
+            if len(high_similarity_results) > 5:
+                high_similarity_results = high_similarity_results[:5]
+            results = high_similarity_results
+
+    search_time = time.time() - start_search
+    return results, search_time
 
 
-def searching():
+if __name__ == "__main__":
     # 配置参数
     input_folder = PIECES_DIR  # 输入文件夹，里面包含按 --- Segment 数字 --- 格式分割的文件
-    search_query = "gpa pass graduate"  # 用户的查询问题
-    top_k = 3  # 返回相似度最高的前 5 个片段
+    search_query = "student card pass graduate academic"  # 用户的查询问题
+    top_k = 10  # 选中相似度最高的前 10 个片段
 
     # 加载文件夹中所有文档片段
     document_segments = load_segments_from_folder(input_folder)
     if not document_segments:
         print("未在文件夹中找到任何文档片段。")
-        return
 
     # 根据查询搜索相关文档片段
-    results = search_documents(search_query, document_segments, top_k=top_k)
+    results, _ = search_documents(search_query, document_segments, top_k=top_k)
 
     # 输出结果
     print("与查询问题相关的文档片段：")
     print(results)
-
-
-if __name__ == "__main__":
-    searching()

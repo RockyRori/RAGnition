@@ -155,15 +155,17 @@ async def stream_question(session_id, question_id, previous_questions, current_q
                           base="lingnan"):
     previous_questions_list = json.loads(previous_questions)
 
-    # 单独生成参考资料
+    # 检索向量
     search_query, assembled_question, generate_time = generate_search_query(current_question, previous_questions_list)
-    input_folder = piece_dir(base=base)
-    references = search_documents(search_query,
-                                  load_segments_from_folder(input_folder=input_folder))
+
+    # 参考文献
+    references, search_time = search_documents(search_query,
+                                               load_segments_from_folder(input_folder=piece_dir(base=base)))
 
     # 生成流式回答
     async def event_generator():
-        async for token in stream_answer(current_question, previous_questions_list):
+        async for token in stream_answer(assembled_question, generate_time, references, search_time,
+                                         target_language=language):
             yield f"data: {json.dumps({'token': token})}\n\n"
 
         # 发送引用文献消息，字段名为 references

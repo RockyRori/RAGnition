@@ -58,7 +58,7 @@ if __name__ == "__main__":
         "I want to eat good"
     ]
 
-    search_query_test, assembled_question_test = generate_search_query(user_question_test, history_questions_test)
+    search_query_test, assembled_question_test, _ = generate_search_query(user_question_test, history_questions_test)
     print("生成的搜索查询内容：")
     print(search_query_test)
     print("\n组装后的完整用户问题：")
