@@ -110,44 +110,44 @@ class FeedbackResponse(BaseModel):
     question_id: str
 
 
-@app.post("/api/v1/questions", response_model=QuestionResponse)
-async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
-    last_question = db.query(DBQuestion).filter(
-        DBQuestion.session_id == request.session_id
-    ).order_by(DBQuestion.created_at.desc()).first()
-
-    if last_question and (datetime.now() - last_question.created_at).total_seconds() < 1:
-        raise HTTPException(
-            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
-            detail="请求过于频繁"
-        )
-
-    db_session = db.query(DBSession).filter(DBSession.session_id == request.session_id).first()
-    if not db_session:
-        db_session = DBSession(session_id=request.session_id)
-        db.add(db_session)
-        db.commit()
-
-    answer_text, references = answer(request.current_question, request.previous_questions)
-
-    db_question = DBQuestion(
-        session_id=request.session_id,
-        question_id=request.question_id,
-        previous_questions=request.previous_questions,
-        current_question=request.current_question,
-        answer=answer_text,
-        references=references,
-        rating=None
-    )
-    db.add(db_question)
-    db.commit()
-
-    return {
-        "session_id": request.session_id,
-        "question_id": request.question_id,
-        "answer": answer_text,
-        "references": references
-    }
+# @app.post("/api/v1/questions", response_model=QuestionResponse)
+# async def ask_question(request: QuestionRequest, db: Session = Depends(get_db)):
+#     last_question = db.query(DBQuestion).filter(
+#         DBQuestion.session_id == request.session_id
+#     ).order_by(DBQuestion.created_at.desc()).first()
+#
+#     if last_question and (datetime.now() - last_question.created_at).total_seconds() < 1:
+#         raise HTTPException(
+#             status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+#             detail="请求过于频繁"
+#         )
+#
+#     db_session = db.query(DBSession).filter(DBSession.session_id == request.session_id).first()
+#     if not db_session:
+#         db_session = DBSession(session_id=request.session_id)
+#         db.add(db_session)
+#         db.commit()
+#
+#     answer_text, references = answer(request.current_question, request.previous_questions)
+#
+#     db_question = DBQuestion(
+#         session_id=request.session_id,
+#         question_id=request.question_id,
+#         previous_questions=request.previous_questions,
+#         current_question=request.current_question,
+#         answer=answer_text,
+#         references=references,
+#         rating=None
+#     )
+#     db.add(db_question)
+#     db.commit()
+#
+#     return {
+#         "session_id": request.session_id,
+#         "question_id": request.question_id,
+#         "answer": answer_text,
+#         "references": references
+#     }
 
 
 @app.get("/api/v1/questions/stream")
