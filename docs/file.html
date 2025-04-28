@@ -88,7 +88,7 @@
                 async function fetchFileList() {
                     try {
                         //改成获取实际的知识库
-                        const base = "base1"
+                        const base = "lingnan"
 
                         const response = await fetch(`${URLS.FILES_LIST}?base=${encodeURIComponent(base)}`);
                         if (!response.ok) {
@@ -220,7 +220,7 @@
                     }
 
                     //改成获取实际的知识库
-                    const base = "base1"
+                    const base = "lingnan"
 
                     try {
                         for (const item of selectedFiles) {
