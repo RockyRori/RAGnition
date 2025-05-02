@@ -102,7 +102,6 @@
                 // 获取文件列表
                 async function fetchFileList() {
                     try {
-                        //改成获取实际的知识库
                         const base = localStorage.getItem('activeCard') || "lingnan";
 
                         const response = await fetch(`${URLS.FILES_LIST}?base=${encodeURIComponent(base)}`);
@@ -257,7 +256,6 @@
                     }
 
                     const base = localStorage.getItem('activeCard') || "lingnan";
-
                     try {
                         for (const item of selectedFiles) {
                             const formData = new FormData();

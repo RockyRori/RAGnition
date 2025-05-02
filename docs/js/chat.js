@@ -10,9 +10,7 @@ const translations = {
         'send': '发送',
         'references': '参考资料',
         'similarity': '相似度',
-        'referenceLink': '资料链接',
-        'welcomeMessage': '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！',
-        'errorMessage': '抱歉，我现在无法回答您的问题，请稍后再试。'
+        'referenceLink': '资料链接'
     },
     'zh-TW': {
         'home': '首頁',
@@ -23,9 +21,7 @@ const translations = {
         'send': '發送',
         'references': '參考資料',
         'similarity': '相似度',
-        'referenceLink': '資料連結',
-        'welcomeMessage': '你好，我是嶺南大學政策問答助手，有關學校的政策問題儘管問我！',
-        'errorMessage': '抱歉，我現在無法回答您的問題，請稍後再試。'
+        'referenceLink': '資料連結'
     },
     'en': {
         'home': 'Home',
@@ -36,10 +32,21 @@ const translations = {
         'send': 'Send',
         'references': 'References',
         'similarity': 'Similarity',
-        'referenceLink': 'Reference Link',
-        'welcomeMessage': 'Hello, I am the Lingnan University policy Q&A assistant, feel free to ask me any questions about school policies!',
-        'errorMessage': 'Sorry, I am unable to answer your question right now, please try again later.'
+        'referenceLink': 'Reference Link'
     }
+};
+
+const botMessages = {
+  lingnan: {
+    'zh-CN': '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！',
+    'zh-TW': '你好，我是嶺南大學政策問答助手，有關學校的政策問題儘管問我！',
+    'en':    'Hello, I am the Lingnan University policy QA assistant, feel free to ask me any questions about school policies!'
+  },
+  base_DS: {
+    'zh-CN': '欢迎数据科学学院的同学们，有关数据科学的政策问题尽管问我！',
+    'zh-TW': '歡迎數據科學學院的同學們，有關數據科學的政策問題儘管問我！',
+    'en':    'Welcome back my DS fellows, feel free to ask me any questions about DS policies!'
+  }
 };
 
 let currentLang = localStorage.getItem('lang') || 'en';
@@ -104,13 +111,16 @@ let chats = [];
 let currentChatId = null;
 
 function createNewChat() {
+    const base = localStorage.getItem('activeCard') || 'lingnan';
+    const welcome = (botMessages[base] && botMessages[base][currentLang])|| botMessages['lingnan'][currentLang];
+
     const chatId = Date.now();
     const chat = {
         id: chatId,
         title: translations[currentLang]['newChat'],
         messages: [{
             type: 'bot',
-            content: translations[currentLang]['welcomeMessage']
+            content: welcome
         }],
         isFirstMessage: true
     };
@@ -274,7 +284,7 @@ function sendMessage() {
         previous_questions: chat.messages.filter(m => m.type === 'user').map(m => m.content),
         current_question: content,
         language: currentLang === 'zh-CN' ? 'zh-cn' : (currentLang === 'zh-TW' ? 'zh-tw' : 'en'),
-        base:"lingnan"
+        base:localStorage.getItem('activeCard')|| 'lingnan'
     };
     const url = new URL(URLS.STREAM);
     Object.entries(requestData).forEach(([k, v]) => {
