@@ -8,7 +8,7 @@ const translations = {
         'chat': '聊天',
         'file': '文件',
         'kb1': '岭南大学政策文件',
-        'kb2': '自定义知识库',
+        'kb2': '数据科学学院知识库',
         'docs': '文档'
     },
     'zh-TW': {
@@ -18,7 +18,7 @@ const translations = {
         'chat': '聊天',
         'file': '文件',
         'kb1': '嶺南大學政策文件',
-        'kb2': '自定義知識庫',
+        'kb2': '數據科學學院知識庫',
         'docs': '文檔'
     },
     'en': {
@@ -28,7 +28,7 @@ const translations = {
         'chat': 'Chat',
         'file': 'Files',
         'kb1': 'Lingnan University Policy Documents',
-        'kb2': 'Custom Knowledge Base',
+        'kb2': 'School of Data Science Base',
         'docs': 'Documents'
     }
 };
