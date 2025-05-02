@@ -178,8 +178,6 @@ values ('base_DS', 'Acceptance Form.pdf', 'hk Fax: (852) 2892 -2442 ACCEPTANCE F
         '/RAGnition/code/backend/knowledge_base/lingnan/policies/Quality Assurance.md', '3.7KB', '2025-05-02 13:21:50'),
        ('lingnan', 'Rich campus life.md', '--- ## Lingnan University’s Distinctive Campus Life Lingnan Univer',
         '/RAGnition/code/backend/knowledge_base/lingnan/policies/Rich campus life.md', '2.3KB', '2025-05-02 13:21:52'),
-       ('lingnan', 'selected.docx', 'They are expected to be Independent and Critical Scholars with in ',
-        '/RAGnition/code/backend/knowledge_base/lingnan/policies/selected.docx', '18.0KB', '2025-05-02 13:25:37'),
        ('lingnan', 'Strategic Brand Pillars.md', 'Optimising Quality Education for the Digital Age We prioritize equ',
         '/RAGnition/code/backend/knowledge_base/lingnan/policies/Strategic Brand Pillars.md', '1.9KB',
         '2025-05-02 13:22:49'),
