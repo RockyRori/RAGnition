@@ -221,7 +221,6 @@ function renderMessages() {
                                 </button>
                             </div>
                             <div class="ref-meta">
-                                <span class="ref-similarity">${translations[currentLang]['similarity']}：${msg.reference_simliarity[index]}</span>
                                 ${msg.reference_links && msg.reference_links[index] ?
             `<a href="${msg.reference_links[index]}" class="ref-link"><i class="fas fa-link fa-xs"></i> ${translations[currentLang]['referenceLink']}</a>` :
             ''}
