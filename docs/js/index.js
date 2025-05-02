@@ -51,6 +51,7 @@ document.querySelectorAll('[data-lang]').forEach(item => {
             lang === 'zh-TW' ? '繁體中文' : 'English';
     });
 });
+
 function updateLanguage(lang) {
     document.querySelector('h3 strong').textContent = translations[lang]['welcome'];
     document.querySelector('h6').textContent = translations[lang]['choose'];

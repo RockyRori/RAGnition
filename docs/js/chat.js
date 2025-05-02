@@ -37,16 +37,16 @@ const translations = {
 };
 
 const botMessages = {
-  lingnan: {
-    'zh-CN': '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！',
-    'zh-TW': '你好，我是嶺南大學政策問答助手，有關學校的政策問題儘管問我！',
-    'en':    'Hello, I am the Lingnan University policy QA assistant, feel free to ask me any questions about school policies!'
-  },
-  base_DS: {
-    'zh-CN': '欢迎数据科学学院的同学们，有关数据科学的政策问题尽管问我！',
-    'zh-TW': '歡迎數據科學學院的同學們，有關數據科學的政策問題儘管問我！',
-    'en':    'Welcome back my DS fellows, feel free to ask me any questions about DS policies!'
-  }
+    lingnan: {
+        'zh-CN': '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！',
+        'zh-TW': '你好，我是嶺南大學政策問答助手，有關學校的政策問題儘管問我！',
+        'en': 'Hello, I am the Lingnan University policy QA assistant, feel free to ask me any questions about school policies!'
+    },
+    base_DS: {
+        'zh-CN': '欢迎数据科学学院的同学们，有关数据科学的政策问题尽管问我！',
+        'zh-TW': '歡迎數據科學學院的同學們，有關數據科學的政策問題儘管問我！',
+        'en': 'Welcome back my DS fellows, feel free to ask me any questions about DS policies!'
+    }
 };
 
 let currentLang = localStorage.getItem('lang') || 'en';
@@ -112,7 +112,7 @@ let currentChatId = null;
 
 function createNewChat() {
     const base = localStorage.getItem('activeCard') || 'lingnan';
-    const welcome = (botMessages[base] && botMessages[base][currentLang])|| botMessages['lingnan'][currentLang];
+    const welcome = (botMessages[base] && botMessages[base][currentLang]) || botMessages['lingnan'][currentLang];
 
     const chatId = Date.now();
     const chat = {
@@ -284,7 +284,7 @@ function sendMessage() {
         previous_questions: chat.messages.filter(m => m.type === 'user').map(m => m.content),
         current_question: content,
         language: currentLang === 'zh-CN' ? 'zh-cn' : (currentLang === 'zh-TW' ? 'zh-tw' : 'en'),
-        base:localStorage.getItem('activeCard')|| 'lingnan'
+        base: localStorage.getItem('activeCard') || 'lingnan'
     };
     const url = new URL(URLS.STREAM);
     Object.entries(requestData).forEach(([k, v]) => {

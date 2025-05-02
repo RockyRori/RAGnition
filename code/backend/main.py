@@ -6,8 +6,11 @@ import json
 from urllib.parse import unquote
 
 import uvicorn
+import markdown as md_lib
+import mammoth
 
 from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form, Query
+from fastapi.responses import StreamingResponse, HTMLResponse, PlainTextResponse
 from pydantic import BaseModel, Field
 from typing import List, Dict
 from datetime import datetime, timezone
@@ -292,33 +295,44 @@ async def upload_file(
 @app.get("/api/v1/files/preview")
 async def preview_file(
         file_name: str = Query(...),
-        base: str = Query("lingnan")
+        base: str = Query(...)
 ):
-    # 构造文件路径
+    clean_name = unquote(file_name)
     file_path = policy_file(base=base, filename=unquote(file_name))
-    print(file_path)
-
-    # 检查文件是否存在
     if not os.path.exists(file_path):
-        raise HTTPException(status_code=404, detail=file_path)
+        raise HTTPException(404, "File not found")
 
-    # 读取文件内容
-    with open(file_path, "rb") as f:
-        content = f.read()
+    ext = os.path.splitext(clean_name)[1].lower()
 
-    # 猜测 MIME 类型
-    mime_type, _ = mimetypes.guess_type(file_name)
-    mime_type = mime_type or "application/octet-stream"
+    # --- PDF 直接流式返回，让浏览器原生渲染 ---
+    if ext == ".pdf":
+        f = open(file_path, "rb")
+        return StreamingResponse(f, media_type="application/pdf",
+                                 headers={"Content-Disposition": f'inline; filename="{clean_name}"'})
 
-    # 返回 StreamingResponse
-    headers = {
-        "Content-Disposition": f'inline; filename="{file_name}"'
-    }
-    return StreamingResponse(
-        io.BytesIO(content),
-        media_type=mime_type,
-        headers=headers
-    )
+    # --- Markdown 转 HTML ---
+    if ext in {".md", ".markdown"}:
+        text = open(file_path, "r", encoding="utf-8").read()
+        html = md_lib.markdown(text, extensions=["fenced_code", "tables"])
+        return HTMLResponse(content=html, media_type="text/html")
+
+    # --- DOCX 转 HTML（使用 mammoth） ---
+    if ext == ".docx":
+        with open(file_path, "rb") as docx_file:
+            result = mammoth.convert_to_html(docx_file)
+            html = result.value  # 生成的 HTML
+        return HTMLResponse(content=html, media_type="text/html")
+
+    # --- 其它纯文本类型（.txt/.csv/...） ---
+    if ext in {".txt", ".csv"}:
+        text = open(file_path, "r", encoding="utf-8").read()
+        return PlainTextResponse(text)
+
+    # --- 其它二进制，直接下载 ---
+    f = open(file_path, "rb")
+    mt, _ = mimetypes.guess_type(clean_name)
+    return StreamingResponse(f, media_type=mt or "application/octet-stream",
+                             headers={"Content-Disposition": f'attachment; filename="{clean_name}"'})
 
 
 @app.delete("/api/v1/files")
