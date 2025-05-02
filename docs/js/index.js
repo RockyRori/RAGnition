@@ -75,14 +75,14 @@ function updateLanguage(lang) {
 }
 document.addEventListener('DOMContentLoaded', function() {
     const lingnan = document.getElementById('lingnan');
-    const base1 = document.getElementById('base1');
+    const base_DS = document.getElementById('base_DS');
 
     lingnan.classList.add('active');
     localStorage.setItem('activeCard', 'lingnan'); 
 
-    [lingnan, base1].forEach(card => {
+    [lingnan, base_DS].forEach(card => {
         card.addEventListener('click', function() {
-            [lingnan, base1].forEach(c => c.classList.remove('active'));
+            [lingnan, base_DS].forEach(c => c.classList.remove('active'));
             this.classList.add('active');
             localStorage.setItem('activeCard', this.id);
         });
