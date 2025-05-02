@@ -47,6 +47,14 @@ def test_get_policies():
     print("Response JSON:", response.json())
 
 
+def test_preview_file():
+    url = f"{base_url}/api/v1/files/preview"
+    response = requests.get(url, params={"base": "base_DS",
+                                         "file_name": "Acceptance%20Form.pdf"})
+    print("Status Code:", response.status_code)
+    print("Response JSON:", response.json())
+
+
 if __name__ == "__main__":
     print("Testing /api/v1/questions endpoint...")
     test_ask_question()
@@ -59,3 +67,6 @@ if __name__ == "__main__":
 
     print("\nTesting /api/v1/policies endpoint...")
     test_get_policies()
+
+    print("\nTesting /api/v1/files/preview...")
+    test_preview_file()

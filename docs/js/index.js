@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const base_DS = document.getElementById('base_DS');
 
     lingnan.classList.add('active');
-    localStorage.setItem('activeCard', 'lingnan'); 
+    localStorage.setItem('activeCard', 'lingnan');
 
     [lingnan, base_DS].forEach(card => {
         card.addEventListener('click', function() {

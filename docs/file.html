@@ -104,7 +104,7 @@
                     try {
                         const base = localStorage.getItem('activeCard') || "lingnan";
 
-                        const response = await fetch(`${URLS.FILES_LIST}?base=${encodeURIComponent(base)}`);
+                        const response = await fetch(`${URLS.FILES_LIST}?base=${base}`);
                         if (!response.ok) {
                             throw new Error(`HTTP error! status: ${response.status}`);
                         }
@@ -150,7 +150,7 @@
 
                 function loadFileContent(fileName) {
                     const base = localStorage.getItem('activeCard') || "lingnan";
-                    fetch(`http://localhost:8536//api/v1/files/preview?file_name=${fileName}&base=${base}`)
+                    fetch(`${URLS.FILE_PREVIEW}?base=${base}&file_name=${encodeURIComponent(fileName)}`)
                         .then(response => response.text())
                         .then(data => {
                             document.querySelector('.modal-body').innerHTML = `<pre>${data}</pre>`;

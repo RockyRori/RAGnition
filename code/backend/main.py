@@ -3,6 +3,8 @@ import mimetypes
 import os
 import random
 import json
+from urllib.parse import unquote
+
 import uvicorn
 
 from fastapi import FastAPI, HTTPException, status, Depends, UploadFile, File, Form, Query
@@ -13,7 +15,7 @@ from fastapi.responses import StreamingResponse
 
 from backend.model.doc_analysis import split
 from backend.model.rag_stream import stream_answer
-from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary, text, orm
+from sqlalchemy import create_engine, Column, String, Text, Integer, TIMESTAMP, func, LargeBinary, text, orm, Index
 from sqlalchemy.orm import sessionmaker, Session
 from sqlalchemy.dialects.mysql import JSON
 
@@ -51,13 +53,24 @@ class DBQuestion(Base):
 
 class DBFile(Base):
     __tablename__ = "files"
-    base = Column(String(28), nullable=False, server_default="lingnan")
-    file_id = Column(String(28), primary_key=True)
-    file_name = Column(String(255), nullable=False)
-    file_description = Column(Text)
-    file_content = Column(LargeBinary, nullable=False)
-    file_size = Column(String(28), nullable=False)
-    uploaded_at = Column(TIMESTAMP, nullable=False, server_default=func.now())
+    # 复合主键 (base, file_name)
+    base = Column(String(28), primary_key=True, nullable=False, server_default="lingnan",
+                  comment="文件来源于哪个知识库")
+    file_name = Column(String(255), primary_key=True, nullable=False, comment="文件名称")
+    file_description = Column(Text, comment="文件简介")
+    file_path = Column(String(512), nullable=False, comment="文件在存储系统里的路径或 URL")
+    file_size = Column(String(28), nullable=False, comment="文件大小")
+    uploaded_at = Column(
+        TIMESTAMP,
+        nullable=False,
+        server_default=func.now(),
+        onupdate=func.current_timestamp(),
+        comment="上传/更新文件时间"
+    )
+    __table_args__ = (
+        # 加速按 base 查询
+        Index("idx_base", "base"),
+    )
 
 
 Base.metadata.create_all(bind=engine)
@@ -191,9 +204,9 @@ async def list_files(
     return {
         "files": [
             {
-                "file_id": file.file_id,
                 "file_name": file.file_name,
                 "file_description": file.file_description,
+                "file_path": file.file_path,
                 "file_size": file.file_size,
                 "uploaded_at": file.uploaded_at,
                 "base": file.base
@@ -201,13 +214,6 @@ async def list_files(
             for file in files
         ]
     }
-
-
-def generate_file_id() -> str:
-    """生成 file_id: file- + YYYYMMDDHHMMSS + 三位随机数"""
-    date_part = datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S")
-    rand_part = f"{random.randint(0, 999):03d}"
-    return f"file-{date_part}-{rand_part}"
 
 
 @app.post("/api/v1/files")
@@ -220,7 +226,6 @@ async def upload_file(
     if not content:
         raise HTTPException(status_code=400, detail="Empty file")
 
-    file_id = generate_file_id()
     size_kb = len(content) / 1024
     file_size = f"{size_kb:.1f}KB" if size_kb < 1024 else f"{size_kb / 1024:.1f}MB"
 
@@ -246,7 +251,6 @@ async def upload_file(
         .first()
     )
     if existing:
-        existing.file_content = content
         existing.file_size = file_size
         existing.file_description = file_description
         existing.uploaded_at = datetime.now(timezone.utc)
@@ -254,9 +258,9 @@ async def upload_file(
         db.refresh(existing)
         return {
             "base": existing.base,
-            "file_id": existing.file_id,
             "file_name": existing.file_name,
             "file_description": existing.file_description,
+            "file_path": existing.file_path,
             "uploaded_at": existing.uploaded_at,
             "file_size": existing.file_size,
             "message": "Existing file overwritten"
@@ -265,10 +269,9 @@ async def upload_file(
     # 不存在则新建，显式传入 base，让 SQL 默认值生效也会回填
     new_file = DBFile(
         base=base,
-        file_id=file_id,
         file_name=file.filename,
         file_description=file_description,
-        file_content=content,
+        file_path=policy_path,
         file_size=file_size
     )
     db.add(new_file)
@@ -277,9 +280,9 @@ async def upload_file(
 
     return {
         "base": new_file.base,
-        "file_id": new_file.file_id,
         "file_name": new_file.file_name,
         "file_description": new_file.file_description,
+        "file_path": new_file.file_path,
         "uploaded_at": new_file.uploaded_at,
         "file_size": new_file.file_size,
         "message": "File uploaded"
@@ -292,11 +295,12 @@ async def preview_file(
         base: str = Query("lingnan")
 ):
     # 构造文件路径
-    file_path = policy_file(base=base, filename=file_name)
+    file_path = policy_file(base=base, filename=unquote(file_name))
+    print(file_path)
 
     # 检查文件是否存在
     if not os.path.exists(file_path):
-        raise HTTPException(status_code=404, detail="File not found")
+        raise HTTPException(status_code=404, detail=file_path)
 
     # 读取文件内容
     with open(file_path, "rb") as f:

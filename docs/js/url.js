@@ -16,4 +16,5 @@ window.URLS = {
     STREAM: `${BASE}/questions/stream`,
     FILE_UPLOAD: `${BASE}/files`,
     FILES_LIST: `${BASE}/files/list`,
+    FILE_PREVIEW: `${BASE}/files/preview`,
 };
