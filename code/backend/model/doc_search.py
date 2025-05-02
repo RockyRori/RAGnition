@@ -110,7 +110,7 @@ async def search_documents(search_query, document_segments, top_k=12):
 
         results.append({
             'content': document_segments[idx]['content'],
-            'source': document_segments[idx]['source'],
+            'source': source_finding(document_segments[idx]['source']),
             'similarity': similarity_str
         })
 
@@ -126,6 +126,10 @@ async def search_documents(search_query, document_segments, top_k=12):
     results = results[:random.randint(5, 10)]
     search_time = time.time() - start_search
     return results, search_time
+
+
+def source_finding(segment: str) -> str:
+    return segment.replace("pieces", "policies").removesuffix(".txt")
 
 
 if __name__ == "__main__":

@@ -213,9 +213,8 @@ async def split(policy_path, pieces_dir, output_format="txt", similarity_thresho
 
         # 准备输出路径
         filename = os.path.basename(policy_path)
-        file_base, _ = os.path.splitext(filename)
         os.makedirs(pieces_dir, exist_ok=True)
-        output_path = os.path.join(pieces_dir, f"{file_base}_segmented.{output_format}")
+        output_path = os.path.join(pieces_dir, f"{filename}.{output_format}")
 
         # 输出结果
         output_segments(segments, output_path, output_format=output_format)
@@ -251,8 +250,7 @@ async def splitting():
             text = read_file(file_path)
             segments = await segment_text(text, similarity_threshold=similarity_threshold)
             filename = os.path.basename(file_path)
-            base, _ = os.path.splitext(filename)
-            output_path = os.path.join(output_folder, f"{base}_segmented.{output_format}")
+            output_path = os.path.join(output_folder, f"{filename}.{output_format}")
             output_segments(segments, output_path, output_format=output_format)
             print(f"完成处理，输出文件：{output_path}\n")
         except Exception as e:
