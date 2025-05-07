@@ -124,45 +124,29 @@
                             <td>${file.file_description || '-'}</td>
                             <td>${file.uploaded_at}</td>
                             <td>${file.file_size}</td>
-                            <td>
-                            <span class="badge bg-secondary" data-bs-toggle="modal")"><a href="${file.file_name}" class="ref-link">${translations[currentLang]['preview']}</a></span></td>
+                            <td><span class="badge bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" 
+                                onclick="previewFile('${file.file_name}')">${translations[currentLang]['preview']}
+                                </span>
+                            </td>
                         </tr>
                     `).join('');
                 }
 
-                async function loadFileContent(fileName) {
+                async function previewFile(fileName) {
                     const base = localStorage.getItem('activeCard') || "lingnan";
                     const url = `${URLS.FILE_PREVIEW}?base=${base}&file_name=${encodeURIComponent(fileName)}`;
-                    const res = await fetch(url);
-
-                    if (!res.ok) {
-                        document.querySelector('.modal-body').innerText = 'Failed to load file content.';
+                    try {
+                        const res = await fetch(url);
+                        if (!res.ok) throw new Error('Response not OK');
+                        let previewUrl = await res.text();
+                        previewUrl = JSON.parse(previewUrl)
+                        window.open(previewUrl, '_blank');
                         return;
-                    }
-
-                    const ct = res.headers.get("content-type") || "";
-                    const container = document.querySelector('.modal-body');
-
-                    if (ct.includes("application/pdf")) {
-                        const blob = await res.blob();
-                        const pdfUrl = URL.createObjectURL(blob);
-                        container.innerHTML = `<iframe src="${pdfUrl}" style="width:100%; height:80vh;" frameborder="0"></iframe>`;
-                    } else if (ct.includes("text/html")) {
-                        const html = await res.text();
-                        container.innerHTML = html;
-                    } else if (ct.includes("text/plain")) {
-                        const text = await res.text();
-                        container.innerHTML = `<pre>${text}</pre>`;
-                    } else {
-                        // 二进制下载
-                        const blob = await res.blob();
-                        const a = document.createElement('a');
-                        a.href = URL.createObjectURL(blob);
-                        a.download = fileName;
-                        a.click();
+                    } catch (error) {
+                        console.error('Failed to open preview URL:', error);
+                        return null;
                     }
                 }
-
 
                 function updateModalContent(fileName) {
                     updateModalTitle(fileName);
