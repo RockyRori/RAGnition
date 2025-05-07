@@ -81,20 +81,6 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="false" data-bs-keyboard="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">预览</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <script>
                 let selectedFiles = [];
 
@@ -138,13 +124,10 @@
                             <td>${file.file_description || '-'}</td>
                             <td>${file.uploaded_at}</td>
                             <td>${file.file_size}</td>
-                            <td><span class="badge bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="updateModalContent('${file.file_name}')">${translations[currentLang]['preview']}</span></td>
+                            <td>
+                            <span class="badge bg-secondary" data-bs-toggle="modal")"><a href="${file.file_name}" class="ref-link">${translations[currentLang]['preview']}</a></span></td>
                         </tr>
                     `).join('');
-                }
-
-                function updateModalTitle(fileName) {
-                    document.getElementById('exampleModalLabel').textContent = `${fileName}`;
                 }
 
                 async function loadFileContent(fileName) {
