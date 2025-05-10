@@ -129,6 +129,11 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0501-0508  |
 | Output | To Be Done |
 
+
+| Time   | To Be Done |
+|--------|------------|
+| Period | 0509-0603  |
+| Output | To Be Done |
 # Obstacles
 
 1. 政策的实时性？
