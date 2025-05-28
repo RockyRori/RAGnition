@@ -6,18 +6,18 @@ LU Graduation Project RAGnition Team
 
 Group Name:            RAGnition
 
-Director:              Prof. Nan LI Nancy
+Director:              Prof. LI
 
 Project:        Developing a Policy QA System Using Retrieval-Augmented Generation (RAG) Framework
 
-| Student No. | English Name | Email Address (Lingnan Email) |
-|-------------|--------------|-------------------------------|
-| 3160708     | LUO Suhai    | suhailuo@ln.hk                |
-| 3160291     | WEI Fansen   | fansenwei@ln.hk               |
-| 3160320     | LI Junrong   | junrongli@ln.hk               |
-| 3160734     | WANG Jiawei  | jiaweiwang2@ln.hk             |
-| 3160722     | Wang Zihao   | zihaowang3@ln.hk              |
-| 3160069     | GUAN Yuqi    | yuqiguan@ln.hk                |
+| English Name | Email Address (Lingnan Email) |
+|--------------|-------------------------------|
+| LUO Suhai    | suhailuo@ln.hk                |
+| WEI Fansen   | fansenwei@ln.hk               |
+| LI Junrong   | junrongli@ln.hk               |
+| WANG Jiawei  | jiaweiwang2@ln.hk             |
+| Wang Zihao   | zihaowang3@ln.hk              |
+| GUAN Yuqi    | yuqiguan@ln.hk                |
 
 # RAGnition
 
@@ -50,6 +50,16 @@ QA system is both efficient and accurate for real-time policy inquiries.
 3. Wu, J., Zhu, J., Qi, Y., Chen, J., Xu, M., Menolascina, F., & Grau, V. (2024). Medical Graph RAG: Towards safe
    medical large language model via graph retrieval-augmented generation. arXiv preprint arXiv:2408.04187.
 4. https://www.cnblogs.com/tgltt/p/18512586
+5. https://mp.weixin.qq.com/s/qfw44Yu9b9hHXu7hOURwJw
+6. https://mp.weixin.qq.com/s/G0Zr_rOZARdMkY4Cuh1opA
+7. https://mp.weixin.qq.com/s/Kxoho142yXTiW4jdZntVlQ
+8. https://mp.weixin.qq.com/s/3_a97BTspZuZpFQNLt50gA
+9. https://mp.weixin.qq.com/s/NzcWykZ46oOFKRjalTuKIA
+10. https://mp.weixin.qq.com/s/NzcWykZ46oOFKRjalTuKIA
+11. https://mp.weixin.qq.com/s/dmiwvA8Rtl6MR4EVHS88Eg
+12. https://mp.weixin.qq.com/s/qPiPeWLIzlIbQlb2ZdAVcg
+13. https://mp.weixin.qq.com/s/BmJMVgxj7YwmTj6X3Dkd6Q
+14. https://mp.weixin.qq.com/s/g7mbN5Uh-w6jyxQC61-DRQ
 
 # System Architecture
 
@@ -94,6 +104,8 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0210-0216                                              |
 | Output | We ask some questions and get answers from instructors |
 
+![architecture_comparison.png](figuras/architecture_comparison.png)
+
 ### RAGnition Talk 5
 
 | Time   | 周二 2025-03-04 13:00 - 15:00   |
@@ -115,25 +127,36 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0317-0330                                    |
 | Output | add stream answer output,use qdrant database |
 
+![rehearsal.jpg](figuras/rehearsal.jpg)
+
 ### RAGnition Rehearsal
 
-| Time   | To Be Done |
-|--------|------------|
-| Period | 0331-0430  |
-| Output | To Be Done |
+| Time   | 周三 2025-05-07 14:00 - 18:00                                                                                                                                                                                                                                                              |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Period | 0331-0430                                                                                                                                                                                                                                                                                |
+| Output | 1. Avoid plosives (popping sounds) by mastering microphone technique.<br/>2. Speak without heavy reliance on notes—minimize reading verbatim.<br/>3. Engage the audience: Blend Q&A, polls, or rhetorical questions.<br/>4. Deliver fluent English—practice to eliminate pauses/fillers. |
 
 ### RAGnition Presentation
 
-| Time   | To Be Done |
-|--------|------------|
-| Period | 0501-0508  |
-| Output | To Be Done |
+| Time   | 周四 2025-05-08 11:30 - 12:00 |
+|--------|-----------------------------|
+| Period | 0501-0508                   |
+| Output | Well Done !                 |
 
+![presentation.jpg](figuras/presentation.jpg)
+
+### HongKong AI+ Power 2025 PoliSage Exhibition
+
+| Time   | 周四 2025-06-05 到 周五 2025-06-06                                                                             |
+|--------|-----------------------------------------------------------------------------------------------------------|
+| Period | 0509-0606                                                                                                 |
+| Output | 1. Designing promotional posters.<br/>2. Pitching to investors.<br/>3. Representing LU at the exhibition. |
 
 | Time   | To Be Done |
 |--------|------------|
 | Period | 0509-0603  |
 | Output | To Be Done |
+
 # Obstacles
 
 1. 政策的实时性？
