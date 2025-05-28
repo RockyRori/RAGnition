@@ -2,7 +2,7 @@
 
 const translations = {
     'zh-CN': {
-        'welcome': '欢迎回来，RAGnition',
+        'welcome': '欢迎回来，岭南的朋友',
         'choose': '今天我们要使用哪个知识库？',
         'home': '首页',
         'chat': '聊天',
@@ -20,7 +20,7 @@ const translations = {
         'preview': '预览'
     },
     'zh-TW': {
-        'welcome': '歡迎回來，RAGnition',
+        'welcome': '歡迎返嚟，嶺南嘅老友',
         'choose': '今天我們要使用哪個知識庫？',
         'home': '首頁',
         'chat': '聊天',
@@ -38,7 +38,7 @@ const translations = {
         'preview': '預覽'
     },
     'en': {
-        'welcome': 'Welcome back, RAGnition',
+        'welcome': 'Welcome back, Lingnan folks',
         'choose': 'Which knowledge base to use today?',
         'home': 'Home',
         'chat': 'Chat',
