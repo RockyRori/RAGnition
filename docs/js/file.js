@@ -3,7 +3,7 @@
 const translations = {
     'zh-CN': {
         'welcome': '欢迎回来，岭南的朋友',
-        'choose': '今天我们要使用哪个知识库？',
+        'choose': '今天我们要用哪个知识库？',
         'home': '首页',
         'chat': '聊天',
         'file': '文件',
@@ -21,7 +21,7 @@ const translations = {
     },
     'zh-TW': {
         'welcome': '歡迎返嚟，嶺南嘅老友',
-        'choose': '今天我們要使用哪個知識庫？',
+        'choose': '今日我哋揀邊個知識庫？',
         'home': '首頁',
         'chat': '聊天',
         'file': '文件',

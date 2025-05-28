@@ -39,12 +39,12 @@ const translations = {
 const botMessages = {
     lingnan: {
         'zh-CN': '你好，我是岭南大学政策问答助手，有关学校的政策问题尽管问我！',
-        'zh-TW': '你好，我是嶺南大學政策問答助手，有關學校的政策問題儘管問我！',
+        'zh-TW': '你好，我係嶺南大學政策答問小幫手，有關學校嘅政策問題，隨便問！',
         'en': 'Hello, I am the Lingnan University policy QA assistant, feel free to ask me any questions about school policies!'
     },
     base_DS: {
         'zh-CN': '欢迎数据科学学院的同学们，有关数据科学的政策问题尽管问我！',
-        'zh-TW': '歡迎數據科學學院的同學們，有關數據科學的政策問題儘管問我！',
+        'zh-TW': '歡迎數據科學學院嘅同學仔！有關數據科學嘅政策問題，隨便問我啦！',
         'en': 'Welcome back my DS fellows, feel free to ask me any questions about DS policies!'
     }
 };
