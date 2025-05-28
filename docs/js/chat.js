@@ -106,6 +106,21 @@ function updateLanguage(lang) {
 
 
 }
+//TODO：记录历史会话
+//// —— 在脚本最前面 ——
+//// 1) 从 localStorage 读取
+//let chats = JSON.parse(localStorage.getItem('chats') || '[]');
+//// 2) 恢复上次打开的会话（可选：这里我们默认第一条）
+//let currentChatId = chats.length ? chats[0].id : null;
+//
+//// 页面加载后渲染列表和消息
+//window.onload = () => {
+//    updateChatList();
+//    if (currentChatId !== null) renderMessages();
+//};
+//
+// 保存到 localStorage 的小函数
+
 
 let chats = [];
 let currentChatId = null;
@@ -136,13 +151,31 @@ function updateChatList() {
         <div class="chat-item ${chat.id === currentChatId ? 'active' : ''}" 
              onclick="switchChat(${chat.id})">
             <i class="fas fa-comment"></i>
-            ${chat.title}
+            <span class="chat-title">${chat.title}</span>
+            <!-- 删除按钮 -->
+            <span class="delete-icon" style="float: right; cursor: pointer; padding: 0 5px; color: red;" onclick="deleteChat(${chat.id}); event.stopPropagation();">
+                <i class="fas fa-trash"></i>
+            </span>
         </div>
     `).join('');
 }
 
+function saveChats() {
+    localStorage.setItem('chats', JSON.stringify(chats));
+}
+
 function switchChat(chatId) {
     currentChatId = chatId;
+    updateChatList();
+    renderMessages();
+}
+
+function deleteChat(chatId) {
+    chats = chats.filter(c => c.id !== chatId);
+    if (currentChatId === chatId) {
+        currentChatId = chats.length ? chats[0].id : null;
+    }
+    saveChats();
     updateChatList();
     renderMessages();
 }
