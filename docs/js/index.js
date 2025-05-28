@@ -78,8 +78,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const lingnan = document.getElementById('lingnan');
     const base_DS = document.getElementById('base_DS');
 
-    lingnan.classList.add('active');
-    localStorage.setItem('activeCard', 'lingnan');
+    // 只有当没有存储过激活卡片时，才设置默认值
+    const activeCardId = localStorage.getItem('activeCard');
+    if (!activeCardId) {
+        lingnan.classList.add('active');
+        localStorage.setItem('activeCard', 'lingnan');
+    }else {
+        // 如果已有存储记录，则恢复上次选择
+        [lingnan, base_DS].forEach(c => c.classList.remove('active'));
+        const previouslyActive = document.getElementById(activeCardId);
+        if (previouslyActive) previouslyActive.classList.add('active');
+    }
 
     [lingnan, base_DS].forEach(card => {
         card.addEventListener('click', function() {
