@@ -127,7 +127,7 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0317-0330                                    |
 | Output | add stream answer output,use qdrant database |
 
-![rehearsal.jpg](figuras/rehearsal.jpg)
+[//]: # (![rehearsal.jpg]&#40;figuras/rehearsal.jpg&#41;)
 
 ### RAGnition Rehearsal
 
@@ -143,7 +143,7 @@ QA system is both efficient and accurate for real-time policy inquiries.
 | Period | 0501-0508                   |
 | Output | Well Done !                 |
 
-![presentation.jpg](figuras/presentation.jpg)
+[//]: # (![presentation.jpg]&#40;figuras/presentation.jpg&#41;)
 
 ### HongKong AI+ Power 2025 PoliSage Exhibition
 
@@ -183,3 +183,6 @@ QA system is both efficient and accurate for real-time policy inquiries.
 future direction
 网络部署的时候的流式传输
 用户输入多语言
+
+9. 多个文档表达相同意思
+10. 文档时序，过期政策更新
