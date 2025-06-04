@@ -59,7 +59,7 @@ def load_segments_from_folder(input_folder):
     return document_segments
 
 
-async def search_documents(search_query, document_segments, top_k=12):
+async def search_documents(search_query, document_segments, top_k=5):
     """
     根据搜索查询内容，从文档片段中检索与查询最相关的片段。
 
@@ -108,22 +108,13 @@ async def search_documents(search_query, document_segments, top_k=12):
         # 格式化结果（保留一位小数，若小数点后为0可按需调整）
         similarity_str = f"{new_percent:.1f}%"
 
-        results.append({
-            'content': document_segments[idx]['content'],
-            'source': source_finding(document_segments[idx]['source']),
-            'similarity': similarity_str
-        })
+        if orig_percent > 20:
+            results.append({
+                'content': document_segments[idx]['content'],
+                'source': source_finding(document_segments[idx]['source']),
+                'similarity': similarity_str
+            })
 
-    # if results:
-    #     first_similarity = float(results[0]['similarity'].strip('%'))
-    #     if first_similarity < 60:
-    #         results = results[:2]
-    #     else:
-    #         high_similarity_results = [item for item in results if float(item['similarity'].strip('%')) > 60]
-    #         if len(high_similarity_results) > 5:
-    #             high_similarity_results = high_similarity_results[:5]
-    #         results = high_similarity_results
-    results = results[:random.randint(5, 10)]
     search_time = time.time() - start_search
     return results, search_time
 
