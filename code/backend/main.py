@@ -240,7 +240,6 @@ async def upload_file(
 
     policy_path = policy_file(base=base, filename=file.filename)
     pieces_path = piece_dir(base=base)
-
     with open(policy_path, "wb") as f:
         f.write(content)
 
@@ -323,16 +322,19 @@ async def delete_file(
     deleted_path = os.path.basename(policy_path)
     file_base, _ = os.path.splitext(deleted_path)
     output_format = "txt"
-    pieces_path = os.path.join(piece_dir(base=base), f"{file_base}_segmented.{output_format}")
+    pieces_path_1 = os.path.join(piece_dir(base=base), f"{file_base}_segmented.{output_format}")
+    deleted_piece_path = policy_path.replace("policies", "pieces")
+    pieces_path_2 = os.path.join(piece_dir(base=base), f"{deleted_piece_path}.{output_format}")
 
     # 删除 policy 文件
     if os.path.exists(policy_path):
         os.remove(policy_path)
 
     # 删除 pieces 文件
-    if os.path.exists(pieces_path):
-        os.remove(pieces_path)
-
+    if os.path.exists(pieces_path_1):
+        os.remove(pieces_path_1)
+    if os.path.exists(pieces_path_2):
+        os.remove(pieces_path_2)
     # 删除数据库记录
     db.delete(existing)
     db.commit()

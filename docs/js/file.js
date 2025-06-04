@@ -17,7 +17,8 @@ const translations = {
         'upload_title': '上传文件',
         'upload_hint': '将文件拖放到此处，或点击选择文件',
         'submit': '提交',
-        'preview': '预览'
+        'preview': '预览',
+        'delete': '删除'
     },
     'zh-TW': {
         'welcome': '歡迎返嚟，嶺南嘅老友',
@@ -35,7 +36,8 @@ const translations = {
         'upload_title': '上傳文件',
         'upload_hint': '將文件拖放到此處，或點擊選擇文件',
         'submit': '提交',
-        'preview': '預覽'
+        'preview': '預覽',
+        'delete': '刪除'
     },
     'en': {
         'welcome': 'Welcome back, Lingnan folks',
@@ -53,7 +55,8 @@ const translations = {
         'upload_title': 'Upload File',
         'upload_hint': 'Drag and drop files here, or click to select',
         'submit': 'Submit',
-        'preview': 'preview'
+        'preview': 'preview',
+        'delete': 'delete'
     }
 };
 

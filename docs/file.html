@@ -13,276 +13,310 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">PoliSage</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">首页</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="chat.html">聊天</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="file.html">文件</a>
-                    </li>
-                </ul>
-                <div class="ms-auto">
-                    <div class="dropdown">
-                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                            English
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item" data-lang="en">English</a></li>
-                            <li><a class="dropdown-item" data-lang="zh-CN">简体中文</a></li>
-                            <li><a class="dropdown-item" data-lang="zh-TW">繁體中文</a></li>
-                        </ul>
-                    </div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">PoliSage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="chat.html">聊天</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="file.html">文件</a>
+                </li>
+            </ul>
+            <div class="ms-auto">
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                        <li><a class="dropdown-item" data-lang="en">English</a></li>
+                        <li><a class="dropdown-item" data-lang="zh-CN">简体中文</a></li>
+                        <li><a class="dropdown-item" data-lang="zh-TW">繁體中文</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
-
-    <div class="content-wrapper">
-        <div class="container">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>文件名称</th>
-                        <th>文件描述</th>
-                        <th>上传日期</th>
-                        <th>文件大小</th>
-                        <th>操作</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-
-            <button class="upload-btn" onclick="showUploadModal()">
-                <i class="fas fa-upload"></i>
-                上传文件
-            </button>
-
-            <div id="uploadModal" class="modal">
-                <div class="modal-content">
-                    <span class="close-btn" onclick="hideUploadModal()">&times;</span>
-                    <h3>上传文件</h3>
-                    <div class="drop-zone" id="dropZone">
-                        <i class="fas fa-cloud-upload-alt"></i>
-                        <p>将文件拖放到此处，或点击选择文件</p>
-                        <input type="file" id="fileInput" style="display: none" multiple>
-                    </div>
-                    <div class="file-list" id="fileList"></div>
-                    <button class="submit-btn" onclick="handleSubmit()">提交</button>
-                </div>
-            </div>
-
-            <script>
-                let selectedFiles = [];
-
-                // 获取文件列表
-                async function fetchFileList() {
-                    try {
-                        const base = localStorage.getItem('activeCard') || "lingnan";
-
-                        const response = await fetch(`${URLS.FILES_LIST}?base=${base}`);
-                        if (!response.ok) {
-                            throw new Error(`HTTP error! status: ${response.status}`);
-                        }
-                        const data = await response.json();
-                        const formattedFiles = data.files.map(file => {
-                            const date = new Date(file.uploaded_at);
-                            const year = date.getFullYear();
-                            const month = String(date.getMonth() + 1).padStart(2, '0');
-                            const day = String(date.getDate()).padStart(2, '0');
-                            const hours = String(date.getHours()).padStart(2, '0');
-                            const minutes = String(date.getMinutes()).padStart(2, '0');
-                            const seconds = String(date.getSeconds()).padStart(2, '0');
-
-                            return {
-                                ...file,
-                                uploaded_at: `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`
-                            };
-                        });
-                        updateFileTable(formattedFiles);
-                    } catch (error) {
-                        console.error('获取文件列表失败:', error);
-                        alert('获取文件列表失败，请稍后重试');
-                    }
-                }
-
-                // 更新文件表格
-                function updateFileTable(files) {
-                    const tbody = document.querySelector('.table tbody');
-                    tbody.innerHTML = files.map(file => `
-                        <tr>
-                            <td>${file.file_name}</td>
-                            <td>${file.file_description || '-'}</td>
-                            <td>${file.uploaded_at}</td>
-                            <td>${file.file_size}</td>
-                            <td><span class="badge bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" 
-                                onclick="previewFile('${file.file_name}')">${translations[currentLang]['preview']}
-                                </span>
-                            </td>
-                        </tr>
-                    `).join('');
-                }
-
-                async function previewFile(fileName) {
-                    const base = localStorage.getItem('activeCard') || "lingnan";
-                    const url = `${URLS.FILE_PREVIEW}?base=${base}&file_name=${encodeURIComponent(fileName)}`;
-                    try {
-                        const res = await fetch(url);
-                        if (!res.ok) throw new Error('Response not OK');
-                        let previewUrl = await res.text();
-                        previewUrl = JSON.parse(previewUrl)
-                        window.open(previewUrl, '_blank');
-                        return;
-                    } catch (error) {
-                        console.error('Failed to open preview URL:', error);
-                        return null;
-                    }
-                }
-
-                function updateModalContent(fileName) {
-                    updateModalTitle(fileName);
-                    loadFileContent(fileName);
-                }
-
-                document.addEventListener('DOMContentLoaded', fetchFileList);
-
-                function showUploadModal() {
-                    document.getElementById('uploadModal').style.display = 'block';
-                    selectedFiles = [];
-                    updateFileList();
-                }
-
-                function hideUploadModal() {
-                    document.getElementById('uploadModal').style.display = 'none';
-                    selectedFiles = [];
-                    updateFileList();
-                }
-
-                const dropZone = document.getElementById('dropZone');
-                const fileInput = document.getElementById('fileInput');
-                const fileList = document.getElementById('fileList');
-
-                dropZone.addEventListener('click', () => fileInput.click());
-
-                fileInput.addEventListener('change', handleFiles);
-
-                dropZone.addEventListener('dragover', (e) => {
-                    e.preventDefault();
-                    dropZone.classList.add('dragover');
-                });
-
-                dropZone.addEventListener('dragleave', () => {
-                    dropZone.classList.remove('dragover');
-                });
-
-                dropZone.addEventListener('drop', (e) => {
-                    e.preventDefault();
-                    dropZone.classList.remove('dragover');
-                    const files = e.dataTransfer.files;
-                    handleFiles({
-                        target: {
-                            files: files
-                        }
-                    });
-                });
-
-                function handleFiles(e) {
-                    const files = e.target.files;
-                    if (files.length > 0) {
-                        Array.from(files).forEach(file => {
-                            selectedFiles.push({
-                                file: file,
-                                id: Date.now() + Math.random()
-                            });
-                        });
-                        updateFileList();
-                    }
-                }
-
-                function removeFile(id) {
-                    selectedFiles = selectedFiles.filter(item => item.id !== id);
-                    updateFileList();
-                }
-
-                function formatFileSize(bytes) {
-                    if (bytes === 0) return '0 Bytes';
-                    const k = 1024;
-                    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
-                    const i = Math.floor(Math.log(bytes) / Math.log(k));
-                    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-                }
-
-                function updateFileList() {
-                    fileList.innerHTML = selectedFiles.map(item => `
-                        <div class="file-item">
-                            <div class="file-info">
-                                <i class="fas fa-file file-icon"></i>
-                                <div>
-                                    <div class="file-name">${item.file.name}</div>
-                                    <div class="file-size">${formatFileSize(item.file.size)}</div>
-                                </div>
-                            </div>
-                            <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
-                        </div>
-                    `).join('');
-                }
-
-                async function handleSubmit() {
-                    if (selectedFiles.length === 0) {
-                        alert('请选择要上传的文件');
-                        return;
-                    }
-
-                    const base = localStorage.getItem('activeCard') || "lingnan";
-                    try {
-                        for (const item of selectedFiles) {
-                            const formData = new FormData();
-                            formData.append('base', base);
-                            formData.append('file', item.file);
-
-                            const resp = await fetch(URLS.FILE_UPLOAD, {
-                                method: 'POST',
-                                body: formData
-                            });
-                            if (!resp.ok) {
-                                throw new Error(`上传失败：${resp.status}`);
-                            }
-                            const result = await resp.json();
-                            console.log('上传结果：', result);
-                        }
-
-                        hideUploadModal();
-                        fetchFileList();
-                        alert('文件上传成功！');
-                    } catch (err) {
-                        console.error(err);
-                        alert('上传出错：' + err.message);
-                    }
-                }
-
-                // 点击模态框外部关闭
-                window.onclick = function(event) {
-                    const modal = document.getElementById('uploadModal');
-                    if (event.target == modal) {
-                        hideUploadModal();
-                    }
-                }
-            </script>
         </div>
     </div>
+</nav>
 
-    <script src="js/url.js"></script>
-    <script src="js/file.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="content-wrapper">
+    <div class="container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>文件名称</th>
+                <th>文件描述</th>
+                <th>上传日期</th>
+                <th>文件大小</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <button class="upload-btn" onclick="showUploadModal()">
+            <i class="fas fa-upload"></i>
+            上传文件
+        </button>
+
+        <div id="uploadModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="hideUploadModal()">&times;</span>
+                <h3>上传文件</h3>
+                <div class="drop-zone" id="dropZone">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>将文件拖放到此处，或点击选择文件</p>
+                    <input type="file" id="fileInput" style="display: none" multiple>
+                </div>
+                <div class="file-list" id="fileList"></div>
+                <button class="submit-btn" onclick="handleSubmit()">提交</button>
+            </div>
+        </div>
+
+        <script>
+            let selectedFiles = [];
+
+            // 获取文件列表
+            async function fetchFileList() {
+                try {
+                    const base = localStorage.getItem('activeCard') || "lingnan";
+
+                    const response = await fetch(`${URLS.FILES_LIST}?base=${base}`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const data = await response.json();
+                    const formattedFiles = data.files.map(file => {
+                        const date = new Date(file.uploaded_at);
+                        const year = date.getFullYear();
+                        const month = String(date.getMonth() + 1).padStart(2, '0');
+                        const day = String(date.getDate()).padStart(2, '0');
+                        const hours = String(date.getHours()).padStart(2, '0');
+                        const minutes = String(date.getMinutes()).padStart(2, '0');
+                        const seconds = String(date.getSeconds()).padStart(2, '0');
+
+                        return {
+                            ...file,
+                            uploaded_at: `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`
+                        };
+                    });
+                    updateFileTable(formattedFiles);
+                } catch (error) {
+                    console.error('获取文件列表失败:', error);
+                    alert('获取文件列表失败，请稍后重试');
+                }
+            }
+
+            // 更新文件表格
+            function updateFileTable(files) {
+                const tbody = document.querySelector('.table tbody');
+                tbody.innerHTML = files.map(file => `
+                <tr>
+                    <td>${file.file_name}</td>
+                    <td>${file.file_description || '-'}</td>
+                    <td>${file.uploaded_at}</td>
+                    <td>${file.file_size}</td>
+                    <td>
+                        <span class="badge bg-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            onclick="previewFile('${file.file_name}')">${translations[currentLang]['preview']}
+                        </span>
+                        <span class="badge bg-danger"
+                            onclick="deleteFile('${file.file_name}')">${translations[currentLang]['delete']}
+                        </span>
+                    </td>
+                </tr>
+            `).join('');
+            }
+
+            async function previewFile(fileName) {
+                const base = localStorage.getItem('activeCard') || "lingnan";
+                const url = `${URLS.FILE_PREVIEW}?base=${base}&file_name=${encodeURIComponent(fileName)}`;
+                try {
+                    const res = await fetch(url);
+                    if (!res.ok) throw new Error('Response not OK');
+                    let previewUrl = await res.text();
+                    previewUrl = JSON.parse(previewUrl)
+                    window.open(previewUrl, '_blank');
+                    return;
+                } catch (error) {
+                    console.error('Failed to open preview URL:', error);
+                    return null;
+                }
+            }
+
+            async function deleteFile(fileName) {
+                // 先让用户确认一下（可选）
+                const confirmDelete = confirm(`确定要删除文件 “${fileName}” 吗？`);
+                if (!confirmDelete) return;
+
+                try {
+                    const base = localStorage.getItem('activeCard') || "lingnan";
+                    const url = `${URLS.FILE_DELETE}?base=${base}&file_name=${encodeURIComponent(fileName)}`;
+
+                    const resp = await fetch(url, {
+                        method: 'DELETE'
+                    });
+                    if (!resp.ok) {
+                        // 服务器返回非 2xx 的状态
+                        const errText = await resp.text();
+                        throw new Error(`删除失败：${resp.status} ${errText}`);
+                    }
+                    const result = await resp.json();
+                    console.log('删除结果：', result);
+
+                    // 删除成功后，刷新列表
+                    fetchFileList();
+                    alert('删除成功');
+                } catch (err) {
+                    console.error('删除文件出错：', err);
+                    alert('删除出错：' + err.message);
+                }
+            }
+
+            function updateModalContent(fileName) {
+                updateModalTitle(fileName);
+                loadFileContent(fileName);
+            }
+
+            document.addEventListener('DOMContentLoaded', fetchFileList);
+
+            function showUploadModal() {
+                document.getElementById('uploadModal').style.display = 'block';
+                selectedFiles = [];
+                updateFileList();
+            }
+
+            function hideUploadModal() {
+                document.getElementById('uploadModal').style.display = 'none';
+                selectedFiles = [];
+                updateFileList();
+            }
+
+            const dropZone = document.getElementById('dropZone');
+            const fileInput = document.getElementById('fileInput');
+            const fileList = document.getElementById('fileList');
+
+            dropZone.addEventListener('click', () => fileInput.click());
+
+            fileInput.addEventListener('change', handleFiles);
+
+            dropZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropZone.classList.add('dragover');
+            });
+
+            dropZone.addEventListener('dragleave', () => {
+                dropZone.classList.remove('dragover');
+            });
+
+            dropZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                dropZone.classList.remove('dragover');
+                const files = e.dataTransfer.files;
+                handleFiles({
+                    target: {
+                        files: files
+                    }
+                });
+            });
+
+            function handleFiles(e) {
+                const files = e.target.files;
+                if (files.length > 0) {
+                    Array.from(files).forEach(file => {
+                        selectedFiles.push({
+                            file: file,
+                            id: Date.now() + Math.random()
+                        });
+                    });
+                    updateFileList();
+                }
+            }
+
+            function removeFile(id) {
+                selectedFiles = selectedFiles.filter(item => item.id !== id);
+                updateFileList();
+            }
+
+            function formatFileSize(bytes) {
+                if (bytes === 0) return '0 Bytes';
+                const k = 1024;
+                const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+                const i = Math.floor(Math.log(bytes) / Math.log(k));
+                return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+            }
+
+            function updateFileList() {
+                fileList.innerHTML = selectedFiles.map(item => `
+                <div class="file-item">
+                    <div class="file-info">
+                        <i class="fas fa-file file-icon"></i>
+                        <div>
+                            <div class="file-name">${item.file.name}</div>
+                            <div class="file-size">${formatFileSize(item.file.size)}</div>
+                        </div>
+                    </div>
+                    <i class="fas fa-times remove-file" onclick="removeFile(${item.id})"></i>
+                </div>
+            `).join('');
+            }
+
+            async function handleSubmit() {
+                if (selectedFiles.length === 0) {
+                    alert('请选择要上传的文件');
+                    return;
+                }
+
+                const base = localStorage.getItem('activeCard') || "lingnan";
+                try {
+                    for (const item of selectedFiles) {
+                        const formData = new FormData();
+                        formData.append('base', base);
+                        formData.append('file', item.file);
+
+                        const resp = await fetch(URLS.FILE_UPLOAD, {
+                            method: 'POST',
+                            body: formData
+                        });
+                        if (!resp.ok) {
+                            throw new Error(`上传失败：${resp.status}`);
+                        }
+                        const result = await resp.json();
+                        console.log('上传结果：', result);
+                    }
+
+                    hideUploadModal();
+                    fetchFileList();
+                    alert('文件上传成功！');
+                } catch (err) {
+                    console.error(err);
+                    alert('上传出错：' + err.message);
+                }
+            }
+
+            // 点击模态框外部关闭
+            window.onclick = function(event) {
+                const modal = document.getElementById('uploadModal');
+                if (event.target == modal) {
+                    hideUploadModal();
+                }
+            }
+        </script>
+    </div>
+</div>
+
+<script src="js/url.js"></script>
+<script src="js/file.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
